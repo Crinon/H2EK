@@ -8,6 +8,13 @@
 !/tags/digsite
 !/tags/kashiiera
 !/tags/h1
+!/tags/scenarios
+/tags/scenarios/*
+!/tags/scenarios/solo
+/tags/scenarios/solo/*
+
+!/tags/scenarios/solo/03a_oldmombasa
+
 
 !/init.txt
 !/editor_init.txt
