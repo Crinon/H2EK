@@ -1451,6 +1451,23 @@ Open Issues:
 
 (global effect g_e11_pod_impact_effect "effects\scenarios\solo\earthcity\e11_insertion_pod_impact")
 
+(script dormant insertion01
+	(ai_place insertion1)
+	(object_create e1_pod0_inserter)
+	(objects_attach e1_pod0_inserter "pod_attach" (ai_vehicle_get insertion1) "pod_attach")
+	(sleep 1)
+	(device_set_position e1_pod0_inserter 1.0)
+	(sleep_until (>= (device_get_position e1_pod0_inserter) 1.0) 1)
+	(effect_new_on_object_marker g_e11_pod_impact_effect (ai_vehicle_get insertion1) "pod_attach")	
+	(objects_detach e1_pod0_inserter (ai_vehicle_get insertion1))
+	(object_destroy e1_pod0_inserter)
+	
+	(sleep (random_range 20 45))
+	(object_damage_damage_section (ai_vehicle_get insertion1/pod1) "door" 500)
+	(sleep 10)
+	(ai_vehicle_exit insertion1/pod1)
+)
+
 (script dormant e11_cov_inf1_0_insertion0
 	(ai_place e11_cov_inf1_0/elite0)
 	(object_create e11_pod0_inserter)
@@ -6173,6 +6190,7 @@ Open Issues
 	(ai_place rhogia1)
 	(ai_place ghost1)
 	(ai_place engineer1)
+
 	
 	; Wait until the existing unit count is depleted or the player is charging
 	(sleep_until 
@@ -6183,6 +6201,7 @@ Open Issues
 		15
 	)
 	(ai_place e1_cov_inf0_1/grunt0)
+	(wake insertion01)
 	
 	; Wait until the existing unit count is depleted or the player is charging
 	(sleep_until 
