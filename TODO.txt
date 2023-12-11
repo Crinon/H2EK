@@ -1,0 +1,36 @@
+---------
+Courtyard :
+Spirit flyby
+
+----------
+Streets :
+Seraph flyby
+
+---------
+Beach :
+Add banshee
+Add falcon
+Juggernaut
+Drinol
+flyby
+
+---------
+Tunnels :
+New vehicles
+
+
+---------
+Trivia :
+Give IA new weapon
+Pulse carabine
+
+
+
+line 6172
+	(ai_place rhogia1)
+	(ai_place ghost1)
+
+line 6119
+	(sleep 5)
+	(ai_place engineer1)
+	(ai_place drinol1)

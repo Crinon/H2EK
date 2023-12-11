@@ -3565,6 +3565,7 @@ Open Issues
 )
 
 (script dormant e6_cov_inf0_main
+	(ai_place floodjugger)
 	(ai_place e6_cov_inf0_2)
 	(ai_place e6_cov_inf0_0 (pin (- 10 (ai_living_count covenant)) 1 2))
 	(ai_place e6_cov_inf0_1 (pin (- 10 (ai_living_count covenant)) 0 2))
@@ -4420,6 +4421,9 @@ Open Issues
 		15
 	)
 	(ai_place e4_cov_inf0_0 (pin (- 8 (ai_living_count e4_cov)) 0 2))
+
+	(ai_place lud_floods1)
+
 	
 	; Wait until reins are needed
 	(sleep_until 
@@ -4591,6 +4595,15 @@ Open Issues
 	)
 )
 
+
+(script command_script lud_cs_lud_ghost_in_squad_entry
+	(cs_enable_pathfinding_failsafe true)
+	(cs_go_to lud_ghost_in_nav/p0)
+	(cs_fly_by  lud_ghost_in_nav/p0)
+	(cs_go_to lud_ghost_in_nav/p1)
+	(cs_fly_to  lud_ghost_in_nav/p1)
+)
+
 (script command_script cs_e3_mars_pelican0_entry
 	(cs_enable_pathfinding_failsafe true)
 	(cs_face true e3_mars_evac/p2)
@@ -4728,6 +4741,9 @@ Open Issues
 	; Cruise on in
 	(ai_place e3_mars_pelican0)
 	(cs_run_command_script e3_mars_pelican0/pelican0 cs_e3_mars_pelican0_entry)
+
+	(ai_place lud_ghost_in_squad)
+	(cs_run_command_script lud_ghost_in_squad lud_cs_lud_ghost_in_squad_entry)
 	
 	; Wait until Johnson is on board
 	(sleep_until g_e3_johnson_in_pelican 5)
@@ -5499,6 +5515,13 @@ Open Issues
 	(ai_erase ai_current_squad)
 )
 
+(script command_script lud_cs_e1_cov_phantom0_0_entry
+	(cs_enable_pathfinding_failsafe true)
+	(cs_fly_by lud_e1_cov_phantom0_0_entry/p0)
+	(cs_fly_by lud_e1_cov_phantom0_0_entry/p1)
+	(ai_erase ai_current_squad)
+)
+
 (script command_script cs_e1_cov_phantom0_1_entry
 	(cs_enable_pathfinding_failsafe true)
 	(cs_fly_by e1_cov_phantom0_1_entry/p0)
@@ -6191,6 +6214,9 @@ Open Issues
 	(ai_place ghost1)
 	(ai_place engineer1)
 
+	; Phantom overflight
+	(ai_place lud_e1_cov_phantom0_0)
+	(cs_run_command_script lud_e1_cov_phantom0_0 lud_cs_e1_cov_phantom0_0_entry)
 	
 	; Wait until the existing unit count is depleted or the player is charging
 	(sleep_until 
@@ -6212,6 +6238,8 @@ Open Issues
 		15
 	)
 	(ai_place e1_cov_inf0_1/grunt1)
+	(ai_place e1_cov_inf0_1/grunt_lud_1)
+	(ai_place e1_cov_inf0_1/grunt_lud_2)
 	
 	; Wait until the existing unit count is depleted or the player is charging
 	(sleep_until 
