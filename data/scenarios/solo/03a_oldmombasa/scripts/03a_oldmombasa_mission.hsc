@@ -1451,6 +1451,7 @@ Open Issues:
 
 (global effect g_e11_pod_impact_effect "effects\scenarios\solo\earthcity\e11_insertion_pod_impact")
 
+;Ludantes
 (script dormant insertion01
 	(ai_place insertion1)
 	(object_create e1_pod0_inserter)
@@ -1796,8 +1797,26 @@ Open Issues:
 	(if (< (ai_living_count covenant) 10) (wake e11_cov_inf1_1_insertion3))
 )
 
+; Ludantes
+(script command_script lud_cs_phantomlongflyby_entry2
+	(cs_enable_pathfinding_failsafe true)
+	(cs_vehicle_speed 0.8)
+	(cs_fly_by lud_phantomlongflyby_entry2/p0)
+	(cs_fly_by lud_phantomlongflyby_entry2/p1)
+	(cs_fly_by lud_phantomlongflyby_entry2/p2)
+	(cs_fly_by lud_phantomlongflyby_entry2/p3)
+	(cs_fly_by lud_phantomlongflyby_entry2/p4)
+	(cs_fly_by lud_phantomlongflyby_entry2/p5)
+	(ai_erase ai_current_squad)
+)
+
 (script dormant e11_cov_inf0_main
 	(ai_place e11_cov_inf0)
+	; Ludantes
+	(ai_place minicar)
+	; Ludantes
+	(ai_place lud_e11_cov_phantom0_0)
+	(cs_run_command_script lud_e11_cov_phantom0_0 lud_cs_phantomlongflyby_entry2)
 )
 
 (script dormant e11_mars_inf0_main
@@ -1863,7 +1882,7 @@ Open Issues:
 	; Wake control scripts
 	(wake e11_mars_inf0_main)
 	(wake e11_mars_warthog0_main)
-;	(wake e11_cov_inf0_main)
+	(wake e11_cov_inf0_main)
 	(wake e11_cov_inf1_main)
 	(wake e11_cov_inf2_main)
 	(wake e11_cov_ghosts0_main)
@@ -2164,6 +2183,10 @@ Covenant
 )
 
 (script dormant e10_cov_inf0_main
+	; Ludantes
+	(ai_place lud_creep)
+	; Ludantes
+	(ai_place floodjugger2)
 	(ai_place e10_cov_inf0)
 )
 
@@ -2539,6 +2562,9 @@ Open Issues
 	; Place them
 	(ai_place e9_cov_inf1_0 (pin (- 10 (ai_living_count covenant)) 1 3))
 	(ai_place e9_cov_inf1_1 (pin (- 10 (ai_living_count covenant)) 1 2))
+
+	; Ludantes
+	(ai_place squads_140_spectre)
 	
 	; Load up the gunner
 	(ai_vehicle_reserve e9_guntower0 true)
@@ -2596,6 +2622,12 @@ Open Issues
 		15
 	)
 	(ai_place e9_cov_ghosts0)
+
+	; Ludantes
+	(ai_place e9_banshee)
+
+	; Ludantes
+	(ai_place e9_drinol2)
 	
 	; Retreat checkpoint
 	(wake e9_retreat_checkpoint0)
@@ -2694,6 +2726,9 @@ Open Issues
 	(data_mine_set_mission_segment "e9_beach_infantry")
 	(game_save_no_timeout)	; TODO: Fix this
 	;(garbage_collect_now)
+
+	; Ludantes
+	(ai_place aawraith)
 
 	; Muzak
 	(wake e9_music)
@@ -2977,7 +3012,9 @@ Open Issues
 	(sleep_until
 		(not (volume_test_objects tv_e8_vehicle_spawn_area (players)))
 	)
-	(ai_place e8_cov_ghosts0_0 1)
+	; Ludantes
+	(ai_place e9_mars_goldwarthog_lud)
+	(ai_place e8_cov_ghosts0_0 3)
 	
 	; Place the second set of Ghosts
 	(sleep_until
@@ -2991,8 +3028,25 @@ Open Issues
 	(ai_place e8_cov_ghosts0_0 (pin (- 10 (ai_living_count covenant)) 0 2))
 )
 
+; Ludantes
+(script command_script lud_cs_phantomlongflyby_entry
+	(cs_enable_pathfinding_failsafe true)
+	;(cs_ignore_obstacles true)
+	(cs_vehicle_speed 0.7)
+	(cs_fly_by lud_phantomlongflyby_entry0/p0)
+	(cs_fly_by lud_phantomlongflyby_entry0/p1)
+	(cs_fly_by lud_phantomlongflyby_entry0/p2)
+	(cs_fly_by lud_phantomlongflyby_entry0/p3)
+	(cs_fly_by lud_phantomlongflyby_entry0/p4)
+	(cs_fly_by lud_phantomlongflyby_entry0/p5)
+	(ai_erase ai_current_squad)
+)
+
 (script dormant e8_cov_phantom0_main
 	(ai_place e8_cov_phantom0)
+	; Ludantes
+	(ai_place lud_e8_cov_phantom0_0)
+	(cs_run_command_script lud_e8_cov_phantom0_0 lud_cs_phantomlongflyby_entry)
 )
 
 (script dormant e8_cov_inf2_main
@@ -3565,7 +3619,8 @@ Open Issues
 )
 
 (script dormant e6_cov_inf0_main
-	(ai_place floodjugger)
+	; Ludantes
+	(ai_place floodjugger_frg)
 	(ai_place e6_cov_inf0_2)
 	(ai_place e6_cov_inf0_0 (pin (- 10 (ai_living_count covenant)) 1 2))
 	(ai_place e6_cov_inf0_1 (pin (- 10 (ai_living_count covenant)) 0 2))
@@ -4422,6 +4477,7 @@ Open Issues
 	)
 	(ai_place e4_cov_inf0_0 (pin (- 8 (ai_living_count e4_cov)) 0 2))
 
+	; Ludantes
 	(ai_place lud_floods1)
 
 	
@@ -4595,13 +4651,12 @@ Open Issues
 	)
 )
 
-
 (script command_script lud_cs_lud_ghost_in_squad_entry
 	(cs_enable_pathfinding_failsafe true)
 	(cs_go_to lud_ghost_in_nav/p0)
-	(cs_fly_by  lud_ghost_in_nav/p0)
+	(cs_fly_by lud_ghost_in_nav/p0)
 	(cs_go_to lud_ghost_in_nav/p1)
-	(cs_fly_to  lud_ghost_in_nav/p1)
+	(cs_fly_by lud_ghost_in_nav/p1)
 )
 
 (script command_script cs_e3_mars_pelican0_entry
@@ -4742,6 +4797,7 @@ Open Issues
 	(ai_place e3_mars_pelican0)
 	(cs_run_command_script e3_mars_pelican0/pelican0 cs_e3_mars_pelican0_entry)
 
+	; Ludantes
 	(ai_place lud_ghost_in_squad)
 	(cs_run_command_script lud_ghost_in_squad lud_cs_lud_ghost_in_squad_entry)
 	
@@ -5517,6 +5573,7 @@ Open Issues
 
 (script command_script lud_cs_e1_cov_phantom0_0_entry
 	(cs_enable_pathfinding_failsafe true)
+	(cs_vehicle_speed 0.66)
 	(cs_fly_by lud_e1_cov_phantom0_0_entry/p0)
 	(cs_fly_by lud_e1_cov_phantom0_0_entry/p1)
 	(ai_erase ai_current_squad)
@@ -6084,7 +6141,7 @@ Open Issues
 	
 	; Start up the snipers
 	(if (not (difficulty_normal)) (wake e1_cov_snipers0_main))
-
+	
 	; Ground waves
 	(begin_random 
 		(if (e1_cov_inf2_under_limit) (e1_cov_inf2_1_spawn))
@@ -6156,9 +6213,12 @@ Open Issues
 	
 	; Save first
 	(game_save)
-	(sleep 5)
+	(sleep 30)
+
+	; Ludantes
 	(ai_place drinol1)
 
+		
 	; Reawaken the Phantom interlude and final infantry group
 	(wake e1_cov_phantom0_main)
 	(wake e1_cov_inf4_main)
@@ -6210,13 +6270,17 @@ Open Issues
 	) 
 	(ai_place e1_cov_inf0_0)
 	(ai_place e1_cov_inf0_3)
-	(ai_place rhogia1)
-	(ai_place ghost1)
+	; Ludantes
 	(ai_place engineer1)
-
-	; Phantom overflight
+	; Ludantes
+	(ai_place rhogia1)
+	; Ludantes
+	(ai_place ghost1)
+	; Ludantes Phantom overflight
 	(ai_place lud_e1_cov_phantom0_0)
 	(cs_run_command_script lud_e1_cov_phantom0_0 lud_cs_e1_cov_phantom0_0_entry)
+
+
 	
 	; Wait until the existing unit count is depleted or the player is charging
 	(sleep_until 
@@ -6227,7 +6291,10 @@ Open Issues
 		15
 	)
 	(ai_place e1_cov_inf0_1/grunt0)
+
+	; Ludantes
 	(wake insertion01)
+
 	
 	; Wait until the existing unit count is depleted or the player is charging
 	(sleep_until 
@@ -6238,8 +6305,6 @@ Open Issues
 		15
 	)
 	(ai_place e1_cov_inf0_1/grunt1)
-	(ai_place e1_cov_inf0_1/grunt_lud_1)
-	(ai_place e1_cov_inf0_1/grunt_lud_2)
 	
 	; Wait until the existing unit count is depleted or the player is charging
 	(sleep_until 

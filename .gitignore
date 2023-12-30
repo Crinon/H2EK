@@ -8,6 +8,7 @@
 !/tags/digsite
 !/tags/kashiiera
 !/tags/h1
+!/tags/stacker
 !/tags/scenarios
 /tags/scenarios/*
 !/tags/scenarios/solo
@@ -25,3 +26,11 @@
 !/editor_init.txt
 !/collect_tag_list.py
 !/TODO.txt
+!/versions.txt
+
+/*.zip
+/*.7z
+/*.rar
+/h2_maps_win64_dx11/*
+# tags\dw3\scenarios\solo\07a_highcharity\07a_highcharity_high_4_lightmap_bitmaps.bitmap
+# C:\Program Files (x86)\Steam\steamapps\common\H2EK\tags\objects\weapons\zoephie\infinite_weapons\objects\weapons\support_high\skewer\zoephs_bitmaps\receiver_lower

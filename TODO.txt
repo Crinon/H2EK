@@ -1,36 +1,37 @@
----------
-Courtyard :
-Spirit flyby
+Update dw3 tags
+Ajouter zip engineers
+Ajouter zip mon aa wrath
 
-----------
-Streets :
-Seraph flyby
+Screenshot (skewer drinol engineer) (armed juggernaut spirit)
+-------
 
----------
-Beach :
-Add banshee
-Add falcon
-Juggernaut
-Drinol
-flyby
+Recover
+1-
+hunter shield
+armed jugernaut
+weapon beach
+female marine
+
+2-
+biped variants
+
+3-
+creep troop passenger
+hog civil script
+
+
+
+Beach
 
 ---------
 Tunnels :
-New vehicles
-
 
 ---------
 Trivia :
-Give IA new weapon
-Pulse carabine
-
-
-
-line 6172
-	(ai_place rhogia1)
-	(ai_place ghost1)
-
-line 6119
-	(sleep 5)
-	(ai_place engineer1)
-	(ai_place drinol1)
+no pickup string flamethrower
+Firing wraith turret
+creep passenger
+giant cov turret
+remove around damage FRG : "splash damage"
+fix tag dependency zoephy
+-----------
