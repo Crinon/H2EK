@@ -29,6 +29,10 @@
 !/tags/sound
 /tags/sound/*
 !/tags/sound/ambience
+!/tags/sound/characters
+# !/tags/sound/cinematics
+# !/tags/sound/dialog
+!/tags/sound/ambience
 
 
 # !/tags/ludantes
