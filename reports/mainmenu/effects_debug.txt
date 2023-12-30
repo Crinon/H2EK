@@ -1,0 +1,24 @@
+
+
+============================================================================================
+12.26.23 13:40:13.072  tool  debug pc untracked version  Jun 20 2023 11:27:47
+============================================================================================
+
+
+12.26.23 13:40:13.072  ### WARNING effect 'kashiiera\objects\weapons\melee\gravity_hammer\fx\gravity_hammer_impact' part 'sound\characters\brute\tartarus_hits' was not found
+12.26.23 13:40:13.088  ### WARNING effect 'kashiiera\objects\weapons\melee\gravity_hammer\fx\gravity_hammer_impact' part 'sound_remastered\characters\brute\tatarus_hammer_hits\hits_stereo' was not found
+12.26.23 13:40:13.088  ### WARNING effect 'kashiiera\objects\weapons\melee\gravity_hammer\fx\gravity_hammer_impact' part 'sound_remastered\characters\brute\tatarus_hammer_hits\hits_swtnr' was not found
+12.26.23 13:40:13.103  ### WARNING effect 'kashiiera\objects\weapons\melee\gravity_hammer\fx\gravity_hammer_impact' part 'sound_remastered\ambience\device_machines\scarab\scarab_steps_lfe' was not found
+12.26.23 13:40:13.495  ### WARNING effect 'effects\objects\weapons\rifle\battle_rifle\fire_bullet' part 'sound\weapons\battle_rifle\fire_burst' was not found
+12.26.23 13:40:13.495  ### WARNING effect 'effects\objects\weapons\rifle\battle_rifle\fire_bullet' part 'sound_remastered\weapons\battle_rifle\fire_lod' was not found
+12.26.23 13:40:13.511  ### WARNING effect 'effects\objects\weapons\rifle\battle_rifle\empty' part 'sound\weapons\battle_rifle\dryfire' was not found
+12.26.23 13:40:14.296  ### WARNING effect 'effects\objects\weapons\rifle\plasma_rifle\upper_fire' part 'sound\weapons\plasma_rifle\plas_rifle_fire' was not found
+12.26.23 13:40:14.296  ### WARNING effect 'effects\objects\weapons\rifle\plasma_rifle\upper_fire' part 'sound_remastered\weapons\plasma_rifle\plasma_rifle_fire_lod' was not found
+12.26.23 13:40:14.296  ### WARNING effect 'effects\objects\weapons\rifle\plasma_rifle\upper_fire' part 'sound_remastered\weapons\plasma_rifle\plasmarifle_lfe' was not found
+12.26.23 13:40:14.311  ### WARNING effect 'effects\objects\weapons\rifle\plasma_rifle\upper_fire' part 'sound_remastered\weapons\plasma_rifle\plas_fire_mech_swtnr' was not found
+12.26.23 13:40:14.349  ### WARNING effect 'effects\objects\weapons\rifle\plasma_rifle\lower_fire' part 'sound\weapons\plasma_rifle\plasma_rifle_fire' was not found
+12.26.23 13:40:14.349  ### WARNING effect 'effects\objects\weapons\rifle\plasma_rifle\lower_fire' part 'sound_remastered\weapons\plasma_rifle\plas_rifle_fire_bottom' was not found
+12.26.23 13:40:14.364  ### WARNING effect 'effects\objects\weapons\rifle\plasma_rifle\lower_fire' part 'sound_remastered\weapons\plasma_rifle\plasma_rifle_fire_lod' was not found
+12.26.23 13:40:14.384  ### WARNING effect 'effects\objects\weapons\rifle\plasma_rifle\lower_fire' part 'sound_remastered\weapons\plasma_rifle\plasmarifle_lfe' was not found
+12.26.23 13:40:14.384  ### WARNING effect 'effects\objects\weapons\rifle\plasma_rifle\lower_fire' part 'sound_remastered\weapons\plasma_rifle\plas_fire_mech_swtnr' was not found
+12.26.23 13:40:19.000  ### WARNING effect 'effects\contact\collision\blood_aoe\blood_collision_human' part 'sound\materials\particles\blood_splats' was not found

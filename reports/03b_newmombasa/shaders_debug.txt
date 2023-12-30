@@ -1,0 +1,13 @@
+
+
+============================================================================================
+12.25.23 23:40:54.265  tool  debug pc untracked version  Jun 20 2023 11:27:47
+============================================================================================
+
+
+12.25.23 23:40:54.265  WARNING: shader 'objects\weapons\rifle\battle_rifle\shaders\tens' could not resolve bitmap 'zero'
+12.25.23 23:40:54.281  WARNING: shader 'objects\weapons\rifle\battle_rifle\shaders\ones' could not resolve bitmap 'zero'
+12.25.23 23:40:54.752  WARNING: shader 'objects\cinematics\effects\slipspace_shockwave\shaders\slipspace_shockwave_exterior' could not resolve bitmap 'alpha_map'
+12.25.23 23:40:54.925  WARNING: shader 'objects\cinematics\effects\slipspace_shockwave_start\shaders\slipspace_shockwave_exterior' could not resolve bitmap 'alpha_map'
+12.25.23 23:40:54.956  WARNING: shader 'objects\cinematics\effects\slipspace_shockwave_closeup\shaders\slipspace_shockwave_exterior' could not resolve bitmap 'alpha_map'
+12.25.23 23:41:09.475  ### WARNING shader pass 'shaders\shader_passes\texture_camera\scope' texture #0 (implementation #0) has source extern - ignoring parameter name "scope"

@@ -1,0 +1,1613 @@
+building list of unit seats and weapons...
+FOUND WEAPON: (br) in objects\weapons\rifle\battle_rifle\battle_rifle
+FOUND WEAPON: (pr) in objects\weapons\rifle\plasma_rifle\plasma_rifle
+FOUND WEAPON: (pr) in scenarios\objects\covenant\military\scarab\weapons\main_gun\scarab_main_gun_handheld
+
+searching model animation graphs for unused graph entries and animations...
+PROCESSING scenarios\ui\mainmenu\ui_polygons\progress_symbol\progress_symbol>>>
+ [removed -8 bytes]
+PROCESSING scenarios\objects\covenant\military\capital_ship\capital_ship>>>
+ [removed -8 bytes]
+PROCESSING objects\vehicles\longsword\longsword>>>
+ [removed -8 bytes]
+PROCESSING scenarios\objects\special\null_up\null_up>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\masterchief\masterchief>>>
+PROCESSING SUBGRAPH kashiiera\objects\characters\masterchief\masterchief
+  culling unused mode (crouch)
+  culling unused weapon class (combat:hammer)
+  removed animation combat:hammer:aim_still_up
+  removed animation combat:hammer:airborne
+  removed animation combat:hammer:airborne_arc
+  removed animation combat:hammer:grip
+  removed animation combat:hammer:idle
+  removed animation combat:hammer:land_soft
+  removed animation combat:hammer:melee_dash
+  removed animation combat:hammer:melee_lunge
+  removed animation combat:hammer:melee_strike_1
+  removed animation combat:hammer:melee_strike_2
+  removed animation combat:hammer:move_back
+  removed animation combat:hammer:move_front
+  removed animation combat:hammer:move_left
+  removed animation combat:hammer:move_right
+  removed animation combat:hammer:put_away
+  removed animation combat:hammer:ready
+  removed animation combat:hammer:throw_equipment
+  removed animation combat:hammer:throw_grenade:var0
+  removed animation combat:hammer:turn_left
+  removed animation combat:hammer:turn_right
+  removed animation combat:hammer:walk_back
+  removed animation combat:hammer:walk_front
+  removed animation combat:hammer:walk_left
+  removed animation combat:hammer:walk_right
+  removed animation crouch:hammer:aim_move_up
+  removed animation crouch:hammer:aim_still_up
+  removed animation crouch:hammer:airborne
+  removed animation crouch:hammer:airborne_arc
+  removed animation crouch:hammer:idle
+  removed animation crouch:hammer:land_soft
+  removed animation crouch:hammer:melee_strike_2
+  removed animation crouch:hammer:move_back
+  removed animation crouch:hammer:move_front
+  removed animation crouch:hammer:move_left
+  removed animation crouch:hammer:move_right
+  removed animation crouch:hammer:turn_left
+  removed animation crouch:hammer:turn_right
+  removed animation crouch:hammer:walk_back
+  removed animation crouch:hammer:walk_front
+  removed animation crouch:hammer:walk_left
+  removed animation crouch:hammer:walk_right
+  culling unused mode (banshee_b_d)
+  culling unused mode (banshee_d)
+  culling unused mode (c_turret_ap_d)
+  culling unused mode (c_turret_mp_d)
+  culling unused mode (creep_d)
+  culling unused mode (creep_g)
+  culling unused mode (crouch)
+  culling unused mode (ghost_b_b)
+  culling unused mode (ghost_b_l)
+  culling unused mode (ghost_d)
+  culling unused mode (h_turret_ap_d)
+  culling unused mode (h_turret_mp_d)
+  culling unused mode (pelican_b)
+  culling unused mode (pelican_p_l05)
+  culling unused mode (pelican_p_r05)
+  culling unused mode (scorpion_b_b)
+  culling unused mode (scorpion_b_d_l)
+  culling unused mode (scorpion_b_d_r)
+  culling unused mode (scorpion_d)
+  culling unused mode (scorpion_p_l01)
+  culling unused mode (scorpion_p_l02)
+  culling unused mode (scorpion_p_r01)
+  culling unused mode (scorpion_p_r02)
+  culling unused mode (spectre_b_d)
+  culling unused mode (spectre_b_g)
+  culling unused mode (spectre_b_p_l)
+  culling unused mode (spectre_b_p_r)
+  culling unused mode (spectre_d)
+  culling unused mode (spectre_g)
+  culling unused mode (spectre_p_l)
+  culling unused mode (spectre_p_r)
+  culling unused mode (throne_b_l)
+  culling unused mode (throne_b_r)
+  culling unused mode (warthog_b_d)
+  culling unused mode (warthog_b_g)
+  culling unused mode (warthog_b_p)
+  culling unused mode (warthog_d)
+  culling unused mode (warthog_g)
+  culling unused mode (warthog_p)
+  culling unused mode (wraith_b_b)
+  culling unused mode (wraith_b_l)
+  culling unused mode (wraith_b_r)
+  culling unused mode (wraith_d)
+  culling unused weapon (combat:ball:bomb)
+  culling unused weapon (combat:ball:pch)
+  culling unused weapon (combat:ball:sch)
+  culling unused weapon (combat:dual:hp)
+  culling unused weapon (combat:dual:ne)
+  culling unused weapon (combat:dual:pp)
+  culling unused weapon (combat:dual:sg)
+  culling unused weapon (combat:dual:smg)
+  culling unused weapon (combat:flag:f)
+  culling unused weapon (combat:missile:fc)
+  culling unused weapon (combat:missile:rl)
+  culling unused weapon (combat:pistol:hp)
+  culling unused weapon (combat:pistol:ne)
+  culling unused weapon (combat:pistol:pp)
+  culling unused weapon (combat:rifle:cb)
+  culling unused weapon (combat:rifle:csr)
+  culling unused weapon (combat:rifle:sg)
+  culling unused weapon (combat:rifle:smg)
+  culling unused weapon (combat:rifle:sr)
+  culling unused weapon (combat:support:bs)
+  culling unused weapon (combat:support:ds)
+  culling unused weapon (combat:support:ft)
+  culling unused weapon class (combat:ball)
+  culling unused weapon class (combat:flag)
+  culling unused weapon class (combat:missile)
+  culling unused weapon class (combat:pistol)
+  culling unused weapon class (combat:support)
+  culling unused weapon class (combat:sword)
+  removed animation banshee_b_d:board:var0
+  removed animation banshee_b_d:enter
+  removed animation banshee_d:acc_front_back
+  removed animation banshee_d:acc_left_right
+  removed animation banshee_d:acc_up_down
+  removed animation banshee_d:ejection
+  removed animation banshee_d:enter
+  removed animation banshee_d:exit
+  removed animation banshee_d:unarmed:idle
+  removed animation c_turret_ap_d:acc_front_back
+  removed animation c_turret_ap_d:acc_left_right
+  removed animation c_turret_ap_d:acc_up_down
+  removed animation c_turret_ap_d:enter
+  removed animation c_turret_ap_d:exit
+  removed animation c_turret_ap_d:fixed:idle
+  removed animation c_turret_ap_d:unarmed:idle
+  removed animation combat:ball:aim_move_up
+  removed animation combat:ball:aim_still_up
+  removed animation combat:ball:airborne
+  removed animation combat:ball:bomb:grip
+  removed animation combat:ball:grip
+  removed animation combat:ball:idle
+  removed animation combat:ball:land_hard
+  removed animation combat:ball:land_soft
+  removed animation combat:ball:melee_strike_1
+  removed animation combat:ball:melee_strike_2
+  removed animation combat:ball:melee_strike_3
+  removed animation combat:ball:move_back
+  removed animation combat:ball:move_front
+  removed animation combat:ball:move_left
+  removed animation combat:ball:move_right
+  removed animation combat:ball:pch:grip
+  removed animation combat:ball:sch:grip
+  removed animation combat:ball:turn_left
+  removed animation combat:ball:turn_right
+  removed animation combat:ball:walk_back
+  removed animation combat:ball:walk_front
+  removed animation combat:ball:walk_left
+  removed animation combat:ball:walk_right
+  removed animation combat:dual:hp:reload_1
+  removed animation combat:dual:hp:reload_1_left
+  removed animation combat:dual:ne:arm_offsets
+  removed animation combat:dual:ne:reload_1
+  removed animation combat:dual:ne:reload_1_left
+  removed animation combat:dual:pp:arm_offsets
+  removed animation combat:dual:sg:arm_offsets
+  removed animation combat:dual:sg:chamber_1
+  removed animation combat:dual:sg:chamber_1_left
+  removed animation combat:dual:smg:arm_offsets
+  removed animation combat:dual:smg:reload_1
+  removed animation combat:dual:smg:reload_1_left
+  removed animation combat:flag:aim_move_up
+  removed animation combat:flag:aim_still_up
+  removed animation combat:flag:airborne
+  removed animation combat:flag:f:melee
+  removed animation combat:flag:idle
+  removed animation combat:flag:land_hard
+  removed animation combat:flag:land_soft
+  removed animation combat:flag:melee_strike_1
+  removed animation combat:flag:melee_strike_2
+  removed animation combat:flag:move_back
+  removed animation combat:flag:move_front
+  removed animation combat:flag:move_left
+  removed animation combat:flag:move_right
+  removed animation combat:flag:turn_left
+  removed animation combat:flag:turn_right
+  removed animation combat:flag:walk_back
+  removed animation combat:flag:walk_front
+  removed animation combat:flag:walk_left
+  removed animation combat:flag:walk_right
+  removed animation combat:missile:aim_move_up
+  removed animation combat:missile:aim_still_up
+  removed animation combat:missile:airborne
+  removed animation combat:missile:fc:grip
+  removed animation combat:missile:fc:melee_strike_1
+  removed animation combat:missile:fc:reload_1
+  removed animation combat:missile:idle
+  removed animation combat:missile:land_hard
+  removed animation combat:missile:land_soft
+  removed animation combat:missile:move_back
+  removed animation combat:missile:move_front
+  removed animation combat:missile:move_left
+  removed animation combat:missile:move_right
+  removed animation combat:missile:put_away
+  removed animation combat:missile:ready
+  removed animation combat:missile:rl:fire_1
+  removed animation combat:missile:rl:grip
+  removed animation combat:missile:rl:melee_strike_1
+  removed animation combat:missile:rl:reload_1
+  removed animation combat:missile:stunned_front
+  removed animation combat:missile:throw_grenade:var0
+  removed animation combat:missile:turn_left
+  removed animation combat:missile:turn_right
+  removed animation combat:missile:walk_back
+  removed animation combat:missile:walk_front
+  removed animation combat:missile:walk_left
+  removed animation combat:missile:walk_right
+  removed animation combat:pistol:aim_move_down
+  removed animation combat:pistol:aim_move_up
+  removed animation combat:pistol:aim_still_down
+  removed animation combat:pistol:aim_still_up
+  removed animation combat:pistol:airborne
+  removed animation combat:pistol:hp:fire_1
+  removed animation combat:pistol:hp:grip
+  removed animation combat:pistol:hp:melee_strike_1
+  removed animation combat:pistol:hp:reload_1
+  removed animation combat:pistol:idle
+  removed animation combat:pistol:land_hard
+  removed animation combat:pistol:land_soft
+  removed animation combat:pistol:move_back
+  removed animation combat:pistol:move_front
+  removed animation combat:pistol:move_left
+  removed animation combat:pistol:move_right
+  removed animation combat:pistol:ne:grip
+  removed animation combat:pistol:ne:melee_strike_1
+  removed animation combat:pistol:ne:reload_1
+  removed animation combat:pistol:pp:fire_1
+  removed animation combat:pistol:pp:fire_2
+  removed animation combat:pistol:pp:grip
+  removed animation combat:pistol:pp:melee_strike_1
+  removed animation combat:pistol:pp:melee_strike_2
+  removed animation combat:pistol:pp:o_h_exit
+  removed animation combat:pistol:pp:overcharged
+  removed animation combat:pistol:pp:overcharged_jitter
+  removed animation combat:pistol:pp:overheated
+  removed animation combat:pistol:pp:overheating
+  removed animation combat:pistol:put_away
+  removed animation combat:pistol:ready
+  removed animation combat:pistol:stunned_front
+  removed animation combat:pistol:turn_left
+  removed animation combat:pistol:turn_right
+  removed animation combat:pistol:walk_back
+  removed animation combat:pistol:walk_front
+  removed animation combat:pistol:walk_left
+  removed animation combat:pistol:walk_right
+  removed animation combat:rifle:cb:melee_strike_1
+  removed animation combat:rifle:cb:melee_strike_2
+  removed animation combat:rifle:cb:reload_1
+  removed animation combat:rifle:csr:melee_strike_1
+  removed animation combat:rifle:csr:melee_strike_2
+  removed animation combat:rifle:csr:o_h_exit
+  removed animation combat:rifle:csr:overheated
+  removed animation combat:rifle:csr:overheating
+  removed animation combat:rifle:sg:chamber_1
+  removed animation combat:rifle:sg:fire_1
+  removed animation combat:rifle:sg:melee_strike_1
+  removed animation combat:rifle:sg:melee_strike_2
+  removed animation combat:rifle:sg:reload_1
+  removed animation combat:rifle:smg:grip
+  removed animation combat:rifle:smg:melee_strike_1
+  removed animation combat:rifle:smg:reload_1
+  removed animation combat:rifle:sr:fire_1
+  removed animation combat:rifle:sr:melee_strike_1
+  removed animation combat:rifle:sr:reload_1
+  removed animation combat:support:aim_move_up
+  removed animation combat:support:aim_still_up
+  removed animation combat:support:airborne
+  removed animation combat:support:bs:fire_1
+  removed animation combat:support:bs:grip
+  removed animation combat:support:bs:melee_strike_1
+  removed animation combat:support:bs:melee_strike_2
+  removed animation combat:support:bs:melee_strike_3
+  removed animation combat:support:bs:reload_1
+  removed animation combat:support:ds:fire_1:var1
+  removed animation combat:support:ds:fire_1:var2
+  removed animation combat:support:ds:fire_1:var3
+  removed animation combat:support:ds:fire_1:var4
+  removed animation combat:support:ds:fire_1:var5
+  removed animation combat:support:ds:fire_1:var6
+  removed animation combat:support:idle
+  removed animation combat:support:land_hard
+  removed animation combat:support:land_soft
+  removed animation combat:support:move_back
+  removed animation combat:support:move_front
+  removed animation combat:support:move_left
+  removed animation combat:support:move_right
+  removed animation combat:support:put_away
+  removed animation combat:support:ready
+  removed animation combat:support:throw_grenade:var0
+  removed animation combat:support:turn_left
+  removed animation combat:support:turn_right
+  removed animation combat:support:walk_back
+  removed animation combat:support:walk_front
+  removed animation combat:support:walk_left
+  removed animation combat:support:walk_right
+  removed animation combat:sword:melee_dash
+  removed animation combat:sword:melee_dash_airborne
+  removed animation combat:sword:melee_lunge
+  removed animation combat:sword:melee_lunge_airborne
+  removed animation creep_d:acc_front_back
+  removed animation creep_d:acc_left_right
+  removed animation creep_d:acc_up_down
+  removed animation creep_d:enter
+  removed animation creep_d:exit
+  removed animation creep_d:idle
+  removed animation creep_d:unarmed:idle
+  removed animation creep_g:acc_front_back
+  removed animation creep_g:acc_left_right
+  removed animation creep_g:acc_up_down
+  removed animation creep_g:enter
+  removed animation creep_g:exit
+  removed animation creep_g:fixed:aim_still_up
+  removed animation creep_g:idle
+  removed animation crouch:ball:aim_move_up
+  removed animation crouch:ball:aim_still_up
+  removed animation crouch:ball:airborne
+  removed animation crouch:ball:idle
+  removed animation crouch:ball:land_hard
+  removed animation crouch:ball:land_soft
+  removed animation crouch:ball:move_back
+  removed animation crouch:ball:move_front
+  removed animation crouch:ball:move_left
+  removed animation crouch:ball:move_right
+  removed animation crouch:ball:turn_left
+  removed animation crouch:ball:turn_right
+  removed animation crouch:ball:walk_back
+  removed animation crouch:ball:walk_front
+  removed animation crouch:ball:walk_left
+  removed animation crouch:ball:walk_right
+  removed animation crouch:dual:aim_move_up
+  removed animation crouch:dual:aim_still_up
+  removed animation crouch:dual:airborne
+  removed animation crouch:dual:arm_offsets
+  removed animation crouch:dual:idle
+  removed animation crouch:dual:land_hard
+  removed animation crouch:dual:land_soft
+  removed animation crouch:dual:move_back
+  removed animation crouch:dual:move_front
+  removed animation crouch:dual:move_left
+  removed animation crouch:dual:move_right
+  removed animation crouch:dual:ne:arm_offsets
+  removed animation crouch:dual:pp:arm_offsets
+  removed animation crouch:dual:sg:arm_offsets
+  removed animation crouch:dual:smg:arm_offsets
+  removed animation crouch:dual:turn_left
+  removed animation crouch:dual:turn_right
+  removed animation crouch:dual:walk_back
+  removed animation crouch:dual:walk_front
+  removed animation crouch:dual:walk_left
+  removed animation crouch:dual:walk_right
+  removed animation crouch:flag:aim_move_up
+  removed animation crouch:flag:aim_still_up
+  removed animation crouch:flag:airborne
+  removed animation crouch:flag:idle
+  removed animation crouch:flag:land_hard
+  removed animation crouch:flag:land_soft
+  removed animation crouch:flag:move_back
+  removed animation crouch:flag:move_front
+  removed animation crouch:flag:move_left
+  removed animation crouch:flag:move_right
+  removed animation crouch:flag:turn_left
+  removed animation crouch:flag:turn_right
+  removed animation crouch:flag:walk_back
+  removed animation crouch:flag:walk_front
+  removed animation crouch:flag:walk_left
+  removed animation crouch:flag:walk_right
+  removed animation crouch:missile:aim_move_up
+  removed animation crouch:missile:aim_still_up
+  removed animation crouch:missile:airborne
+  removed animation crouch:missile:idle
+  removed animation crouch:missile:land_hard
+  removed animation crouch:missile:land_soft
+  removed animation crouch:missile:move_back
+  removed animation crouch:missile:move_front
+  removed animation crouch:missile:move_left
+  removed animation crouch:missile:move_right
+  removed animation crouch:missile:turn_left
+  removed animation crouch:missile:turn_right
+  removed animation crouch:missile:walk_back
+  removed animation crouch:missile:walk_front
+  removed animation crouch:missile:walk_left
+  removed animation crouch:missile:walk_right
+  removed animation crouch:pistol:aim_move_down
+  removed animation crouch:pistol:aim_move_up
+  removed animation crouch:pistol:aim_still_down
+  removed animation crouch:pistol:aim_still_up
+  removed animation crouch:pistol:airborne
+  removed animation crouch:pistol:idle
+  removed animation crouch:pistol:land_hard
+  removed animation crouch:pistol:land_soft
+  removed animation crouch:pistol:move_back
+  removed animation crouch:pistol:move_front
+  removed animation crouch:pistol:move_left
+  removed animation crouch:pistol:move_right
+  removed animation crouch:pistol:turn_left
+  removed animation crouch:pistol:turn_right
+  removed animation crouch:pistol:walk_back
+  removed animation crouch:pistol:walk_front
+  removed animation crouch:pistol:walk_left
+  removed animation crouch:pistol:walk_right
+  removed animation crouch:rifle:aim_move_down
+  removed animation crouch:rifle:aim_move_up
+  removed animation crouch:rifle:aim_still_down
+  removed animation crouch:rifle:aim_still_up
+  removed animation crouch:rifle:airborne
+  removed animation crouch:rifle:idle
+  removed animation crouch:rifle:land_hard
+  removed animation crouch:rifle:land_soft
+  removed animation crouch:rifle:move_back
+  removed animation crouch:rifle:move_front
+  removed animation crouch:rifle:move_left
+  removed animation crouch:rifle:move_right
+  removed animation crouch:rifle:pr:aim_move_up
+  removed animation crouch:rifle:pr:aim_still_up
+  removed animation crouch:rifle:pr:idle
+  removed animation crouch:rifle:turn_left
+  removed animation crouch:rifle:turn_right
+  removed animation crouch:rifle:walk_back
+  removed animation crouch:rifle:walk_front
+  removed animation crouch:rifle:walk_left
+  removed animation crouch:rifle:walk_right
+  removed animation crouch:support:aim_move_up
+  removed animation crouch:support:aim_still_up
+  removed animation crouch:support:airborne
+  removed animation crouch:support:idle
+  removed animation crouch:support:land_hard
+  removed animation crouch:support:land_soft
+  removed animation crouch:support:move_back
+  removed animation crouch:support:move_front
+  removed animation crouch:support:move_left
+  removed animation crouch:support:move_right
+  removed animation crouch:support:turn_left
+  removed animation crouch:support:turn_right
+  removed animation crouch:support:walk_back
+  removed animation crouch:support:walk_front
+  removed animation crouch:support:walk_left
+  removed animation crouch:support:walk_right
+  removed animation crouch:sword:aim_move_up
+  removed animation crouch:sword:aim_still_up
+  removed animation crouch:sword:airborne
+  removed animation crouch:sword:idle
+  removed animation crouch:sword:land_hard
+  removed animation crouch:sword:land_soft
+  removed animation crouch:sword:move_back
+  removed animation crouch:sword:move_front
+  removed animation crouch:sword:move_left
+  removed animation crouch:sword:move_right
+  removed animation crouch:sword:turn_left
+  removed animation crouch:sword:turn_right
+  removed animation crouch:sword:walk_back
+  removed animation crouch:sword:walk_front
+  removed animation crouch:sword:walk_left
+  removed animation crouch:sword:walk_right
+  removed animation ghost_b_b:enter
+  removed animation ghost_b_b:unarmed:board
+  removed animation ghost_b_l:enter
+  removed animation ghost_b_l:unarmed:board
+  removed animation ghost_d:acc_front_back
+  removed animation ghost_d:acc_left_right
+  removed animation ghost_d:acc_up_down
+  removed animation ghost_d:ejection
+  removed animation ghost_d:enter
+  removed animation ghost_d:enter_a
+  removed animation ghost_d:exit
+  removed animation ghost_d:grip
+  removed animation ghost_d:unarmed:idle
+  removed animation h_turret_ap_d:acc_front_back
+  removed animation h_turret_ap_d:acc_left_right
+  removed animation h_turret_ap_d:acc_up_down
+  removed animation h_turret_ap_d:enter
+  removed animation h_turret_ap_d:exit
+  removed animation h_turret_ap_d:fixed:aim_still_up
+  removed animation h_turret_ap_d:fixed:fire_1
+  removed animation h_turret_ap_d:fixed:grip
+  removed animation h_turret_ap_d:fixed:idle
+  removed animation h_turret_mp_d:aim_still_up
+  removed animation h_turret_mp_d:enter
+  removed animation h_turret_mp_d:exit
+  removed animation h_turret_mp_d:fire_1
+  removed animation h_turret_mp_d:idle
+  removed animation pelican_b:idle
+  removed animation pelican_p_l05:enter
+  removed animation pelican_p_l05:exit
+  removed animation pelican_p_l05:rifle:idle
+  removed animation pelican_p_r05:enter
+  removed animation pelican_p_r05:exit
+  removed animation scorpion_b_b:acc_front_back
+  removed animation scorpion_b_b:acc_left_right
+  removed animation scorpion_b_b:acc_up_down
+  removed animation scorpion_b_b:enter
+  removed animation scorpion_b_b:exit
+  removed animation scorpion_b_b:melee:var0
+  removed animation scorpion_b_b:throw_grenade:var0
+  removed animation scorpion_b_b:unarmed:idle
+  removed animation scorpion_b_d_l:acc_front_back
+  removed animation scorpion_b_d_l:acc_left_right
+  removed animation scorpion_b_d_l:acc_up_down
+  removed animation scorpion_b_d_l:enter
+  removed animation scorpion_b_d_l:exit
+  removed animation scorpion_b_d_l:melee:var0
+  removed animation scorpion_b_d_l:throw_grenade:var0
+  removed animation scorpion_b_d_l:unarmed:idle
+  removed animation scorpion_b_d_r:acc_front_back
+  removed animation scorpion_b_d_r:acc_left_right
+  removed animation scorpion_b_d_r:acc_up_down
+  removed animation scorpion_b_d_r:enter
+  removed animation scorpion_b_d_r:exit
+  removed animation scorpion_b_d_r:melee:var0
+  removed animation scorpion_b_d_r:throw_grenade:var0
+  removed animation scorpion_b_d_r:unarmed:idle
+  removed animation scorpion_d:enter
+  removed animation scorpion_d:enter_a
+  removed animation scorpion_d:exit
+  removed animation scorpion_d:unarmed:idle
+  removed animation scorpion_p_l01:acc_front_back
+  removed animation scorpion_p_l01:acc_left_right
+  removed animation scorpion_p_l01:acc_up_down
+  removed animation scorpion_p_l01:enter
+  removed animation scorpion_p_l01:exit
+  removed animation scorpion_p_l01:rifle:aim_still_up
+  removed animation scorpion_p_l01:rifle:idle
+  removed animation spectre_b_d:board
+  removed animation spectre_b_d:enter
+  removed animation spectre_b_g:board
+  removed animation spectre_b_g:enter
+  removed animation spectre_b_p_l:board
+  removed animation spectre_b_p_l:enter
+  removed animation spectre_b_p_r:board
+  removed animation spectre_b_p_r:enter
+  removed animation spectre_d:acc_front_back
+  removed animation spectre_d:acc_left_right
+  removed animation spectre_d:acc_up_down
+  removed animation spectre_d:any:idle
+  removed animation spectre_d:ejection
+  removed animation spectre_d:enter
+  removed animation spectre_d:enter_a
+  removed animation spectre_d:exit
+  removed animation spectre_g:acc_front_back
+  removed animation spectre_g:acc_left_right
+  removed animation spectre_g:acc_up_down
+  removed animation spectre_g:any:aim_still_up
+  removed animation spectre_g:any:idle
+  removed animation spectre_g:ejection
+  removed animation spectre_g:enter
+  removed animation spectre_g:exit
+  removed animation spectre_p_l:acc_front_back
+  removed animation spectre_p_l:acc_left_right
+  removed animation spectre_p_l:acc_up_down
+  removed animation spectre_p_l:any:any:throw_grenade
+  removed animation spectre_p_l:any:idle
+  removed animation spectre_p_l:ball:aim_still_up
+  removed animation spectre_p_l:ball:idle
+  removed animation spectre_p_l:ejection
+  removed animation spectre_p_l:enter
+  removed animation spectre_p_l:exit
+  removed animation spectre_p_l:flag:aim_still_up
+  removed animation spectre_p_l:flag:idle
+  removed animation spectre_p_l:missile:aim_still_up
+  removed animation spectre_p_l:missile:idle
+  removed animation spectre_p_l:pistol:aim_still_up
+  removed animation spectre_p_l:pistol:idle
+  removed animation spectre_p_l:rifle:aim_still_up
+  removed animation spectre_p_l:rifle:idle
+  removed animation spectre_p_l:support:aim_still_up
+  removed animation spectre_p_l:support:idle
+  removed animation spectre_p_l:sword:aim_still_up
+  removed animation spectre_p_l:sword:idle
+  removed animation spectre_p_r:acc_front_back
+  removed animation spectre_p_r:acc_left_right
+  removed animation spectre_p_r:acc_up_down
+  removed animation spectre_p_r:any:idle
+  removed animation spectre_p_r:ball:aim_still_up
+  removed animation spectre_p_r:ball:idle
+  removed animation spectre_p_r:ejection
+  removed animation spectre_p_r:enter
+  removed animation spectre_p_r:exit
+  removed animation spectre_p_r:flag:aim_still_up
+  removed animation spectre_p_r:flag:idle
+  removed animation spectre_p_r:missile:aim_still_up
+  removed animation spectre_p_r:missile:idle
+  removed animation spectre_p_r:pistol:aim_still_up
+  removed animation spectre_p_r:pistol:idle
+  removed animation spectre_p_r:rifle:aim_still_up
+  removed animation spectre_p_r:rifle:idle
+  removed animation spectre_p_r:support:aim_still_up
+  removed animation spectre_p_r:support:idle
+  removed animation spectre_p_r:sword:aim_still_up
+  removed animation spectre_p_r:sword:idle
+  removed animation throne_b_l:acc_front_back
+  removed animation throne_b_l:acc_left_right
+  removed animation throne_b_l:acc_up_down
+  removed animation throne_b_l:ejection
+  removed animation throne_b_l:enter
+  removed animation throne_b_l:melee:var0
+  removed animation throne_b_l:melee:var1
+  removed animation throne_b_l:unarmed:idle
+  removed animation throne_b_r:acc_front_back
+  removed animation throne_b_r:acc_left_right
+  removed animation throne_b_r:acc_up_down
+  removed animation throne_b_r:ejection
+  removed animation throne_b_r:enter
+  removed animation throne_b_r:melee:var0
+  removed animation throne_b_r:melee:var1
+  removed animation throne_b_r:unarmed:idle
+  removed animation warthog_b_d:enter
+  removed animation warthog_b_d:unarmed:board:var0
+  removed animation warthog_b_g:enter
+  removed animation warthog_b_g:unarmed:board:var0
+  removed animation warthog_b_p:enter
+  removed animation warthog_b_p:unarmed:board:var0
+  removed animation warthog_d:acc_front_back
+  removed animation warthog_d:acc_left_right
+  removed animation warthog_d:acc_up_down
+  removed animation warthog_d:ejection
+  removed animation warthog_d:enter
+  removed animation warthog_d:exit
+  removed animation warthog_d:grip
+  removed animation warthog_d:unarmed:aim_still_up
+  removed animation warthog_d:unarmed:idle
+  removed animation warthog_g:acc_front_back
+  removed animation warthog_g:acc_left_right
+  removed animation warthog_g:acc_up_down
+  removed animation warthog_g:ejection
+  removed animation warthog_g:enter
+  removed animation warthog_g:exit
+  removed animation warthog_g:fixed:aim_still_up
+  removed animation warthog_g:fixed:fire_1
+  removed animation warthog_g:fixed:grip
+  removed animation warthog_g:fixed:idle
+  removed animation warthog_p:acc_front_back
+  removed animation warthog_p:acc_left_right
+  removed animation warthog_p:acc_up_down
+  removed animation warthog_p:any:any:throw_grenade
+  removed animation warthog_p:ball:aim_still_up
+  removed animation warthog_p:ball:idle
+  removed animation warthog_p:ejection
+  removed animation warthog_p:enter
+  removed animation warthog_p:exit
+  removed animation warthog_p:flag:aim_still_up
+  removed animation warthog_p:flag:idle
+  removed animation warthog_p:missile:aim_still_up
+  removed animation warthog_p:missile:idle
+  removed animation warthog_p:pistol:aim_still_up
+  removed animation warthog_p:pistol:idle
+  removed animation warthog_p:rifle:aim_still_up
+  removed animation warthog_p:rifle:idle
+  removed animation warthog_p:rifle:pr:aim_still_up
+  removed animation warthog_p:rifle:pr:idle
+  removed animation warthog_p:support:bs:acc_front_back
+  removed animation warthog_p:support:bs:acc_left_right
+  removed animation warthog_p:support:bs:acc_up_down
+  removed animation warthog_p:support:bs:aim_still_up
+  removed animation warthog_p:support:bs:fire_1
+  removed animation warthog_p:support:bs:idle
+  removed animation warthog_p:support:bs:reload_1
+  removed animation warthog_p:sword:aim_still_up
+  removed animation warthog_p:sword:idle
+  removed animation wraith_b_b:acc_front_back
+  removed animation wraith_b_b:acc_left_right
+  removed animation wraith_b_b:acc_up_down
+  removed animation wraith_b_b:enter
+  removed animation wraith_b_b:exit
+  removed animation wraith_b_b:melee:var0
+  removed animation wraith_b_b:throw_grenade:var0
+  removed animation wraith_b_b:unarmed:idle
+  removed animation wraith_b_l:acc_front_back
+  removed animation wraith_b_l:acc_left_right
+  removed animation wraith_b_l:acc_up_down
+  removed animation wraith_b_l:enter
+  removed animation wraith_b_l:exit
+  removed animation wraith_b_l:melee:var0
+  removed animation wraith_b_l:throw_grenade:var0
+  removed animation wraith_b_l:unarmed:idle
+  removed animation wraith_b_r:acc_front_back
+  removed animation wraith_b_r:acc_left_right
+  removed animation wraith_b_r:acc_up_down
+  removed animation wraith_b_r:enter
+  removed animation wraith_b_r:exit
+  removed animation wraith_b_r:melee:var0
+  removed animation wraith_b_r:throw_grenade:var0
+  removed animation wraith_b_r:unarmed:idle
+  removed animation wraith_d:enter
+  removed animation wraith_d:enter_a
+  removed animation wraith_d:exit
+  removed animation wraith_d:unarmed:idle
+ [removed 1473132 bytes]
+PROCESSING kashiiera\objects\characters\masterchief\masterchief>>>
+ [removed 0 bytes]
+PROCESSING objects\characters\masterchief\fp\weapons\rifle\fp_battle_rifle\fp_battle_rifle>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\dervish\fp\weapons\rifle\fp_battle_rifle\fp_battle_rifle>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\elite\elite>>>
+  culling unused mode (banshee_b_d)
+  culling unused mode (banshee_d)
+  culling unused mode (bunker_cover)
+  culling unused mode (bunker_open)
+  culling unused mode (c_turret_ap)
+  culling unused mode (c_turret_ap_d)
+  culling unused mode (c_turret_mp_d)
+  culling unused mode (climb)
+  culling unused mode (corner_cover_left)
+  culling unused mode (corner_cover_right)
+  culling unused mode (corner_open_left)
+  culling unused mode (corner_open_right)
+  culling unused mode (creep_d)
+  culling unused mode (creep_g)
+  culling unused mode (creep_p_l01)
+  culling unused mode (creep_p_l02)
+  culling unused mode (creep_p_l03)
+  culling unused mode (creep_p_l04)
+  culling unused mode (creep_p_m01)
+  culling unused mode (creep_p_r01)
+  culling unused mode (creep_p_r02)
+  culling unused mode (creep_p_r03)
+  culling unused mode (creep_p_r04)
+  culling unused mode (crouch)
+  culling unused mode (flaming)
+  culling unused mode (flight)
+  culling unused mode (ghost_b_b)
+  culling unused mode (ghost_b_l)
+  culling unused mode (ghost_b_r)
+  culling unused mode (ghost_d)
+  culling unused mode (ghost_d_b)
+  culling unused mode (guntower_d)
+  culling unused mode (h_turret_ap_d)
+  culling unused mode (h_turret_mp_d)
+  culling unused mode (hoist)
+  culling unused mode (insertion_pod_d)
+  culling unused mode (mongoose_d)
+  culling unused mode (mouth)
+  culling unused mode (panic)
+  culling unused mode (phantom_p_a01)
+  culling unused mode (phantom_p_a02)
+  culling unused mode (phantom_p_a03)
+  culling unused mode (phantom_p_b01)
+  culling unused mode (phantom_p_b02)
+  culling unused mode (phantom_p_b03)
+  culling unused mode (phantom_p_c01)
+  culling unused mode (phantom_p_c02)
+  culling unused mode (phantom_p_c03)
+  culling unused mode (scarab_d_l)
+  culling unused mode (scarab_d_r)
+  culling unused mode (scarab_turret_d)
+  culling unused mode (scorpion_b_b)
+  culling unused mode (scorpion_b_d_l)
+  culling unused mode (scorpion_b_d_r)
+  culling unused mode (scorpion_d)
+  culling unused mode (scorpion_p_lb)
+  culling unused mode (scorpion_p_lf)
+  culling unused mode (scorpion_p_rb)
+  culling unused mode (scorpion_p_rf)
+  culling unused mode (spectre_b_d)
+  culling unused mode (spectre_b_g)
+  culling unused mode (spectre_b_p_l)
+  culling unused mode (spectre_b_p_r)
+  culling unused mode (spectre_d)
+  culling unused mode (spectre_g)
+  culling unused mode (spectre_p_l)
+  culling unused mode (spectre_p_r)
+  culling unused mode (stand)
+  culling unused mode (vault)
+  culling unused mode (warthog_b_d)
+  culling unused mode (warthog_b_g)
+  culling unused mode (warthog_b_p)
+  culling unused mode (warthog_d)
+  culling unused mode (warthog_g)
+  culling unused mode (warthog_p)
+  culling unused mode (wraith_b_b)
+  culling unused mode (wraith_b_l)
+  culling unused mode (wraith_b_r)
+  culling unused mode (wraith_d)
+  culling unused weapon (combat:dual:hp)
+  culling unused weapon (combat:dual:ne)
+  culling unused weapon (combat:dual:pp)
+  culling unused weapon (combat:dual:smg)
+  culling unused weapon (combat:missile:rl)
+  culling unused weapon (combat:pistol:hp)
+  culling unused weapon (combat:pistol:ne)
+  culling unused weapon (combat:pistol:pp)
+  culling unused weapon (combat:pistol:smg)
+  culling unused weapon (combat:rifle:cb)
+  culling unused weapon (combat:rifle:csr)
+  culling unused weapon (combat:rifle:sg)
+  culling unused weapon (combat:rifle:sr)
+  culling unused weapon (combat:support:bs)
+  culling unused weapon (combat:support:ds)
+  culling unused weapon class (combat:missile)
+  culling unused weapon class (combat:support)
+  culling unused weapon class (combat:sword)
+  culling unused weapon class (patrol:missile)
+  culling unused weapon class (patrol:pistol)
+  culling unused weapon class (patrol:support)
+  culling unused weapon class (patrol:sword)
+  removed animation banshee_b_d:acc_front_back
+  removed animation banshee_b_d:acc_left_right
+  removed animation banshee_b_d:acc_up_down
+  removed animation banshee_b_d:board:var0
+  removed animation banshee_b_d:enter
+  removed animation banshee_b_d:exit
+  removed animation banshee_b_d:idle:var0
+  removed animation banshee_d:acc_front_back
+  removed animation banshee_d:acc_left_right
+  removed animation banshee_d:acc_up_down
+  removed animation banshee_d:ejection
+  removed animation banshee_d:enter
+  removed animation banshee_d:exit
+  removed animation banshee_d:unarmed:idle
+  removed animation bunker_cover:missile:idle:2:bunker_open:idle
+  removed animation bunker_cover:pistol:aim_still_up
+  removed animation bunker_cover:pistol:enter
+  removed animation bunker_cover:pistol:idle
+  removed animation bunker_cover:pistol:idle:2:bunker_open:idle
+  removed animation bunker_open:missile:aim_still_up
+  removed animation bunker_open:missile:exit
+  removed animation bunker_open:missile:idle
+  removed animation bunker_open:missile:idle:2:bunker_cover:idle
+  removed animation bunker_open:pistol:aim_still_up
+  removed animation bunker_open:pistol:exit
+  removed animation bunker_open:pistol:idle
+  removed animation bunker_open:pistol:idle:2:bunker_cover:idle
+  removed animation c_turret_ap:acc_front_back
+  removed animation c_turret_ap:acc_left_right
+  removed animation c_turret_ap:acc_up_down
+  removed animation c_turret_ap:enter
+  removed animation c_turret_ap:exit
+  removed animation c_turret_ap:unarmed:idle
+  removed animation c_turret_ap_d:acc_front_back
+  removed animation c_turret_ap_d:acc_left_right
+  removed animation c_turret_ap_d:acc_up_down
+  removed animation c_turret_ap_d:enter
+  removed animation c_turret_ap_d:exit
+  removed animation c_turret_ap_d:unarmed:idle
+  removed animation climb:unarmed:attach
+  removed animation climb:unarmed:climb_down
+  removed animation climb:unarmed:climb_up
+  removed animation climb:unarmed:detach
+  removed animation climb:unarmed:idle
+  removed animation combat:dual:hp:reload_1
+  removed animation combat:dual:hp:reload_1_left
+  removed animation combat:dual:ne:arm_offsets
+  removed animation combat:dual:ne:reload_1
+  removed animation combat:dual:ne:reload_1_left
+  removed animation combat:dual:pp:arm_offsets
+  removed animation combat:dual:pp:fire_2
+  removed animation combat:dual:pp:fire_2_left
+  removed animation combat:dual:pp:o_h_exit
+  removed animation combat:dual:pp:o_h_exit_left
+  removed animation combat:dual:pp:overheated
+  removed animation combat:dual:pp:overheated_left
+  removed animation combat:dual:smg:arm_offsets
+  removed animation combat:dual:smg:reload_1
+  removed animation combat:dual:smg:reload_1_left
+  removed animation combat:missile:aim_still_up
+  removed animation combat:missile:airborne
+  removed animation combat:missile:berserk
+  removed animation combat:missile:dive_front
+  removed animation combat:missile:dive_left
+  removed animation combat:missile:dive_right
+  removed animation combat:missile:evade_left
+  removed animation combat:missile:evade_right
+  removed animation combat:missile:fire_1
+  removed animation combat:missile:idle
+  removed animation combat:missile:idle:2:combat:move_back
+  removed animation combat:missile:idle:2:combat:move_front
+  removed animation combat:missile:idle:2:combat:move_left
+  removed animation combat:missile:idle:2:combat:move_right
+  removed animation combat:missile:idle:2:crouch:idle
+  removed animation combat:missile:land_hard
+  removed animation combat:missile:land_soft
+  removed animation combat:missile:move_back
+  removed animation combat:missile:move_back:2:combat:idle
+  removed animation combat:missile:move_front
+  removed animation combat:missile:move_front:2:combat:idle
+  removed animation combat:missile:move_left
+  removed animation combat:missile:move_left:2:combat:idle
+  removed animation combat:missile:move_right
+  removed animation combat:missile:move_right:2:combat:idle
+  removed animation combat:missile:put_away
+  removed animation combat:missile:ready
+  removed animation combat:missile:reload_1
+  removed animation combat:missile:rl:grip
+  removed animation combat:missile:signal_attack
+  removed animation combat:missile:smash_left
+  removed animation combat:missile:smash_right
+  removed animation combat:missile:surprise_back
+  removed animation combat:missile:surprise_front
+  removed animation combat:missile:throw_grenade
+  removed animation combat:missile:turn_left
+  removed animation combat:missile:turn_right
+  removed animation combat:missile:walk_back
+  removed animation combat:missile:walk_front
+  removed animation combat:missile:walk_left
+  removed animation combat:missile:walk_right
+  removed animation combat:pistol:hp:grip
+  removed animation combat:pistol:hp:reload_1
+  removed animation combat:pistol:ne:grip
+  removed animation combat:pistol:ne:reload_1
+  removed animation combat:pistol:o_h_exit
+  removed animation combat:pistol:overheated
+  removed animation combat:pistol:overheating
+  removed animation combat:pistol:pp:fire_2
+  removed animation combat:pistol:pp:grip
+  removed animation combat:pistol:pp:o_h_exit
+  removed animation combat:pistol:pp:overheated
+  removed animation combat:pistol:pp:overheating
+  removed animation combat:pistol:smg:fire_1
+  removed animation combat:pistol:smg:grip
+  removed animation combat:pistol:smg:reload_1
+  removed animation combat:rifle:cb:grip
+  removed animation combat:rifle:csr:grip
+  removed animation combat:rifle:sg:fire_1
+  removed animation combat:rifle:sg:grip
+  removed animation combat:rifle:sg:reload_1
+  removed animation combat:rifle:sr:grip
+  removed animation combat:rifle:sr:reload_1
+  removed animation combat:support:aim_still_up
+  removed animation combat:support:airborne
+  removed animation combat:support:berserk
+  removed animation combat:support:bs:fire_1
+  removed animation combat:support:bs:grip
+  removed animation combat:support:dive_front
+  removed animation combat:support:dive_left
+  removed animation combat:support:dive_right
+  removed animation combat:support:ds:fire_1:var1
+  removed animation combat:support:ds:fire_1:var2
+  removed animation combat:support:ds:fire_1:var3
+  removed animation combat:support:ds:fire_1:var4
+  removed animation combat:support:ds:fire_1:var5
+  removed animation combat:support:ds:fire_1:var6
+  removed animation combat:support:ds:grip
+  removed animation combat:support:evade_left
+  removed animation combat:support:evade_right
+  removed animation combat:support:idle
+  removed animation combat:support:idle:2:combat:move_back
+  removed animation combat:support:idle:2:combat:move_front
+  removed animation combat:support:idle:2:combat:move_left
+  removed animation combat:support:idle:2:combat:move_right
+  removed animation combat:support:idle:2:crouch:idle
+  removed animation combat:support:land_hard
+  removed animation combat:support:land_soft
+  removed animation combat:support:move_back
+  removed animation combat:support:move_back:2:combat:idle
+  removed animation combat:support:move_front
+  removed animation combat:support:move_front:2:combat:idle
+  removed animation combat:support:move_left
+  removed animation combat:support:move_left:2:combat:idle
+  removed animation combat:support:move_right
+  removed animation combat:support:move_right:2:combat:idle
+  removed animation combat:support:put_away
+  removed animation combat:support:ready
+  removed animation combat:support:reload_1
+  removed animation combat:support:signal_attack
+  removed animation combat:support:smash_left
+  removed animation combat:support:smash_right
+  removed animation combat:support:surprise_back
+  removed animation combat:support:surprise_front
+  removed animation combat:support:throw_grenade
+  removed animation combat:support:turn_left
+  removed animation combat:support:turn_right
+  removed animation combat:support:walk_back
+  removed animation combat:support:walk_front
+  removed animation combat:support:walk_left
+  removed animation combat:support:walk_right
+  removed animation combat:support:warn
+  removed animation combat:sword:aim_move_down
+  removed animation combat:sword:aim_still_down
+  removed animation combat:sword:berserk
+  removed animation combat:sword:dive_front
+  removed animation combat:sword:dive_left
+  removed animation combat:sword:dive_right
+  removed animation combat:sword:draw
+  removed animation combat:sword:evade_left
+  removed animation combat:sword:evade_right
+  removed animation combat:sword:idle:2:combat:move_back
+  removed animation combat:sword:idle:2:combat:move_front
+  removed animation combat:sword:idle:2:combat:move_left
+  removed animation combat:sword:idle:2:combat:move_right
+  removed animation combat:sword:idle:2:crouch:idle
+  removed animation combat:sword:melee:var0
+  removed animation combat:sword:melee:var1
+  removed animation combat:sword:melee_airborne
+  removed animation combat:sword:melee_back
+  removed animation combat:sword:move_back:2:combat:idle
+  removed animation combat:sword:move_front:2:combat:idle
+  removed animation combat:sword:move_left:2:combat:idle
+  removed animation combat:sword:move_right:2:combat:idle
+  removed animation combat:sword:posing:var1
+  removed animation combat:sword:posing:var2
+  removed animation combat:sword:posing:var3
+  removed animation combat:sword:posing:var4
+  removed animation combat:sword:posing:var5
+  removed animation combat:sword:ready:var0
+  removed animation combat:sword:ready:var1
+  removed animation combat:sword:ready:var2
+  removed animation combat:sword:signal_attack
+  removed animation combat:sword:smash_left
+  removed animation combat:sword:smash_right
+  removed animation combat:sword:surprise_back
+  removed animation combat:sword:surprise_front
+  removed animation combat:sword:warn
+  removed animation corner_cover_left:pistol:aim_still_down
+  removed animation corner_cover_left:pistol:enter
+  removed animation corner_cover_left:pistol:exit
+  removed animation corner_cover_left:pistol:idle
+  removed animation corner_cover_left:pistol:idle:2:corner_open_left:idle
+  removed animation corner_cover_left:rifle:aim_still_up
+  removed animation corner_cover_left:rifle:enter
+  removed animation corner_cover_left:rifle:exit
+  removed animation corner_cover_left:rifle:idle
+  removed animation corner_cover_left:rifle:idle:2:corner_open_left:idle
+  removed animation corner_cover_right:pistol:aim_still_down
+  removed animation corner_cover_right:pistol:enter
+  removed animation corner_cover_right:pistol:exit
+  removed animation corner_cover_right:pistol:idle
+  removed animation corner_cover_right:pistol:idle:2:corner_open_right:idle
+  removed animation corner_cover_right:rifle:aim_still_up
+  removed animation corner_cover_right:rifle:enter
+  removed animation corner_cover_right:rifle:exit
+  removed animation corner_cover_right:rifle:idle
+  removed animation corner_cover_right:rifle:idle:2:corner_open_right:idle
+  removed animation corner_cover_right:sword:idle:2:corner_open_right:idle
+  removed animation corner_open_left:missile:aim_still_up
+  removed animation corner_open_left:missile:exit
+  removed animation corner_open_left:missile:idle
+  removed animation corner_open_left:missile:idle:2:corner_cover_left:idle
+  removed animation corner_open_left:pistol:aim_still_up
+  removed animation corner_open_left:pistol:exit
+  removed animation corner_open_left:pistol:idle
+  removed animation corner_open_left:pistol:idle:2:corner_cover_left:idle
+  removed animation corner_open_left:pistol:idle_down
+  removed animation corner_open_left:rifle:aim_still_up
+  removed animation corner_open_left:rifle:exit
+  removed animation corner_open_left:rifle:idle
+  removed animation corner_open_left:rifle:idle:2:corner_cover_left:idle
+  removed animation corner_open_left:sword:aim_still_up
+  removed animation corner_open_left:sword:exit
+  removed animation corner_open_left:sword:idle
+  removed animation corner_open_right:missile:aim_still_up
+  removed animation corner_open_right:missile:exit
+  removed animation corner_open_right:missile:idle
+  removed animation corner_open_right:missile:idle:2:corner_cover_right:idle
+  removed animation corner_open_right:pistol:aim_still_up
+  removed animation corner_open_right:pistol:exit
+  removed animation corner_open_right:pistol:idle
+  removed animation corner_open_right:pistol:idle:2:corner_cover_right:idle
+  removed animation corner_open_right:pistol:idle_down
+  removed animation corner_open_right:rifle:aim_still_up
+  removed animation corner_open_right:rifle:exit
+  removed animation corner_open_right:rifle:idle
+  removed animation corner_open_right:rifle:idle:2:corner_cover_right:idle
+  removed animation corner_open_right:sword:aim_still_up
+  removed animation corner_open_right:sword:exit
+  removed animation corner_open_right:sword:idle
+  removed animation corner_open_right:sword:idle:2:corner_cover_right:idle
+  removed animation creep_d:acc_front_back
+  removed animation creep_d:acc_left_right
+  removed animation creep_d:acc_up_down
+  removed animation creep_d:enter
+  removed animation creep_d:enter_a
+  removed animation creep_d:exit
+  removed animation creep_d:unarmed:idle
+  removed animation creep_g:acc_front_back
+  removed animation creep_g:acc_left_right
+  removed animation creep_g:acc_up_down
+  removed animation creep_g:enter
+  removed animation creep_g:exit
+  removed animation creep_g:fixed:aim_still_up
+  removed animation creep_g:idle
+  removed animation creep_p_l01:acc_front_back
+  removed animation creep_p_l01:acc_left_right
+  removed animation creep_p_l01:acc_up_down
+  removed animation creep_p_l01:any:aim_still_up
+  removed animation creep_p_l01:enter
+  removed animation creep_p_l01:exit
+  removed animation creep_p_l01:idle
+  removed animation crouch:ball:aim_move_down
+  removed animation crouch:ball:aim_move_up
+  removed animation crouch:ball:aim_still_down
+  removed animation crouch:ball:aim_still_up
+  removed animation crouch:ball:airborne
+  removed animation crouch:ball:idle
+  removed animation crouch:ball:land_soft
+  removed animation crouch:ball:move_back
+  removed animation crouch:ball:move_front
+  removed animation crouch:ball:move_left
+  removed animation crouch:ball:move_right
+  removed animation crouch:ball:turn_left
+  removed animation crouch:ball:turn_right
+  removed animation crouch:ball:walk_back
+  removed animation crouch:ball:walk_front
+  removed animation crouch:ball:walk_left
+  removed animation crouch:ball:walk_right
+  removed animation crouch:dual:aim_still_up
+  removed animation crouch:dual:airborne
+  removed animation crouch:dual:idle
+  removed animation crouch:dual:idle:2:combat:idle
+  removed animation crouch:dual:idle:2:crouch:move_back
+  removed animation crouch:dual:idle:2:crouch:move_front
+  removed animation crouch:dual:idle:2:crouch:move_left
+  removed animation crouch:dual:idle:2:crouch:move_right
+  removed animation crouch:dual:land_soft
+  removed animation crouch:dual:move_back
+  removed animation crouch:dual:move_front
+  removed animation crouch:dual:move_front:2:crouch:idle
+  removed animation crouch:dual:move_left
+  removed animation crouch:dual:move_left:2:crouch:idle
+  removed animation crouch:dual:move_right
+  removed animation crouch:dual:move_right:2:crouch:idle
+  removed animation crouch:dual:turn_left
+  removed animation crouch:dual:turn_right
+  removed animation crouch:dual:walk_back
+  removed animation crouch:dual:walk_front
+  removed animation crouch:dual:walk_left
+  removed animation crouch:dual:walk_right
+  removed animation crouch:look
+  removed animation crouch:missile:aim_still_up
+  removed animation crouch:missile:airborne
+  removed animation crouch:missile:idle
+  removed animation crouch:missile:idle:2:combat:idle
+  removed animation crouch:missile:idle:2:crouch:move_back
+  removed animation crouch:missile:idle:2:crouch:move_front
+  removed animation crouch:missile:idle:2:crouch:move_left
+  removed animation crouch:missile:idle:2:crouch:move_right
+  removed animation crouch:missile:land_soft
+  removed animation crouch:missile:move_back
+  removed animation crouch:missile:move_back:2:crouch:idle
+  removed animation crouch:missile:move_front
+  removed animation crouch:missile:move_front:2:crouch:idle
+  removed animation crouch:missile:move_left
+  removed animation crouch:missile:move_left:2:crouch:idle
+  removed animation crouch:missile:move_right
+  removed animation crouch:missile:move_right:2:crouch:idle
+  removed animation crouch:missile:turn_left
+  removed animation crouch:missile:turn_right
+  removed animation crouch:missile:walk_back
+  removed animation crouch:missile:walk_front
+  removed animation crouch:missile:walk_left
+  removed animation crouch:missile:walk_right
+  removed animation crouch:pistol:aim_move_down
+  removed animation crouch:pistol:aim_move_up
+  removed animation crouch:pistol:aim_still_down
+  removed animation crouch:pistol:aim_still_up
+  removed animation crouch:pistol:airborne
+  removed animation crouch:pistol:idle
+  removed animation crouch:pistol:idle:2:combat:idle
+  removed animation crouch:pistol:idle:2:crouch:move_back
+  removed animation crouch:pistol:idle:2:crouch:move_front
+  removed animation crouch:pistol:idle:2:crouch:move_left
+  removed animation crouch:pistol:idle:2:crouch:move_right
+  removed animation crouch:pistol:land_soft
+  removed animation crouch:pistol:move_back
+  removed animation crouch:pistol:move_back:2:crouch:idle
+  removed animation crouch:pistol:move_front
+  removed animation crouch:pistol:move_front:2:crouch:idle
+  removed animation crouch:pistol:move_left
+  removed animation crouch:pistol:move_left:2:crouch:idle
+  removed animation crouch:pistol:move_right
+  removed animation crouch:pistol:move_right:2:crouch:idle
+  removed animation crouch:pistol:turn_left
+  removed animation crouch:pistol:turn_right
+  removed animation crouch:pistol:walk_back
+  removed animation crouch:pistol:walk_front
+  removed animation crouch:pistol:walk_left
+  removed animation crouch:pistol:walk_right
+  removed animation crouch:rifle:aim_still_down
+  removed animation crouch:rifle:aim_still_up
+  removed animation crouch:rifle:airborne
+  removed animation crouch:rifle:idle
+  removed animation crouch:rifle:idle:2:combat:idle
+  removed animation crouch:rifle:idle:2:crouch:move_back
+  removed animation crouch:rifle:idle:2:crouch:move_front
+  removed animation crouch:rifle:idle:2:crouch:move_left
+  removed animation crouch:rifle:idle:2:crouch:move_right
+  removed animation crouch:rifle:land_soft
+  removed animation crouch:rifle:move_back
+  removed animation crouch:rifle:move_back:2:crouch:idle
+  removed animation crouch:rifle:move_front
+  removed animation crouch:rifle:move_front:2:crouch:idle
+  removed animation crouch:rifle:move_left
+  removed animation crouch:rifle:move_left:2:crouch:idle
+  removed animation crouch:rifle:move_right
+  removed animation crouch:rifle:move_right:2:crouch:idle
+  removed animation crouch:rifle:turn_left
+  removed animation crouch:rifle:turn_right
+  removed animation crouch:rifle:walk_back
+  removed animation crouch:rifle:walk_front
+  removed animation crouch:rifle:walk_left
+  removed animation crouch:rifle:walk_right
+  removed animation crouch:support:aim_still_up
+  removed animation crouch:support:airborne
+  removed animation crouch:support:idle
+  removed animation crouch:support:idle:2:combat:idle
+  removed animation crouch:support:idle:2:crouch:move_back
+  removed animation crouch:support:idle:2:crouch:move_front
+  removed animation crouch:support:idle:2:crouch:move_left
+  removed animation crouch:support:idle:2:crouch:move_right
+  removed animation crouch:support:land_soft
+  removed animation crouch:support:move_back
+  removed animation crouch:support:move_back:2:crouch:idle
+  removed animation crouch:support:move_front
+  removed animation crouch:support:move_front:2:crouch:idle
+  removed animation crouch:support:move_left
+  removed animation crouch:support:move_left:2:crouch:idle
+  removed animation crouch:support:move_right
+  removed animation crouch:support:move_right:2:crouch:idle
+  removed animation crouch:support:turn_left
+  removed animation crouch:support:turn_right
+  removed animation crouch:support:walk_back
+  removed animation crouch:support:walk_front
+  removed animation crouch:support:walk_left
+  removed animation crouch:support:walk_right
+  removed animation crouch:sword:aim_move_up
+  removed animation crouch:sword:aim_still_up
+  removed animation crouch:sword:airborne
+  removed animation crouch:sword:idle
+  removed animation crouch:sword:idle:2:combat:idle
+  removed animation crouch:sword:idle:2:crouch:move_back
+  removed animation crouch:sword:idle:2:crouch:move_front
+  removed animation crouch:sword:idle:2:crouch:move_left
+  removed animation crouch:sword:idle:2:crouch:move_right
+  removed animation crouch:sword:land_soft
+  removed animation crouch:sword:move_back
+  removed animation crouch:sword:move_back:2:crouch:idle
+  removed animation crouch:sword:move_front
+  removed animation crouch:sword:move_front:2:crouch:idle
+  removed animation crouch:sword:move_left
+  removed animation crouch:sword:move_left:2:crouch:idle
+  removed animation crouch:sword:move_right
+  removed animation crouch:sword:move_right:2:crouch:idle
+  removed animation crouch:sword:turn_left
+  removed animation crouch:sword:turn_right
+  removed animation crouch:sword:walk_back
+  removed animation crouch:sword:walk_front
+  removed animation crouch:sword:walk_left
+  removed animation crouch:sword:walk_right
+  removed animation flaming:pistol:idle
+  removed animation flight:acc_front_back
+  removed animation flight:acc_left_right
+  removed animation flight:acc_up_down
+  removed animation flight:dual:acc_front_back
+  removed animation flight:dual:acc_left_right
+  removed animation flight:dual:acc_up_down
+  removed animation flight:dual:aim_still_down
+  removed animation flight:dual:aim_still_up
+  removed animation flight:dual:idle
+  removed animation flight:dual:land
+  removed animation flight:dual:posing:var1
+  removed animation flight:dual:posing:var2
+  removed animation flight:dual:takeoff:var1
+  removed animation flight:dual:takeoff:var2
+  removed animation flight:pistol:acc_front_back
+  removed animation flight:pistol:acc_left_right
+  removed animation flight:pistol:acc_up_down
+  removed animation flight:pistol:aim_still_down
+  removed animation flight:pistol:aim_still_up
+  removed animation flight:pistol:idle
+  removed animation flight:pistol:land
+  removed animation flight:pistol:posing:var1
+  removed animation flight:pistol:posing:var2
+  removed animation flight:pistol:takeoff:var1
+  removed animation flight:pistol:takeoff:var2
+  removed animation flight:sword:acc_front_back
+  removed animation flight:sword:acc_left_right
+  removed animation flight:sword:acc_up_down
+  removed animation flight:sword:aim_still_up
+  removed animation flight:sword:idle
+  removed animation flight:sword:land
+  removed animation flight:sword:melee_strike_1
+  removed animation flight:sword:melee_strike_2
+  removed animation flight:sword:posing:var1
+  removed animation flight:sword:posing:var2
+  removed animation flight:sword:takeoff:var1
+  removed animation flight:sword:takeoff:var2
+  removed animation ghost_b_b:acc_front_back
+  removed animation ghost_b_b:acc_left_right
+  removed animation ghost_b_b:acc_up_down
+  removed animation ghost_b_b:board:var0
+  removed animation ghost_b_b:enter
+  removed animation ghost_b_b:exit
+  removed animation ghost_b_b:idle:var0
+  removed animation ghost_b_l:acc_front_back
+  removed animation ghost_b_l:acc_left_right
+  removed animation ghost_b_l:acc_up_down
+  removed animation ghost_b_l:board:var0
+  removed animation ghost_b_l:enter
+  removed animation ghost_b_l:idle:var0
+  removed animation ghost_b_r:acc_front_back
+  removed animation ghost_b_r:acc_left_right
+  removed animation ghost_b_r:acc_up_down
+  removed animation ghost_b_r:board:var0
+  removed animation ghost_b_r:enter
+  removed animation ghost_b_r:idle:var0
+  removed animation ghost_d:acc_front_back
+  removed animation ghost_d:acc_left_right
+  removed animation ghost_d:acc_up_down
+  removed animation ghost_d:ejection
+  removed animation ghost_d:enter
+  removed animation ghost_d:enter_a
+  removed animation ghost_d:exit
+  removed animation ghost_d:unarmed:idle
+  removed animation ghost_d_b:ejection
+  removed animation h_turret_ap_d:aim_still_up
+  removed animation h_turret_ap_d:enter
+  removed animation h_turret_ap_d:exit
+  removed animation h_turret_ap_d:fire_1
+  removed animation h_turret_ap_d:fixed:idle
+  removed animation h_turret_ap_d:grip
+  removed animation h_turret_mp_d:aim_still_up
+  removed animation h_turret_mp_d:enter
+  removed animation h_turret_mp_d:exit
+  removed animation h_turret_mp_d:fire_1
+  removed animation h_turret_mp_d:idle
+  removed animation hoist:missile:enter
+  removed animation hoist:pistol:enter
+  removed animation hoist:rifle:enter
+  removed animation hoist:sword:enter
+  removed animation insertion_pod_d:exit
+  removed animation insertion_pod_d:idle
+  removed animation mongoose_d:acc_front_back
+  removed animation mongoose_d:acc_left_right
+  removed animation mongoose_d:acc_up_down
+  removed animation mongoose_d:enter
+  removed animation mongoose_d:exit
+  removed animation mongoose_d:unarmed:aim_still_up
+  removed animation mongoose_d:unarmed:idle
+  removed animation mouth:closed
+  removed animation panic:pistol:idle
+  removed animation panic:pistol:move_front
+  removed animation panic:pistol:turn_left
+  removed animation panic:pistol:turn_right
+  removed animation patrol:missile:aim_move_up
+  removed animation patrol:missile:aim_still_up
+  removed animation patrol:missile:airborne
+  removed animation patrol:missile:idle
+  removed animation patrol:missile:kick
+  removed animation patrol:missile:move_front
+  removed animation patrol:missile:turn_left
+  removed animation patrol:missile:turn_right
+  removed animation patrol:sword:aim_still_up
+  removed animation patrol:sword:idle
+  removed animation patrol:sword:kick
+  removed animation patrol:sword:posing:var1
+  removed animation patrol:sword:posing:var2
+  removed animation patrol:sword:posing:var3
+  removed animation patrol:sword:posing:var4
+  removed animation patrol:sword:posing:var5
+  removed animation patrol:sword:turn_left
+  removed animation patrol:sword:turn_right
+  removed animation patrol:sword:walk_front
+  removed animation phantom_p_a01:any:any:exit
+  removed animation phantom_p_a01:any:any:idle
+  removed animation phantom_p_a02:any:any:exit
+  removed animation phantom_p_a03:any:any:exit
+  removed animation scarab_d_l:look
+  removed animation scarab_d_r:any:any:exit
+  removed animation scarab_d_r:any:any:idle:var0
+  removed animation scarab_d_r:any:any:idle:var1
+  removed animation scarab_d_r:any:any:idle:var2
+  removed animation scarab_d_r:any:any:idle:var3
+  removed animation scarab_d_r:look
+  removed animation scorpion_b_b:acc_front_back
+  removed animation scorpion_b_b:acc_left_right
+  removed animation scorpion_b_b:acc_up_down
+  removed animation scorpion_b_b:ejection
+  removed animation scorpion_b_b:enter
+  removed animation scorpion_b_b:exit
+  removed animation scorpion_b_b:idle:var0
+  removed animation scorpion_b_b:melee:var0
+  removed animation scorpion_b_b:throw_grenade:var0
+  removed animation scorpion_b_d_l:acc_front_back
+  removed animation scorpion_b_d_l:acc_left_right
+  removed animation scorpion_b_d_l:acc_up_down
+  removed animation scorpion_b_d_l:ejection
+  removed animation scorpion_b_d_l:enter
+  removed animation scorpion_b_d_l:exit
+  removed animation scorpion_b_d_l:idle:var0
+  removed animation scorpion_b_d_l:melee:var0
+  removed animation scorpion_b_d_l:throw_grenade:var0
+  removed animation scorpion_b_d_r:acc_front_back
+  removed animation scorpion_b_d_r:acc_left_right
+  removed animation scorpion_b_d_r:acc_up_down
+  removed animation scorpion_b_d_r:ejection
+  removed animation scorpion_b_d_r:enter
+  removed animation scorpion_b_d_r:exit
+  removed animation scorpion_b_d_r:idle:var0
+  removed animation scorpion_b_d_r:melee:var0
+  removed animation scorpion_b_d_r:throw_grenade:var0
+  removed animation scorpion_d:acc_front_back
+  removed animation scorpion_d:acc_left_right
+  removed animation scorpion_d:acc_up_down
+  removed animation scorpion_d:enter
+  removed animation scorpion_d:enter_a
+  removed animation scorpion_d:exit
+  removed animation scorpion_d:unarmed:idle
+  removed animation scorpion_p_lf:acc_front_back
+  removed animation scorpion_p_lf:acc_left_right
+  removed animation scorpion_p_lf:acc_up_down
+  removed animation scorpion_p_lf:enter
+  removed animation scorpion_p_lf:exit
+  removed animation scorpion_p_lf:flag:aim_still_up
+  removed animation scorpion_p_lf:flag:idle
+  removed animation scorpion_p_lf:missile:aim_still_up
+  removed animation scorpion_p_lf:missile:idle
+  removed animation scorpion_p_lf:pistol:aim_still_up
+  removed animation scorpion_p_lf:pistol:idle
+  removed animation scorpion_p_lf:support:aim_still_up
+  removed animation scorpion_p_lf:support:enter
+  removed animation scorpion_p_lf:support:exit
+  removed animation scorpion_p_lf:support:idle
+  removed animation spectre_b_d:board
+  removed animation spectre_b_d:enter
+  removed animation spectre_b_g:board
+  removed animation spectre_b_g:enter
+  removed animation spectre_b_p_l:board
+  removed animation spectre_b_p_l:enter
+  removed animation spectre_b_p_r:board
+  removed animation spectre_b_p_r:enter
+  removed animation spectre_d:acc_front_back
+  removed animation spectre_d:acc_left_right
+  removed animation spectre_d:acc_up_down
+  removed animation spectre_d:ejection
+  removed animation spectre_d:enter
+  removed animation spectre_d:enter_a
+  removed animation spectre_d:exit
+  removed animation spectre_d:unarmed:idle
+  removed animation spectre_g:acc_front_back
+  removed animation spectre_g:acc_left_right
+  removed animation spectre_g:acc_up_down
+  removed animation spectre_g:ejection
+  removed animation spectre_g:enter
+  removed animation spectre_g:exit
+  removed animation spectre_g:fire_1
+  removed animation spectre_g:fixed:aim_still_up
+  removed animation spectre_g:fixed:celebrate
+  removed animation spectre_g:fixed:idle
+  removed animation spectre_g:fixed:panic
+  removed animation spectre_p_l:acc_front_back
+  removed animation spectre_p_l:acc_left_right
+  removed animation spectre_p_l:acc_up_down
+  removed animation spectre_p_l:aim_still_up
+  removed animation spectre_p_l:any:any:throw_grenade
+  removed animation spectre_p_l:any:idle
+  removed animation spectre_p_l:ejection
+  removed animation spectre_p_l:enter
+  removed animation spectre_p_l:exit
+  removed animation spectre_p_l:flag:aim_still_up
+  removed animation spectre_p_l:flag:idle
+  removed animation spectre_p_l:missile:aim_still_up
+  removed animation spectre_p_l:missile:idle
+  removed animation spectre_p_l:pistol:idle
+  removed animation spectre_p_l:support:aim_still_up
+  removed animation spectre_p_l:support:idle
+  removed animation spectre_p_r:acc_front_back
+  removed animation spectre_p_r:acc_left_right
+  removed animation spectre_p_r:acc_up_down
+  removed animation spectre_p_r:aim_still_up
+  removed animation spectre_p_r:any:idle
+  removed animation spectre_p_r:ejection
+  removed animation spectre_p_r:enter
+  removed animation spectre_p_r:exit
+  removed animation spectre_p_r:flag:aim_still_up
+  removed animation spectre_p_r:flag:idle
+  removed animation spectre_p_r:missile:aim_still_up
+  removed animation spectre_p_r:missile:idle
+  removed animation spectre_p_r:pistol:idle
+  removed animation spectre_p_r:support:aim_still_up
+  removed animation spectre_p_r:support:idle
+  removed animation stand:pistol:signal_attack
+  removed animation vault:missile:enter:var1
+  removed animation vault:missile:enter:var2
+  removed animation vault:pistol:enter:var1
+  removed animation vault:pistol:enter:var2
+  removed animation vault:rifle:enter:var2
+  removed animation vault:sword:enter:var1
+  removed animation vault:sword:enter:var2
+  removed animation warthog_b_d:acc_front_back
+  removed animation warthog_b_d:acc_left_right
+  removed animation warthog_b_d:acc_up_down
+  removed animation warthog_b_d:board:var0
+  removed animation warthog_b_d:enter
+  removed animation warthog_b_d:idle:var0
+  removed animation warthog_b_g:acc_front_back
+  removed animation warthog_b_g:acc_left_right
+  removed animation warthog_b_g:acc_up_down
+  removed animation warthog_b_g:board:var0
+  removed animation warthog_b_g:enter
+  removed animation warthog_b_g:idle:var0
+  removed animation warthog_b_p:acc_front_back
+  removed animation warthog_b_p:acc_left_right
+  removed animation warthog_b_p:acc_up_down
+  removed animation warthog_b_p:board:var0
+  removed animation warthog_b_p:enter
+  removed animation warthog_b_p:idle:var0
+  removed animation warthog_d:acc_front_back
+  removed animation warthog_d:acc_left_right
+  removed animation warthog_d:acc_up_down
+  removed animation warthog_d:aim_still_up
+  removed animation warthog_d:ejected
+  removed animation warthog_d:ejection
+  removed animation warthog_d:enter
+  removed animation warthog_d:exit
+  removed animation warthog_d:unarmed:idle
+  removed animation warthog_g:acc_front_back
+  removed animation warthog_g:acc_left_right
+  removed animation warthog_g:acc_up_down
+  removed animation warthog_g:ejection
+  removed animation warthog_g:enter
+  removed animation warthog_g:exit
+  removed animation warthog_g:fire_1
+  removed animation warthog_g:fixed:aim_still_up
+  removed animation warthog_g:fixed:celebrate
+  removed animation warthog_g:fixed:idle
+  removed animation warthog_g:fixed:panic
+  removed animation warthog_p:acc_front_back
+  removed animation warthog_p:acc_left_right
+  removed animation warthog_p:acc_up_down
+  removed animation warthog_p:any:any:throw_grenade
+  removed animation warthog_p:ball:acc_front_back
+  removed animation warthog_p:ball:acc_left_right
+  removed animation warthog_p:ball:acc_up.down
+  removed animation warthog_p:ball:aim_still_up
+  removed animation warthog_p:ball:enter
+  removed animation warthog_p:ball:exit
+  removed animation warthog_p:ball:idle
+  removed animation warthog_p:ejected
+  removed animation warthog_p:ejection
+  removed animation warthog_p:enter
+  removed animation warthog_p:exit
+  removed animation warthog_p:flag:acc_front_back
+  removed animation warthog_p:flag:acc_left_right
+  removed animation warthog_p:flag:acc_up_down
+  removed animation warthog_p:flag:aim_still_up
+  removed animation warthog_p:flag:enter
+  removed animation warthog_p:flag:exit
+  removed animation warthog_p:flag:idle
+  removed animation warthog_p:flag:melee
+  removed animation warthog_p:melee
+  removed animation warthog_p:missile:aim_still_up
+  removed animation warthog_p:missile:idle
+  removed animation warthog_p:pistol:aim_still_up
+  removed animation warthog_p:pistol:idle
+  removed animation warthog_p:rifle:idle
+  removed animation warthog_p:support:aim_still_up
+  removed animation warthog_p:support:enter
+  removed animation warthog_p:support:exit
+  removed animation warthog_p:support:idle
+  removed animation warthog_p:sword:acc_front_back
+  removed animation warthog_p:sword:acc_left_right
+  removed animation warthog_p:sword:acc_up_down
+  removed animation warthog_p:sword:enter
+  removed animation warthog_p:sword:exit
+  removed animation warthog_p:sword:idle
+  removed animation warthog_p:sword:melee
+  removed animation warthog_p:unarmed:idle
+  removed animation wraith_b_b:acc_front_back
+  removed animation wraith_b_b:acc_left_right
+  removed animation wraith_b_b:acc_up_down
+  removed animation wraith_b_b:enter
+  removed animation wraith_b_b:exit
+  removed animation wraith_b_b:idle:var0
+  removed animation wraith_b_b:melee:var0
+  removed animation wraith_b_b:throw_grenade:var0
+  removed animation wraith_b_l:acc_front_back
+  removed animation wraith_b_l:acc_left_right
+  removed animation wraith_b_l:acc_up_down
+  removed animation wraith_b_l:enter
+  removed animation wraith_b_l:exit
+  removed animation wraith_b_l:idle:var0
+  removed animation wraith_b_l:melee:var0
+  removed animation wraith_b_l:throw_grenade:var0
+  removed animation wraith_b_r:acc_front_back
+  removed animation wraith_b_r:acc_left_right
+  removed animation wraith_b_r:acc_up_down
+  removed animation wraith_b_r:enter
+  removed animation wraith_b_r:exit
+  removed animation wraith_b_r:idle:var0
+  removed animation wraith_b_r:melee:var0
+  removed animation wraith_b_r:throw_grenade:var0
+  removed animation wraith_d:acc_front_back
+  removed animation wraith_d:acc_left_right
+  removed animation wraith_d:acc_up_down
+  removed animation wraith_d:any:any:idle
+  removed animation wraith_d:enter
+  removed animation wraith_d:enter_a
+  removed animation wraith_d:exit
+ [removed 2615668 bytes]
+PROCESSING objects\weapons\rifle\plasma_rifle\plasma_rifle>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\masterchief\fp\weapons\rifle\fp_plasma_rifle\fp_plasma_rifle>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\dervish\fp\weapons\rifle\fp_plasma_rifle\fp_plasma_rifle>>>
+ [removed -8 bytes]

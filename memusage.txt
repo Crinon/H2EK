@@ -1,0 +1,189 @@
+2048.000M     1.36ms after cseries_initialize()
+2048.000M     2.21ms after shell_platform_initialize()
+2048.000M     2.33ms after errors_initialize()
+2048.000M     2.38ms after real_math_initialize()
+2048.000M     2.50ms after async_initialize()
+2048.000M     2.55ms after global_preferences_initialize()
+2048.000M    74.98ms after font_initialize()
+2048.000M   139.10ms after tag_files_open()
+2048.000M   139.20ms after animation_cache_new()
+2048.000M   142.66ms after game_state_initialize()
+2048.000M   154.98ms after network_configuration_initialize()
+2048.000M   297.46ms after CreateDevice/ResetDevice
+2048.000M   302.17ms after rasterizer_memory_initialize()
+2048.000M   346.57ms after rasterizer_primary_targets_initialize()
+2048.000M   347.18ms after allocating sun-glow render targets
+2048.000M   347.25ms after rasterizer_secondary_targets_initialize()
+2048.000M   348.38ms after rasterizer_targets_initialize()
+2048.000M   348.45ms after rasterizer_default_bitmaps_initialize()
+2048.000M   348.80ms after rasterizer_transparent_geometry_initialize()
+2048.000M   349.22ms after rasterizer_vertex_shaders_initialize()
+2048.000M   349.50ms after rasterizer_debug_initialize()
+2048.000M   351.44ms after rasterizer_text_cache_initialize()
+2048.000M   351.55ms after rasterizer_profile_initialize()
+2048.000M   351.59ms after rasterizer_dynamic_reflect_initialize()
+2048.000M   351.64ms after rasterizer_cinematics_initialize()
+2048.000M   351.67ms after geometry_cache_new()
+2048.000M   351.71ms after texture_cache_new()
+2048.000M   357.58ms after rasterizer_occlusion_initialize()
+2048.000M   357.70ms after rasterizer_initialize()
+2048.000M   404.07ms after input_initialize()
+2048.000M   463.99ms after everything else
+2048.000M   588.99ms after everything else sound related
+2048.000M   589.08ms after sound platform initialize
+2048.000M   589.12ms after sound_initialize()
+2048.000M  1477.91ms after main_loading_initialize()
+2048.000M  1478.02ms after main_game_initialize()
+2048.000M  1478.06ms after main_time_initialize()
+2048.000M  1478.13ms after console_initialize()
+2048.000M  1478.18ms before initializing determinism_debug_manager
+2048.000M  1478.62ms after initializing determinism_debug_manager
+2048.000M  1478.66ms before initializing transport
+2048.000M  1478.73ms after initializing transport
+2048.000M  1478.76ms before initializing network_remote_reporting
+2048.000M  1479.02ms after initializing network_remote_reporting
+2048.000M  1479.07ms before initializing runtime_state
+2048.000M  1479.11ms after initializing runtime_state
+2048.000M  1479.14ms before initializing random_math
+2048.000M  1479.19ms after initializing random_math
+2048.000M  1479.22ms before initializing network
+2048.000M  1479.25ms after initializing network
+2048.000M  1479.29ms before initializing xbox_connection
+2048.000M  1479.33ms after initializing xbox_connection
+2048.000M  1479.37ms before initializing remote_command
+2048.000M  1479.40ms after initializing remote_command
+2048.000M  1479.43ms before initializing telnet_console
+2048.000M  1479.83ms after initializing telnet_console
+2048.000M  1479.88ms before initializing console
+2048.000M  1479.93ms after initializing console
+2048.000M  1479.96ms before initializing saved_game_files
+2048.000M  1480.00ms after initializing saved_game_files
+2048.000M  1480.04ms before initializing input_abstraction
+2048.000M  1480.11ms after initializing input_abstraction
+2048.000M  1480.14ms before initializing bink_playback
+2048.000M  1480.18ms after initializing bink_playback
+2048.000M  1480.21ms before initializing collision_log
+2048.000M  1480.26ms after initializing collision_log
+2048.000M  1480.29ms before initializing levels
+2048.000M  1480.50ms after initializing levels
+2048.000M  1480.54ms before initializing visibility_collection
+2048.000M  1480.82ms after initializing visibility_collection
+2048.000M  1480.88ms before initializing game_grief
+2048.000M  1480.93ms after initializing game_grief
+2048.000M  1480.97ms before initializing fog
+2048.000M  1482.07ms after initializing fog
+2048.000M  1482.19ms before initializing game_state
+2048.000M  1482.24ms after initializing game_state
+2048.000M  1482.28ms before initializing game_time
+2048.000M  1482.34ms after initializing game_time
+2048.000M  1482.39ms before initializing game_allegiance
+2048.000M  1482.44ms after initializing game_allegiance
+2048.000M  1482.48ms before initializing players
+2048.000M  1482.53ms after initializing players
+2048.000M  1482.56ms before initializing player_control
+2048.000M  1482.60ms after initializing player_control
+2048.000M  1482.64ms before initializing player_training
+2048.000M  1482.68ms after initializing player_training
+2048.000M  1482.72ms before initializing game_engine
+2048.000M  1482.76ms after initializing game_engine
+2048.000M  1482.81ms before initializing simulation
+2048.000M  1482.92ms after initializing simulation
+2048.000M  1482.97ms before initializing scenario
+2048.000M  1483.02ms after initializing scenario
+2048.000M  1483.06ms before initializing physics_constants
+2048.000M  1483.10ms after initializing physics_constants
+2048.000M  1483.15ms before initializing collision_debug
+2048.000M  1483.19ms after initializing collision_debug
+2048.000M  1483.23ms before initializing objects
+2048.000M  1485.56ms after initializing objects
+2048.000M  1485.63ms before initializing object_early_movers
+2048.000M  1485.68ms after initializing object_early_movers
+2048.000M  1485.71ms before initializing object_scripting
+2048.000M  1485.75ms after initializing object_scripting
+2048.000M  1485.78ms before initializing scenario_kill_trigger_volumes
+2048.000M  1485.83ms after initializing scenario_kill_trigger_volumes
+2048.000M  1485.86ms before initializing rasterizer
+2048.000M  1485.89ms after initializing rasterizer
+2048.000M  1485.93ms before initializing render
+2048.000M  1486.04ms after c_render_primitive_list::initialize_for_game()
+2048.000M  1486.10ms after initializing render
+2048.000M  1486.13ms before initializing structures
+2048.000M  1486.18ms after initializing structures
+2048.000M  1486.23ms before initializing breakable_surfaces
+2048.000M  1486.28ms after initializing breakable_surfaces
+2048.000M  1486.32ms before initializing director
+2048.000M  1486.36ms after initializing director
+2048.000M  1486.41ms before initializing observer
+2048.000M  1486.47ms after initializing observer
+2048.000M  1486.50ms before initializing decals
+2048.000M  1487.37ms after initializing decals
+2048.000M  1487.44ms before initializing c_beam
+2048.000M  1487.48ms after initializing c_beam
+2048.000M  1487.51ms before initializing contrails
+2048.000M  1487.57ms after initializing contrails
+2048.000M  1487.61ms before initializing effects
+2048.000M  1487.70ms after initializing effects
+2048.000M  1487.75ms before initializing c_decorator_placement_definition
+2048.000M  1487.78ms after initializing c_decorator_placement_definition
+2048.000M  1487.81ms before initializing point_physics
+2048.000M  1487.86ms after initializing point_physics
+2048.000M  1487.91ms before initializing sound_classes
+2048.000M  1487.95ms after initializing sound_classes
+2048.000M  1487.98ms before initializing sound
+2048.000M  1488.04ms after initializing sound
+2048.000M  1488.08ms before initializing game_sound_deterministic
+2048.000M  1488.13ms after initializing game_sound_deterministic
+2048.000M  1488.17ms before initializing game_sound
+2048.000M  1488.21ms after initializing game_sound
+2048.000M  1488.25ms before initializing game_sound_player_effects
+2048.000M  1488.29ms after initializing game_sound_player_effects
+2048.000M  1488.32ms before initializing vibration
+2048.000M  1488.36ms after initializing vibration
+2048.000M  1488.39ms before initializing player_effect
+2048.000M  1488.45ms after initializing player_effect
+2048.000M  1488.49ms before initializing user_interface
+2048.000M  1488.54ms after initializing user_interface
+2048.000M  1488.57ms before initializing interface
+2048.000M  1488.76ms after initializing interface
+2048.000M  1488.81ms before initializing cheats
+2048.000M  1488.85ms after initializing cheats
+2048.000M  1488.88ms before initializing cinematic
+2048.000M  1488.93ms after initializing cinematic
+2048.000M  1488.96ms before initializing game_incidents
+2048.000M  1489.00ms after initializing game_incidents
+2048.000M  1489.03ms before initializing hs
+2048.000M  1489.19ms after initializing hs
+2048.000M  1489.22ms before initializing recorded_animations
+2048.000M  1489.26ms after initializing recorded_animations
+2048.000M  1489.29ms before initializing debug_menu
+2048.000M  1489.32ms after initializing debug_menu
+2048.000M  1489.36ms before initializing object_placement
+2048.000M  1489.40ms after initializing object_placement
+2048.000M  1489.45ms before initializing ai
+2048.000M  1490.02ms after initializing ai
+2048.000M  1490.07ms before initializing havok
+2048.000M  1490.98ms after initializing havok
+2048.000M  1491.09ms before initializing player_positions
+2048.000M  1491.16ms after initializing player_positions
+2048.000M  1491.20ms before initializing precomputed_lighting
+2048.000M  1491.24ms after initializing precomputed_lighting
+2048.000M  1491.27ms before initializing predicted_resources
+2048.000M  1491.30ms after initializing predicted_resources
+2048.000M  1491.34ms before initializing portal_activation
+2048.000M  1491.38ms after initializing portal_activation
+2048.000M  1491.41ms before initializing scenario_interpolators
+2048.000M  1491.45ms after initializing scenario_interpolators
+2048.000M  1491.48ms before initializing data_mine
+2048.000M  1491.51ms after initializing data_mine
+2048.000M  1491.55ms before initializing game_save
+2048.000M  1491.59ms after initializing game_save
+2048.000M  1491.62ms before initializing achievement_manager
+2048.000M  1491.76ms after initializing achievement_manager
+2048.000M  1491.80ms before initializing ice_cream_flavor
+2048.000M  1491.86ms after initializing ice_cream_flavor
+2048.000M  1491.89ms before initializing editor
+2048.000M  1492.37ms after initializing editor
+2048.000M  1515.58ms after game_initialize()
+2048.000M  1523.60ms after console_execute_initial_commands()
+2048.000M  1524.93ms after starting map manager synchronize()
+2048.000M  1525.00ms finished initialization, ready to launch main loop

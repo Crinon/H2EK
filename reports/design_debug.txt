@@ -1,0 +1,8 @@
+
+
+============================================================================================
+12.28.23 10:55:21.888  sapien  debug pc untracked version  Jun 20 2023 11:29:20
+============================================================================================
+
+
+12.28.23 10:55:21.888  [03a_oldmombasa_cinematics line 404] this is not a valid ai squad or squad group: intro_hog_01/driver (ai_vehicle_get_from_starting_location intro_hog_01/hog) warthog_d)

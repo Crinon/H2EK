@@ -1,0 +1,65 @@
+
+
+============================================================================================
+12.26.23 13:40:11.958  tool  debug pc untracked version  Jun 20 2023 11:27:47
+============================================================================================
+
+
+12.26.23 13:40:11.958  fixing bitmap for DX11 (forced=default, format=a8y8) rasterizer\linear_corner_fade
+12.26.23 13:40:11.989  fixing bitmap for DX11 (forced=default, format=p8_bump) incompetent\bitmaps\grey_generic_bump
+12.26.23 13:40:12.068  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\covenant\military\capital_ship\bitmaps\capital_ship_b_bump
+12.26.23 13:40:12.079  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\covenant\military\capital_ship\bitmaps\capital_ship_a_bump
+12.26.23 13:40:12.084  fixing bitmap for DX11 (forced=default, format=a8y8) shaders\default_bitmaps\bitmaps\clouds_256
+12.26.23 13:40:12.711  fixing bitmap for DX11 (forced=default, format=a8y8) effects\bitmaps\lens_flares\soft_flare_large
+12.26.23 13:40:12.931  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\masterchief\bitmaps\masterchief_bump
+12.26.23 13:40:13.229  fixing bitmap for DX11 (forced=default, format=a8y8) rasterizer\plasma_shield_noise
+12.26.23 13:40:13.370  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\battle_rifle\bitmaps\battle_rifle_bump
+12.26.23 13:40:13.401  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\battle_rifle\bitmaps\ejection_port_bump
+12.26.23 13:40:13.448  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\powerups\battle_rifle_ammo\bitmaps\br_ammo_bump
+12.26.23 13:40:13.527  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\battle_rifle\bitmaps\battle_rifle_knob_bump
+12.26.23 13:40:13.590  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\bitmaps\head_bump
+12.26.23 13:40:13.746  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\bitmaps\helmet_bump
+12.26.23 13:40:13.762  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\bitmaps\arms_bump
+12.26.23 13:40:13.762  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\bitmaps\torso_bump
+12.26.23 13:40:13.778  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\bitmaps\legs_bump
+12.26.23 13:40:13.783  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\bitmaps\council_helmet_bump
+12.26.23 13:40:13.840  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\elite_honor_guard\bitmaps\elite_honor_armor_bump
+12.26.23 13:40:13.856  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\bitmaps\teeth_bump
+12.26.23 13:40:14.139  fixing bitmap for DX11 (forced=default, format=a1r5g5b5) effects\bitmaps\energy\spark_c_flak
+12.26.23 13:40:14.201  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\plasma_rifle\bitmaps\plasma_rifle_card_bump
+12.26.23 13:40:14.201  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\plasma_rifle\bitmaps\plasma_rifle_bump
+12.26.23 13:40:14.248  fixing bitmap for DX11 (forced=default, format=r5g6b5) effects\bitmaps\lens_flares\light_volume
+12.26.23 13:40:14.678  fixing bitmap for DX11 (forced=default, format=a8y8) rasterizer\distance_attenuation
+12.26.23 13:40:14.725  fixing bitmap for DX11 (forced=default, format=a8y8) rasterizer\glow
+12.26.23 13:40:14.788  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\hud_waypoints
+12.26.23 13:40:14.974  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\default_arrow
+12.26.23 13:40:15.006  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\dead_friendly_arrow
+12.26.23 13:40:15.068  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\reset_flag
+12.26.23 13:40:15.085  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\reset_bomb
+12.26.23 13:40:15.131  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\reset_ball
+12.26.23 13:40:15.210  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\h_topright
+12.26.23 13:40:15.225  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\h_topcenter
+12.26.23 13:40:15.225  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\h_topleft
+12.26.23 13:40:15.241  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\h_center
+12.26.23 13:40:15.257  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\c_topright
+12.26.23 13:40:15.257  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\c_topcenter
+12.26.23 13:40:15.274  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\c_topleft
+12.26.23 13:40:15.290  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\c_center
+12.26.23 13:40:15.321  tags: missing tag (ffffffff)ui\hud\bitmaps\hud_msg_icons_sm.bitmap replaced by (e5e302e9)rasterizer\invalid.bitmap
+12.26.23 13:40:19.580  bungie_multiplayer_tag_patches: skipping, not building MP or MP shared cache file
+12.26.23 13:40:19.753  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\metals\matte_grey_edge_bump
+12.26.23 13:40:19.784  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\foundation_panels_a_bump
+12.26.23 13:40:19.795  fixing bitmap for DX11 (forced=default, format=a8y8) scenarios\bitmaps\detail_maps\metal\metal_smallpanels
+12.26.23 13:40:20.020  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\detail_maps\concrete\poured_bump
+12.26.23 13:40:20.035  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\metals\metal_strips_c_bump
+12.26.23 13:40:20.145  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\metals\matte_grey_bump
+12.26.23 13:40:20.161  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\nm\nm_metal_grey_bump
+12.26.23 13:40:20.176  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\metals\door_bulkhead_wall_new_bump
+12.26.23 13:40:20.196  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\metals\street_border_bump
+12.26.23 13:40:20.208  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\nm\nm_trimb_bump
+12.26.23 13:40:20.224  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\x03_panels_a_bump
+12.26.23 13:40:20.239  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\nm\panel_bluegrey_bump
+12.26.23 13:40:20.256  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\nm\nm_trima_bump
+12.26.23 13:40:20.271  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\nm\nm_building_straight_bump
+12.26.23 13:40:20.273  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\metals\street_straight_stop_bump
+12.26.23 13:40:20.296  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\metals\street_straight_bump

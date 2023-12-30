@@ -1,0 +1,55 @@
+
+
+============================================================================================
+12.25.23 23:40:50.149  tool  debug pc untracked version  Jun 20 2023 11:27:47
+============================================================================================
+
+
+12.25.23 23:40:50.149  ### WARNING physics model 'scenarios\objects\covenant\military\scarab\scarab' couldn't resolve material 'physics_ref_phantom' (''), using default material
+12.25.23 23:40:50.149  ### WARNING physics model 'scenarios\objects\covenant\military\scarab\scarab' couldn't resolve material 'attractor' (''), using default material
+12.25.23 23:40:51.265  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'objects\cinematics\human\inamberclad\inamberclad'
+12.25.23 23:40:52.269  ### WARNING object 'scenarios\objects\covenant\military\cov_recharge_station\cov_recharge_station' has a bounding sphere radius much less than its model (1.300000 vs 1.723440)
+12.25.23 23:40:52.932  ### WARNING physics model 'scenarios\objects\solo\earthcity\road_objects\garage_door\garage_door' couldn't resolve material 'h_um_matte_grey_edge_rusty' (''), using default material
+12.25.23 23:40:53.057  ### ERROR geometry 'scenarios\objects\special\null_up\null_up' shader 'scenarios\objects\special\shaders\invisible' is transparent but was imported as opaque
+12.25.23 23:40:53.073  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'scenarios\objects\special\null_up\null_up'
+12.25.23 23:40:53.356  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'incompetent\default_object'
+12.25.23 23:40:54.234  ### WARNING object 'objects\cinematics\human\inamberclad_bridge\inamberclad_bridge' has a bounding sphere radius much less than its model (2.500000 vs 3.266184)
+12.25.23 23:40:54.313  ### WARNING object 'effects\scenery\skies\human_and_cov_firing' has no bounding radius
+12.25.23 23:40:54.488  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'objects\cinematics\texture_camera\texture_camera'
+12.25.23 23:40:54.501  ### WARNING object 'objects\cinematics\texture_camera\texture_camera' has no bounding radius
+12.25.23 23:40:54.721  ### WARNING object 'scenarios\objects\nature\trees\tree_acacia\acacia_l\acacia_l' has a bounding sphere radius much less than its model (6.500000 vs 9.932560)
+12.25.23 23:40:54.737  ### WARNING object 'scenarios\objects\nature\trees\tree_acacia\acacia\acacia' has a bounding sphere radius much less than its model (5.500000 vs 8.444750)
+12.25.23 23:40:54.768  ### WARNING object 'objects\cinematics\effects\slipspace_shockwave\slipspace_shockwave' has a bounding sphere radius much less than its model (1.000000 vs 92.079803)
+12.25.23 23:40:54.941  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'objects\cinematics\effects\slipspace_shockwave_start\slipspace_shockwave_start'
+12.25.23 23:40:54.972  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'objects\cinematics\effects\slipspace_shockwave_closeup\slipspace_shockwave_closeup'
+12.25.23 23:40:54.989  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'scenarios\objects\human\military\spotting_scope\spotting_scope'
+12.25.23 23:40:55.035  ### WARNING object 'objects\cinematics\human\weapons\smg\smg' has no bounding radius
+12.25.23 23:40:55.050  ### WARNING physics model 'scenarios\objects\special\cooke_cutter_cylinder\cooke_cutter_cylinder' couldn't resolve material 'large_dias' (''), using default material
+12.25.23 23:40:55.390  ### WARNING model 'objects\characters\marine\marine' variant 'johnson_combat' cannot find region 'arms'
+12.25.23 23:41:01.192  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'objects\weapons\rifle\smg\garbage\magazine\magazine'
+12.25.23 23:41:05.563  ### WARNING model 'objects\characters\marine\crewman\crewman' collision model region 'helmet' has no corresponding model region (will not be collideable)
+12.25.23 23:41:07.765  ### WARNING object 'objects\vehicles\ghost\garbage\seat\seat' has a bounding sphere radius much less than its model (0.120000 vs 0.364857)
+12.25.23 23:41:07.796  ### WARNING object 'objects\vehicles\ghost\garbage\l_wing_shell\l_wing_shell' has a bounding sphere radius much less than its model (0.080000 vs 0.285048)
+12.25.23 23:41:07.812  ### WARNING object 'objects\vehicles\ghost\garbage\r_wing_shell\r_wing_shell' has a bounding sphere radius much less than its model (0.120000 vs 0.264751)
+12.25.23 23:41:08.455  ### ERROR geometry 'objects\weapons\support_high\flak_cannon\projectiles\flak_projectile' shader 'objects\weapons\support_high\flak_cannon\shaders\flak_bolt_luminous' is transparent but was imported as opaque
+12.25.23 23:41:08.502  ### WARNING physics model 'objects\vehicles\phantom\phantom' couldn't resolve material 'gravity_lift' (''), using default material
+12.25.23 23:41:08.502  ### WARNING physics model 'objects\vehicles\phantom\phantom' couldn't resolve material 'gravity_lift_brake' (''), using default material
+12.25.23 23:41:08.502  ### WARNING physics model 'objects\vehicles\phantom\phantom' couldn't resolve material 'special_material' (''), using default material
+12.25.23 23:41:08.523  ### WARNING physics model 'objects\vehicles\phantom\phantom' couldn't resolve material 'gravity_lift_vehicle' (''), using default material
+12.25.23 23:41:10.464  ### WARNING object 'scenarios\objects\covenant\military\scarab\scarab' has a bounding sphere radius much less than its model (12.500000 vs 16.304300)
+12.25.23 23:41:11.841  ### ERROR geometry 'objects\vehicles\civilian\uberchassis\uberchassis' shader 'objects\vehicles\civilian\uberchassis\shaders\uberchassis_glass_dead' is opaque but was imported as transparent
+12.25.23 23:41:11.841  ### ERROR geometry 'objects\vehicles\civilian\uberchassis\uberchassis' shader 'objects\vehicles\civilian\uberchassis\shaders\uberchassis_glass_dead' is opaque but was imported as transparent
+12.25.23 23:41:11.857  ### ERROR geometry 'objects\vehicles\civilian\uberchassis\uberchassis' shader 'objects\vehicles\civilian\uberchassis\shaders\uberchassis_glass_dead' is opaque but was imported as transparent
+12.25.23 23:41:12.266  ### WARNING collision model 'objects\gear\covenant\military\battery\battery' has 1 nonconvex surfaces
+12.25.23 23:41:12.502  ### WARNING model 'objects\vehicles\civilian\uberchassis\uberchassis_tire\uberchassis_tire' collision model region 'tire' has no corresponding model region (will not be collideable)
+12.25.23 23:41:12.502  ### WARNING model 'objects\vehicles\civilian\uberchassis\uberchassis' variant 'destroyed' cannot find region 'wheel_fr'
+12.25.23 23:41:12.502  ### WARNING model 'objects\vehicles\civilian\uberchassis\uberchassis' variant 'destroyed' cannot find region 'wheel_fl'
+12.25.23 23:41:12.518  ### WARNING model 'objects\vehicles\civilian\uberchassis\uberchassis' variant 'destroyed' cannot find region 'wheel_bl'
+12.25.23 23:41:12.531  ### WARNING model 'objects\vehicles\civilian\uberchassis\uberchassis' variant 'destroyed' cannot find region 'wheel_br'
+12.25.23 23:41:12.597  ### WARNING object 'objects\vehicles\civilian\uberchassis\uberchassis' has a bounding sphere radius much less than its model (0.750000 vs 0.971937)
+12.25.23 23:41:12.645  ### WARNING model 'objects\weapons\rifle\brute_plasma_rifle\brute_plasma_rifle' collision model region 'default' has no corresponding model region (will not be collideable)
+12.25.23 23:41:12.913  ### WARNING physics model 'scenarios\objects\human\urban\air\air' couldn't resolve material 'airshader' (''), using default material
+12.25.23 23:41:12.933  ### WARNING object 'scenarios\objects\human\urban\air\ai_cap' has a bounding sphere radius much less than its model (0.100000 vs 0.521992)
+12.25.23 23:41:13.245  ### WARNING physics model 'objects\characters\ambient_life\reach_moa\reach_moa' couldn't resolve material 'reach_moa' (''), using default material
+12.25.23 23:41:13.701  ### the creature 'objects\characters\ambient_life\seagull\seagull' has no 'head' marker
+12.25.23 23:41:13.701  ### WARNING object 'objects\characters\ambient_life\seagull\seagull' has a bounding sphere radius much less than its model (0.200000 vs 0.250794)

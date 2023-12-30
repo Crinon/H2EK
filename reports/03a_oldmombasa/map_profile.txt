@@ -1,0 +1,27 @@
+3020.781: main_slow_loading_callback
+3020.781: entering main_game_load_map()
+3020.781: main_slow_loading_callback
+3020.781: after main_load_map_status[_secure]
+3020.781: main_slow_loading_callback
+3020.781: after possibly loading the map blocking
+3020.781: after main_tag_load_begin
+3020.781: main_slow_loading_callback
+3020.781: after main_game_internal_map_load_begin
+3020.781: main_slow_loading_callback
+3042.218: main_slow_loading_callback
+3042.218: before texture_cache_open
+3042.218: after texture_cache_open
+3042.218: after done loading textures
+3042.218: before shader preload
+3042.218: after shader preload
+3042.218: before pcm preload
+3042.218: main_slow_loading_callback
+3042.218: after pcm preload
+3042.218: before speech data preload
+3042.218: main_slow_loading_callback
+3042.218: after speech data preload
+3042.218: after main_game_internal_map_load_complete
+3042.218: main_slow_loading_callback
+3042.218: after main_tag_load_end
+3042.218: main_slow_loading_callback
+3042.218: leaving main_game_load_map()

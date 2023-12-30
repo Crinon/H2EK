@@ -1,0 +1,11 @@
+
+
+============================================================================================
+12.26.23 13:40:20.305  tool  debug pc untracked version  Jun 20 2023 11:27:47
+============================================================================================
+
+
+12.26.23 13:40:20.305  ### WARNING structure 'scenarios\ui\mainmenu\mainmenu' material #2 shader 'scenarios\shaders\ui\mainmenu\nm_arial_water' has no material name
+12.26.23 13:40:20.319  ### WARNING structure 'scenarios\ui\mainmenu\mainmenu' material #5 shader 'scenarios\shaders\ui\mainmenu\building_windows' has no material name
+12.26.23 13:40:20.319  ### WARNING structure 'scenarios\ui\mainmenu\mainmenu' material #6 shader 'scenarios\shaders\ui\mainmenu\nm_arial_city' has no material name
+12.26.23 13:40:20.335  ### WARNING structure 'scenarios\ui\mainmenu\mainmenu' material #30 shader 'scenarios\shaders\ui\mainmenu\nm_arial_city' has no material name

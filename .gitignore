@@ -1,40 +1,43 @@
-/*
-!/tags
-/tags/*
-!/tags/ai
-!/tags/aife
-!/tags/camera
-!/tags/cinematics
-!/tags/cursors
-!/tags/dragonsoul
-!/tags/dw3
-!/tags/effects
-!/tags/globals
-!/tags/halo3
-!/tags/incompetent
-!/tags/lacks
-!/tags/multiplayer
-!/tags/objects
-!/tags/phanrev
-!/tags/rasterizer
-!/tags/reports
-!/tags/objects
-!/tags/scenarios
-!/tags/shaders
-!/tags/stacker
-# !/tags/temp_scenario
-# !/tags/test
-# !/tags/ui
-# !/tags/sound_remastered
-!/tags/sound
-/tags/sound/*
-!/tags/sound/ambience
-!/tags/sound/characters
-!/tags/sound/cinematics
+# /*
+# !/tags
+# /tags/*
+# !/tags/ai
+# !/tags/aife
+# !/tags/camera
+# !/tags/cinematics
+# !/tags/cursors
+# !/tags/dragonsoul
+# !/tags/dw3
+# !/tags/effects
+# !/tags/globals
+# !/tags/halo3
+# !/tags/incompetent
+# !/tags/lacks
+# !/tags/multiplayer
+# !/tags/objects
+# !/tags/phanrev
+# !/tags/rasterizer
+# !/tags/reports
+# !/tags/objects
+# !/tags/scenarios
+# !/tags/shaders
+# !/tags/stacker
+# # !/tags/temp_scenario
+# # !/tags/test
+# # !/tags/ui
+# # !/tags/sound_remastered
+# !/tags/sound
+# /tags/sound/*
+# !/tags/sound/ambience
+# !/tags/sound/characters
+# !/tags/sound/cinematics
 !/tags/sound/dialog
-# /tags/sound/dialog/*
-# !/tags/sound/dialog/combat
+/tags/sound/dialog/*
+!/tags/sound/dialog/combat
 !/tags/sound/ambience
+/shader_cache/*
+/tags/sound_remastered/*
+/tags/ui/*
 
 
 # !/tags/ludantes

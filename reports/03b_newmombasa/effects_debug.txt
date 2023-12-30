@@ -1,0 +1,14 @@
+
+
+============================================================================================
+12.25.23 23:40:52.834  tool  debug pc untracked version  Jun 20 2023 11:27:47
+============================================================================================
+
+
+12.25.23 23:40:52.834  ### WARNING effect 'effects\scenarios\objects\solo\earthcity\toll_booth\toll_booth_top_destroyed' particle system is invalid
+12.25.23 23:40:52.916  ### WARNING effect 'effects\scenarios\objects\solo\earthcity\toll_booth\toll_booth_bot_destroyed' particle system is invalid
+12.25.23 23:40:54.909  ### WARNING effect 'effects\cinematics\03\slipspace_collapse' particle system is invalid
+12.25.23 23:41:11.257  ### WARNING effect 'effects\cinematics\03\slipspace_open' particle system is invalid
+12.25.23 23:41:11.289  ### WARNING effect 'effects\cinematics\03\slipspace_widening' particle system is invalid
+12.25.23 23:41:11.289  ### WARNING effect 'effects\cinematics\03\slipspace_widening' particle system is invalid
+12.25.23 23:41:12.739  ### WARNING effect 'effects\impact\explosion_small\brute_shot\detonation' part 'effects\impact\explosion_small\brute_shot\detonation' was not found

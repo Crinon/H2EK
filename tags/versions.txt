@@ -1,0 +1,176 @@
+To solve :
+Mauvais scorption dans tunnel
+plus d'armes avant l'hotel
+faire les swap banshee and ghost IA
+4 hunter bug, les faire pop ailleurs
+more weapon before floods
+shader vk78
+
+
+BSP1
+- Weapons and vehicle placing
+- Give AI weapons
+- Give AI variety
+- Falling pod
+
+BSP2
+- Weapons and vehicle placing
+- NPC variety
+- Enemy gravity throne
+BSP2 : FRG hunter
+
+BSP3
+- Add backup fun scorpion and banshee
+- remove container
+- Weapons and vehicle placing
+
+Compilation >1.1go
+Osoyoos simple package : ERROR
+Osoyoos compress+resource sharing : ERROR
+Pepper single scenario  : YES
+
+
+End
+Add sentinel beam variant
+ennemy SL
+Ennemy gravity throne
+gore biped
+earthmilitia
+add stacker creep
+Give AI weapons
+ludantes lights
+give Mangoose model_animation_graph !! HAMMER
+plasma repeater
+skewer
+cov turret DW3
+destrictible pelican
+destrictible phantom
+scarab DW3 dans l'eau et le faire tirer
+remplacer spectre beta DW3
+
+
+Strings modif
+tool extract-unicode-strings to extract ut
+tool strings to compile it after editing
+
+Version 11
+Fix h turret gl placement
+Add second h turret gl
+Remove one banshee from ghost1
+
+
+
+
+
+Version 10 OVER
+BPS1 : Hunter door +2
+BPS1 : Place entry hostel weapon
+Added all Zoephie weapons EXCEPT SWEWER
+
+Version 9 OVER
+Removed from version 8
+BSP1 : Add 1 engineer entry hostel to squad e6_cov_inf0_2
+BSP1 : Place weapons at hostel entry
+commented ai place  armed juggernaut
+
+Version 8 BORKEN
+BSP1 : give 2 engineer some space
+BSP1 : Place weapons at pelican crash site
+BSP1 : Place weapons after highway
+BSP1 : Place weapons flood squad
+BSP2 : Squad minicar is ally
+BSP2 : Add Seraph crash site
+BSP2 : moved container
+BSP2 : Replace hog by rocket hog
+BSP2 : Add 1 ghost to e8_cov_ghosts0_0 and modified the script
+BSP2 : Add fun scorpion and banshee to entry tunnel
+BSP2 : Add 2 engineers to e11_cov_inf2
+Addedd E3 BR
+Addedd E3 Brute shot
+Added my gravity throne
+Added banished ghost
+Added banished banshee
+
+Version 7 OVER
+squad lud_e8_cov_phantom0_0
+script lud_e8_cov_phantom0_0
+squad e9_mars_goldwarthog_lud
+script e9_mars_goldwarthog_lud
+squad aawraith
+script aawraith
+squad squads_140_spectre
+script squads_140_spectre
+squad e9_banshee
+script e9_banshee
+Add dw3 creep
+Update ai genereic for dw3 creep turret
+squad lud_creep
+script lud_creep
+squad floodjugger2
+script floodjugger2
+squad drinol2
+script drinol2
+pointset lud_phantomlongflyby_entry2
+squad lud_e11_cov_phantom0_0
+script lud_e11_cov_phantom0_0
+squad minicar
+script minicar
+
+
+
+
+Version 6 OVER
+Change 1st phantom to prophet
+Minor adjustement
+
+Version 5 OVER
+Add hunter shieded
+Changed door hunters to shielded
+Place hunter shield in hotel squad
+Add Reach Spirit
+Add H3 Phantom
+Update ai genereic
+
+Version 4 OVER
+squad insertion1
+script insertion1
+squad lud_ghost_in_squad
+script lud_ghost_in_squad
+squad floodjugger_frg
+script floodjugger_frg
+script lud_floods1
+script lud_floods1
+Add floodjugger_frg
+Add Flood heretic elite
+Add Flood brute
+Add Flood carrier
+Add Flood heretic elite
+Add Flood grunt
+Add Flood ODST
+
+Version 3 OVER
+squad engineer1
+script engineer1
+squad drinol1
+script drinol1
+squad rhogia1
+script rhogia1
+squad ghost1
+script ghost1
+squad lud_ghost_in_squad
+script lud_ghost_in_squad
+
+Version 2 OVER
+fixed UI ARGL & chaingun
+wraith_anti_air
+turret GL
+digsite mangoose (no model_animation_graph)
+digsite rockethog
+warthog_golden
+uberchassis + gauss + troop + damaged (chaingun)
+rocket hog M1A12
+creep dw3
+creep cargo dw3
+
+Version 1 OVER
+All weapon execpt Zoephie

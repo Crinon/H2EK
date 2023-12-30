@@ -1,0 +1,31 @@
+
+
+============================================================================================
+12.26.23 13:43:02.666  tool  debug pc untracked version  Jun 20 2023 11:27:47
+============================================================================================
+
+
+12.26.23 13:43:02.666  WARNING: shader 'objects\weapons\rifle\battle_rifle\shaders\tens' could not resolve bitmap 'zero'
+12.26.23 13:43:02.682  WARNING: shader 'objects\weapons\rifle\battle_rifle\shaders\ones' could not resolve bitmap 'zero'
+12.26.23 13:43:13.838  ### WARNING shader pass 'shaders\shader_passes\texture_camera\scope' texture #0 (implementation #0) has source extern - ignoring parameter name "scope"
+12.26.23 13:43:15.032  WARNING: shader 'objects\weapons\rifle\assault_rifle\halo1_mcc\shaders\compass' could not resolve bitmap 'zero'
+12.26.23 13:43:15.032  WARNING: shader 'objects\weapons\rifle\assault_rifle\halo1_mcc\shaders\tens' could not resolve bitmap 'zero'
+12.26.23 13:43:15.047  WARNING: shader 'objects\weapons\rifle\assault_rifle\halo1_mcc\shaders\ones' could not resolve bitmap 'zero'
+12.26.23 13:43:15.189  WARNING: shader 'kashiiera\objects\weapons\support_low\flamethrower_ce\shaders\one' could not resolve bitmap 'zero'
+12.26.23 13:43:15.204  WARNING: shader 'kashiiera\objects\weapons\support_low\flamethrower_ce\shaders\ten' could not resolve bitmap 'zero'
+12.26.23 13:43:15.204  WARNING: shader 'kashiiera\objects\weapons\support_low\flamethrower_ce\shaders\hundred' could not resolve bitmap 'zero'
+12.26.23 13:43:15.958  WARNING: shader 'digsite\objects\weapons\assault_rifle\assault_rifle_99_mac\shaders\ar_gl_compass' could not resolve bitmap 'zero'
+12.26.23 13:43:15.974  WARNING: shader 'digsite\objects\weapons\assault_rifle\assault_rifle_99_mac\shaders\ar_gl_numbers1' could not resolve bitmap 'zero'
+12.26.23 13:43:15.974  WARNING: shader 'digsite\objects\weapons\assault_rifle\assault_rifle_99_mac\shaders\ar_gl_numbers' could not resolve bitmap 'zero'
+12.26.23 13:43:16.675  WARNING: shader 'objects\weapons\zoephie\halo_reach\weapons\rifle\dmr\shaders\ones_dmr' could not resolve bitmap 'zero'
+12.26.23 13:43:16.684  WARNING: shader 'objects\weapons\zoephie\halo_reach\weapons\rifle\dmr\shaders\tens_dmr' could not resolve bitmap 'zero'
+12.26.23 13:43:17.390  ### ERROR shader 'objects\weapons\zoephie\infinite_weapons\objects\weapons\rifle\vk78\shaders\vk78_display_screen' has no template!! (skipping validation)
+12.26.23 13:43:17.421  WARNING: shader 'objects\weapons\zoephie\infinite_weapons\objects\weapons\rifle\vk78\shaders\vk_tens' could not resolve bitmap 'zero'
+12.26.23 13:43:17.437  WARNING: shader 'objects\weapons\zoephie\infinite_weapons\objects\weapons\rifle\vk78\shaders\vk_ones' could not resolve bitmap 'zero'
+12.26.23 13:43:17.437  ### ERROR shader 'objects\weapons\zoephie\infinite_weapons\objects\weapons\rifle\vk78\shaders\vk78_scope' has no template!! (skipping validation)
+12.26.23 13:43:17.562  ### ERROR shader 'objects\weapons\zoephie\infinite_weapons\objects\weapons\rifle\vk78\shaders\vk78_display_screen' has no template!! (skipping validation)
+12.26.23 13:43:17.594  ### ERROR shader 'objects\weapons\zoephie\infinite_weapons\objects\weapons\rifle\vk78\shaders\vk78_scope' has no template!! (skipping validation)
+12.26.23 13:43:17.877  WARNING: shader 'objects\weapons\zoephie\infinite_weapons\objects\weapons\rifle\ma40\shaders\compass' could not resolve bitmap 'zero'
+12.26.23 13:43:17.877  WARNING: shader 'objects\weapons\zoephie\infinite_weapons\objects\weapons\rifle\ma40\shaders\tens' could not resolve bitmap 'zero'
+12.26.23 13:43:17.892  WARNING: shader 'objects\weapons\zoephie\infinite_weapons\objects\weapons\rifle\ma40\shaders\ones' could not resolve bitmap 'zero'
+12.26.23 13:43:20.372  WARNING: shader 'effects\screen_effects\blur' could not resolve bitmap 'identity'

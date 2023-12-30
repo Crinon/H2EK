@@ -1,0 +1,8 @@
+Done en (shared: 0.60M other: 2.55M)
+Done jpn (shared: 1.00M other: 2.31M)
+Done de (shared: 0.83M other: 3.13M)
+Done fr (shared: 0.90M other: 3.59M)
+Done sp (shared: 0.85M other: 3.44M)
+Done it (shared: 0.66M other: 2.78M)
+Done kor (shared: 0.70M other: 2.75M)
+Done cht (shared: 1.60M other: 3.12M)

@@ -1,0 +1,15 @@
+
+
+============================================================================================
+12.26.23 13:40:13.464  tool  debug pc untracked version  Jun 20 2023 11:27:47
+============================================================================================
+
+
+12.26.23 13:40:13.464  sound 'sound_remastered\weapons\impacts_riccs\bullet_flyby_medium' maximum gain is too large: 1.00dB, should be <= 0.0dB
+12.26.23 13:40:13.464  sound 'sound_remastered\weapons\impacts_riccs\bullet_flyby_medium' gain bounds clamped to: [-3.00dB, 0.00dB]
+12.26.23 13:40:14.284  sound 'sound_remastered\weapons\plasma_rifle\plas_fire_mech_swtnr' minimum gain is too small: -65.00dB, should be >= -64.0dB
+12.26.23 13:40:14.284  sound 'sound_remastered\weapons\plasma_rifle\plas_fire_mech_swtnr' gain bounds clamped to: [-64.00dB, -63.00dB]
+12.26.23 13:40:14.311  sound 'sound\weapons\plasma_rifle\plasma_rifle_fire' maximum gain is too large: 1.50dB, should be <= 0.0dB
+12.26.23 13:40:14.327  sound 'sound\weapons\plasma_rifle\plasma_rifle_fire' gain bounds clamped to: [-1.50dB, 0.00dB]
+12.26.23 13:40:14.338  sound 'sound_remastered\weapons\plasma_rifle\plas_fire_mech_swtnr' minimum gain is too small: -65.00dB, should be >= -64.0dB
+12.26.23 13:40:14.339  sound 'sound_remastered\weapons\plasma_rifle\plas_fire_mech_swtnr' gain bounds clamped to: [-64.00dB, -63.00dB]

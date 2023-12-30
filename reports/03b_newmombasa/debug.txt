@@ -1,0 +1,96 @@
+
+
+============================================================================================
+12.25.23 23:40:48.924  tool  debug pc untracked version  Jun 20 2023 11:27:47
+============================================================================================
+
+
+12.25.23 23:40:48.924  solo map, players are [/chief]
+12.25.23 23:40:49.317  WARNING: bitmap 'rasterizer\linear_corner_fade' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:40:49.944  WARNING: bitmap 'scenarios\objects\covenant\military\scarab\bitmaps\scarab_hull_int' format 'high-color with alpha' will be replaced with 'true-color with alpha'
+12.25.23 23:40:50.479  WARNING: bitmap 'effects\bitmaps\sparks\sparks_animated' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:40:51.108  WARNING: bitmap 'shaders\default_bitmaps\bitmaps\clouds_256' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:40:51.798  WARNING: bitmap 'scenarios\bitmaps\human\urban\glass\window_office_specular' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:40:54.297  WARNING: bitmap 'effects\bitmaps\lens_flares\soft_flare_large' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:40:55.364  ### ERROR model 'objects\characters\marine\marine' could not find variant 'sailor_nrl' to strip
+12.25.23 23:40:55.364  ### ERROR model 'objects\characters\marine\marine' could not find variant 'sailor_cky' to strip
+12.25.23 23:40:55.364  ### ERROR model 'objects\characters\marine\marine' could not find variant 'sailor_tmd' to strip
+12.25.23 23:40:55.380  ### ERROR model 'objects\characters\marine\marine' could not find variant 'sailor_ntz' to strip
+12.25.23 23:40:59.716  ###PERF WARNING: Model:objects\characters\marine\marine, Region:head Perm:johnson LOD:1 uses render-only node #19 (eye_left)
+12.25.23 23:41:01.286  WARNING: bitmap 'rasterizer\plasma_shield_noise' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:41:01.365  WARNING: bitmap 'effects\bitmaps\energy\spark_c_flak' format 'high-color with 1-bit alpha' will be replaced with 'true-color with alpha'
+12.25.23 23:41:03.375  WARNING: bitmap 'ui\hud\bitmaps\new_hud\meters\shield_meter' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:41:03.391  WARNING: bitmap 'ui\hud\bitmaps\new_hud\meters\shield_meter' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:41:03.391  WARNING: bitmap 'ui\hud\bitmaps\new_hud\meters\shield_meter' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:41:03.409  WARNING: bitmap 'ui\hud\bitmaps\new_hud\meters\shield_meter' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:41:03.409  WARNING: bitmap 'ui\hud\bitmaps\new_hud\meters\shield_meter' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:41:03.423  WARNING: bitmap 'ui\hud\bitmaps\new_hud\meters\shield_meter' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:41:03.423  WARNING: bitmap 'ui\hud\bitmaps\new_hud\meters\shield_meter' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:41:03.438  WARNING: bitmap 'ui\hud\bitmaps\new_hud\meters\shield_meter' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:41:06.919  WARNING: bitmap 'effects\decals\bullet_holes\bitmaps\metal' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:41:06.980  WARNING: bitmap 'effects\decals\bullet_holes\bitmaps\stone' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:41:07.435  damage info postprocess: model 'objects\vehicles\warthog\warthog' couldn't find a physics model constraint with name: hinge02
+12.25.23 23:41:07.624  WARNING: bitmap 'effects\decals\bullet_holes\bitmaps\ice' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:41:07.906  WARNING: bitmap 'effects\bitmaps\lens_flares\light_volume' format 'high-color' will be replaced with 'true-color'
+12.25.23 23:41:09.899  WARNING: bitmap 'effects\decals\bullet_holes\bitmaps\impact_scratch' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:41:09.962  WARNING: bitmap 'incompetent\bitmaps\clouds_256' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:41:10.166  WARNING: bitmap 'effects\bitmaps\flares\ring' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:41:12.130  WARNING: bitmap 'objects\gear\covenant\military\bitmaps\antennae_comm_web_alpha' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:41:14.160  ### WARNING 'scenario_scenery_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_scenery_resource' that is about to be stomped over isn't empty!
+12.25.23 23:41:14.160  ### WARNING 'scenario_scenery_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_scenery_resource' that is about to be stomped over isn't empty!
+12.25.23 23:41:14.176  ### WARNING 'scenario_crate_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_scenery_resource' that is about to be stomped over isn't empty!
+12.25.23 23:41:14.191  ### WARNING 'scenario_crate_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_scenery_resource' that is about to be stomped over isn't empty!
+12.25.23 23:41:14.191  ### WARNING 'scenario_biped_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_bipeds_resource' that is about to be stomped over isn't empty!
+12.25.23 23:41:14.207  ### WARNING 'scenario_biped_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_bipeds_resource' that is about to be stomped over isn't empty!
+12.25.23 23:41:14.223  ### WARNING 'scenario_vehicle_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_vehicles_resource' that is about to be stomped over isn't empty!
+12.25.23 23:41:14.223  ### WARNING 'scenario_vehicle_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_vehicles_resource' that is about to be stomped over isn't empty!
+12.25.23 23:41:14.239  ### WARNING 'scenario_equipment_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_equipment_resource' that is about to be stomped over isn't empty!
+12.25.23 23:41:14.239  ### WARNING 'scenario_equipment_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_equipment_resource' that is about to be stomped over isn't empty!
+12.25.23 23:41:14.254  ### WARNING 'scenario_weapon_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_weapons_resource' that is about to be stomped over isn't empty!
+12.25.23 23:41:14.270  ### WARNING 'scenario_weapon_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_weapons_resource' that is about to be stomped over isn't empty!
+12.25.23 23:41:14.285  ### WARNING 'scenario_sound_scenery_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_sound_scenery_resource' that is about to be stomped over isn't empty!
+12.25.23 23:41:14.285  ### WARNING 'scenario_sound_scenery_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_sound_scenery_resource' that is about to be stomped over isn't empty!
+12.25.23 23:41:14.301  ### WARNING 'scenario_light_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_lights_resource' that is about to be stomped over isn't empty!
+12.25.23 23:41:14.317  ### WARNING 'scenario_light_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_lights_resource' that is about to be stomped over isn't empty!
+12.25.23 23:41:14.317  ### WARNING 'device_group_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_devices_resource' that is about to be stomped over isn't empty!
+12.25.23 23:41:14.336  ### WARNING 'scenario_machine_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_devices_resource' that is about to be stomped over isn't empty!
+12.25.23 23:41:14.336  ### WARNING 'scenario_machine_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_devices_resource' that is about to be stomped over isn't empty!
+12.25.23 23:41:14.348  ### WARNING 'scenario_decals_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_decals_resource' that is about to be stomped over isn't empty!
+12.25.23 23:41:14.364  ### WARNING 'scenario_decal_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_decals_resource' that is about to be stomped over isn't empty!
+12.25.23 23:41:14.364  ### WARNING 'scenario_cutscene_camera_point_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_cinematics_resource' that is about to be stomped over isn't empty!
+12.25.23 23:41:14.380  ### WARNING 'scenario_cutscene_flag_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_cinematics_resource' that is about to be stomped over isn't empty!
+12.25.23 23:41:14.380  ### WARNING 'scenario_trigger_volume_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_trigger_volumes_resource' that is about to be stomped over isn't empty!
+12.25.23 23:41:14.395  ### WARNING 'structure_bsp_background_sound_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_cluster_data_resource' that is about to be stomped over isn't empty!
+12.25.23 23:41:14.411  ### WARNING 'structure_bsp_sound_environment_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_cluster_data_resource' that is about to be stomped over isn't empty!
+12.25.23 23:41:14.411  ### WARNING 'scenario_atmospheric_fog_palette' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_cluster_data_resource' that is about to be stomped over isn't empty!
+12.25.23 23:41:14.436  ### WARNING 'scenario_cluster_data_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_cluster_data_resource' that is about to be stomped over isn't empty!
+12.25.23 23:41:14.443  ### WARNING 'editor_comment_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_comments_resource' that is about to be stomped over isn't empty!
+12.25.23 23:41:14.458  ### WARNING 'scenario_creature_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_creature_resource' that is about to be stomped over isn't empty!
+12.25.23 23:41:14.458  ### WARNING 'scenario_structure_bsp_spherical_harmonic_lighting_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_structure_lighting_resource' that is about to be stomped over isn't empty!
+12.25.23 23:41:14.474  ### WARNING 'scenario_decorator_set_palette_entry_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_decorators_resource' that is about to be stomped over isn't empty!
+12.25.23 23:41:15.434  WARNING: bitmap 'rasterizer\distance_attenuation' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:41:15.482  WARNING: bitmap 'rasterizer\glow' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:41:15.705  WARNING: bitmap 'ui\hud\bitmaps\new_hud\hud_waypoints' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:41:15.721  WARNING: bitmap 'ui\hud\bitmaps\new_hud\hud_waypoints' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:41:15.721  WARNING: bitmap 'ui\hud\bitmaps\new_hud\hud_waypoints' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:41:15.736  WARNING: bitmap 'ui\hud\bitmaps\new_hud\hud_waypoints' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:41:15.741  WARNING: bitmap 'ui\hud\bitmaps\new_hud\hud_waypoints' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:41:15.752  WARNING: bitmap 'ui\hud\bitmaps\new_hud\hud_waypoints' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:41:15.752  WARNING: bitmap 'ui\hud\bitmaps\new_hud\hud_waypoints' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:41:15.768  WARNING: bitmap 'ui\hud\bitmaps\new_hud\hud_waypoints' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:41:15.768  WARNING: bitmap 'ui\hud\bitmaps\new_hud\hud_waypoints' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:41:15.878  WARNING: bitmap 'ui\hud\bitmaps\new_hud\default_arrow' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:41:15.893  WARNING: bitmap 'ui\hud\bitmaps\new_hud\dead_friendly_arrow' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:41:15.924  WARNING: bitmap 'ui\hud\bitmaps\new_hud\reset_flag' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:41:15.942  WARNING: bitmap 'ui\hud\bitmaps\new_hud\reset_bomb' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:41:15.987  WARNING: bitmap 'ui\hud\bitmaps\new_hud\reset_ball' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:41:16.034  WARNING: bitmap 'ui\hud\bitmaps\new_hud\player_training\h_topright' format 'high-color with alpha' will be replaced with 'true-color with alpha'
+12.25.23 23:41:16.042  WARNING: bitmap 'ui\hud\bitmaps\new_hud\player_training\h_topcenter' format 'high-color with alpha' will be replaced with 'true-color with alpha'
+12.25.23 23:41:16.050  WARNING: bitmap 'ui\hud\bitmaps\new_hud\player_training\h_topleft' format 'high-color with alpha' will be replaced with 'true-color with alpha'
+12.25.23 23:41:16.066  WARNING: bitmap 'ui\hud\bitmaps\new_hud\player_training\h_center' format 'high-color with alpha' will be replaced with 'true-color with alpha'
+12.25.23 23:41:16.366  WARNING: bitmap 'ui\hud\bitmaps\new_hud\player_training\c_topright' format 'high-color with alpha' will be replaced with 'true-color with alpha'
+12.25.23 23:41:16.382  WARNING: bitmap 'ui\hud\bitmaps\new_hud\player_training\c_topcenter' format 'high-color with alpha' will be replaced with 'true-color with alpha'
+12.25.23 23:41:16.397  WARNING: bitmap 'ui\hud\bitmaps\new_hud\player_training\c_topleft' format 'high-color with alpha' will be replaced with 'true-color with alpha'
+12.25.23 23:41:16.413  WARNING: bitmap 'ui\hud\bitmaps\new_hud\player_training\c_center' format 'high-color with alpha' will be replaced with 'true-color with alpha'
+12.25.23 23:41:19.429  WARNING: bitmap 'scenarios\bitmaps\detail_maps\metal\metal_smallpanels' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'
+12.25.23 23:41:24.878  WARNING: bitmap 'scenarios\bitmaps\multi\cyclotron\cyclotron_lamp_ill' format 'separate alpha-intensity' will be replaced with 'true-color with alpha'

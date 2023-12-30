@@ -1,0 +1,11 @@
+
+
+============================================================================================
+12.28.23 10:54:23.874  sapien  debug pc untracked version  Jun 20 2023 11:29:20
+============================================================================================
+
+
+12.28.23 10:54:23.874  ### WARNING effect 'effects\impact\explosion_small\brute_shot\detonation' part 'effects\impact\explosion_small\brute_shot\detonation' was not found
+12.28.23 10:54:26.800  ### WARNING effect 'dw3\altsierra\objects\vehicles\creep\plasma_turret\weapons\effects\c_turret_ap' part 'effects\decals\blast_scorches\creep_plasma_burn' was not found
+12.28.23 10:54:26.807  ### WARNING effect 'dw3\altsierra\objects\vehicles\creep\plasma_turret\creep_turret_firing' particle system is invalid
+12.28.23 10:54:46.418  ### WARNING effect 'digsite\objects\weapons\assault_rifle\assault_rifle_99_mac\fx\firing_grenade' part 'digsite\sound\sfx\weapons\assault_rifle\ar_99e_fire_alt' was not found

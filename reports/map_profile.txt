@@ -1,0 +1,9 @@
+ 285.797: main_slow_loading_callback
+ 708.157: entering main_game_start()
+ 709.625: leaving main_game_start()
+ 977.454: before main_game_internal_map_unload_begin
+ 977.454: after sound_cache_close
+ 977.454: after texture_cache_close
+ 977.454: after geometry_cache_close
+ 977.454: after unloading language pack
+ 977.454: after main_game_internal_map_unload_begin

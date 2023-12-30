@@ -1,0 +1,32 @@
+
+
+============================================================================================
+12.26.23 13:43:02.274  tool  debug pc untracked version  Jun 20 2023 11:27:47
+============================================================================================
+
+
+12.26.23 13:43:02.274  ### WARNING model 'scenarios\objects\covenant\military\scarab\scarab' material 'scarab_bloom_int' ('') couldn't find a global material named 'scarab_bloom_int'
+12.26.23 13:43:03.512  ### WARNING model 'dw3\ok\injured_shaking_marine\shaking_marine' material 'head' ('') couldn't find a global material named 'head'
+12.26.23 13:43:03.512  ### WARNING model 'dw3\ok\injured_shaking_marine\shaking_marine' material 'helmet' ('') couldn't find a global material named 'helmet'
+12.26.23 13:43:03.528  ### WARNING model 'dw3\ok\injured_shaking_marine\shaking_marine' material 'body' ('') couldn't find a global material named 'body'
+12.26.23 13:43:03.591  ### WARNING model 'dw3\ok\marine_stretcher-test\marine_stretcher-test' material 'head' ('') couldn't find a global material named 'head'
+12.26.23 13:43:03.607  ### WARNING model 'dw3\ok\marine_stretcher-test\marine_stretcher-test' material 'helmet' ('') couldn't find a global material named 'helmet'
+12.26.23 13:43:03.607  ### WARNING model 'dw3\ok\marine_stretcher-test\marine_stretcher-test' material 'body' ('') couldn't find a global material named 'body'
+12.26.23 13:43:03.779  ### WARNING model 'dw3\ok\medic_marine\medic_test_2' material 'head' ('') couldn't find a global material named 'head'
+12.26.23 13:43:03.779  ### WARNING model 'dw3\ok\medic_marine\medic_test_2' material 'helmet' ('') couldn't find a global material named 'helmet'
+12.26.23 13:43:03.795  ### WARNING model 'dw3\ok\medic_marine\medic_test_2' material 'body' ('') couldn't find a global material named 'body'
+12.26.23 13:43:09.273  ### WARNING model 'objects\characters\marine\h1_marine' material 'helmet' ('') couldn't find a global material named 'helmet'
+12.26.23 13:43:11.249  ### WARNING model 'digsite\objects\vehicles\mongoose\mongoose' material 'mongoose_metal' ('') couldn't find a global material named 'mongoose_metal'
+12.26.23 13:43:11.249  ### WARNING model 'digsite\objects\vehicles\mongoose\mongoose' material 'mongoose_rubber' ('') couldn't find a global material named 'mongoose_rubber'
+12.26.23 13:43:11.265  ### WARNING model 'digsite\objects\vehicles\mongoose\mongoose' material 'mongoose_glass' ('') couldn't find a global material named 'mongoose_glass'
+12.26.23 13:43:12.868  ### WARNING model 'd_flog_flag_ports\reach\objects\vehicles\covenant\tuning_fork\tuning_fork' material 'hull' ('') couldn't find a global material named 'hull'
+12.26.23 13:43:15.079  ### WARNING model 'objects\weapons\rifle\assault_rifle\halo1_mcc\assault_rifle' material 'metal' ('') couldn't find a global material named 'metal'
+12.26.23 13:43:15.094  ### WARNING model 'objects\powerups\assault_rifle_ammo_fixed\assault_rifle_ammo_fixed' material 'metal' ('') couldn't find a global material named 'metal'
+12.26.23 13:43:15.220  ### WARNING model 'kashiiera\objects\weapons\support_low\flamethrower_ce\flamethrower_ce' material 'metal' ('') couldn't find a global material named 'metal'
+12.26.23 13:43:15.573  ### WARNING model 'kashiiera\objects\weapons\support_high\fuel_rod_ce\fuel_rod_ce' material 'fuel_rod_ce' ('') couldn't find a global material named 'fuel_rod_ce'
+12.26.23 13:43:15.880  ### WARNING model 'h1\weapons\pistol\pistol' material 'metal' ('') couldn't find a global material named 'metal'
+12.26.23 13:43:16.006  ### WARNING model 'digsite\objects\weapons\assault_rifle\assault_rifle_99_mac\assault_rifle_99_mac' material 'metal' ('') couldn't find a global material named 'metal'
+12.26.23 13:43:16.135  ### WARNING model 'digsite\objects\weapons\chaingun\chaingun_99_mac\chaingun_99_mac' material 'metal' ('') couldn't find a global material named 'metal'
+12.26.23 13:43:16.198  ### WARNING model 'digsite\objects\weapons\smg\99_mac\99_mac' material 'metal' ('') couldn't find a global material named 'metal'
+12.26.23 13:43:19.681  ### WARNING model 'objects\vehicles\civilian\uberchassis\uberchassis_tire\uberchassis_tire' material 'uberchassis_wheels_dead' ('') couldn't find a global material named 'uberchassis_wheels_dead'
+12.26.23 13:43:20.082  ### WARNING model 'objects\characters\ambient_life\reach_moa\reach_moa' material 'reach_moa_collision' ('') couldn't find a global material named 'reach_moa_collision'

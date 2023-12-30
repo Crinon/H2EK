@@ -1,0 +1,9 @@
+MEMORY POOL DUMP FOR 'ui_leak'
+=========================
+
+
+pool 'ui memory pool' size 2072576 free 2039168
+
+block@0x03C14860 size:   33376 time:      74721 from: screen_single_player_profile_select.cpp(59)
+
+1 blocks 33376 bytes (min/avg/max 33376/33376/33376)

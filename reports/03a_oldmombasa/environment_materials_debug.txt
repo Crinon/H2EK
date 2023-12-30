@@ -1,0 +1,10 @@
+
+
+============================================================================================
+12.26.23 13:43:26.950  tool  debug pc untracked version  Jun 20 2023 11:27:47
+============================================================================================
+
+
+12.26.23 13:43:26.950  ### WARNING structure 'scenarios\solo\03a_oldmombasa\earthcity_2' material #61 shader 'scenarios\shaders\solo\earthcity\blending_for_infinite_water_plane' has no material name
+12.26.23 13:43:31.866  ### WARNING structure 'scenarios\solo\03a_oldmombasa\earthcity_cine_intro_bsp' material #39 shader 'scenarios\shaders\ui\mainmenu\nm_arial_water' has no material name
+12.26.23 13:43:31.866  ### WARNING structure 'scenarios\solo\03a_oldmombasa\earthcity_cine_intro_bsp' material #205 shader 'scenarios\shaders\solo\earthcity\cinematic\nm_arial_city' has no material name

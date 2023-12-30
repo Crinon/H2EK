@@ -1,0 +1,181 @@
+
+
+============================================================================================
+12.26.23 13:40:38.292  tool  debug pc untracked version  Jun 20 2023 11:27:47
+============================================================================================
+
+
+12.26.23 13:40:38.292  fixing bitmap for DX11 (forced=default, format=a8y8) rasterizer\linear_corner_fade
+12.26.23 13:40:38.355  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\multi\flag_base\bitmaps\flag_base_bump
+12.26.23 13:40:38.418  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\multi\2way_teleporter\bitmaps\2way_teleporter_bump
+12.26.23 13:40:38.465  fixing bitmap for DX11 (forced=default, format=a8y8) shaders\default_bitmaps\bitmaps\clouds_256
+12.26.23 13:40:38.779  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\metals\titanium_lightblue_base_bump
+12.26.23 13:40:38.834  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\glass\window_office_bump
+12.26.23 13:40:38.857  fixing bitmap for DX11 (forced=default, format=a8y8) scenarios\bitmaps\human\urban\glass\window_office_specular
+12.26.23 13:40:39.186  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\forerunner\industrial\metals\panel_i_bump
+12.26.23 13:40:39.218  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\forerunner\industrial\tech\panels_generator_bump
+12.26.23 13:40:39.453  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\masterchief\bitmaps\masterchief_bump
+12.26.23 13:40:39.594  fixing bitmap for DX11 (forced=default, format=a8y8) rasterizer\plasma_shield_noise
+12.26.23 13:40:39.814  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\meters\shield_meter
+12.26.23 13:40:39.940  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\bitmaps\head_bump
+12.26.23 13:40:40.018  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\bitmaps\helmet_bump
+12.26.23 13:40:40.018  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\bitmaps\arms_bump
+12.26.23 13:40:40.018  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\bitmaps\torso_bump
+12.26.23 13:40:40.018  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\bitmaps\legs_bump
+12.26.23 13:40:40.037  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\bitmaps\council_helmet_bump
+12.26.23 13:40:40.050  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\elite_honor_guard\bitmaps\elite_honor_armor_bump
+12.26.23 13:40:40.065  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\bitmaps\teeth_bump
+12.26.23 13:40:40.175  fixing bitmap for DX11 (forced=default, format=a1r5g5b5) effects\bitmaps\energy\spark_c_flak
+12.26.23 13:40:40.438  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\warthog\bitmaps\tires_bump
+12.26.23 13:40:40.444  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\warthog\bitmaps\warthog_standard_bump
+12.26.23 13:40:40.459  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\warthog\bitmaps\chassis_bump
+12.26.23 13:40:40.459  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\warthog\bitmaps\hub_bump
+12.26.23 13:40:40.585  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\warthog\turrets\chaingun\bitmaps\chaingun_bump
+12.26.23 13:40:40.585  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\warthog\turrets\bitmaps\gun_mount_bump
+12.26.23 13:40:40.600  fixing bitmap for DX11 (forced=default, format=a8y8) effects\bitmaps\sparks\sparks_animated
+12.26.23 13:40:40.663  fixing bitmap for DX11 (forced=default, format=a8y8) effects\decals\bullet_holes\bitmaps\metal
+12.26.23 13:40:40.710  fixing bitmap for DX11 (forced=default, format=a8y8) effects\decals\bullet_holes\bitmaps\stone
+12.26.23 13:40:40.804  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\warthog\turrets\gauss\bitmaps\gauss_turret_bump
+12.26.23 13:40:40.820  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\warthog\turrets\gauss\bitmaps\gauss_turret_sensor_bump
+12.26.23 13:40:40.852  fixing bitmap for DX11 (forced=default, format=a8y8) effects\bitmaps\lens_flares\soft_flare_large
+12.26.23 13:40:40.939  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\banshee\bitmaps\banshee_plate_bump
+12.26.23 13:40:40.962  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\ghost\bitmaps\blown_open_bump
+12.26.23 13:40:40.962  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\banshee\bitmaps\banshee_torn_up_plate_bump
+12.26.23 13:40:41.150  fixing bitmap for DX11 (forced=default, format=r5g6b5) effects\bitmaps\lens_flares\light_volume
+12.26.23 13:40:41.212  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\ghost\bitmaps\ghost_bump
+12.26.23 13:40:41.228  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\ghost\bitmaps\torn_up_bump
+12.26.23 13:40:41.369  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\h_turret_ap\bitmaps\h_turret_ap_bump
+12.26.23 13:40:41.385  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\fixed\h_turret_mp\bitmaps\h_turret_mp_gun_bump
+12.26.23 13:40:41.463  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\scorpion\bitmaps\scorpion_hull_bump
+12.26.23 13:40:41.479  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\scorpion\bitmaps\scorpion_treads_bump
+12.26.23 13:40:41.479  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\scorpion\bitmaps\scorpion_guts_bump
+12.26.23 13:40:41.510  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\scorpion\turrets\cannon\bitmaps\turret_cannon_bump
+12.26.23 13:40:41.652  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\c_turret_ap\bitmaps\c_turret_ap_bump
+12.26.23 13:40:41.761  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\wraith\bitmaps\wraith_bump
+12.26.23 13:40:41.902  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\wraith\turrets\mortar\bitmaps\mortar_bump
+12.26.23 13:40:42.373  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\spectre\bitmaps\spectre_bump
+12.26.23 13:40:42.546  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\fixed\plasma_cannon\bitmaps\plasma_cannon_bump
+12.26.23 13:40:42.608  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\grenade\frag_grenade\bitmaps\frag_grenade_bump
+12.26.23 13:40:42.644  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\grenade\plasma_grenade\bitmaps\plasma_grenade_bump
+12.26.23 13:40:42.718  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\powerups\active_camouflage\bitmaps\powerup_bump
+12.26.23 13:40:42.781  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\powerups\health_pack\bitmaps\healthpack_bump
+12.26.23 13:40:42.860  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\powerups\sniper_rifle_ammo\bitmaps\sr_ammo_bump
+12.26.23 13:40:42.875  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\powerups\rocket_launcher_ammo\bitmaps\rocket_launcher_ammo_bump
+12.26.23 13:40:42.891  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\powerups\battle_rifle_ammo\bitmaps\br_ammo_bump
+12.26.23 13:40:42.891  fixing bitmap for DX11 (forced=default, format=a8y8) incompetent\bitmaps\clouds_256
+12.26.23 13:40:43.045  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\powerups\pistol_ammo\bitmaps\pistol_ammo_bump
+12.26.23 13:40:43.079  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\powerups\shotgun_ammo\bitmaps\sg_ammo_bump
+12.26.23 13:40:43.095  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\powerups\smg_ammo\bitmaps\smg_ammo_bump
+12.26.23 13:40:43.095  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\pistol\magnum\bitmaps\magnum_bump
+12.26.23 13:40:43.252  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\pistol\needler\bitmaps\needler_bump
+12.26.23 13:40:43.267  fixing bitmap for DX11 (forced=default, format=a8y8) effects\decals\bullet_holes\bitmaps\impact_scratch
+12.26.23 13:40:43.345  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\pistol\plasma_pistol\bitmaps\plasma_pistol_bump
+12.26.23 13:40:43.487  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\battle_rifle\bitmaps\battle_rifle_bump
+12.26.23 13:40:43.502  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\battle_rifle\bitmaps\ejection_port_bump
+12.26.23 13:40:43.549  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\battle_rifle\bitmaps\battle_rifle_knob_bump
+12.26.23 13:40:43.596  fixing bitmap for DX11 (forced=default, format=a8y8) objects\weapons\rifle\covenant_carbine\bitmaps\covenant_carbine_display_illum
+12.26.23 13:40:43.628  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\covenant_carbine\bitmaps\covenant_carbine_bump
+12.26.23 13:40:43.722  fixing bitmap for DX11 (forced=default, format=r5g6b5) objects\weapons\rifle\covenant_carbine\bitmaps\covenant_carbine_switch_illum
+12.26.23 13:40:43.832  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\plasma_rifle\bitmaps\plasma_rifle_card_bump
+12.26.23 13:40:43.847  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\plasma_rifle\bitmaps\plasma_rifle_bump
+12.26.23 13:40:43.941  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\shotgun\bitmaps\shotgun_card_bump
+12.26.23 13:40:43.957  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\shotgun\bitmaps\shotgun_bump
+12.26.23 13:40:44.052  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\shotgun\bitmaps\shotgun_bolt_bump
+12.26.23 13:40:44.067  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\shotgun\bitmaps\shotgun_port_bump
+12.26.23 13:40:44.350  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\shotgun\bitmaps\shotshell_bump
+12.26.23 13:40:44.381  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\smg\bitmaps\smg_bump
+12.26.23 13:40:44.412  tags: missing tag (ffffffff)objects\weapons\rifle\smg\damage_effects\smg_empty.damage_effect replaced by (f0425135)globals\global_missing_damage_effect.damage_effect
+12.26.23 13:40:44.475  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\sniper_rifle\bitmaps\sniper_rifle_bump
+12.26.23 13:40:44.616  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\support_high\flak_cannon\bitmaps\flak_cannon_bump
+12.26.23 13:40:44.757  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\support_high\rocket_launcher\bitmaps\rocket_launcher_lod_bump
+12.26.23 13:40:44.757  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\support_high\rocket_launcher\bitmaps\rocket_launcher_bump
+12.26.23 13:40:44.773  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\support_high\rocket_launcher\bitmaps\rocket_launcher_ends_bump
+12.26.23 13:40:44.852  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\support_low\brute_shot\bitmaps\brute_shot_bump
+12.26.23 13:40:44.961  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\multiplayer\assault_bomb\bitmaps\assault_bomb_bump
+12.26.23 13:40:45.071  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\multiplayer\ball\bitmaps\gameball_bump
+12.26.23 13:40:45.134  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\multiplayer\flag\bitmaps\flag_bump
+12.26.23 13:40:45.324  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\multiplayer\flag\bitmaps\new_flag_art_bump
+12.26.23 13:40:45.402  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\melee\energy_blade\bitmaps\energy_blade_bump
+12.26.23 13:40:45.465  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\beam_rifle\bitmaps\beam_rifle_bump
+12.26.23 13:40:45.481  fixing bitmap for DX11 (forced=default, format=a8y8) effects\bitmaps\flares\ring
+12.26.23 13:40:45.653  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\support_low\sentinel_gun\bitmaps\sentinel_gun_bump
+12.26.23 13:40:46.218  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\smg_silenced\bitmaps\smg_silencer_bump
+12.26.23 13:40:46.553  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\gear\covenant\military\bitmaps\cov_battery_bump
+12.26.23 13:40:46.610  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\gear\human\military\bitmaps\human_military_equipment_bump
+12.26.23 13:40:46.720  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\civilian\panel_truck\bitmaps\panel_truck_bump
+12.26.23 13:40:46.753  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\civilian\bus\bitmaps\bus_bump
+12.26.23 13:40:46.845  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\spacestation\ss_panel_crate_multi_single_bump
+12.26.23 13:40:46.853  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\spacestation\ss_panel_crate_bump
+12.26.23 13:40:46.877  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\civilian\uberchassis\bitmaps\uberchassis_body_bump
+12.26.23 13:40:46.877  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\civilian\uberchassis\bitmaps\uberchassis_body_wheels_bump
+12.26.23 13:40:47.065  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\forerunner\industrial\metals\flat_generic_bump
+12.26.23 13:40:47.160  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\gear\covenant\military\bitmaps\cov_storage_bump
+12.26.23 13:40:47.191  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\human\military\deployable_shield_corner\bitmaps\deployable_shield_bump
+12.26.23 13:40:47.410  fixing bitmap for DX11 (forced=default, format=a8y8) rasterizer\distance_attenuation
+12.26.23 13:40:47.442  fixing bitmap for DX11 (forced=default, format=a8y8) rasterizer\glow
+12.26.23 13:40:47.489  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\hud_waypoints
+12.26.23 13:40:47.599  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\default_arrow
+12.26.23 13:40:47.614  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\dead_friendly_arrow
+12.26.23 13:40:47.630  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\reset_flag
+12.26.23 13:40:47.655  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\reset_bomb
+12.26.23 13:40:47.662  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\reset_ball
+12.26.23 13:40:47.693  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\h_topright
+12.26.23 13:40:47.709  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\h_topcenter
+12.26.23 13:40:47.724  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\h_topleft
+12.26.23 13:40:47.740  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\h_center
+12.26.23 13:40:47.740  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\c_topright
+12.26.23 13:40:47.755  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\c_topcenter
+12.26.23 13:40:47.771  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\c_topleft
+12.26.23 13:40:47.787  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\c_center
+12.26.23 13:40:47.802  tags: missing tag (ffffffff)ui\hud\bitmaps\hud_msg_icons_sm.bitmap replaced by (f4bc55af)rasterizer\invalid.bitmap
+12.26.23 13:40:48.157  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\masterchief\fp\bitmaps\fp_arms_bump
+12.26.23 13:40:48.180  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\dervish\fp\bitmaps\dervish_fp_arms_bump
+12.26.23 13:40:48.196  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\dervish\bitmaps\dervish_bump
+12.26.23 13:40:48.211  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\dervish\bitmaps\dervish_helmet_bump
+12.26.23 13:40:48.227  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\dervish\bitmaps\dervish_nude_brand_bump
+12.26.23 13:40:48.227  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\dervish\bitmaps\dervish_nude_body_bump
+12.26.23 13:40:48.274  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\fp_arms\bitmaps\elite_fp_arms_bump
+12.26.23 13:40:48.457  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\mongoose\bitmaps\mongoose_wheel_bump
+12.26.23 13:40:48.478  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\mongoose\bitmaps\mongoose_bump
+12.26.23 13:40:48.525  fixing bitmap for DX11 (forced=default, format=a8y8) effects\decals\bullet_holes\bitmaps\ice
+12.26.23 13:40:48.620  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\creep\bitmaps\creep_hull_bump
+12.26.23 13:40:48.729  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\gravity_throne\bitmaps\throne_bump
+12.26.23 13:40:54.488  bungie_multiplayer_tag_patches: begin...
+12.26.23 13:40:54.488  	patch objects\weapons\rifle\battle_rifle\battle_rifle   projectile_error_angle_lower_bound 0.00523599->0.00174533
+12.26.23 13:40:54.488  	patch objects\weapons\rifle\battle_rifle\battle_rifle   projectile_error_angle_upper_bound 0.010472->0.00174533
+12.26.23 13:40:54.488  	patch objects\weapons\damage_effects\slice_melee   damage.damage_minimum 70->90
+12.26.23 13:40:54.488  	patch objects\weapons\damage_effects\slice_melee   damage.damage_lower_bound 70->120
+12.26.23 13:40:54.488  	patch objects\weapons\damage_effects\slice_melee   damage.damage_upper_bound 70->120
+12.26.23 13:40:54.504  	patch objects\weapons\damage_effects\smash_melee   damage.damage_minimum 40->55
+12.26.23 13:40:54.504  	patch objects\weapons\damage_effects\smash_melee   damage.damage_lower_bound 120->90
+12.26.23 13:40:54.504  	patch objects\weapons\damage_effects\smash_melee   damage.damage_upper_bound 120->90
+12.26.23 13:40:54.504  	patch objects\weapons\damage_effects\strike_melee   damage.damage_minimum 20->55
+12.26.23 13:40:54.504  	patch objects\weapons\damage_effects\strike_melee   damage.damage_lower_bound 60->75
+12.26.23 13:40:54.504  	patch objects\weapons\damage_effects\strike_melee   damage.damage_upper_bound 60->75
+12.26.23 13:40:54.504  	patch objects\weapons\grenade\frag_grenade\damage_effects\frag_grenade_explosion   falloff_radius 0.75->0.5
+12.26.23 13:40:54.504  	patch objects\weapons\grenade\frag_grenade\damage_effects\frag_grenade_explosion   damage.damage_lower_bound 150->160
+12.26.23 13:40:54.504  	patch objects\weapons\grenade\frag_grenade\damage_effects\frag_grenade_explosion   damage.damage_upper_bound 150->160
+12.26.23 13:40:54.504  	patch objects\weapons\grenade\frag_grenade\damage_effects\frag_grenade_explosion   damage.rider_direct_damage_scale 1->1.5
+12.26.23 13:40:54.520  	patch objects\weapons\grenade\frag_grenade\damage_effects\frag_grenade_explosion   damage.rider_maximum_transfer_damage_scale 0.5->0.75
+12.26.23 13:40:54.520  	patch objects\weapons\grenade\frag_grenade\damage_effects\frag_grenade_explosion   damage.rider_minimum_transfer_damage_scale 0.5->0.75
+12.26.23 13:40:54.520  	patch objects\weapons\grenade\frag_grenade\frag_grenade   projectile.arming_time 1.5->1.3
+12.26.23 13:40:54.520  	patch objects\weapons\grenade\plasma_grenade\damage_effects\plasma_grenade_explosion   falloff_radius 0.75->0.5
+12.26.23 13:40:54.520  	patch objects\weapons\grenade\plasma_grenade\damage_effects\plasma_grenade_explosion   cutoff_radius 1.5->1.75
+12.26.23 13:40:54.520  	patch objects\weapons\grenade\plasma_grenade\damage_effects\plasma_grenade_explosion   damage.damage_lower_bound 120->200
+12.26.23 13:40:54.520  	patch objects\weapons\grenade\plasma_grenade\damage_effects\plasma_grenade_explosion   damage.damage_upper_bound 120->200
+12.26.23 13:40:54.520  	patch objects\weapons\grenade\plasma_grenade\damage_effects\plasma_grenade_explosion   damage.rider_direct_damage_scale 1->1.5
+12.26.23 13:40:54.520  	patch objects\weapons\grenade\plasma_grenade\damage_effects\plasma_grenade_explosion   damage.rider_maximum_transfer_damage_scale 0.5->0.75
+12.26.23 13:40:54.535  	patch objects\weapons\grenade\plasma_grenade\damage_effects\plasma_grenade_explosion   damage.rider_minimum_transfer_damage_scale 0.5->0.75
+12.26.23 13:40:54.535  	patch objects\weapons\grenade\plasma_grenade\plasma_grenade   projectile.arming_time 1.5->1.3
+12.26.23 13:40:54.535  	patch objects\weapons\grenade\plasma_grenade\plasma_grenade   projectile.detonation_minimum_time 1.5->0.9
+12.26.23 13:40:54.535  	patch objects\weapons\grenade\plasma_grenade\plasma_grenade   projectile.detonation_maximum_time 1.5->0.9
+12.26.23 13:40:54.535  	patch objects\weapons\pistol\magnum\damage_effects\magnum_bullet   damage.damage_minimum 8->5.5
+12.26.23 13:40:54.535  	patch objects\weapons\pistol\magnum\damage_effects\magnum_bullet   damage.damage_lower_bound 8->5.5
+12.26.23 13:40:54.535  	patch objects\weapons\pistol\magnum\damage_effects\magnum_bullet   damage.damage_upper_bound 8->5.5
+12.26.23 13:40:54.535  	patch objects\weapons\rifle\plasma_rifle\plasma_rifle   dual_weapon_damage_scale 0.75->0.7
+12.26.23 13:40:54.535  	patch objects\weapons\rifle\smg\damage_effects\smg_bullet   damage.damage_lower_bound 4.75->4.625
+12.26.23 13:40:54.551  	patch objects\weapons\rifle\smg\damage_effects\smg_bullet   damage.damage_upper_bound 4.75->4.625
+12.26.23 13:40:54.551  	patch objects\weapons\support_low\brute_shot\damage_effects\shot_grenade_explosion   damage.damage_minimum 25->30
+12.26.23 13:40:54.551  	patch objects\weapons\support_low\brute_shot\damage_effects\shot_grenade_explosion   damage.damage_lower_bound 50->60
+12.26.23 13:40:54.551  	patch objects\weapons\support_low\brute_shot\damage_effects\shot_grenade_explosion   damage.damage_upper_bound 50->60
+12.26.23 13:40:54.551  bungie_multiplayer_tag_patches: ...finished, patched 37 fields

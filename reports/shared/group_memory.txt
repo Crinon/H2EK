@@ -1,0 +1,721 @@
+sound_effect_template                                                                                    count  elements      size   padding
+                                                      platform_sound_effect_template_component_block         1         7       112         0
+                                                                platform_sound_effect_template_block         1         1        12        12
+                                                     platform_sound_effect_template_collection_block         5         5        60         0
+                                                                               sound_effect_template         5         5       140         0
+                                                                                             totals:        12        18       324        12
+
+decorator_set                                                                                            count  elements      size   padding
+                                                                    decorator_shader_reference_block         7        10        80         0
+                                                                        decorator_permutations_block        11        42      1554       126
+                                                                             decorator_classes_block         7        11       187        33
+                                                                                       decorator_set         7         7       574       210
+                                                                              decorator_models_block         3        23       184         0
+                                                                      decorator_model_vertices_block         3       756     42336         0
+                                                                       decorator_model_indices_block         3      2130      4260         0
+                                                                                     block resources         3         3        39         9
+                                                                                             totals:        44      2982     49214       378
+
+light_volume                                                                                             count  elements      size   padding
+                                                                                          byte_block        58      4032      4032         0
+                                                                   light_volume_runtime_offset_block        14       216      1728         0
+                                                                                              volume        15        17      2584         0
+                                                                                        light_volume        15        15       240         0
+                                                                                              aspect        11        11       308         0
+                                                                                             totals:       113      4291      8892         0
+
+particle_model                                                                                           count  elements      size   padding
+                                                                                          byte_block        36       952       952         0
+                                                                               particle_models_block         9        14       112         0
+                                                                       particle_model_vertices_block         9      1209     67704         0
+                                                                        particle_model_indices_block         9      4332      8664         0
+                                                                                     block resources         9         9       117        27
+                                                                                      particle_model         9         9      1530       486
+                                                                                             totals:        81      6525     79079       513
+
+ai_dialogue_globals                                                                                      count  elements      size   padding
+                                                                                      response_block        23        35       420         0
+                                                                    vocalization_definitions_block_0         1       330     31680         0
+                                                                         vocalization_patterns_block         1       239     10516      4780
+                                                                                 dialogue_data_block         1       200       800         0
+                                                                              involuntary_data_block         1        22        44        44
+                                                                                 ai_dialogue_globals         1         1        32        12
+                                                                                             totals:        28       827     43492      4836
+
+antenna                                                                                                  count  elements      size   padding
+                                                                                antenna_vertex_block         3        17       850      1326
+                                                                                             antenna         3         3       120       360
+                                                                                             totals:         6        20       970      1686
+
+biped                                                                                                    count  elements      size   padding
+                                                                          object_ai_properties_block         5         5        60        20
+                                                                                          byte_block        14       280       280         0
+                                                                               object_function_block         5        14       448         0
+                                                                             object_attachment_block         5         9       198        18
+                                                             object_change_color_initial_permutation        10        46      1472         0
+                                                                                object_change_colors         5        18       288         0
+                                                                            predicted_resource_block         5       384      3072         0
+                                                                             unit_camera_track_block         5         5        40         0
+                                                                            unit_hud_reference_block         5        10        80         0
+                                                                                       spheres_block         5        15      2400         0
+                                                                                         pills_block         5        10       960         0
+                                                                                 contact_point_block         5        10        40         0
+                                                                                               biped         5         5      3685       255
+                                                                                             totals:        79       811     13023       293
+
+bitmap                                                                                                   count  elements      size   padding
+                                                                                   bitmap_data_block       789      1739    292152         0
+                                                                                              bitmap       789       789     63120         0
+                                                                           bitmap_group_sprite_block       270       918     23868      5508
+                                                                         bitmap_group_sequence_block       191       589     25916      9424
+                                                                                             totals:      2039      4035    405056     14932
+
+crate                                                                                                    count  elements      size   padding
+                                                                          object_ai_properties_block         8         8        96        32
+                                                                            predicted_resource_block        71       692      5536         0
+                                                                                               crate        72        72     13032       792
+                                                                               object_function_block         2         3        96         0
+                                                                             object_attachment_block         6         7       154        14
+                                                             object_change_color_initial_permutation         8        20       640         0
+                                                                                object_change_colors         9        11       176         0
+                                                                                             totals:       176       813     19730       838
+
+breakable_surface                                                                                        count  elements      size   padding
+                                                                                          byte_block         1       180       180         0
+                                                            particle_system_emitter_definition_block         2         2       352        16
+                                                                particle_system_definition_block_new         2         2       112         0
+                                                                                   breakable_surface         2         2        64         0
+                                                                                             totals:         7       186       708        16
+
+character                                                                                                count  elements      size   padding
+                                                                             character_general_block         2         2        24         0
+                                                                             character_weapons_block         2        64     13056         0
+                                                                      character_firing_pattern_block        42        74      4736         0
+                                                           character_firing_pattern_properties_block         2        60       960         0
+                                                                             character_vehicle_block         2        28      4984        56
+                                                                      campaign_metagame_bucket_block         1         1         4         0
+                                                                                           character         2         2       520         0
+                                                                            character_vitality_block         1         1       112         0
+                                                                           character_placement_block         1         1        48         4
+                                                                          character_perception_block         1         4       208         0
+                                                                                character_look_block         1         1        80         0
+                                                                            character_movement_block         1         1        34         2
+                                                                               character_ready_block         1         3        24         0
+                                                                              character_engage_block         1         3        48         0
+                                                                              character_charge_block         1         3       192         0
+                                                                             character_evasion_block         1         3        60         0
+                                                                               character_cover_block         1         1        64         0
+                                                                             character_retreat_block         1         2       152         0
+                                                                              character_search_block         1         1        20         0
+                                                                           character_presearch_block         1         1        36         0
+                                                                                character_idle_block         1         1         8         4
+                                                                        character_vocalization_block         1         1         8         0
+                                                                            character_grenades_block         1         2       116         4
+                                                                                             totals:        69       260     25494        70
+
+cloth                                                                                                    count  elements      size   padding
+                                                                                cloth_vertices_block         1        48       960         0
+                                                                                 cloth_indices_block         2       299       600         0
+                                                                                   cloth_links_block         1       210      3360         0
+                                                                                               cloth         1         1        84        24
+                                                                                             totals:         5       558      5004        24
+
+collision_model                                                                                          count  elements      size   padding
+                                                                                            material       120       246       984         0
+                                                                                   bsp3d_nodes_block       487     13483    107864         0
+                                                                                        planes_block       487      9009    144144         0
+                                                                                        leaves_block       487     10815     43260         0
+                                                                              bsp2d_references_block       487     16848     67392         0
+                                                                                      surfaces_block       487      9753     78024         0
+                                                                                         edges_block       487     16521    198252         0
+                                                                                      vertices_block       487      7820    109480     15640
+                                                                                                 bsp       325       487     32142       974
+                                                                                     mopp_codes_data         1         1        96         0
+                                                                         collision_bsp_physics_block         1         1       136        24
+                                                                   collision_model_permutation_block       181       325      6500         0
+                                                                                              region       120       181      2172         0
+                                                                                              sphere        94       148      2960         0
+                                                                          collision_model_node_block       120       425      4250       850
+                                                                                     collision_model       120       120      6240         0
+                                                                                   bsp2d_nodes_block       122      1048     16768         0
+                                                                                             totals:      4613     87231    820664     17488
+
+color_table                                                                                              count  elements      size   padding
+                                                                                         color_block         3        24      1152         0
+                                                                                         color_table         3         3        24         0
+                                                                                             totals:         6        27      1176         0
+
+contrail                                                                                                 count  elements      size   padding
+                                                                         contrail_point_states_block        26        61      3904         0
+                                                                                            contrail        26        26      3640      2600
+                                                                                             totals:        52        87      7544      2600
+
+decal                                                                                                    count  elements      size   padding
+                                                                                               decal        55        55      4400      5060
+                                                                                             totals:        55        55      4400      5060
+
+effect                                                                                                   count  elements      size   padding
+                                                                              effect_locations_block       112       239       956         0
+                                                                                          byte_block      2136    134208    134208         0
+                                                            particle_system_emitter_definition_block      1276      1339    235664     10712
+                                                                particle_system_definition_block_new       594      1627     91112         0
+                                                                                  effect_event_block       559       798     44688         0
+                                                                                              effect       580       580     25520      2320
+                                                                                   effect_part_block       219       435     22620      1740
+                                                                          effect_accelerations_block        35        49       882        98
+                                                                                             totals:      5511    139275    555650     14870
+
+equipment                                                                                                count  elements      size   padding
+                                                                            predicted_resource_block        12       104       832         0
+                                                                                           equipment        12        12      3684       108
+                                                                                             totals:        24       116      4516       108
+
+material_effects                                                                                         count  elements      size   padding
+                                                                      material_effect_material_block       204      2216     50968      2216
+                                                                            material_effect_block_v2        72      1191     28584         0
+                                                                                    material_effects        72        72       576         0
+                                                                                             totals:       348      3479     80128      2216
+
+garbage                                                                                                  count  elements      size   padding
+                                                                            predicted_resource_block         1         5        40         0
+                                                                                             garbage         1         1       291       177
+                                                                                             totals:         2         6       331       177
+
+chocolate_mountain                                                                                       count  elements      size   padding
+                                                                                          byte_block         5       564       564         0
+                                                                            lighting_variables_block         1         2       288         0
+                                                                                  chocolate_mountain         1         1         8         0
+                                                                                             totals:         7       567       860         0
+
+model                                                                                                    count  elements      size   padding
+                                                                                            material        87       207      2484      1656
+                                                                             model_permutation_block        54       169      1014       338
+                                                                                  model_region_block        67       153      2142       306
+                                                                                    model_node_block       118       426     38340       852
+                                                                             model_object_data_block       103       103      1854       206
+                                                                                               model       145       145     35090      1450
+                                                                                         permutation       156       157      2669      2355
+                                                                                              region        66       271      4336      1084
+                                                                                             variant        30        79      2528      1896
+                                                                         global_damage_section_block        29       103      4944       824
+                                                                           global_damage_nodes_block        11       145         0      2320
+                                                                            global_damage_info_block        33        33      4752      3432
+                                                                                  model_target_block        19        92      2576         0
+                                                                           model_variant_state_block       104       403      9269       403
+                                                                                              object         8        10       160         0
+                                                                 instantaneous_damage_repsonse_block        95       259     20720         0
+                                                                              damage_seat_info_block        17        55      1100         0
+                                                                        damage_constraint_info_block         1         2        32         8
+                                                                                             totals:      1143      2812    134010     17130
+
+hud_globals                                                                                              count  elements      size   padding
+                                                                            hud_waypoint_arrow_block         1        15       810       750
+                                                                                hud_dashlights_block         1         9       252         0
+                                                                            hud_waypoint_arrow_block         1         4       136         8
+                                                                                  hud_waypoint_block         1         8       176        16
+                                                                                 new_hud_sound_block         1         6       144         0
+                                                                    player_training_entry_data_block         1        32       832        64
+                                                                                         hud_globals         1         1       480       680
+                                                                                             totals:         7        75      2830      1518
+
+model_animation_graph                                                                                    count  elements      size   padding
+                                                                          animation_graph_node_block        70      1772     56704         0
+                                                                   aligned_animation_data_definition      2535      2535   8464560         0
+                                                                                animation_pool_block        69      2630    247220      5260
+                                                                           weapon_class_lookup_block         7        55       440         0
+                                                                               model_animation_graph        70        70      7560      4480
+                                                               animation_graph_sound_reference_block        33       334      3340       668
+                                                              animation_graph_effect_reference_block         4         9        90        18
+                                                                        animation_blend_screen_block        20        35       980         0
+                                                                         animation_frame_event_block       203       436      1744         0
+                                                                         animation_sound_event_block       258       458      3664         0
+                                                                        object_space_node_data_block        28        31       868         0
+                                                                        animation_effect_event_block         6         6        24         0
+                                                                                 damage_region_block        42       462      1848         0
+                                                                              damage_direction_block        11        44       352         0
+                                                                              damage_animation_block         3        11       132         0
+                                                                                   weapon_type_block       474       743     38636         0
+                                                                                  animation_ik_block        31        61       488         0
+                                                                                  weapon_class_block       210       504     10080         0
+                                                                               animation_entry_block       832      3722     29776         0
+                                                                                animation_mode_block        64       224      4480         0
+                                                                  inherited_animation_node_map_block         5       218       444         0
+                                                             inherited_animation_node_map_flag_block         5        10        40         0
+                                                                           inherited_animation_block         6         6       192         0
+                                                              animation_transition_destination_block       150       246      4674       246
+                                                                          animation_transition_block        56       150      2700       300
+                                                                            vehicle_suspension_block         5        20       800         0
+                                                                              object_animation_block         2         2        28        12
+                                                                                             totals:      5199     14794   8881864     10984
+
+damage_effect                                                                                            count  elements      size   padding
+                                                                                          byte_block        62      2240      2240         0
+                                                                 damage_effect_player_response_block        79       124      8928       496
+                                                                                       damage_effect       103       103     19982       618
+                                                                                             totals:       244      2467     31150      1114
+
+lens_flare                                                                                               count  elements      size   padding
+                                                                                          reflection        51        56      2464       224
+                                                                                          byte_block        12       936       936         0
+                                                                    lens_flare_color_animation_block         7         7        56         0
+                                                                                          lens_flare        53        53      4982       318
+                                                                   lens_flare_scalar_animation_block         8         8        64         0
+                                                                                             totals:       131      1060      8502       542
+
+light                                                                                                    count  elements      size   padding
+                                                                                          byte_block         5       364       364         0
+                                                                                brightness animation         6         6        48         0
+                                                                                               light        63        63     13356      1008
+                                                                                     color animation         1         1         8         0
+                                                                                             totals:        75       434     13776      1008
+
+sound_looping                                                                                            count  elements      size   padding
+                                                                           looping_sound_track_block       162       178     15308       356
+                                                                                       sound_looping       165       165      7260      1320
+                                                                          looping_sound_detail_block         4         4       208         0
+                                                                                             totals:       331       347     22776      1676
+
+globals                                                                                                  count  elements      size   padding
+                                                                       havok_cleanup_resources_block         1         1         8         0
+                                                                              collision_damage_block         1         1        40        32
+                                                                                 sound_globals_block         1         1        44         0
+                                                                          ai_globals_gravemind_block         1         1        12         0
+                                                                                    ai_globals_block         1         1       156       204
+                                                                                armor_modifier_block        21       714      5712         0
+                                                                                  damage_group_block         1        21       252         0
+                                                                           game_globals_damage_block         1         1         8         0
+                                                                             custom_references_block         1         8        64         0
+                                                                                         sound_block         1         2        16         0
+                                                                                        camera_block         1         1        20         0
+                                                                                 look_function_block         1         6        24         0
+                                                                                player_control_block         1         1        98        30
+                                                                                    difficulty_block         1         1       432       212
+                                                                                      grenades_block         1         2        52        36
+                                                                       vertex_shader_reference_block         1        33       264         0
+                                                                               rasterizer_data_block         1         1       210        54
+                                                                            interface_tag_references         1         1       152         0
+                                                                       multiplayer_information_block         1         1       112        40
+                                                                            player_information_block         1         1       184       100
+                                                                         player_representation_block         1         4       112       640
+                                                                                falling_damage_block         1         1        60        44
+                                                                                 old_materials_block         1        33      1188         0
+                                                                                     materials_block         1       183     31476      1464
+                                                                                multiplayer_ui_block         1         1        32         0
+                                                                             multiplayer_color_block         1        18       216         0
+                                                                        runtime_campaign_level_block         1        20      5280         0
+                                                                     runtime_levels_definition_block         1         1         8         0
+                                                                                             globals         1         1       220       424
+                                                                                             totals:        49      1061     46452      3280
+
+mouse_cursor_definition                                                                                  count  elements      size   padding
+                                                                 mouse_cursor_bitmap_reference_block         1         4        32         0
+                                                                             mouse_cursor_definition         1         1        12         0
+                                                                                             totals:         2         5        44         0
+
+render_model                                                                                             count  elements      size   padding
+                                                                                    compression info       168       168      9408         0
+                                                                                         permutation       258       500      8000         0
+                                                                                              region       168       258      4128         0
+                                                                                     block resources      1222      9536    123968     28608
+                                                                          render_model_section_block       168      1222     97760     14664
+                                                                                       section group       168       170      1700       340
+                                                                                                node       168       791     75936         0
+                                                                                            material       168       508     12700      3556
+                                                                                        render_model       168       168     20832      1344
+                                                                                           bitvector        72      1523      6092         0
+                                                                                              marker       942      1519     53165      1519
+                                                                                        marker group       122       942     11304         0
+                                                                                   material property         4         5        40         0
+                                                                                       compound node         2         8       128         0
+                                                                                             totals:      3798     17318    425161     50031
+
+multiplayer_globals                                                                                      count  elements      size   padding
+                                                                             multiplayer_color_block         1         9       108         0
+                                                                         multiplayer_universal_block         1         1        32         0
+                                                                                       weapons_block         1        20       160         0
+                                                                                      vehicles_block         1        14       112         0
+                                                                                       grenade_block         1         2        16         0
+                                                                                       powerup_block         1         2        16         0
+                                                                                        sounds_block         1        43       344         0
+                                                                     game_engine_general_event_block         1        80      8960      4480
+                                                                      game_engine_flavor_event_block         1        14      1568       784
+                                                                      game_engine_slayer_event_block         1         2       224       112
+                                                                         game_engine_ctf_event_block         1        22      2464      1232
+                                                                     game_engine_oddball_event_block         1         3       336       168
+                                                                        game_engine_king_event_block         1         8       896       448
+                                                                  game_engine_juggernaut_event_block         1         3       336       168
+                                                                 game_engine_territories_event_block         1        11      1232       616
+                                                                     game_engine_assault_event_block         1        25      2800      1400
+                                                                         multiplayer_constants_block         1         1        88       264
+                                                                   game_engine_status_response_block         1        23       460       184
+                                                                           multiplayer_runtime_block         1         1       516       868
+                                                                                 multiplayer_globals         1         1        16         0
+                                                                                             totals:        20       285     20684     10724
+
+new_hud_definition                                                                                       count  elements      size   padding
+                                                                                  hud_bitmap_widgets        32       240     23040       960
+                                                                                    hud_text_widgets        16        47      3760       188
+                                                                                  new_hud_definition        32        32      1280         0
+                                                                                          byte_block        15       492       492         0
+                                                                             hud_widget_effect_block        15        15      1530        30
+                                                                           hud_screen_effect_widgets         1         1        78         2
+                                                                                             totals:       111       827     30180      1180
+
+physics_model                                                                                            count  elements      size   padding
+                                                                                     materials_block        95        99      1188         0
+                                                                                  permutations_block       110       121      1452         0
+                                                                                       regions_block        95       110      1320         0
+                                                                                         nodes_block        75       193      2316         0
+                                                                                       physics_model        95        95     23560      2280
+                                                      physics_model_constraint_edge_constraint_block        21        21       252         0
+                                                            physics_model_node_constraint_edge_block         6        23       460        92
+                                                                                  rigid_bodies_block        94       133     19418      1862
+                                                                                         pills_block         3        19      1824         0
+                                                                                         boxes_block        17        21      3696         0
+                                                                           ragdoll_constraints_block         2        10      1420        60
+                                                                            rigid_body_indices_block       114       133       488         0
+                                                                     limited_hinge_constraints_block         4        10      1260        60
+                                                                                     polyhedra_block        77       137     38908       548
+                                                                       polyhedron_four_vectors_block        26       218     10464         0
+                                                                    polyhedron_plane_equations_block        77      2009     32144         0
+                                                                                         lists_block        11        16      1408       256
+                                                                                       spheres_block         2         2       320         0
+                                                                                 phantom_types_block         1         1        58        46
+                                                                   ball_and_socket_constraints_block         1         1       114         6
+                                                                                   list_shapes_block         2        27       324       108
+                                                                                         mopps_block         2         2        80         0
+                                                                                     mopp_codes_data         2         2       456         0
+                                                                                             totals:       932      3403    142930      5318
+
+particle_physics                                                                                         count  elements      size   padding
+                                                                      particle_controller_parameters        73       213      4260         0
+                                                                                 particle_controller        61        79       790       790
+                                                                                    particle_physics        63        63      1260         0
+                                                                                          byte_block        84      2928      2928         0
+                                                                                             totals:       281      3283      9238       790
+
+point_physics                                                                                            count  elements      size   padding
+                                                                                       point_physics         6         6       144       240
+                                                                                             totals:         6         6       144       240
+
+projectile                                                                                               count  elements      size   padding
+                                                                             object_attachment_block        29        66      1452       132
+                                                                  projectile_material_response_block        25       155     13330       310
+                                                                                          projectile        35        35     14140       560
+                                                                            predicted_resource_block         4        25       200         0
+                                                                                 object_widget_block         2         2        16         0
+                                                                        object_change_color_function         1         1        36         4
+                                                                                object_change_colors         1         1        16         0
+                                                                               object_function_block         1         1        32         0
+                                                                                             totals:        98       286     29222      1006
+
+particle                                                                                                 count  elements      size   padding
+                                                                                           parameter       120       133      5054       266
+                                                                                          byte_block       264     21784     21784         0
+                                                                 shader_postprocess_bitmap_new_block       120       120      1440         0
+                                                                                 real_vector4d_block         2         4        64         0
+                                                                               tag_block_index_block         1         1         4         0
+                                                         shader_postprocess_implementation_new_block         1         2        20         0
+                                                            shader_postprocess_bitmap_property_block         1         5        20         0
+                                                             shader_postprocess_definition_new_block       159       477     59148         0
+                                                                                            particle       191       191     27886      8022
+                                                        shader_postprocess_level_of_detail_new_block         1         1         8         0
+                                                                                       pixel32_block         2         2         8         0
+                                                            particle_system_emitter_definition_block         2         2       352        16
+                                                                particle_system_definition_block_new         2         3       168         0
+                                                                                             totals:       866     22725    115956      8304
+
+scenario_structure_bsp                                                                                   count  elements      size   padding
+                                                                 structure_collision_materials_block         1         1        18         2
+                                                                                   bsp3d_nodes_block         1         6        48         0
+                                                                                        planes_block         1         6        96         0
+                                                                                        leaves_block         1         1         4         0
+                                                                              bsp2d_references_block         1         6        24         0
+                                                                                      surfaces_block         1         6        48         0
+                                                                                         edges_block         1        12       144         0
+                                                                                      vertices_block         1         8       112        16
+                                                                          global_collision_bsp_block         1         1        64         0
+                                                                            structure_bsp_leaf_block         1         1         8         0
+                                                               structure_bsp_surface_reference_block         1        12        96         0
+                                                               structure_bsp_cluster_data_definition         1         1         8         0
+                                                              structure_bsp_detail_object_data_block         1         1        32         4
+                                                                                     block resources         1         9       117        27
+                                                                            predicted_resource_block         1        55       440         0
+                                                                         structure_bsp_cluster_block         1         1       158        18
+                                                                                            material         1         1        25         7
+                                                               structure_bsp_sky_owner_cluster_block         1        32        64         0
+                                                    structure_sound_cluster_interior_cluster_indices         2         2         8         0
+                                                                   structure_bsp_sound_cluster_block         2         2        32         8
+                                                              structure_bsp_cluster_debug_info_block         1         1        44        28
+                                                                      structure_bsp_debug_info_block         1         1        24        64
+                                                                                      mopp_code_data         1         1       164         0
+                                                               structure_portal_device_mapping_block         1         1        16         0
+                                                                      structure_bsp_audibility_block         1         1        52         0
+                                                                structure_bsp_fake_lightprobes_block         1         2       180         4
+                                                                     decorator_cell_collection_block         1         1        24         0
+                                                                decorator_placement_definition_block         1         1        48         0
+                                                                              scenario_structure_bsp         1         1       440       132
+                                                                                             totals:        31       174      2538       310
+
+scenery                                                                                                  count  elements      size   padding
+                                                                            predicted_resource_block        10        77       616         0
+                                                                                             scenery        15        15      2775       165
+                                                                             object_attachment_block        11        16       352        32
+                                                                                             totals:        36       108      3743       197
+
+scenario                                                                                                 count  elements      size   padding
+                                                                         scenario_object_names_block         1         1        36         0
+                                                                              scenario_scenery_block         1        16      1424        48
+                                                                      scenario_scenery_palette_block         1        14       112       448
+                                                                                scenario_biped_block         1         2       166         2
+                                                                        scenario_biped_palette_block         1         2        16        64
+                                                                              scenario_vehicle_block         1        10       830        10
+                                                                      scenario_vehicle_palette_block         1        10        80       320
+                                                                            scenario_equipment_block         1        12       660        12
+                                                                    scenario_equipment_palette_block         1        12        96       384
+                                                                               scenario_weapon_block         1        20      1660        20
+                                                                       scenario_weapon_palette_block         1        21       168       672
+                                                                        scenario_sound_scenery_block         1         9       711         9
+                                                                scenario_sound_scenery_palette_block         1         9        72       288
+                                                                              scenario_players_block         1         1        46         6
+                                                                        scenario_decal_palette_block         1         1         8         0
+                                                                           hs_string_data_definition         1         1      1024         0
+                                                                                cs_script_data_block         1         1         8       120
+                                                              scenario_structure_bsp_reference_block         1         1        32        36
+                                                                                  syntax_datum_block         1       512     10240         0
+                                                            scenario_cluster_background_sounds_block         1         1         2         2
+                                                                       scenario_cluster_points_block         1         1        12         0
+                                                                         scenario_cluster_data_block         1         1        52         0
+                                                                           scenario_spawn_data_block         1         1        36        60
+                                                                                scenario_crate_block         1        26      1950        26
+                                                                        scenario_crate_palette_block         1        26       208       832
+                                                          scenario_decorator_set_palette_entry_block         1         7        56         0
+                                            scenario_structure_bsp_spherical_harmonic_lighting_block         1         1        16         0
+                                                                           scenario_level_data_block         1         1        24         0
+                                                                 simulation definition table element         1       451      1804         0
+                                                                                            scenario         1         1       984         8
+                                                                                             totals:        30      1172     22533      3367
+
+sound_effect_collection                                                                                  count  elements      size   padding
+                                                                         platform_sound_filter_block         5         5       360         0
+                                                                         sound_effect_playback_block        14        14       560         0
+                                                                        sound_effect_component_block         9         9       144         0
+                                                                                          byte_block         1       116       116         0
+                                                                platform_sound_effect_function_block         1         1        16         0
+                                                                platform_sound_effect_constant_block         4        24        96         0
+                                                     platform_sound_effect_override_descriptor_block         3        18        20         0
+                                                                         platform_sound_effect_block         7         7       196         0
+                                                              platform_sound_effect_collection_block         8         8       160         0
+                                                                      platform_sound_pitch_lfo_block         2         2        96         0
+                                                                     platform_sound_filter_lfo_block         1         1        64         0
+                                                                       platform_sound_playback_block         1        19       912       152
+                                                                             sound_effect_collection         1         1         8         0
+                                                                                             totals:        57       225      2748       152
+
+shader                                                                                                   count  elements      size   padding
+                                                                                  runtime properties       182       182     14560         0
+                                                                 shader_postprocess_bitmap_new_block       270      1264     15168         0
+                                                                                       pixel32_block       200       961      3844         0
+                                                                                 real_vector4d_block       191      1689     27024         0
+                                                        shader_postprocess_level_of_detail_new_block        32        52       364         0
+                                                                               tag_block_index_block        56      1383      2848         0
+                                                         shader_postprocess_implementation_new_block        64      1145     11560         0
+                                                            shader_postprocess_bitmap_property_block        24       120       480         0
+                                                             shader_postprocess_color_property_block        10        20       240         0
+                                                             shader_postprocess_value_property_block         9        54       216         0
+                                                             shader_postprocess_definition_new_block       353      1059    131316         0
+                                                                            predicted_resource_block       270      1684     13472         0
+                                                                                              shader       356       356     29904      2848
+                                                                                          byte_block       170      7184      7184         0
+                                                                shader_postprocess_overlay_new_block       102      1077     21540         0
+                                                      shader_postprocess_overlay_reference_new_block        39       644      2576         0
+                                                     shader_postprocess_animated_parameter_new_block        25        89       208         0
+                                           shader_postprocess_animated_parameter_reference_new_block        55       805      3220         0
+                                                                                             totals:      2408     19768    285724      2848
+
+user_interface_list_skin_definition                                                                      count  elements      size   padding
+                                                           screen_animation_keyframe_reference_block        47        94      1504       376
+                                                                    single_animation_reference_block        23       129      2064         0
+                                                                          text_block_reference_block        30        59      2360       236
+                                                                        bitmap_block_reference_block        27       100      5400       200
+                                                                 user_interface_list_skin_definition        32        32      1920         0
+                                                                        player_block_reference_block         7         7       140        28
+                                                                           hud_block_reference_block         5         5       180         0
+                                                                                             totals:       171       426     13568       840
+
+sound_classes                                                                                            count  elements      size   padding
+                                                                                          byte_block         2       208       208         0
+                                                                 sound_class_ducker_block_definition        13        19       380         0
+                                                                                   sound_class_block         2       108     12636       324
+                                                                                       sound_classes         2         2        16         0
+                                                                                             totals:        19       337     13240       324
+
+sound                                                                                                    count  elements      size   padding
+                                                                                    cache_file_sound      2204      2204     61712         0
+                                                                                             totals:      2204      2204     61712         0
+
+sound_mix                                                                                                count  elements      size   padding
+                                                                                           sound_mix         1         1        88         0
+                                                                                             totals:         1         1        88         0
+
+shader_pass                                                                                              count  elements      size   padding
+                                                       shader_postprocess_compiled_pixel_shader_data      1609      1609   4613444         0
+                                                                     shader_postprocess_pixel_shader       169       854     47824         0
+                                                                       pixel_shader_extern_map_block         9        17        48         0
+                                                                            pixel_shader_index_block         4        88        88         0
+                                                    shader_pass_postprocess_implementation_new_block        90       180     59528         0
+                                                           shader_pass_postprocess_texture_new_block        36       350      1400         0
+                                                                                  render_state_block        44       698      3552         0
+                                                         shader_pass_postprocess_texture_state_block        37       357      8568         0
+                                                            shader_pass_postprocess_extern_new_block        42       292      1168         0
+                                                        shader_pass_postprocess_definition_new_block        90       270     23760         0
+                                                                                         shader_pass        90        90      2880       360
+                                                                                             totals:      2220      4805   4762260       360
+
+sound_dialogue_constants                                                                                 count  elements      size   padding
+                                                                            sound_dialogue_constants         1         1        16        24
+                                                                                             totals:         1         1        16        24
+
+sound_scenery                                                                                            count  elements      size   padding
+                                                                             object_attachment_block         9         9       198        18
+                                                                                       sound_scenery         9         9      1611       225
+                                                                                             totals:        18        18      1809       243
+
+shader_template                                                                                          count  elements      size   padding
+                                               shader_template_postprocess_level_of_detail_new_block        25        41       444         0
+                                                          shader_template_postprocess_pass_new_block        77       341      3524         0
+                                                shader_template_postprocess_implementation_new_block        59       950      5792         0
+                                                     shader_template_postprocess_remapping_new_block        61      4355     17420         0
+                                                    shader_template_postprocess_definition_new_block        80       240      9600         0
+                                                                                     shader_template        80        80      7200       480
+                                                                               tag_block_index_block         2        50       104         0
+                                                                                             totals:       384      6057     44084       480
+
+style                                                                                                    count  elements      size   padding
+                                                                                behavior_names_block         3       393     12576         0
+                                                                                               style        10        10       870        50
+                                                                                             totals:        13       403     13446        50
+
+liquid                                                                                                   count  elements      size   padding
+                                                                                          byte_block        10       936       936         0
+                                                                                                core         1         2        84        28
+                                                                                                 arc         1         1       124       112
+                                                                                              liquid         2         2        44       180
+                                                                                             totals:        14       941      1188       320
+
+camera_track                                                                                             count  elements      size   padding
+                                                                    camera_track_control_point_block        17       225      6300         0
+                                                                                        camera_track        17        17       204         0
+                                                                                             totals:        34       242      6504         0
+
+dialogue                                                                                                 count  elements      size   padding
+                                                                              sound_references_block         6      1980     27720      3960
+                                                                                            dialogue         6         6       144         0
+                                                                                             totals:        12      1986     27864      3960
+
+sound_cache_file_gestalt                                                                                 count  elements      size   padding
+                                                                           sound_gestalt_codec_block         1         8        24         0
+                                                                        sound_gestalt_playback_block         1       356     19936         0
+                                                                           sound_gestalt_scale_block         1        68      1360         0
+                                                                    sound_gestalt_import_names_block         1      5207     20828         0
+                                                          sound_gestalt_pitch_range_parameters_block         1        36       360         0
+                                                                    sound_gestalt_pitch_ranges_block         1      2267     27204         0
+                                                       sound_gestalt_permutation_language_data_block      7907     71163    569304         0
+                                                                    sound_gestalt_permutations_block         1      7907    126512         0
+                                                                         platform_sound_filter_block         2         2       144         0
+                                                                 sound_gestalt_custom_playback_block         1         2        88        16
+                                                                     sound_gestalt_reflections_block         1       304      4864         0
+                                                     sound_gestalt_remastered_sound_references_block         1       501      4008         0
+                                                  sound_gestalt_runtime_permutation_bit_vector_block         1      1478      1480         0
+                                                                       sound_permutation_chunk_block         8     68718   1099488         0
+                                                                 sound_gestalt_language_chunks_block         1         9        72         0
+                                                                          sound_promotion_rule_block        16        42       336       336
+                                                                 sound_promotion_runtime_timer_block        16        42       168         0
+                                                                      sound_gestalt_promotions_block         1        16       448         0
+                                                                                     block resources       408       816     10608      2448
+                                                                      sound_gestalt_extra_info_block         1        51     12342      4590
+                                                                            sound_cache_file_gestalt         1         1       120         0
+                                                                                             totals:      8372    158994   1899694      7390
+
+multilingual_unicode_string_list                                                                         count  elements      size   padding
+                                                                    multilingual_unicode_string_list        76        76      1216      2736
+                                                                                             totals:        76        76      1216      2736
+
+vehicle                                                                                                  count  elements      size   padding
+                                                                          object_ai_properties_block        19        19       228        76
+                                                                                          byte_block        38      2136      2136         0
+                                                                               object_function_block        14        38      1216         0
+                                                                             object_attachment_block        14        64      1408       128
+                                                                                 object_widget_block         4         6        48         0
+                                                                            predicted_resource_block        22       340      2720         0
+                                                                                  powered_seat_block        11        13       104         0
+                                                                                   unit_weapon_block        18        18       144         0
+                                                                             unit_camera_track_block        66        66       528         0
+                                                                            unit_hud_reference_block        28        28       224         0
+                                                                                     unit_seat_block        22        73     12848         0
+                                                                                          gear_block         3        10       680         0
+                                                                     friction_point_definition_block         3        20       960       560
+                                                                         vehicle_phantom_shape_block        22        22     16720       528
+                                                                                             vehicle        22        22     16214       682
+                                                             object_change_color_initial_permutation         8        10       320         0
+                                                                                object_change_colors         6         8       128         0
+                                                                 anti_gravity_point_definition_block         5        25      1500       400
+                                                                                             totals:       325      2918     58126      2374
+
+vertex_shader                                                                                            count  elements      size   padding
+                                                                               compiled_shader_block       385       385   1720860         0
+                                                                                      classification        90       492     11808         0
+                                                                                       vertex_shader        91        91      3276         0
+                                                                                             totals:       566       968   1735944         0
+
+weapon                                                                                                   count  elements      size   padding
+                                                                             object_attachment_block        22        38       836        76
+                                                                 weapon_first_person_interface_block        23        46       736         0
+                                                                            predicted_resource_block        54       496      3968         0
+                                                                                     weapon_triggers        15        17      1020        68
+                                                                          barrel_firing_effect_block        36        38      1976         0
+                                                                                      weapon_barrels        35        43      8213      1935
+                                                                                              weapon        41        41     30422      2214
+                                                                                          byte_block         2       232       232         0
+                                                                               object_function_block         8         9       288         0
+                                                                                           magazines        15        15       930       450
+                                                                             predicted_bitmaps_block        16        54       432         0
+                                                                                    magazine_objects         7         7        70        14
+                                                                          object_ai_properties_block         2         2        24         8
+                                                                                 object_widget_block         2         2        16         0
+                                                             object_change_color_initial_permutation         5         5       160         0
+                                                                                object_change_colors         2         6        96         0
+                                                                                             totals:       285      1051     49419      4765
+
+user_interface_screen_widget_definition                                                                  count  elements      size   padding
+                                                                       button_widget_reference_block         3        53      3074       106
+                                                                          text_block_reference_block        71       467     18680      1868
+                                                                        bitmap_block_reference_block        49       277     14958       554
+                                                                         window_pane_reference_block        51        87      6438       174
+                                                             user_interface_screen_widget_definition        74        74      8140       148
+                                                                                list_reference_block        33        33       792         0
+                                                                        player_block_reference_block         1         1        20         4
+                                                                           ui_object_reference_block         1         1        32         0
+                                                                            ui_light_reference_block         1         1        32         0
+                                                                      ui_model_scene_reference_block         1         1        74         2
+                                                         local_string_id_list_string_reference_block         1         4        16         0
+                                                        local_string_id_list_section_reference_block         1         1        12         0
+                                                                                             totals:       287      1000     52268      2856
+
+user_interface_globals_definition                                                                        count  elements      size   padding
+                                                               user_interface_widget_reference_block         2       140      1120         0
+                                                                   user_interface_globals_definition         2         2        64         0
+                                                                                             totals:         4       142      1184         0
+
+user_interface_shared_globals_definition                                                                 count  elements      size   padding
+                                                                                      ui_error_block         8       267      6141       267
+                                                                             ui_error_category_block         1         9       351         9
+                                                           screen_animation_keyframe_reference_block        74       205      3280       820
+                                                                           animation_reference_block         1        59      2478       118
+                                                       background_animation_keyframe_reference_block         8        24       480         0
+                                                               persistent_background_animation_block         1         8        96        32
+                                                                           list_skin_reference_block         1        26       208         0
+                                                                         skill_to_rank_mapping_block         1        50       200         0
+                                                            user_interface_shared_globals_definition         1         1       372        80
+                                                                                             totals:        96       649     13606      1326
+

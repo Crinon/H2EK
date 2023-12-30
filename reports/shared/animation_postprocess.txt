@@ -1,0 +1,420 @@
+building list of unit seats and weapons...
+FOUND SEAT: (warthog_d) in objects\vehicles\warthog\warthog
+FOUND SEAT: (warthog_p) in objects\vehicles\warthog\warthog
+FOUND SEAT: (warthog_b_d) in objects\vehicles\warthog\warthog
+FOUND SEAT: (warthog_b_p) in objects\vehicles\warthog\warthog
+FOUND SEAT: (warthog_b_h) in objects\vehicles\warthog\warthog
+FOUND SEAT: (warthog_b_b) in objects\vehicles\warthog\warthog
+FOUND SEAT: (warthog_g) in objects\vehicles\warthog\turrets\chaingun\chaingun
+FOUND SEAT: (warthog_b_g) in objects\vehicles\warthog\turrets\chaingun\chaingun
+FOUND SEAT: (warthog_g) in objects\vehicles\warthog\turrets\gauss\gauss
+FOUND SEAT: (warthog_b_g) in objects\vehicles\warthog\turrets\gauss\gauss
+FOUND SEAT: (banshee_d) in objects\vehicles\banshee\banshee
+FOUND SEAT: (banshee_b_d) in objects\vehicles\banshee\banshee
+FOUND SEAT: (banshee_b_f) in objects\vehicles\banshee\banshee
+FOUND SEAT: (banshee_b_l) in objects\vehicles\banshee\banshee
+FOUND SEAT: (banshee_b_r) in objects\vehicles\banshee\banshee
+FOUND SEAT: (ghost_d) in objects\vehicles\ghost\ghost
+FOUND SEAT: (ghost_b_l) in objects\vehicles\ghost\ghost
+FOUND SEAT: (ghost_b_b) in objects\vehicles\ghost\ghost
+FOUND SEAT: (ghost_b_h) in objects\vehicles\ghost\ghost
+FOUND SEAT: (ghost_b_g) in objects\vehicles\ghost\ghost
+FOUND SEAT: (h_turret_ap_d) in objects\vehicles\h_turret_ap\h_turret_ap
+FOUND SEAT: (scorpion_d) in objects\vehicles\scorpion\scorpion
+FOUND SEAT: (scorpion_p_lf) in objects\vehicles\scorpion\scorpion
+FOUND SEAT: (scorpion_p_rf) in objects\vehicles\scorpion\scorpion
+FOUND SEAT: (scorpion_p_lb) in objects\vehicles\scorpion\scorpion
+FOUND SEAT: (scorpion_p_rb) in objects\vehicles\scorpion\scorpion
+FOUND SEAT: (scorpion_b_d_l) in objects\vehicles\scorpion\scorpion
+FOUND SEAT: (scorpion_b_d_r) in objects\vehicles\scorpion\scorpion
+FOUND SEAT: (scorpion_b_b) in objects\vehicles\scorpion\scorpion
+FOUND SEAT: (scorpion_b_t) in objects\vehicles\scorpion\turrets\cannon\cannon
+FOUND SEAT: (scorpion_b_t) in objects\vehicles\scorpion\turrets\cannon\cannon_mp
+FOUND SEAT: (c_turret_ap_d) in objects\vehicles\c_turret_ap\c_turret_ap
+FOUND SEAT: (wraith_d) in objects\vehicles\wraith\wraith
+FOUND SEAT: (wraith_b_l) in objects\vehicles\wraith\wraith
+FOUND SEAT: (wraith_b_r) in objects\vehicles\wraith\wraith
+FOUND SEAT: (wraith_b_b) in objects\vehicles\wraith\turrets\mortar\mortar
+FOUND SEAT: (wraith_b_t) in objects\vehicles\wraith\turrets\mortar\mortar
+FOUND SEAT: (minigun_g) in objects\vehicles\wraith\turrets\minigun\minigun
+FOUND SEAT: (wraith_b_b) in objects\vehicles\wraith\turrets\mortar\mortar_mp
+FOUND SEAT: (wraith_b_t) in objects\vehicles\wraith\turrets\mortar\mortar_mp
+FOUND SEAT: (spectre_d) in objects\vehicles\spectre\spectre
+FOUND SEAT: (spectre_p_l) in objects\vehicles\spectre\spectre
+FOUND SEAT: (spectre_p_r) in objects\vehicles\spectre\spectre
+FOUND SEAT: (spectre_b_d) in objects\vehicles\spectre\spectre
+FOUND SEAT: (spectre_b_p_l) in objects\vehicles\spectre\spectre
+FOUND SEAT: (spectre_b_p_r) in objects\vehicles\spectre\spectre
+FOUND SEAT: (spectre_g) in objects\vehicles\spectre\turrets\plasma\plasma_turret
+FOUND SEAT: (spectre_b_g) in objects\vehicles\spectre\turrets\plasma\plasma_turret
+FOUND SEAT: (c_turret_mp_d) in objects\weapons\fixed\plasma_cannon\plasma_cannon
+FOUND SEAT: (h_turret_mp_d) in objects\weapons\fixed\h_turret_mp\h_turret_mp
+FOUND SEAT: (mongoose_d) in objects\vehicles\mongoose\mongoose
+FOUND SEAT: (creep_d) in objects\vehicles\creep\creep_mp
+FOUND SEAT: (creep_g) in objects\vehicles\creep\creep_mp
+FOUND SEAT: (creep_p_l01) in objects\vehicles\creep\creep_mp
+FOUND SEAT: (creep_p_l02) in objects\vehicles\creep\creep_mp
+FOUND SEAT: (creep_p_l03) in objects\vehicles\creep\creep_mp
+FOUND SEAT: (creep_p_l04) in objects\vehicles\creep\creep_mp
+FOUND SEAT: (creep_p_l05) in objects\vehicles\creep\creep_mp
+FOUND SEAT: (creep_p_r01) in objects\vehicles\creep\creep_mp
+FOUND SEAT: (creep_p_r02) in objects\vehicles\creep\creep_mp
+FOUND SEAT: (creep_p_r03) in objects\vehicles\creep\creep_mp
+FOUND SEAT: (creep_p_r04) in objects\vehicles\creep\creep_mp
+FOUND SEAT: (creep_p_r05) in objects\vehicles\creep\creep_mp
+FOUND SEAT: (creep_sc01) in objects\vehicles\creep\creep_mp
+FOUND SEAT: (warthog_d) in objects\vehicles\falcon\falcon
+FOUND SEAT: (warthog_g) in objects\vehicles\falcon\falcon
+FOUND SEAT: (warthog_p) in objects\vehicles\falcon\falcon
+FOUND SEAT: (warthog_p) in objects\vehicles\falcon\falcon
+FOUND SEAT: (warthog_p) in objects\vehicles\falcon\falcon
+FOUND SEAT: (warthog_p) in objects\vehicles\falcon\falcon
+FOUND SEAT: (throne_d) in objects\vehicles\gravity_throne\gravity_throne_mp
+FOUND SEAT: (throne_b_l) in objects\vehicles\gravity_throne\gravity_throne_mp
+FOUND SEAT: (throne_b_r) in objects\vehicles\gravity_throne\gravity_throne_mp
+FOUND WEAPON: (cg) in objects\vehicles\warthog\turrets\chaingun\weapon\chaingun_turret
+FOUND WEAPON: (gr) in objects\vehicles\warthog\turrets\gauss\weapon\gauss_turret
+FOUND WEAPON: (gun) in objects\vehicles\warthog\weapon\warthog_horn
+FOUND WEAPON: (gun) in objects\vehicles\banshee\weapon\banshee_gun
+FOUND WEAPON: (gun) in objects\vehicles\ghost\weapon\ghost_gun
+FOUND WEAPON: (gt) in objects\vehicles\h_turret_ap\weapon\h_turret_ap
+FOUND WEAPON: (cannon) in objects\vehicles\scorpion\turrets\cannon\weapon\cannon_turret
+FOUND WEAPON: (cannon) in objects\vehicles\scorpion\turrets\cannon\weapon\cannon_turret_mp
+FOUND WEAPON: (gt) in objects\vehicles\c_turret_ap\weapon\big_needler
+FOUND WEAPON: (gun) in objects\vehicles\wraith\turrets\mortar\mortar_turret
+FOUND WEAPON: (gun) in objects\vehicles\wraith\turrets\minigun\minigun_turret
+FOUND WEAPON: (gun) in objects\vehicles\wraith\turrets\mortar\mortar_turret_mp
+FOUND WEAPON: (gt) in objects\vehicles\spectre\plasma_turret\weapon\plasma_turret
+FOUND WEAPON: (gun) in objects\weapons\fixed\plasma_cannon\plasma_cannon
+FOUND WEAPON: (hp) in objects\weapons\pistol\magnum\magnum
+FOUND WEAPON: (ne) in objects\weapons\pistol\needler\needler
+FOUND WEAPON: (pp) in objects\weapons\pistol\plasma_pistol\plasma_pistol
+FOUND WEAPON: (br) in objects\weapons\rifle\battle_rifle\battle_rifle
+FOUND WEAPON: (cb) in objects\weapons\rifle\covenant_carbine\covenant_carbine
+FOUND WEAPON: (pr) in objects\weapons\rifle\plasma_rifle\plasma_rifle
+FOUND WEAPON: (sg) in objects\weapons\rifle\shotgun\shotgun
+FOUND WEAPON: (smg) in objects\weapons\rifle\smg\smg
+FOUND WEAPON: (sr) in objects\weapons\rifle\sniper_rifle\sniper_rifle
+FOUND WEAPON: (fc) in objects\weapons\support_high\flak_cannon\flak_cannon
+FOUND WEAPON: (rl) in objects\weapons\support_high\rocket_launcher\rocket_launcher
+FOUND WEAPON: (bs) in objects\weapons\support_low\brute_shot\brute_shot
+FOUND WEAPON: (bomb) in objects\weapons\multiplayer\assault_bomb\assault_bomb
+FOUND WEAPON: (b) in objects\weapons\multiplayer\ball\ball
+FOUND WEAPON: (f) in objects\weapons\multiplayer\flag\flag
+FOUND WEAPON: (eb) in objects\weapons\melee\energy_blade\energy_blade
+FOUND WEAPON: (eb) in objects\weapons\melee\energy_blade\energy_blade_useless
+FOUND WEAPON: (csr) in objects\weapons\rifle\beam_rifle\beam_rifle
+FOUND WEAPON: (pr) in objects\weapons\rifle\brute_plasma_rifle\brute_plasma_rifle
+FOUND WEAPON: (ds) in objects\characters\sentinel_aggressor\weapons\beam\sentinel_aggressor_beam
+FOUND WEAPON: (smg) in objects\weapons\rifle\smg_silenced\smg_silenced
+FOUND WEAPON: (pr) in scenarios\objects\covenant\military\scarab\weapons\main_gun\scarab_main_gun_handheld
+FOUND WEAPON: (b) in objects\weapons\multiplayer\ball\juggernaut_powerup
+FOUND WEAPON: (sr) in objects\weapons\rifle\gpmg\gpmg
+FOUND WEAPON: (gt) in objects\vehicles\creep\plasma_turret\weapons\creep_turret
+FOUND WEAPON: (cg) in objects\vehicles\falcon\weapon\rpg
+FOUND WEAPON: (hfr) in objects\characters\hunter\hunter_particle_cannon\hunter_particle_cannon
+
+searching model animation graphs for unused graph entries and animations...
+PROCESSING objects\multi\2way_teleporter\2way_teleporter>>>
+ [removed -8 bytes]
+PROCESSING scenarios\objects\special\null_up\null_up>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\masterchief\masterchief>>>
+PROCESSING SUBGRAPH kashiiera\objects\characters\masterchief\masterchief
+  culling unused weapon class (combat:hammer)
+  culling unused weapon class (crouch:hammer)
+  removed animation combat:hammer:aim_still_up
+  removed animation combat:hammer:airborne
+  removed animation combat:hammer:airborne_arc
+  removed animation combat:hammer:grip
+  removed animation combat:hammer:idle
+  removed animation combat:hammer:land_soft
+  removed animation combat:hammer:melee_dash
+  removed animation combat:hammer:melee_lunge
+  removed animation combat:hammer:melee_strike_1
+  removed animation combat:hammer:melee_strike_2
+  removed animation combat:hammer:move_back
+  removed animation combat:hammer:move_front
+  removed animation combat:hammer:move_left
+  removed animation combat:hammer:move_right
+  removed animation combat:hammer:put_away
+  removed animation combat:hammer:ready
+  removed animation combat:hammer:throw_equipment
+  removed animation combat:hammer:throw_grenade:var0
+  removed animation combat:hammer:turn_left
+  removed animation combat:hammer:turn_right
+  removed animation combat:hammer:walk_back
+  removed animation combat:hammer:walk_front
+  removed animation combat:hammer:walk_left
+  removed animation combat:hammer:walk_right
+  removed animation crouch:hammer:aim_move_up
+  removed animation crouch:hammer:aim_still_up
+  removed animation crouch:hammer:airborne
+  removed animation crouch:hammer:airborne_arc
+  removed animation crouch:hammer:idle
+  removed animation crouch:hammer:land_soft
+  removed animation crouch:hammer:melee_strike_2
+  removed animation crouch:hammer:move_back
+  removed animation crouch:hammer:move_front
+  removed animation crouch:hammer:move_left
+  removed animation crouch:hammer:move_right
+  removed animation crouch:hammer:turn_left
+  removed animation crouch:hammer:turn_right
+  removed animation crouch:hammer:walk_back
+  removed animation crouch:hammer:walk_front
+  removed animation crouch:hammer:walk_left
+  removed animation crouch:hammer:walk_right
+  culling unused mode (pelican_b)
+  culling unused mode (pelican_p_l05)
+  culling unused mode (pelican_p_r05)
+  culling unused mode (scorpion_p_l01)
+  culling unused mode (scorpion_p_l02)
+  culling unused mode (scorpion_p_r01)
+  culling unused mode (scorpion_p_r02)
+  culling unused mode (ui)
+  culling unused weapon (combat:ball:pch)
+  culling unused weapon (combat:ball:sch)
+  culling unused weapon (combat:support:ft)
+  culling unused weapon (crouch:support:ft)
+  culling unused weapon (warthog_p:support:ft)
+  culling unused weapon class (crouch:bomb)
+  culling unused weapon class (warthog_p:bomb)
+  removed animation combat:ball:pch:grip
+  removed animation combat:ball:sch:grip
+  removed animation pelican_b:idle
+  removed animation pelican_p_l05:enter
+  removed animation pelican_p_l05:exit
+  removed animation pelican_p_l05:rifle:idle
+  removed animation pelican_p_r05:enter
+  removed animation pelican_p_r05:exit
+  removed animation scorpion_p_l01:acc_front_back
+  removed animation scorpion_p_l01:acc_left_right
+  removed animation scorpion_p_l01:acc_up_down
+  removed animation scorpion_p_l01:enter
+  removed animation scorpion_p_l01:exit
+  removed animation scorpion_p_l01:rifle:aim_still_up
+  removed animation scorpion_p_l01:rifle:idle
+  removed animation ui:rifle:idle:var1
+ [removed 34604 bytes]
+PROCESSING kashiiera\objects\characters\masterchief\masterchief>>>
+ [removed 0 bytes]
+PROCESSING objects\characters\elite\elite>>>
+  culling unused mode (bunker_cover)
+  culling unused mode (bunker_open)
+  culling unused mode (c_turret_ap)
+  culling unused mode (creep_p_m01)
+  culling unused mode (ghost_b_r)
+  culling unused mode (ghost_d_b)
+  culling unused mode (guntower_d)
+  culling unused mode (insertion_pod_d)
+  culling unused mode (mouth)
+  culling unused mode (panic)
+  culling unused mode (phantom_p_a01)
+  culling unused mode (phantom_p_a02)
+  culling unused mode (phantom_p_a03)
+  culling unused mode (phantom_p_b01)
+  culling unused mode (phantom_p_b02)
+  culling unused mode (phantom_p_b03)
+  culling unused mode (phantom_p_c01)
+  culling unused mode (phantom_p_c02)
+  culling unused mode (phantom_p_c03)
+  culling unused mode (scarab_d_l)
+  culling unused mode (scarab_d_r)
+  culling unused mode (scarab_turret_d)
+  culling unused mode (stand)
+  removed animation bunker_cover:missile:idle:2:bunker_open:idle
+  removed animation bunker_cover:pistol:aim_still_up
+  removed animation bunker_cover:pistol:enter
+  removed animation bunker_cover:pistol:idle
+  removed animation bunker_cover:pistol:idle:2:bunker_open:idle
+  removed animation bunker_open:missile:aim_still_up
+  removed animation bunker_open:missile:exit
+  removed animation bunker_open:missile:idle
+  removed animation bunker_open:missile:idle:2:bunker_cover:idle
+  removed animation bunker_open:pistol:aim_still_up
+  removed animation bunker_open:pistol:exit
+  removed animation bunker_open:pistol:idle
+  removed animation bunker_open:pistol:idle:2:bunker_cover:idle
+  removed animation c_turret_ap:acc_front_back
+  removed animation c_turret_ap:acc_left_right
+  removed animation c_turret_ap:acc_up_down
+  removed animation c_turret_ap:enter
+  removed animation c_turret_ap:exit
+  removed animation c_turret_ap:unarmed:idle
+  removed animation ghost_b_r:acc_front_back
+  removed animation ghost_b_r:acc_left_right
+  removed animation ghost_b_r:acc_up_down
+  removed animation ghost_b_r:board:var0
+  removed animation ghost_b_r:enter
+  removed animation ghost_b_r:idle:var0
+  removed animation ghost_d_b:ejection
+  removed animation insertion_pod_d:exit
+  removed animation insertion_pod_d:idle
+  removed animation mouth:closed
+  removed animation panic:pistol:idle
+  removed animation panic:pistol:move_front
+  removed animation panic:pistol:turn_left
+  removed animation panic:pistol:turn_right
+  removed animation phantom_p_a01:any:any:exit
+  removed animation phantom_p_a01:any:any:idle
+  removed animation phantom_p_a02:any:any:exit
+  removed animation phantom_p_a03:any:any:exit
+  removed animation scarab_d_l:look
+  removed animation scarab_d_r:any:any:exit
+  removed animation scarab_d_r:any:any:idle:var0
+  removed animation scarab_d_r:any:any:idle:var1
+  removed animation scarab_d_r:any:any:idle:var2
+  removed animation scarab_d_r:any:any:idle:var3
+  removed animation scarab_d_r:look
+  removed animation stand:pistol:signal_attack
+ [removed 160200 bytes]
+PROCESSING objects\vehicles\warthog\warthog>>>
+ [removed -8 bytes]
+PROCESSING objects\vehicles\warthog\turrets\chaingun\chaingun>>>
+ [removed -8 bytes]
+PROCESSING objects\vehicles\warthog\turrets\gauss\gauss>>>
+ [removed -16 bytes]
+PROCESSING objects\vehicles\banshee\banshee>>>
+ [removed -8 bytes]
+PROCESSING objects\vehicles\ghost\ghost>>>
+ [removed -16 bytes]
+PROCESSING objects\vehicles\h_turret_ap\h_turret_ap>>>
+ [removed -16 bytes]
+PROCESSING objects\vehicles\scorpion\scorpion>>>
+ [removed -8 bytes]
+PROCESSING objects\vehicles\scorpion\turrets\cannon\cannon>>>
+ [removed -24 bytes]
+PROCESSING objects\vehicles\c_turret_ap\c_turret_ap>>>
+ [removed -16 bytes]
+PROCESSING objects\vehicles\wraith\wraith>>>
+ [removed -8 bytes]
+PROCESSING objects\vehicles\wraith\turrets\mortar\mortar>>>
+ [removed -16 bytes]
+PROCESSING objects\vehicles\wraith\turrets\minigun\minigun>>>
+ [removed -16 bytes]
+PROCESSING objects\vehicles\spectre\spectre>>>
+ [removed -8 bytes]
+PROCESSING objects\vehicles\spectre\turrets\plasma\plasma>>>
+ [removed -8 bytes]
+PROCESSING objects\weapons\fixed\plasma_cannon\plasma_cannon>>>
+ [removed -8 bytes]
+PROCESSING objects\weapons\fixed\h_turret_mp\h_turret_mp>>>
+ [removed -16 bytes]
+PROCESSING objects\weapons\pistol\magnum\magnum>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\masterchief\fp\weapons\pistol\fp_magnum\fp_magnum>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\dervish\fp\weapons\pistol\fp_magnum\fp_magnum>>>
+ [removed -8 bytes]
+PROCESSING objects\weapons\pistol\needler\needler>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\masterchief\fp\weapons\pistol\fp_needler\fp_needler>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\dervish\fp\weapons\pistol\fp_needler\fp_needler>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\masterchief\fp\weapons\pistol\fp_plasma_pistol\fp_plasma_pistol>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\dervish\fp\weapons\pistol\fp_plasma_pistol\fp_plasma_pistol>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\masterchief\fp\weapons\rifle\fp_battle_rifle\fp_battle_rifle>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\dervish\fp\weapons\rifle\fp_battle_rifle\fp_battle_rifle>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\masterchief\fp\weapons\rifle\fp_covenant_carbine\fp_covenant_carbine>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\dervish\fp\weapons\rifle\fp_covenant_carbine\fp_covenant_carbine>>>
+ [removed -8 bytes]
+PROCESSING objects\weapons\rifle\plasma_rifle\plasma_rifle>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\masterchief\fp\weapons\rifle\fp_plasma_rifle\fp_plasma_rifle>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\dervish\fp\weapons\rifle\fp_plasma_rifle\fp_plasma_rifle>>>
+ [removed -8 bytes]
+PROCESSING objects\weapons\rifle\shotgun\shotgun>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\masterchief\fp\weapons\rifle\fp_shotgun\fp_shotgun>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\dervish\fp\weapons\rifle\fp_shotgun\fp_shotgun>>>
+ [removed -8 bytes]
+PROCESSING objects\weapons\rifle\smg\smg>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\masterchief\fp\weapons\rifle\fp_smg\fp_smg>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\dervish\fp\weapons\rifle\fp_smg\fp_smg>>>
+ [removed -8 bytes]
+PROCESSING objects\weapons\rifle\sniper_rifle\sniper_rifle>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\masterchief\fp\weapons\rifle\fp_sniper_rifle\fp_sniper_rifle>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\dervish\fp\weapons\rifle\fp_sniper_rifle\fp_sniper_rifle>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\masterchief\fp\weapons\support_high\fp_flak_cannon\fp_flak_cannon>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\dervish\fp\weapons\support_high\fp_flak_cannon\fp_flak_cannon>>>
+PROCESSING SUBGRAPH objects\characters\masterchief\fp\weapons\support_high\fp_flak_cannon\fp_flak_cannon
+ [removed -16 bytes]
+PROCESSING objects\weapons\support_high\rocket_launcher\rocket_launcher>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\masterchief\fp\weapons\support_high\fp_rocket_launcher\fp_rocket_launcher>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\dervish\fp\weapons\support_high\fp_rocket_launcher\fp_rocket_launcher>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\masterchief\fp\weapons\support_low\fp_brute_shot\fp_brute_shot>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\dervish\fp\weapons\support_low\fp_brute_shot\fp_brute_shot>>>
+PROCESSING SUBGRAPH objects\characters\masterchief\fp\weapons\support_low\fp_brute_shot\fp_brute_shot
+ [removed -8 bytes]
+PROCESSING objects\characters\masterchief\fp\weapons\multiplayer\fp_assault_bomb\fp_assault_bomb>>>
+PROCESSING SUBGRAPH objects\characters\masterchief\fp\weapons\multiplayer\fp_ball\fp_ball
+ [removed -32 bytes]
+PROCESSING objects\characters\masterchief\fp\weapons\multiplayer\fp_ball\fp_ball>>>
+ [removed 0 bytes]
+PROCESSING objects\characters\dervish\fp\weapons\multiplayer\fp_assault_bomb\fp_assault_bomb>>>
+PROCESSING SUBGRAPH objects\characters\dervish\fp\weapons\multiplayer\fp_ball\fp_ball
+ [removed -32 bytes]
+PROCESSING objects\characters\dervish\fp\weapons\multiplayer\fp_ball\fp_ball>>>
+ [removed 0 bytes]
+PROCESSING objects\characters\masterchief\fp\weapons\multiplayer\fp_flag\fp_flag>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\dervish\fp\weapons\multiplayer\fp_flag\fp_flag>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\masterchief\fp\weapons\melee\fp_energy_blade\fp_energy_blade>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\dervish\fp\weapons\melee\fp_energy_blade\fp_energy_blade>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\masterchief\fp\weapons\rifle\fp_beam_rifle\fp_beam_rifle>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\dervish\fp\weapons\rifle\fp_beam_rifle\fp_beam_rifle>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\masterchief\fp\weapons\support_low\fp_sentinel_beam\fp_sentinel_beam>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\dervish\fp\weapons\support_low\fp_sentinel_beam\fp_sentinel_beam>>>
+ [removed -8 bytes]
+PROCESSING objects\vehicles\civilian\panel_truck\panel_truck>>>
+ [removed -8 bytes]
+PROCESSING objects\characters\dervish\dervish>>>
+PROCESSING SUBGRAPH objects\characters\elite\elite
+  culling unused mode (ui)
+  culling unused weapon (combat:ball:pch)
+  culling unused weapon class (combat:bomb)
+  culling unused weapon class (crouch:bomb)
+  removed animation combat:ball:pch:grip
+  removed animation ui:pistol:idle:var1
+  removed animation ui:pistol:posing:var1
+  removed animation ui:pistol:posing:var2
+  removed animation ui:pistol:posing:var3
+  removed animation ui:pistol:posing:var4
+  removed animation ui:pistol:posing:var5
+  removed animation ui:pistol:posing:var6
+  removed animation ui:pistol:posing:var7
+  removed animation ui:pistol:posing:var8
+  removed animation ui:pistol:posing:var9
+ [removed 244488 bytes]
+PROCESSING objects\vehicles\mongoose\mongoose>>>
+ [removed -8 bytes]
+PROCESSING objects\vehicles\creep\creep>>>
+ [removed -8 bytes]
+PROCESSING objects\vehicles\falcon\falcon>>>
+ [removed -8 bytes]
+PROCESSING objects\vehicles\gravity_throne\gravity_throne>>>
+ [removed -8 bytes]

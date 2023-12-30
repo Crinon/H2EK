@@ -1,0 +1,9 @@
+
+
+============================================================================================
+12.26.23 13:43:24.248  tool  debug pc untracked version  Jun 20 2023 11:27:47
+============================================================================================
+
+
+12.26.23 13:43:24.248  AI WARNING: objects\scenery\new_scenery\health_packs\health_pack has open edges and will NOT GENERATE PATHFINDING
+12.26.23 13:43:25.679  AI WARNING: objects\scenery\new_scenery\health_packs\health_pack has open edges and will NOT GENERATE PATHFINDING

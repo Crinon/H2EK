@@ -1,0 +1,18 @@
+i've got a lovely bunch of coconuts
+        9 codecs
+      376 playback_parameters
+       73 scale_parameters
+     6355 import_names
+       34 pitch_range_parameters
+     4596 pitch_ranges
+    18289 permutations
+       19 custom_playbacks
+      257 reflection_parameters
+        2 low_pass_cut_off_parameters
+      616 remastered_sound_references
+     1819 encoded_pitch_range_permutation_flags
+        9 language_chunks
+       16 promotions
+     2597 extra_infos
+
+       10 largest_single_reflection_parameters_count

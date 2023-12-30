@@ -1,0 +1,122 @@
+total shared block size: 4579.33 kB
+          character_firing_pattern_block block:      2688
+                character_boarding_block block:        16
+                    behavior_names_block block:     37728
+                          response_block block:        12
+                  special_movement_block block:         8
+          campaign_metagame_bucket_block block:         8
+   animation_graph_sound_reference_block block:       996
+              animation_graph_node_block block:      2240
+             animation_frame_event_block block:      4804
+             animation_sound_event_block block:     17360
+            animation_effect_event_block block:        24
+            animation_blend_screen_block block:      1064
+            object_space_node_data_block block:      3556
+                      animation_ik_block block:       680
+                   animation_entry_block block:     18912
+                     damage_region_block block:      2112
+                       weapon_type_block block:     17628
+                      weapon_class_block block:       640
+      inherited_animation_node_map_block block:        68
+ inherited_animation_node_map_flag_block block:         8
+               weapon_class_lookup_block block:       752
+                                  region block:       860
+               model_variant_state_block block:      9336
+                             permutation block:     13152
+                                  object block:       144
+                                material block:      1160
+                      model_region_block block:      1200
+                 model_permutation_block block:      2936
+                        model_node_block block:     16008
+                      model_target_block block:       168
+                 model_object_data_block block:        60
+                             color_table block:         8
+                  effect_locations_block block:      3440
+              effect_accelerations_block block:       320
+                       effect_part_block block:     10528
+                      effect_event_block block:      2856
+                                  effect block:      1440
+          particle_controller_parameters block:       440
+                     particle_controller block:        40
+                        particle_physics block:        60
+                           point_physics block:        64
+scenario_cluster_sound_environments_block block:         4
+scenario_cluster_weather_properties_block block:         4
+scenario_cluster_atmospheric_fog_properties_block block:         4
+          material_effect_material_block block:     41112
+                material_effect_block_v2 block:       312
+     sound_class_ducker_block_definition block:       280
+             platform_sound_filter_block block:       648
+         platform_sound_filter_lfo_block block:        64
+    particle_system_definition_block_new block:      9352
+particle_system_emitter_definition_block block:     95312
+                              byte_block block:    583708
+                predicted_resource_block block:      3584
+     instantaneous_damage_repsonse_block block:        80
+             global_damage_section_block block:       392
+               global_damage_nodes_block block:      3168
+  platform_sound_effect_collection_block block:       100
+    platform_sound_effect_constant_block block:       140
+platform_sound_effect_override_descriptor_block block:        48
+             platform_sound_effect_block block:        56
+                      runtime properties block:     16560
+                               parameter block:      3280
+                      render_state_block block:      3640
+           pixel_shader_extern_map_block block:       340
+                pixel_shader_index_block block:       740
+shader_postprocess_pixel_shader_constant_defaults block:    121472
+         shader_postprocess_pixel_shader block:      1400
+                   tag_block_index_block block:     61012
+shader_postprocess_level_of_detail_new_block block:      6504
+     shader_postprocess_bitmap_new_block block:      4488
+shader_postprocess_implementation_new_block block:    103488
+    shader_postprocess_overlay_new_block block:      2240
+shader_postprocess_overlay_reference_new_block block:      2892
+shader_postprocess_animated_parameter_new_block block:       712
+shader_postprocess_animated_parameter_reference_new_block block:      1820
+shader_postprocess_bitmap_property_block block:     12400
+ shader_postprocess_color_property_block block:     15336
+ shader_postprocess_value_property_block block:     15384
+shader_template_postprocess_level_of_detail_new_block block:       888
+shader_template_postprocess_pass_new_block block:        92
+shader_template_postprocess_implementation_new_block block:      1420
+shader_template_postprocess_remapping_new_block block:      1796
+shader_pass_postprocess_texture_new_block block:      1248
+shader_pass_postprocess_texture_state_block block:      6792
+shader_pass_postprocess_extern_new_block block:       192
+                           pixel32_block block:      2460
+                     real_vector4d_block block:     27744
+ shader_postprocess_definition_new_block block:     16368
+                 hud_widget_effect_block block:      1872
+                        hud_text_widgets block:      1176
+               hud_screen_effect_widgets block:        80
+        single_animation_reference_block block:       640
+             window_pane_reference_block block:      1748
+           button_widget_reference_block block:        60
+                    list_reference_block block:      1440
+              text_block_reference_block block:      1188
+            bitmap_block_reference_block block:     16576
+               hud_block_reference_block block:        36
+            player_block_reference_block block:       120
+screen_animation_keyframe_reference_block block:      7040
+                   object_function_block block:       256
+                 object_attachment_block block:       504
+                     object_widget_block block:        48
+ object_change_color_initial_permutation block:       160
+                    object_change_colors block:        80
+              object_ai_properties_block block:       352
+                               magazines block:       276
+              barrel_firing_effect_block block:       364
+                         weapon_triggers block:      1856
+     weapon_first_person_interface_block block:       608
+                 predicted_bitmaps_block block:        32
+      projectile_material_response_block block:      2816
+     damage_effect_player_response_block block:      3952
+                           damage_effect block:      1400
+                          classification block:       168
+                                  aspect block:        84
+       light_volume_runtime_offset_block block:       288
+                              reflection block:        96
+       aligned_animation_data_definition data:    801260
+shader_postprocess_compiled_pixel_shader_data data:   2077244
+                   compiled_shader_block data:    418816
