@@ -30,7 +30,7 @@
 /tags/sound/*
 !/tags/sound/ambience
 !/tags/sound/characters
-# !/tags/sound/cinematics
+!/tags/sound/cinematics
 # !/tags/sound/dialog
 !/tags/sound/ambience
 
