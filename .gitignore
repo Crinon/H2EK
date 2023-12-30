@@ -35,9 +35,9 @@
 # /tags/sound/dialog/*
 # !/tags/sound/dialog/combat
 # !/tags/sound/ambience
-/shader_cache/*
+# /shader_cache/*
 # /tags/sound_remastered/*
-/tags/ui/*
+# /tags/ui/*
 
 
 # !/tags/ludantes
