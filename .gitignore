@@ -31,7 +31,9 @@
 !/tags/sound/ambience
 !/tags/sound/characters
 !/tags/sound/cinematics
-# !/tags/sound/dialog
+!/tags/sound/dialog
+/tags/sound/dialog/*
+!/tags/sound/dialog/combat
 !/tags/sound/ambience
 
 
