@@ -1,0 +1,47 @@
+;
+#const C1.a= $distortion_scale
+
+DX11_sampler2D(0);
+DX11_sampler2D(1);
+#ifdef DX11
+cbuffer cbPerObject : register(b0)
+{
+  float4 distortion_scale : packoffset(c1);  
+}
+#else
+float4 distortion_scale : register(C1);  
+#endif
+float4 main(
+#ifdef DX11
+    float4 pos_unused : SV_POSITION,
+#endif
+    float4 color0 : COLOR0,
+    float4 color1 : COLOR1,
+    float4 tc0 : TEXCOORD0,
+    float4 tc1 : TEXCOORD1,
+    float4 tc2 : TEXCOORD2,
+    float4 tc3 : TEXCOORD3,
+    float4 tc4 : TEXCOORD4,
+    float4 tc5 : TEXCOORD5,
+    float4 tc6 : TEXCOORD6,
+    float4 tc7 : TEXCOORD7
+) : COLOR
+{
+    float4 bump= DX11_tex2Dproj(s0, tc0);
+
+	float real_scale = distortion_scale.a / 64.0; 
+    
+    float2 tc_2d_bumpenv1;
+
+    tc_2d_bumpenv1.r= tc1.r + real_scale * bump.r;
+    tc_2d_bumpenv1.g= tc1.g + real_scale * bump.g;
+
+    float4 distortion= DX11_tex2D(s1, tc_2d_bumpenv1);
+
+	float4 color_out;
+	
+    color_out.rgb= distortion.rgb * color1.rgb;
+	color_out.a = color1.a;
+
+    return color_out;
+}

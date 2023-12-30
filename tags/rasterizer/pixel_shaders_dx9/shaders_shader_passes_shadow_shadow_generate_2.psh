@@ -1,0 +1,29 @@
+DX11_sampler2D(0);
+
+float4 bumpenv : register(C0);    // .r=m00 .g=m01 .b=m10 .a=m11
+float4 zwriteout : register(c16);
+float4 main(
+#ifdef DX11
+    float4 pos_unused : SV_POSITION,
+#endif
+    float4 color0 : COLOR0,
+    float4 color1 : COLOR1,
+    float4 tc0 : TEXCOORD0,
+    float4 tc1 : TEXCOORD1,
+    float4 tc2 : TEXCOORD2,
+    float4 tc3 : TEXCOORD3,
+    float4 tc4 : TEXCOORD4,
+    float4 tc5 : TEXCOORD5,
+    float4 tc6 : TEXCOORD6,
+    float4 tc7 : TEXCOORD7
+) : COLOR
+{
+    float4 r0;
+
+#ifdef DX11 
+	r0 = pos_unused.z;
+#else
+	r0 = tc7.bgra;
+#endif
+    return r0;
+}

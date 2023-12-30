@@ -1,0 +1,81 @@
+; compiled from tags\rasterizer\pixel_shaders_dx9\shaders_shader_passes_shadow_shadow_apply_combined_4.txt
+;
+#const C1.a= $lightmap_shadow_fade
+#const C2.a= $lightmap_shadow_darkening
+DX11_sampler2D(0);
+DX11_sampler2D(1);
+float4 bumpenv : register(C0);    // .r=m00 .g=m01 .b=m10 .a=m11
+float4 c1 : register(C1);
+float4 c2 : register(C2);
+float4 zwriteout : register(c16);
+float4 main(
+#ifdef DX11
+    float4 pos_unused : SV_POSITION,
+#endif
+    float4 color0 : COLOR0,
+    float4 color1 : COLOR1,
+    float4 tc0 : TEXCOORD0,
+    float4 tc1 : TEXCOORD1,
+    float4 tc2 : TEXCOORD2,
+    float4 tc3 : TEXCOORD3,
+    float4 tc4 : TEXCOORD4,
+    float4 tc5 : TEXCOORD5,
+    float4 tc6 : TEXCOORD6,
+    float4 tc7 : TEXCOORD7
+) : COLOR
+{
+    float4 r0, r1;
+    float3 e, f;
+    r0.r= r0.g= r0.b= 0;
+    r0.a= 1;
+    float4 tex2;
+    float4 tex3;
+    float4 tex4;
+    float4 tex5;
+    float4 tex6;
+    float4 tex7;
+// texture stage 0 mode 0 dot 0 input-stage 0
+
+    // Texturing wrapping is somehow broken on AMD's GPU with this texture, 
+    // so let us wrap it manually
+    float2 t = tc0.xy / tc0.w;
+    float4 tex0 = float4(1,1,1,1);
+    // Inset texture coordinate bounds by half pixel size of a largest shadow
+    // map buffer (which is 256px).
+    const float MARGIN = 1.f / 512.f;
+    if (
+       t.x >= MARGIN && t.x <= (1 - MARGIN) &&
+       t.y >= MARGIN && t.y <= (1 - MARGIN)
+    ) {
+        tex0 = DX11_tex2D(s0, t);
+    }
+// texture stage 1 mode 0 dot 0 input-stage 0
+    float4 tex1= DX11_tex2Dproj(s1, tc1);
+   
+    r0.a = c1.a * c2.a;
+    tex0 = color0*tex0 + (1-color0);
+    //--
+    r0.rgb = r0.a * tex0 + (1-r0.a);
+    //--
+    
+    r0.rgb = (1-tex1.rgb)*r0.rgb + tex1.rgb;
+    r0.a = 1;
+
+    return r0;
+
+
+}
+/*
+---
+C0a= $lightmap_shadow_fade
+C1a= $lightmap_shadow_darkening
+R0a= C0a*C1a
+T0= D0*T0 + INVERT(D0)
+---
+R0= R0a*T0 + INVERT(R0a)
+R0a= R0a
+---
+SRCCOLOR= INVERT(T1)*R0 + T1
+SRCALPHA= 1
+
+*/

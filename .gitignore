@@ -15,6 +15,12 @@
 !/tags/lacks
 !/tags/multiplayer
 !/tags/objects
+!/tags/phanrev
+!/tags/rasterizer
+!/tags/reports
+!/tags/objects
+!/tags/scenarios
+!/tags/objects
 
 
 
@@ -40,10 +46,10 @@
 # !/data/scenarios/solo/03a_oldmombasa
 
 !/init.txt
-!/editor_init.txt
 !/collect_tag_list.py
 !/TODO.txt
 !/versions.txt
+!/editor_init.txt
 
 /*.zip
 /*.7z
