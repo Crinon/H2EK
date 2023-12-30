@@ -21,13 +21,14 @@
 !/tags/objects
 !/tags/scenarios
 !/tags/shaders
-# !/tags/sound/
-# !/tags/sound_remastered
-# !/tags/stacker
+!/tags/stacker
 # !/tags/temp_scenario
 # !/tags/test
 # !/tags/ui
-
+# !/tags/sound_remastered
+!/tags/sound
+/tags/sound/*
+!/tags/sound/ambience
 
 
 # !/tags/ludantes
