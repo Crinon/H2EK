@@ -1,20 +1,31 @@
 /*
 !/tags
 /tags/*
-!/tags/ludantes
-!/tags/blackandfan
-!/tags/d_flog_flag
-!/tags/d_flog_flag_ports
-!/tags/digsite
-!/tags/kashiiera
-!/tags/h1
-!/tags/stacker
-!/tags/scenarios
-/tags/scenarios/*
-!/tags/scenarios/solo
-/tags/scenarios/solo/*
-!/tags/scenarios/solo/03a_oldmombasa
-!/data
+!/tags/ai
+!/tags/aife
+!/tags/camera
+!/tags/cinematics
+!/tags/cursors
+!/tags/dragonsoul
+!/tags/dw3
+!/tags/effects
+
+
+
+# !/tags/ludantes
+# !/tags/blackandfan
+# !/tags/d_flog_flag
+# !/tags/d_flog_flag_ports
+# !/tags/digsite
+# !/tags/kashiiera
+# !/tags/h1
+# !/tags/stacker
+# !/tags/scenarios
+# /tags/scenarios/*
+# !/tags/scenarios/solo
+# /tags/scenarios/solo/*
+# !/tags/scenarios/solo/03a_oldmombasa
+# !/data
 # /data/*
 # !/data/scenarios
 # /data/scenarios/*
