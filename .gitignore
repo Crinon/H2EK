@@ -15,12 +15,12 @@
 /tags/scenarios/solo/*
 !/tags/scenarios/solo/03a_oldmombasa
 !/data
-/data/*
-!/data/scenarios
-/data/scenarios/*
-!/data/scenarios/solo
-/data/scenarios/solo/*
-!/data/scenarios/solo/03a_oldmombasa
+# /data/*
+# !/data/scenarios
+# /data/scenarios/*
+# !/data/scenarios/solo
+# /data/scenarios/solo/*
+# !/data/scenarios/solo/03a_oldmombasa
 
 !/init.txt
 !/editor_init.txt
