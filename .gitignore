@@ -20,7 +20,13 @@
 !/tags/reports
 !/tags/objects
 !/tags/scenarios
-!/tags/objects
+!/tags/shaders
+# !/tags/sound/
+# !/tags/sound_remastered
+# !/tags/stacker
+# !/tags/temp_scenario
+# !/tags/test
+# !/tags/ui
 
 
 
