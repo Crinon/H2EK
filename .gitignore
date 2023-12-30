@@ -31,12 +31,12 @@
 # !/tags/sound/ambience
 # !/tags/sound/characters
 # !/tags/sound/cinematics
-!/tags/sound/dialog
-/tags/sound/dialog/*
-!/tags/sound/dialog/combat
-!/tags/sound/ambience
+# !/tags/sound/dialog
+# /tags/sound/dialog/*
+# !/tags/sound/dialog/combat
+# !/tags/sound/ambience
 /shader_cache/*
-/tags/sound_remastered/*
+# /tags/sound_remastered/*
 /tags/ui/*
 
 
