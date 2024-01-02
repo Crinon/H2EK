@@ -1,27 +1,33 @@
 
 
 ============================================================================================
-12.28.23 10:53:04.961  sapien  debug pc untracked version  Jun 20 2023 11:29:20
+01.02.24 22:01:32.999  sapien  debug pc untracked version  Jun 20 2023 11:29:20
 ============================================================================================
 
 
-12.28.23 10:53:04.961  WARNING: shader 'objects\weapons\rifle\battle_rifle\shaders\tens' could not resolve bitmap 'zero'
-12.28.23 10:53:04.977  WARNING: shader 'objects\weapons\rifle\battle_rifle\shaders\ones' could not resolve bitmap 'zero'
-12.28.23 10:54:31.721  ### WARNING shader pass 'shaders\shader_passes\texture_camera\scope' texture #0 (implementation #0) has source extern - ignoring parameter name "scope"
-12.28.23 10:54:43.151  WARNING: shader 'objects\weapons\rifle\assault_rifle\halo1_mcc\shaders\compass' could not resolve bitmap 'zero'
-12.28.23 10:54:43.261  WARNING: shader 'objects\weapons\rifle\assault_rifle\halo1_mcc\shaders\tens' could not resolve bitmap 'zero'
-12.28.23 10:54:43.269  WARNING: shader 'objects\weapons\rifle\assault_rifle\halo1_mcc\shaders\ones' could not resolve bitmap 'zero'
-12.28.23 10:54:43.831  WARNING: shader 'kashiiera\objects\weapons\support_low\flamethrower_ce\shaders\one' could not resolve bitmap 'zero'
-12.28.23 10:54:43.843  WARNING: shader 'kashiiera\objects\weapons\support_low\flamethrower_ce\shaders\ten' could not resolve bitmap 'zero'
-12.28.23 10:54:43.850  WARNING: shader 'kashiiera\objects\weapons\support_low\flamethrower_ce\shaders\hundred' could not resolve bitmap 'zero'
-12.28.23 10:54:46.277  WARNING: shader 'digsite\objects\weapons\assault_rifle\assault_rifle_99_mac\shaders\ar_gl_compass' could not resolve bitmap 'zero'
-12.28.23 10:54:46.298  WARNING: shader 'digsite\objects\weapons\assault_rifle\assault_rifle_99_mac\shaders\ar_gl_numbers1' could not resolve bitmap 'zero'
-12.28.23 10:54:46.307  WARNING: shader 'digsite\objects\weapons\assault_rifle\assault_rifle_99_mac\shaders\ar_gl_numbers' could not resolve bitmap 'zero'
-12.28.23 10:54:53.058  WARNING: shader 'objects\weapons\zoephie\halo_reach\weapons\rifle\dmr\shaders\ones_dmr' could not resolve bitmap 'zero'
-12.28.23 10:54:53.067  WARNING: shader 'objects\weapons\zoephie\halo_reach\weapons\rifle\dmr\shaders\tens_dmr' could not resolve bitmap 'zero'
-12.28.23 10:54:55.205  WARNING: shader 'objects\weapons\zoephie\infinite_weapons\objects\weapons\rifle\vk78\shaders\vk_tens' could not resolve bitmap 'zero'
-12.28.23 10:54:55.212  WARNING: shader 'objects\weapons\zoephie\infinite_weapons\objects\weapons\rifle\vk78\shaders\vk_ones' could not resolve bitmap 'zero'
-12.28.23 10:54:55.919  WARNING: shader 'objects\weapons\zoephie\infinite_weapons\objects\weapons\rifle\ma40\shaders\compass' could not resolve bitmap 'zero'
-12.28.23 10:54:55.926  WARNING: shader 'objects\weapons\zoephie\infinite_weapons\objects\weapons\rifle\ma40\shaders\tens' could not resolve bitmap 'zero'
-12.28.23 10:54:55.934  WARNING: shader 'objects\weapons\zoephie\infinite_weapons\objects\weapons\rifle\ma40\shaders\ones' could not resolve bitmap 'zero'
-12.28.23 10:55:10.967  WARNING: shader 'effects\screen_effects\blur' could not resolve bitmap 'identity'
+01.02.24 22:01:32.999  WARNING: shader 'objects\characters\cortana\shaders\cortana_hair' could not resolve bitmap 'specular_map'
+01.02.24 22:01:33.004  WARNING: shader 'objects\characters\cortana\shaders\cortana_hair' could not resolve bitmap 'base_map'
+01.02.24 22:01:33.007  WARNING: shader 'objects\characters\cortana\shaders\cortana_body' could not resolve bitmap 'base_map'
+01.02.24 22:01:33.010  WARNING: shader 'objects\characters\cortana\shaders\cortana_arms' could not resolve bitmap 'specular_map'
+01.02.24 22:01:33.011  WARNING: shader 'objects\characters\cortana\shaders\cortana_arms' could not resolve bitmap 'base_map'
+01.02.24 22:01:33.014  WARNING: shader 'objects\characters\cortana\shaders\cortana_head' could not resolve bitmap 'base_map'
+01.02.24 22:01:33.018  WARNING: shader 'objects\characters\cortana\shaders\cortana_eyes' could not resolve bitmap 'specular_map'
+01.02.24 22:01:33.020  WARNING: shader 'objects\characters\cortana\shaders\cortana_eyes' could not resolve bitmap 'base_map'
+01.02.24 22:01:33.022  WARNING: shader 'objects\characters\cortana\shaders\cortana_teeth' could not resolve bitmap 'specular_map'
+01.02.24 22:01:33.024  WARNING: shader 'objects\characters\cortana\shaders\cortana_teeth' could not resolve bitmap 'base_map'
+01.02.24 22:01:46.709  WARNING: shader 'objects\weapons\rifle\battle_rifle\shaders\tens' could not resolve bitmap 'zero'
+01.02.24 22:01:46.711  WARNING: shader 'objects\weapons\rifle\battle_rifle\shaders\ones' could not resolve bitmap 'zero'
+01.02.24 22:01:48.518  ### WARNING shader pass 'shaders\shader_passes\texture_camera\scope' texture #0 (implementation #0) has source extern - ignoring parameter name "scope"
+01.02.24 22:01:52.008  WARNING: shader 'objects\weapons\multiplayer\flag\shaders\flag' could not resolve bitmap 'base_map'
+01.02.24 22:18:22.204  WARNING: shader 'scenarios\shaders\covenant\military\lights\striplight_a' could not resolve bitmap 'base_map'
+01.02.24 22:18:30.393  WARNING: shader 'scenarios\shaders\solo\deltacontrolroom\bloom' could not resolve bitmap 'base_map'
+01.02.24 22:19:07.206  WARNING: shader 'objects\characters\cortana\shaders\cortana_hair' could not resolve bitmap 'specular_map'
+01.02.24 22:19:07.208  WARNING: shader 'objects\characters\cortana\shaders\cortana_hair' could not resolve bitmap 'base_map'
+01.02.24 22:19:07.210  WARNING: shader 'objects\characters\cortana\shaders\cortana_body' could not resolve bitmap 'base_map'
+01.02.24 22:19:07.214  WARNING: shader 'objects\characters\cortana\shaders\cortana_arms' could not resolve bitmap 'specular_map'
+01.02.24 22:19:07.215  WARNING: shader 'objects\characters\cortana\shaders\cortana_arms' could not resolve bitmap 'base_map'
+01.02.24 22:19:07.218  WARNING: shader 'objects\characters\cortana\shaders\cortana_head' could not resolve bitmap 'base_map'
+01.02.24 22:19:07.221  WARNING: shader 'objects\characters\cortana\shaders\cortana_eyes' could not resolve bitmap 'specular_map'
+01.02.24 22:19:07.222  WARNING: shader 'objects\characters\cortana\shaders\cortana_eyes' could not resolve bitmap 'base_map'
+01.02.24 22:19:07.224  WARNING: shader 'objects\characters\cortana\shaders\cortana_teeth' could not resolve bitmap 'specular_map'
+01.02.24 22:19:07.226  WARNING: shader 'objects\characters\cortana\shaders\cortana_teeth' could not resolve bitmap 'base_map'

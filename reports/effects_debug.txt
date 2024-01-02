@@ -1,11 +1,13 @@
 
 
 ============================================================================================
-12.28.23 10:54:23.874  sapien  debug pc untracked version  Jun 20 2023 11:29:20
+01.02.24 22:01:35.781  sapien  debug pc untracked version  Jun 20 2023 11:29:20
 ============================================================================================
 
 
-12.28.23 10:54:23.874  ### WARNING effect 'effects\impact\explosion_small\brute_shot\detonation' part 'effects\impact\explosion_small\brute_shot\detonation' was not found
-12.28.23 10:54:26.800  ### WARNING effect 'dw3\altsierra\objects\vehicles\creep\plasma_turret\weapons\effects\c_turret_ap' part 'effects\decals\blast_scorches\creep_plasma_burn' was not found
-12.28.23 10:54:26.807  ### WARNING effect 'dw3\altsierra\objects\vehicles\creep\plasma_turret\creep_turret_firing' particle system is invalid
-12.28.23 10:54:46.418  ### WARNING effect 'digsite\objects\weapons\assault_rifle\assault_rifle_99_mac\fx\firing_grenade' part 'digsite\sound\sfx\weapons\assault_rifle\ar_99e_fire_alt' was not found
+01.02.24 22:01:35.781  ### WARNING effect 'objects\characters\custom\gore_elite\effects\r_arm_destroyed' part 'sound\characters\flood\infection_form\infection_pop' has a bad location
+01.02.24 22:01:44.977  ### WARNING effect 'effects\impact\explosion_small\brute_shot\detonation' part 'effects\impact\explosion_small\brute_shot\detonation' was not found
+01.02.24 22:01:46.335  ### WARNING effect 'dw3\effects\objects\characters\sentinel\weapons\needler\sentinel_needler_fire_dw3' particle system is invalid
+01.02.24 22:01:46.337  ### WARNING effect 'dw3\effects\objects\characters\sentinel\weapons\needler\sentinel_needler_fire_dw3' particle system is invalid
+01.02.24 22:18:28.518  ### WARNING effect 'effects\cinematics\08\halo_disarm_center_glow' particle system is invalid
+01.02.24 22:19:09.638  ### WARNING effect 'effects\impact\explosion_small\brute_shot\detonation' part 'effects\impact\explosion_small\brute_shot\detonation' was not found

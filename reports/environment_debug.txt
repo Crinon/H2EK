@@ -1,9 +1,8 @@
 
 
 ============================================================================================
-12.28.23 10:55:45.629  sapien  debug pc untracked version  Jun 20 2023 11:29:20
+01.02.24 22:19:31.566  sapien  debug pc untracked version  Jun 20 2023 11:29:20
 ============================================================================================
 
 
-12.28.23 10:55:45.629  ### WARNING structure bsp 'scenarios\solo\03a_oldmombasa\earthcity_1' has 52 nonconvex surfaces
-12.28.23 10:57:54.804  ### WARNING structure bsp 'scenarios\solo\03a_oldmombasa\earthcity_2' has 14 nonconvex surfaces
+01.02.24 22:19:31.566  ### WARNING structure bsp 'scenarios\solo\08b_deltacontrol\deltacontrolroom_bsp0' has 13 nonconvex surfaces

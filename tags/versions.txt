@@ -29,11 +29,36 @@ Osoyoos simple package : ERROR
 Osoyoos compress+resource sharing : ERROR
 Pepper single scenario  : YES
 
+Weapon rack :
+maybe you can create a giant weapon rack that houses a bunch of weapons
+apparently that's how how covenant weapon crates work
+crate_space_a.model has several VARIANTS that are attached with various weapons as OBJECTS 
+
+Strings modif
+tool extract-unicode-strings to extract ut
+tool strings to compile it after editing
+
+https://www.nexusmods.com/halothemasterchiefcollection/mods/edit/?step=details&id=2453
 
 End
-Add sentinel beam variant
-ennemy SL
-Ennemy gravity throne
+color weapon
+color vehicle
+
+Add E3 BR
+"C:\Program Files (x86)\Steam\steamapps\common\H2EK\tags\dw3\objects\weapons\rifle\battle_rifle\e3\e3_battle_rifle.weapon"
+
+Add sentinel beam variant (dw3/char/sentinel/weapons)
+"C:\Program Files (x86)\Steam\steamapps\common\H2EK\tags\dw3\objects\characters\sentinel_aggressor_dw3\weapons\sentinel_enforcer_charged_bolt.weapon"
+"C:\Program Files (x86)\Steam\steamapps\common\H2EK\tags\dw3\objects\characters\sentinel_aggressor_dw3\weapons\grenade_launcher\sentinel_aggressor_gl.weapon"
+"C:\Program Files (x86)\Steam\steamapps\common\H2EK\tags\dw3\objects\characters\sentinel_aggressor_dw3\weapons\needler\sentinel_aggressor_needler.weapon"
+
+Add short brute shot
+"C:\Program Files (x86)\Steam\steamapps\common\H2EK\tags\prerelease\objects\weapons\support_low\brute_shot\brute_shot.weapon"
+
+Set encounter Spartan Laser
+Set encounter E3 brute shot
+add AI sentinel with new weapon
+use my hunter frg
 gore biped
 earthmilitia
 add stacker creep
@@ -47,11 +72,12 @@ destrictible pelican
 destrictible phantom
 scarab DW3 dans l'eau et le faire tirer
 remplacer spectre beta DW3
+ready + reload smg mac
+ready + reload chaingun mac
+inclure credits.txt ?
 
 
-Strings modif
-tool extract-unicode-strings to extract ut
-tool strings to compile it after editing
+
 
 Version 11
 Fix h turret gl placement

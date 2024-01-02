@@ -1,258 +1,84 @@
 
 
 ============================================================================================
-12.28.23 10:53:00.414  sapien  debug pc untracked version  Jun 20 2023 11:29:20
+01.02.24 22:01:32.777  sapien  debug pc untracked version  Jun 20 2023 11:29:20
 ============================================================================================
 
 
-12.28.23 10:53:00.414  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'objects\cinematics\human\inamberclad\inamberclad'
-12.28.23 10:53:01.072  ### WARNING physics model 'scenarios\objects\covenant\military\scarab\scarab' couldn't resolve material 'physics_ref_phantom' (''), using default material
-12.28.23 10:53:01.074  ### WARNING physics model 'scenarios\objects\covenant\military\scarab\scarab' couldn't resolve material 'attractor' (''), using default material
-12.28.23 10:53:04.486  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'scenarios\objects\human\military\spotting_scope\spotting_scope'
-12.28.23 10:53:05.515  ### ERROR geometry 'scenarios\objects\special\null_up\null_up' shader 'scenarios\objects\special\shaders\invisible' is transparent but was imported as opaque
-12.28.23 10:53:05.529  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'scenarios\objects\special\null_up\null_up'
-12.28.23 10:53:05.885  ### WARNING object 'scenarios\objects\covenant\military\cov_recharge_station\cov_recharge_station' has a bounding sphere radius much less than its model (1.300000 vs 1.723440)
-12.28.23 10:53:06.127  ### WARNING physics model 'scenarios\objects\solo\earthcity\road_objects\garage_door\garage_door' couldn't resolve material 'h_um_matte_grey_edge_rusty' (''), using default material
-12.28.23 10:53:07.100  ### WARNING object 'objects\cinematics\human\inamberclad_bridge\inamberclad_bridge' has a bounding sphere radius much less than its model (2.500000 vs 3.266184)
-12.28.23 10:53:07.195  ### WARNING object 'effects\scenery\skies\human_and_cov_firing' has no bounding radius
-12.28.23 10:53:08.878  ### WARNING object 'effects\cinematics\c01_outro\human_and_cov_firing_cine' has no bounding radius
-12.28.23 10:53:09.155  ### WARNING model 'dw3\ok\injured_shaking_marine\shaking_marine' collision model region 'helmet' has no corresponding model region (will not be collideable)
-12.28.23 10:53:09.538  ### WARNING model 'dw3\ok\marine_stretcher-test\marine_stretcher-test' collision model region 'helmet' has no corresponding model region (will not be collideable)
-12.28.23 10:53:10.660  ### WARNING collision model 'objects\scenery\new_scenery\health_packs\health_packs' has open edges (collision will not work properly)
-12.28.23 10:53:10.661  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'objects\scenery\new_scenery\health_packs\health_packs'
-12.28.23 10:53:10.746  ### WARNING physics model 'dw3\scenarios\objects\flood\flood_crust\flood_crust' couldn't resolve material 'flood_generator' (''), using default material
-12.28.23 10:53:12.051  ### WARNING model 'objects\characters\marine\marine' variant 'johnson_combat' cannot find region 'arms'
-12.28.23 10:53:32.340  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'objects\weapons\rifle\smg\garbage\magazine\magazine'
-12.28.23 10:54:01.982  ### WARNING object 'objects\characters\flood_juggernaut_armed\flood_juggernaut_armed' has a bounding sphere radius much less than its model (0.900000 vs 1.840960)
-12.28.23 10:54:02.700  ### WARNING object 'blackandfan\objects\characters\floodcombat_odst\garbage\right_arm_garbage\right_arm' has a bounding sphere radius much less than its model (0.100000 vs 0.151569)
-12.28.23 10:54:04.025  ### WARNING model 'objects\characters\floodcombat_heretic\garbage\back_shell\back_shell' collision model region 'bits' has no corresponding model region (will not be collideable)
-12.28.23 10:54:04.026  ### WARNING model 'objects\characters\floodcombat_heretic\garbage\back_shell\back_shell' physics model region 'bits' has no corresponding model region (will not be physical)
-12.28.23 10:54:04.405  ### WARNING model 'objects\characters\floodcombat_heretic\floodcombat_heretic' variant 'standard' cannot find region 'l_shoulder_pad'
-12.28.23 10:54:04.407  ### WARNING model 'objects\characters\floodcombat_heretic\floodcombat_heretic' variant 'standard' cannot find region 'r_shoulder_pad'
-12.28.23 10:54:05.073  ### WARNING collision model 'blackandfan\objects\characters\floodcombat_brute\floodcombat_brute' has open edges (collision will not work properly)
-12.28.23 10:54:05.180  ### WARNING object 'blackandfan\objects\characters\floodcombat_brute\garbage\right_arm_garbage\right_arm' has a bounding sphere radius much less than its model (0.100000 vs 0.151569)
-12.28.23 10:54:05.218  ### WARNING model 'blackandfan\objects\characters\floodcombat_brute\floodcombat_brute' variant 'minor' cannot find region 'hg_helmet'
-12.28.23 10:54:05.219  ### WARNING model 'blackandfan\objects\characters\floodcombat_brute\floodcombat_brute' variant 'minor' cannot find region 'captain_flag'
-12.28.23 10:54:05.220  ### WARNING model 'blackandfan\objects\characters\floodcombat_brute\floodcombat_brute' variant 'major' cannot find region 'hg_helmet'
-12.28.23 10:54:05.221  ### WARNING model 'blackandfan\objects\characters\floodcombat_brute\floodcombat_brute' variant 'major' cannot find region 'captain_flag'
-12.28.23 10:54:05.223  ### WARNING model 'blackandfan\objects\characters\floodcombat_brute\floodcombat_brute' variant 'captain' cannot find region 'hg_helmet'
-12.28.23 10:54:05.224  ### WARNING model 'blackandfan\objects\characters\floodcombat_brute\floodcombat_brute' variant 'captain' cannot find region 'captain_flag'
-12.28.23 10:54:05.225  ### WARNING model 'blackandfan\objects\characters\floodcombat_brute\floodcombat_brute' variant 'honor_guard' cannot find region 'hg_helmet'
-12.28.23 10:54:05.226  ### WARNING model 'blackandfan\objects\characters\floodcombat_brute\floodcombat_brute' variant 'honor_guard' cannot find region 'captain_flag'
-12.28.23 10:54:06.750  ### WARNING model 'objects\characters\marine\h1_marine' variant 'default' region 'helmet' cannot find permutation 'on'
-12.28.23 10:54:06.752  ### WARNING model 'objects\characters\marine\h1_marine' variant 'default' region 'helmet' cannot find permutation 'on'
-12.28.23 10:54:06.753  ### WARNING model 'objects\characters\marine\h1_marine' variant 'default' region 'helmet' cannot find permutation 'on'
-12.28.23 10:54:06.754  ### WARNING model 'objects\characters\marine\h1_marine' variant 'default' region 'helmet' cannot find permutation 'on'
-12.28.23 10:54:06.756  ### WARNING model 'objects\characters\marine\h1_marine' variant 'default' region 'helmet' cannot find permutation 'on'
-12.28.23 10:54:06.757  ### WARNING model 'objects\characters\marine\h1_marine' variant 'default' region 'helmet' cannot find permutation 'on'
-12.28.23 10:54:06.758  ### WARNING model 'objects\characters\marine\h1_marine' variant 'police' region 'helmet' cannot find permutation 'on'
-12.28.23 10:54:06.759  ### WARNING model 'objects\characters\marine\h1_marine' variant 'police' region 'helmet' cannot find permutation 'on'
-12.28.23 10:54:06.760  ### WARNING model 'objects\characters\marine\h1_marine' variant 'major' region 'helmet' cannot find permutation 'on'
-12.28.23 10:54:06.762  ### WARNING model 'objects\characters\marine\h1_marine' variant 'mongang' region 'helmet' cannot find permutation 'on'
-12.28.23 10:54:06.763  ### WARNING model 'objects\characters\marine\h1_marine' variant 'mongang' region 'helmet' cannot find permutation 'on'
-12.28.23 10:54:06.764  ### WARNING model 'objects\characters\marine\h1_marine' variant 'mongang' region 'helmet' cannot find permutation 'on'
-12.28.23 10:54:06.765  ### WARNING model 'objects\characters\marine\h1_marine' variant 'mongang' region 'helmet' cannot find permutation 'on'
-12.28.23 10:54:06.767  ### WARNING model 'objects\characters\marine\h1_marine' variant 'mongang' region 'helmet' cannot find permutation 'on'
-12.28.23 10:54:06.768  ### WARNING model 'objects\characters\marine\h1_marine' variant 'mongang' region 'helmet' cannot find permutation 'on'
-12.28.23 10:54:17.142  ### WARNING object 'objects\vehicles\ghost\garbage\seat\seat' has a bounding sphere radius much less than its model (0.120000 vs 0.364857)
-12.28.23 10:54:17.705  ### WARNING object 'objects\vehicles\ghost\garbage\l_wing_shell\l_wing_shell' has a bounding sphere radius much less than its model (0.080000 vs 0.285048)
-12.28.23 10:54:17.748  ### WARNING object 'objects\vehicles\ghost\garbage\r_wing_shell\r_wing_shell' has a bounding sphere radius much less than its model (0.120000 vs 0.264751)
-12.28.23 10:54:19.294  ### WARNING physics model 'objects\vehicles\phantom\phantom' couldn't resolve material 'gravity_lift' (''), using default material
-12.28.23 10:54:19.295  ### WARNING physics model 'objects\vehicles\phantom\phantom' couldn't resolve material 'gravity_lift_brake' (''), using default material
-12.28.23 10:54:19.296  ### WARNING physics model 'objects\vehicles\phantom\phantom' couldn't resolve material 'special_material' (''), using default material
-12.28.23 10:54:19.297  ### WARNING physics model 'objects\vehicles\phantom\phantom' couldn't resolve material 'gravity_lift_vehicle' (''), using default material
-12.28.23 10:54:22.258  ### WARNING physics model 'objects\vehicles\wraith\turrets\anti_air\anti_air' couldn't resolve material 'cov_metal' (''), using default material
-12.28.23 10:54:22.404  ### WARNING model 'objects\vehicles\wraith\turrets\anti_air\anti_air' variant 'anti_air' region 'backhatch' permutation 'base' state 'major damage' cannot find permutation 'major'
-12.28.23 10:54:22.405  ### WARNING model 'objects\vehicles\wraith\turrets\anti_air\anti_air' variant 'anti_air' region 'backhatch' permutation 'base' state 'destroyed' cannot find permutation 'destroyed'
-12.28.23 10:54:22.456  ### ERROR geometry 'objects\weapons\support_high\flak_cannon\projectiles\flak_projectile' shader 'objects\weapons\support_high\flak_cannon\shaders\flak_bolt_luminous' is transparent but was imported as opaque
-12.28.23 10:54:24.153  ### WARNING model 'digsite\objects\vehicles\warthog\turrets\rocket\rocket' variant 'default' cannot find region 'gun_shield'
-12.28.23 10:54:24.414  ### WARNING physics model 'digsite\objects\vehicles\mongoose\mongoose' couldn't resolve material 'mongoose_metal' (''), using default material
-12.28.23 10:54:24.777  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.779  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.780  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.781  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.783  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.784  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.785  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.787  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.788  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.790  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.792  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.793  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.794  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.796  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.797  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.798  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.800  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.801  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.802  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.803  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.805  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.806  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.808  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.809  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.810  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.811  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.812  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.814  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.815  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.816  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.818  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.819  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.820  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.821  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.822  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.823  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.825  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.826  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.827  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.828  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.830  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.832  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable2' shader 'ui\hud\shaders\widget_simple_flash_red' is opaque but was imported as transparent
-12.28.23 10:54:24.964  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_drivable' shader 'objects\characters\heretic\shaders\plasma_shield' is transparent but was imported as opaque
-12.28.23 10:54:24.966  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_drivable' shader 'objects\vehicles\civilian\uberchassis\shaders\uberchassis_glass_dead' is opaque but was imported as transparent
-12.28.23 10:54:24.967  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_drivable' shader 'objects\characters\heretic\shaders\plasma_shield' is transparent but was imported as opaque
-12.28.23 10:54:24.969  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_drivable' shader 'objects\vehicles\civilian\uberchassis\shaders\uberchassis_glass_dead' is opaque but was imported as transparent
-12.28.23 10:54:24.970  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_drivable' shader 'objects\characters\heretic\shaders\plasma_shield' is transparent but was imported as opaque
-12.28.23 10:54:24.972  ### ERROR geometry 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_drivable' shader 'objects\vehicles\civilian\uberchassis\shaders\uberchassis_glass_dead' is opaque but was imported as transparent
-12.28.23 10:54:24.973  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' collision model node counts don't match (will not be collideable)
-12.28.23 10:54:24.974  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' animation graph node counts don't match (will not animate)
-12.28.23 10:54:24.976  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'default' region 'hull' permutation 'base' state 'medium damage' cannot find permutation 'medium'
-12.28.23 10:54:24.977  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'default' region 'hull' permutation 'base' state 'major damage' cannot find permutation 'major'
-12.28.23 10:54:24.978  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'default' cannot find region 'l_hull'
-12.28.23 10:54:24.979  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'default' cannot find region 'r_hull'
-12.28.23 10:54:24.980  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'default' cannot find region 'lf_wheel'
-12.28.23 10:54:24.982  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'default' cannot find region 'rf_wheel'
-12.28.23 10:54:24.983  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'default' cannot find region 'lb_wheel'
-12.28.23 10:54:24.984  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'default' cannot find region 'rb_wheel'
-12.28.23 10:54:24.985  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'default' cannot find region 'windshield'
-12.28.23 10:54:24.986  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'default' cannot find region 'bumper'
-12.28.23 10:54:24.988  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'troop' region 'hull' permutation 'base' state 'medium damage' cannot find permutation 'medium'
-12.28.23 10:54:24.989  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'troop' region 'hull' permutation 'base' state 'major damage' cannot find permutation 'major'
-12.28.23 10:54:24.990  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'troop' cannot find region 'l_hull'
-12.28.23 10:54:24.992  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'troop' cannot find region 'r_hull'
-12.28.23 10:54:24.993  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'troop' cannot find region 'lf_wheel'
-12.28.23 10:54:24.994  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'troop' cannot find region 'rf_wheel'
-12.28.23 10:54:24.995  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'troop' cannot find region 'lb_wheel'
-12.28.23 10:54:24.997  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'troop' cannot find region 'rb_wheel'
-12.28.23 10:54:24.998  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'troop' cannot find region 'windshield'
-12.28.23 10:54:25.000  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'damaged' region 'hull' permutation 'base' state 'medium damage' cannot find permutation 'medium'
-12.28.23 10:54:25.001  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'damaged' region 'hull' permutation 'base' state 'major damage' cannot find permutation 'major'
-12.28.23 10:54:25.003  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'damaged' cannot find region 'l_hull'
-12.28.23 10:54:25.004  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'damaged' cannot find region 'r_hull'
-12.28.23 10:54:25.005  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'damaged' cannot find region 'lf_wheel'
-12.28.23 10:54:25.006  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'damaged' cannot find region 'rf_wheel'
-12.28.23 10:54:25.007  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'damaged' cannot find region 'lb_wheel'
-12.28.23 10:54:25.008  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'damaged' cannot find region 'rb_wheel'
-12.28.23 10:54:25.010  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'damaged' cannot find region 'windshield'
-12.28.23 10:54:25.011  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'damaged' cannot find region 'bumper'
-12.28.23 10:54:25.012  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'gauss' region 'hull' permutation 'base' state 'medium damage' cannot find permutation 'medium'
-12.28.23 10:54:25.013  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'gauss' region 'hull' permutation 'base' state 'major damage' cannot find permutation 'major'
-12.28.23 10:54:25.014  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'gauss' cannot find region 'l_hull'
-12.28.23 10:54:25.015  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'gauss' cannot find region 'r_hull'
-12.28.23 10:54:25.017  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'gauss' cannot find region 'lf_wheel'
-12.28.23 10:54:25.018  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'gauss' cannot find region 'rf_wheel'
-12.28.23 10:54:25.020  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'gauss' cannot find region 'lb_wheel'
-12.28.23 10:54:25.021  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'gauss' cannot find region 'rb_wheel'
-12.28.23 10:54:25.022  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'gauss' cannot find region 'windshield'
-12.28.23 10:54:25.023  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' variant 'gauss' cannot find region 'bumper'
-12.28.23 10:54:25.024  ### WARNING model 'dw3\objects\vehicles\civilian\uberchassis_dw3\uberchassis_dw3_drivable' physics model node counts don't match (will not be physical)
-12.28.23 10:54:26.123  ### WARNING object 'dw3\objects\vehicles\civilian\uberchassis_dw3\attachment' has a bounding sphere radius much less than its model (0.200000 vs 1.076940)
-12.28.23 10:54:26.478  ### WARNING model 'objects\vehicles\warthog\turrets\rocket\rocket' variant 'default' region 'gun' permutation 'base' state 'standard' cannot find permutation 'blur'
-12.28.23 10:54:26.480  ### WARNING model 'objects\vehicles\warthog\turrets\rocket\rocket' variant 'damaged' region 'gun' permutation 'base' state 'standard' cannot find permutation 'blur'
-12.28.23 10:54:28.763  ### ERROR geometry 'd_flog_flag_ports\reach\objects\vehicles\covenant\tuning_fork\tuning_fork' shader 'd_flog_flag_ports\reach\objects\vehicles\covenant\tuning_fork\shaders\tuning_fork_thruster_effect' is transparent but was imported as opaque
-12.28.23 10:54:28.764  ### ERROR geometry 'd_flog_flag_ports\reach\objects\vehicles\covenant\tuning_fork\tuning_fork' shader 'd_flog_flag_ports\reach\objects\vehicles\covenant\tuning_fork\shaders\tuning_fork_thruster_effect02' is transparent but was imported as opaque
-12.28.23 10:54:28.766  ### ERROR geometry 'd_flog_flag_ports\reach\objects\vehicles\covenant\tuning_fork\tuning_fork' shader 'd_flog_flag_ports\reach\objects\vehicles\covenant\tuning_fork\shaders\tuning_fork_antigrav_effects' is transparent but was imported as opaque
-12.28.23 10:54:28.767  ### ERROR geometry 'd_flog_flag_ports\reach\objects\vehicles\covenant\tuning_fork\tuning_fork' shader 'd_flog_flag_ports\reach\objects\vehicles\covenant\tuning_fork\shaders\tuning_fork_antigrav_effects_inner' is transparent but was imported as opaque
-12.28.23 10:54:28.768  ### ERROR geometry 'd_flog_flag_ports\reach\objects\vehicles\covenant\tuning_fork\tuning_fork' shader 'd_flog_flag_ports\reach\objects\vehicles\covenant\tuning_fork\shaders\indicator_holo' is transparent but was imported as opaque
-12.28.23 10:54:28.769  ### ERROR geometry 'd_flog_flag_ports\reach\objects\vehicles\covenant\tuning_fork\tuning_fork' shader 'd_flog_flag_ports\reach\objects\vehicles\covenant\tuning_fork\shaders\indicator_holo_friendly' is transparent but was imported as opaque
-12.28.23 10:54:28.770  ### ERROR geometry 'd_flog_flag_ports\reach\objects\vehicles\covenant\tuning_fork\tuning_fork' shader 'd_flog_flag_ports\reach\objects\vehicles\covenant\tuning_fork\shaders\indicator_holo_classic' is transparent but was imported as opaque
-12.28.23 10:54:28.789  ### WARNING physics model 'd_flog_flag_ports\reach\objects\vehicles\covenant\tuning_fork\tuning_fork' couldn't resolve material 'hull' (''), using default material
-12.28.23 10:54:28.814  ### ERROR geometry 'd_flog_flag_ports\reach\objects\vehicles\covenant\tuning_fork\turret\turret' shader 'd_flog_flag_ports\reach\objects\vehicles\covenant\tuning_fork\shaders\indicator_holo' is transparent but was imported as opaque
-12.28.23 10:54:28.816  ### ERROR geometry 'd_flog_flag_ports\reach\objects\vehicles\covenant\tuning_fork\turret\turret' shader 'd_flog_flag_ports\reach\objects\vehicles\covenant\tuning_fork\shaders\indicator_holo' is transparent but was imported as opaque
-12.28.23 10:54:28.823  ### WARNING collision model 'd_flog_flag_ports\reach\objects\vehicles\covenant\tuning_fork\turret\turret' has open edges (collision will not work properly)
-12.28.23 10:54:28.836  ### WARNING physics model 'd_flog_flag_ports\reach\objects\vehicles\covenant\tuning_fork\turret\turret' couldn't resolve material 'default' (''), using default material
-12.28.23 10:54:29.114  ### ERROR geometry 'objects\vehicles\phantom_prophet\phantom_prophet' shader 'objects\vehicles\phantom_prophet\shaders\phantom_illum' is transparent but was imported as opaque
-12.28.23 10:54:29.115  ### ERROR geometry 'objects\vehicles\phantom_prophet\phantom_prophet' shader 'objects\vehicles\phantom_prophet\shaders\phantom_illum' is transparent but was imported as opaque
-12.28.23 10:54:29.117  ### ERROR geometry 'objects\vehicles\phantom_prophet\phantom_prophet' shader 'objects\vehicles\phantom\shaders\antigrav_effects' is transparent but was imported as opaque
-12.28.23 10:54:29.118  ### ERROR geometry 'objects\vehicles\phantom_prophet\phantom_prophet' shader 'objects\vehicles\phantom_prophet\shaders\phantom_illum' is transparent but was imported as opaque
-12.28.23 10:54:29.119  ### ERROR geometry 'objects\vehicles\phantom_prophet\phantom_prophet' shader 'objects\vehicles\phantom_prophet\shaders\phantom_illum' is transparent but was imported as opaque
-12.28.23 10:54:29.120  ### ERROR geometry 'objects\vehicles\phantom_prophet\phantom_prophet' shader 'objects\vehicles\phantom_prophet\shaders\phantom_illum' is transparent but was imported as opaque
-12.28.23 10:54:29.122  ### ERROR geometry 'objects\vehicles\phantom_prophet\phantom_prophet' shader 'objects\vehicles\phantom_prophet\shaders\phantom_illum' is transparent but was imported as opaque
-12.28.23 10:54:29.123  ### ERROR geometry 'objects\vehicles\phantom_prophet\phantom_prophet' shader 'objects\vehicles\phantom_prophet\shaders\phantom_illum' is transparent but was imported as opaque
-12.28.23 10:54:29.125  ### ERROR geometry 'objects\vehicles\phantom_prophet\phantom_prophet' shader 'objects\vehicles\phantom_prophet\shaders\phantom_illum' is transparent but was imported as opaque
-12.28.23 10:54:29.126  ### ERROR geometry 'objects\vehicles\phantom_prophet\phantom_prophet' shader 'objects\vehicles\phantom_prophet\shaders\phantom_illum' is transparent but was imported as opaque
-12.28.23 10:54:29.127  ### ERROR geometry 'objects\vehicles\phantom_prophet\phantom_prophet' shader 'objects\vehicles\phantom\shaders\antigrav_effects' is transparent but was imported as opaque
-12.28.23 10:54:29.149  ### WARNING physics model 'objects\vehicles\phantom_prophet\phantom_prophet' couldn't resolve material 'gravity_lift_vehicle' (''), using default material
-12.28.23 10:54:29.150  ### WARNING physics model 'objects\vehicles\phantom_prophet\phantom_prophet' couldn't resolve material 'special_material' (''), using default material
-12.28.23 10:54:29.151  ### WARNING physics model 'objects\vehicles\phantom_prophet\phantom_prophet' couldn't resolve material 'gravity_lift' (''), using default material
-12.28.23 10:54:29.152  ### WARNING physics model 'objects\vehicles\phantom_prophet\phantom_prophet' couldn't resolve material 'gravity_lift_brake' (''), using default material
-12.28.23 10:54:29.154  ### WARNING model 'objects\vehicles\phantom_prophet\phantom_prophet' does not define material type for collision material 'hard_metal_solid_cov_scarab_int'
-12.28.23 10:54:29.155  ### WARNING model 'objects\vehicles\phantom_prophet\phantom_prophet' does not define material type for collision material 'hard_metal_solid_cov_scarab_int'
-12.28.23 10:54:29.157  ### WARNING model 'objects\vehicles\phantom_prophet\phantom_prophet' does not define material type for collision material 'hard_metal_solid_cov_scarab_int'
-12.28.23 10:54:29.158  ### WARNING model 'objects\vehicles\phantom_prophet\phantom_prophet' does not define material type for collision material 'hard_metal_solid_cov_scarab_int'
-12.28.23 10:54:29.159  ### WARNING model 'objects\vehicles\phantom_prophet\phantom_prophet' does not define material type for collision material 'hard_metal_solid_cov_scarab_int'
-12.28.23 10:54:29.161  ### WARNING model 'objects\vehicles\phantom_prophet\phantom_prophet' does not define material type for collision material 'hard_metal_solid_cov_scarab_int'
-12.28.23 10:54:31.195  ### WARNING collision model 'phanrev\objects\vehicles\brute_banshee\garbage\br_pod_garbage\br_pod_garbage' has open edges (collision will not work properly)
-12.28.23 10:54:31.288  ### WARNING model 'phanrev\objects\vehicles\brute_banshee\brute_banshee' variant 'heretic' region 'lights' permutation 'heretic' state 'major damage' cannot find permutation 'major'
-12.28.23 10:54:31.289  ### WARNING model 'phanrev\objects\vehicles\brute_banshee\brute_banshee' variant 'heretic' region 'lights' permutation 'heretic' state 'medium damage' cannot find permutation 'medium'
-12.28.23 10:54:31.858  ### WARNING object 'phanrev\objects\vehicles\brute_ghost\garbage\seat\b_seat' has a bounding sphere radius much less than its model (0.120000 vs 0.364857)
-12.28.23 10:54:31.930  ### WARNING object 'phanrev\objects\vehicles\brute_ghost\garbage\l_wing_shell\b_l_wing_shell' has a bounding sphere radius much less than its model (0.080000 vs 0.285048)
-12.28.23 10:54:31.958  ### WARNING object 'phanrev\objects\vehicles\brute_ghost\garbage\r_wing_shell\b_r_wing_shell' has a bounding sphere radius much less than its model (0.080000 vs 0.285048)
-12.28.23 10:54:43.346  ### WARNING physics model 'objects\weapons\rifle\assault_rifle\halo1\assault_rifle' couldn't resolve material 'metal' (''), using default material
-12.28.23 10:54:43.870  ### WARNING physics model 'kashiiera\objects\weapons\support_low\flamethrower_ce\flamethrower_ce' couldn't resolve material 'metal' (''), using default material
-12.28.23 10:54:44.044  ### WARNING physics model 'kashiiera\objects\equipment\flamethrower_ammo\flamethrower_ammo' couldn't resolve material 'ft_ammo' (''), using default material
-12.28.23 10:54:44.080  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'kashiiera\objects\equipment\flamethrower_ammo\flamethrower_ammo'
-12.28.23 10:54:44.735  ### WARNING physics model 'kashiiera\objects\weapons\support_high\fuel_rod_ce\fuel_rod_ce' couldn't resolve material 'fuel_rod_ce' (''), using default material
-12.28.23 10:54:46.352  ### WARNING physics model 'digsite\objects\weapons\assault_rifle\assault_rifle_99_mac\assault_rifle_99_mac' couldn't resolve material 'metal' (''), using default material
-12.28.23 10:54:46.616  ### WARNING physics model 'digsite\objects\weapons\chaingun\chaingun_99_mac\chaingun_99_mac' couldn't resolve material 'metal' (''), using default material
-12.28.23 10:54:46.851  ### WARNING physics model 'digsite\objects\weapons\smg\99_mac\99_mac' couldn't resolve material 'metal' (''), using default material
-12.28.23 10:54:46.875  ### ERROR geometry 'digsite\objects\weapons\smg\99_mac\_dig\fp\fp' shader 'digsite\objects\weapons\smg\99_mac\shaders\glass' is transparent but was imported as opaque
-12.28.23 10:54:47.913  ### WARNING model 'objects\weapons\melee\gravity_hammer_h3\gravity_hammer_h3' animation graph node counts don't match (will not animate)
-12.28.23 10:54:51.681  ### ERROR geometry 'dw3\objects\weapons\fixed\plasma_cannon\plasma_cannon_dw3' shader 'scenarios\objects\special\shaders\invisible' is transparent but was imported as opaque
-12.28.23 10:54:51.683  ### WARNING model 'dw3\objects\weapons\fixed\plasma_cannon\plasma_cannon_dw3' collision model node counts don't match (will not be collideable)
-12.28.23 10:54:51.684  ### WARNING model 'dw3\objects\weapons\fixed\plasma_cannon\plasma_cannon_dw3' animation graph node counts don't match (will not animate)
-12.28.23 10:54:51.686  ### WARNING model 'dw3\objects\weapons\fixed\plasma_cannon\plasma_cannon_dw3' variant 'default' cannot find region 'barrel'
-12.28.23 10:54:51.687  ### WARNING model 'dw3\objects\weapons\fixed\plasma_cannon\plasma_cannon_dw3' variant 'default' cannot find region 'tripod'
-12.28.23 10:54:51.689  ### WARNING model 'dw3\objects\weapons\fixed\plasma_cannon\plasma_cannon_dw3' physics model node counts don't match (will not be physical)
-12.28.23 10:54:52.181  ### ERROR geometry 'dw3\objects\weapons\fixed\plasma_cannon\fp_plasma_cannon' shader 'scenarios\objects\special\shaders\invisible' is transparent but was imported as opaque
-12.28.23 10:54:52.365  ### WARNING model 'dw3\objects\weapons\support_low\scorpion_cannon\scorpion_cannon' collision model region 'gun' has no corresponding model region (will not be collideable)
-12.28.23 10:54:52.506  ### ERROR geometry 'dw3\objects\weapons\rifle\battle_rifle\e3\battle_rifle' shader 'scenarios\objects\special\shaders\invisible' is transparent but was imported as opaque
-12.28.23 10:54:52.507  ### ERROR geometry 'dw3\objects\weapons\rifle\battle_rifle\e3\battle_rifle' shader 'scenarios\objects\special\shaders\invisible' is transparent but was imported as opaque
-12.28.23 10:54:53.798  ### WARNING model 'objects\weapons\zoephie\halo_reach\weapons\support_high\plasma_launcher\plasma_launcher' collision model node counts don't match (will not be collideable)
-12.28.23 10:54:54.142  ### ERROR geometry 'objects\weapons\zoephie\halo_4\rifle\storm_lmg\storm_lmg' shader 'objects\weapons\zoephie\halo_4\rifle\storm_lmg\shaders\storm_lmg_display_diff' is transparent but was imported as opaque
-12.28.23 10:54:54.144  ### WARNING model 'objects\weapons\zoephie\halo_4\rifle\storm_lmg\storm_lmg' collision model region 'gun' has no corresponding model region (will not be collideable)
-12.28.23 10:54:54.182  ### ERROR geometry 'objects\weapons\zoephie\halo_4\rifle\storm_lmg\fp\fp' shader 'objects\weapons\zoephie\halo_4\rifle\storm_lmg\shaders\storm_lmg_display_diff' is transparent but was imported as opaque
-12.28.23 10:54:54.498  ### WARNING model 'objects\weapons\zoephie\infinite_weapons\objects\weapons\rifle\pluse_carbine\pluse_carbine' animation graph node graph doesn't match at #1 'barrel'/'rod_left' (will not animate)
-12.28.23 10:54:55.227  ### WARNING model 'objects\weapons\zoephie\infinite_weapons\objects\weapons\rifle\vk78\vk78' collision model node counts don't match (will not be collideable)
-12.28.23 10:54:55.950  ### WARNING model 'objects\weapons\zoephie\infinite_weapons\objects\weapons\rifle\ma40\ma40' collision model region 'gun' has no corresponding model region (will not be collideable)
-12.28.23 10:54:55.951  ### WARNING model 'objects\weapons\zoephie\infinite_weapons\objects\weapons\rifle\ma40\ma40' physics model node counts don't match (will not be physical)
-12.28.23 10:54:58.394  ### WARNING collision model 'dragonsoul\objects\weapons\support_high\spartan_laser\spartan_laser' has 1 nonconvex surfaces
-12.28.23 10:54:58.402  ### WARNING model 'dragonsoul\objects\weapons\support_high\spartan_laser\spartan_laser' level of detail distances are incorrect (must be in descending order)
-12.28.23 10:54:59.127  ### WARNING object 'scenarios\objects\covenant\military\scarab\scarab' has a bounding sphere radius much less than its model (12.500000 vs 16.304300)
-12.28.23 10:54:59.289  ### WARNING physics model 'scenarios\objects\covenant\military\cov_watchtower\cov_watchtower_base\cov_watchtower_base' couldn't resolve material 'lower_lift_player' (''), using default material
-12.28.23 10:54:59.291  ### WARNING physics model 'scenarios\objects\covenant\military\cov_watchtower\cov_watchtower_base\cov_watchtower_base' couldn't resolve material 'lower_lift' (''), using default material
-12.28.23 10:54:59.370  ### WARNING physics model 'scenarios\objects\covenant\military\cov_watchtower\cov_watchtower_pod\cov_watchtower_pod' couldn't resolve material 'upper_lift' (''), using default material
-12.28.23 10:55:05.835  ### WARNING collision model 'objects\gear\covenant\military\battery\battery' has 1 nonconvex surfaces
-12.28.23 10:55:06.965  ### ERROR geometry 'objects\vehicles\civilian\uberchassis\uberchassis' shader 'objects\vehicles\civilian\uberchassis\shaders\uberchassis_glass_dead' is opaque but was imported as transparent
-12.28.23 10:55:06.967  ### ERROR geometry 'objects\vehicles\civilian\uberchassis\uberchassis' shader 'objects\vehicles\civilian\uberchassis\shaders\uberchassis_glass_dead' is opaque but was imported as transparent
-12.28.23 10:55:06.968  ### ERROR geometry 'objects\vehicles\civilian\uberchassis\uberchassis' shader 'objects\vehicles\civilian\uberchassis\shaders\uberchassis_glass_dead' is opaque but was imported as transparent
-12.28.23 10:55:07.025  ### WARNING model 'objects\vehicles\civilian\uberchassis\uberchassis_tire\uberchassis_tire' collision model region 'tire' has no corresponding model region (will not be collideable)
-12.28.23 10:55:07.027  ### WARNING model 'objects\vehicles\civilian\uberchassis\uberchassis' variant 'destroyed' cannot find region 'wheel_fr'
-12.28.23 10:55:07.028  ### WARNING model 'objects\vehicles\civilian\uberchassis\uberchassis' variant 'destroyed' cannot find region 'wheel_fl'
-12.28.23 10:55:07.029  ### WARNING model 'objects\vehicles\civilian\uberchassis\uberchassis' variant 'destroyed' cannot find region 'wheel_bl'
-12.28.23 10:55:07.030  ### WARNING model 'objects\vehicles\civilian\uberchassis\uberchassis' variant 'destroyed' cannot find region 'wheel_br'
-12.28.23 10:55:07.049  ### WARNING object 'objects\vehicles\civilian\uberchassis\uberchassis' has a bounding sphere radius much less than its model (0.750000 vs 0.971937)
-12.28.23 10:55:07.162  ### WARNING model 'objects\weapons\rifle\brute_plasma_rifle\brute_plasma_rifle' collision model region 'default' has no corresponding model region (will not be collideable)
-12.28.23 10:55:07.695  ### WARNING physics model 'scenarios\objects\human\urban\air\air' couldn't resolve material 'airshader' (''), using default material
-12.28.23 10:55:07.708  ### WARNING object 'scenarios\objects\human\urban\air\ai_cap' has a bounding sphere radius much less than its model (0.100000 vs 0.521992)
-12.28.23 10:55:07.878  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'scenarios\objects\human\urban\dumpter\dumpster'
-12.28.23 10:55:08.553  ### WARNING physics model 'objects\characters\ambient_life\reach_moa\reach_moa' couldn't resolve material 'reach_moa' (''), using default material
-12.28.23 10:55:12.637  ### WARNING object 'objects\characters\bugger\bugger' has a bounding sphere radius much less than its model (0.380000 vs 0.670935)
-12.28.23 10:55:12.933  ### WARNING object 'objects\characters\floodcombat_human\garbage\right_arm_garbage\right_arm' has a bounding sphere radius much less than its model (0.100000 vs 0.151569)
-12.28.23 10:55:13.352  ### the creature 'objects\characters\ambient_life\seagull\seagull' has no 'head' marker
-12.28.23 10:55:13.353  ### WARNING object 'objects\characters\ambient_life\seagull\seagull' has a bounding sphere radius much less than its model (0.200000 vs 0.250794)
-12.28.23 10:55:18.683  ### ERROR geometry 'objects\characters\elite\fp_body\fp_body' shader 'objects\characters\elite\shaders\inset_lights' is opaque but was imported as transparent
-12.28.23 10:55:18.711  ### WARNING model 'objects\characters\elite\elite_mp' variant 'default' cannot find region 'hg_lights'
-12.28.23 11:06:49.030  rigid body has exited broadphase at (-461.341095 -544.324158 -108.556664).  The associated object has been deleted. crate b_l_pod_med
-12.28.23 11:06:49.032  rigid body has exited broadphase at (-461.339905 -544.328796 -109.044807).  The associated object has been deleted. crate b_l_pod_med
+01.02.24 22:01:32.777  ### WARNING object 'scenarios\objects\covenant\military\cov_recharge_station\cov_recharge_station' has a bounding sphere radius much less than its model (1.300000 vs 1.723440)
+01.02.24 22:01:32.896  ### ERROR geometry 'scenarios\objects\special\null_up\null_up' shader 'scenarios\objects\special\shaders\invisible' is transparent but was imported as opaque
+01.02.24 22:01:32.898  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'scenarios\objects\special\null_up\null_up'
+01.02.24 22:01:35.177  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'objects\weapons\rifle\smg\garbage\magazine\magazine'
+01.02.24 22:01:35.814  ### WARNING model 'objects\characters\custom\gore_elite\gore_elite' variant 'minor_scl' cannot find region 'hg'
+01.02.24 22:01:35.815  ### WARNING model 'objects\characters\custom\gore_elite\gore_elite' variant 'minor_dog' cannot find region 'hg'
+01.02.24 22:01:44.433  ### WARNING physics model 'kashiiera\objects\weapons\support_high\fuel_rod_ce\fuel_rod_ce' couldn't resolve material 'fuel_rod_ce' (''), using default material
+01.02.24 22:01:44.490  ### ERROR geometry 'objects\weapons\support_high\flak_cannon\projectiles\flak_projectile' shader 'objects\weapons\support_high\flak_cannon\shaders\flak_bolt_luminous' is transparent but was imported as opaque
+01.02.24 22:01:44.938  ### WARNING model 'prerelease\objects\weapons\support_low\brute_shot\brute_shot' collision model region 'gun' has no corresponding model region (will not be collideable)
+01.02.24 22:01:45.177  ### ERROR geometry 'dw3\objects\weapons\rifle\battle_rifle\e3\battle_rifle' shader 'scenarios\objects\special\shaders\invisible' is transparent but was imported as opaque
+01.02.24 22:01:45.178  ### ERROR geometry 'dw3\objects\weapons\rifle\battle_rifle\e3\battle_rifle' shader 'scenarios\objects\special\shaders\invisible' is transparent but was imported as opaque
+01.02.24 22:01:46.384  ### WARNING collision model 'dragonsoul\objects\weapons\support_high\spartan_laser\spartan_laser' has 1 nonconvex surfaces
+01.02.24 22:01:46.386  ### WARNING model 'dragonsoul\objects\weapons\support_high\spartan_laser\spartan_laser' level of detail distances are incorrect (must be in descending order)
+01.02.24 22:01:49.319  ### WARNING object 'objects\vehicles\ghost\garbage\seat\seat' has a bounding sphere radius much less than its model (0.120000 vs 0.364857)
+01.02.24 22:01:49.349  ### WARNING object 'objects\vehicles\ghost\garbage\l_wing_shell\l_wing_shell' has a bounding sphere radius much less than its model (0.080000 vs 0.285048)
+01.02.24 22:01:49.357  ### WARNING object 'objects\vehicles\ghost\garbage\r_wing_shell\r_wing_shell' has a bounding sphere radius much less than its model (0.120000 vs 0.264751)
+01.02.24 22:01:49.828  ### WARNING physics model 'scenarios\objects\multi\burial_mounds\bm_rock_big\bm_rock_big' couldn't resolve material 'burial_boulder' (''), using default material
+01.02.24 22:01:49.836  ### WARNING physics model 'scenarios\objects\multi\burial_mounds\bm_rock_med\bm_rock_med' couldn't resolve material 'burial_boulder' (''), using default material
+01.02.24 22:01:49.842  ### WARNING physics model 'scenarios\objects\multi\burial_mounds\bm_rock_sm\bm_rock_sm' couldn't resolve material 'burial_boulder' (''), using default material
+01.02.24 22:01:51.807  ### ERROR geometry 'objects\characters\elite\fp_body\fp_body' shader 'objects\characters\elite\shaders\inset_lights' is opaque but was imported as transparent
+01.02.24 22:01:51.810  ### WARNING model 'objects\characters\elite\elite_mp' variant 'default' cannot find region 'hg_lights'
+01.02.24 22:01:52.224  ### WARNING model 'objects\weapons\rifle\brute_plasma_rifle\brute_plasma_rifle' collision model region 'default' has no corresponding model region (will not be collideable)
+01.02.24 22:18:18.508  ### WARNING physics model 'scenarios\objects\covenant\military\scarab\scarab' couldn't resolve material 'physics_ref_phantom' (''), using default material
+01.02.24 22:18:18.510  ### WARNING physics model 'scenarios\objects\covenant\military\scarab\scarab' couldn't resolve material 'attractor' (''), using default material
+01.02.24 22:18:21.471  ### WARNING collision model 'scenarios\objects\nature\trees\tree_redcedar\redcedar_m\redcedar_m' has 1 nonconvex surfaces
+01.02.24 22:18:21.884  ### WARNING object 'scenarios\objects\nature\trees\tree_redalder\redalder_m\redalder_m' has a bounding sphere radius much less than its model (5.000000 vs 6.323240)
+01.02.24 22:18:22.754  ### WARNING object 'scenarios\objects\nature\trees\tree_redalder\redalder_angled\redalder_angled' has a bounding sphere radius much less than its model (2.900000 vs 3.900230)
+01.02.24 22:18:22.924  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'scenarios\objects\forerunner\industrial\index\index_full\index_full'
+01.02.24 22:18:23.038  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'objects\weapons\melee\gravity_hammer\gravity_hammer'
+01.02.24 22:18:23.141  ### WARNING object 'scenarios\objects\nature\trees\tree_maple\maple_l\maple_l' has a bounding sphere radius much less than its model (4.500000 vs 6.221380)
+01.02.24 22:18:23.187  ### WARNING object 'scenarios\objects\nature\trees\tree_maple\maple\maple' has a bounding sphere radius much less than its model (3.800000 vs 5.133310)
+01.02.24 22:18:23.666  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'scenarios\objects\forerunner\industrial\index\index_alone\index_alone'
+01.02.24 22:18:23.681  ### ERROR geometry 'scenarios\objects\special\null_up\null_up' shader 'scenarios\objects\special\shaders\invisible' is transparent but was imported as opaque
+01.02.24 22:18:23.682  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'scenarios\objects\special\null_up\null_up'
+01.02.24 22:18:24.390  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'objects\cinematics\matte_paintings\delta_halo_quarter\delta_halo_quarter'
+01.02.24 22:18:24.480  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'objects\cinematics\matte_paintings\high_charity_exterior\high_charity_exterior'
+01.02.24 22:18:24.550  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'objects\cinematics\matte_paintings\substance_space\substance_space'
+01.02.24 22:18:24.596  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'objects\cinematics\matte_paintings\moon\moon'
+01.02.24 22:18:24.653  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'objects\cinematics\matte_paintings\earth_space\earth_space'
+01.02.24 22:18:24.836  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'objects\cinematics\forerunner\forerunner_ship\forerunner_ship'
+01.02.24 22:18:25.698  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'scenarios\objects\solo\spacestation\ss_prop\ss_prop'
+01.02.24 22:18:26.401  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'objects\cinematics\human\cairo_bridge\cairo_bridge'
+01.02.24 22:18:26.493  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'scenarios\objects\forerunner\industrial\halo\halo'
+01.02.24 22:18:28.446  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'objects\cinematics\texture_camera\texture_camera'
+01.02.24 22:18:28.448  ### WARNING object 'objects\cinematics\texture_camera\texture_camera' has no bounding radius
+01.02.24 22:18:28.556  ### WARNING object 'objects\cinematics\effects\halo_disarm\halo_disarm' has a bounding sphere radius much less than its model (1.000000 vs 92.079803)
+01.02.24 22:18:28.630  ### WARNING object 'objects\cinematics\effects\control_room_beam\control_room_beam' has a bounding sphere radius much less than its model (1.000000 vs 92.079803)
+01.02.24 22:18:28.852  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'objects\cinematics\forerunner\forerunner_ship_alcove\forerunner_ship_alcove'
+01.02.24 22:18:29.632  ### WARNING object 'scenarios\objects\solo\highcharity\interior_objects\cov_gravcolumn\cov_gravcolumn' has a bounding sphere radius much less than its model (3.700000 vs 5.433710)
+01.02.24 22:18:30.018  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'scenarios\objects\human\military\emergency\emergency'
+01.02.24 22:18:30.031  ### WARNING object 'scenarios\objects\human\military\emergency\emergency' has no bounding radius
+01.02.24 22:18:30.360  ### WARNING object 'effects\scenery\solids\distant_cov_and_human_space_expl' has no bounding radius
+01.02.24 22:18:30.401  ### WARNING object 'scenarios\objects\special\bloom_quad\bloom_quad' has a bounding sphere radius much less than its model (10.000000 vs 12.986900)
+01.02.24 22:18:31.061  ### WARNING object 'objects\characters\brute\garbage\brute_helmet\brute_helmet' has a bounding sphere radius much less than its model (0.050000 vs 0.079948)
+01.02.24 22:18:31.062  ### WARNING model 'objects\characters\brute\brute' variant 'tartarus' region 'hair' cannot find permutation 'tartarus'
+01.02.24 22:18:31.064  ### WARNING model 'objects\characters\brute\brute' variant 'skull' region 'hair' cannot find permutation 'tartarus'
+01.02.24 22:18:40.530  ### WARNING model 'objects\characters\marine\marine' variant 'johnson_combat' cannot find region 'arms'
+01.02.24 22:18:51.229  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'objects\weapons\rifle\smg\garbage\magazine\magazine'
+01.02.24 22:19:07.693  ### ERROR geometry 'objects\weapons\support_high\flak_cannon\projectiles\flak_projectile' shader 'objects\weapons\support_high\flak_cannon\shaders\flak_bolt_luminous' is transparent but was imported as opaque
+01.02.24 22:19:07.792  ### WARNING object 'objects\vehicles\ghost\garbage\seat\seat' has a bounding sphere radius much less than its model (0.120000 vs 0.364857)
+01.02.24 22:19:07.810  ### WARNING object 'objects\vehicles\ghost\garbage\l_wing_shell\l_wing_shell' has a bounding sphere radius much less than its model (0.080000 vs 0.285048)
+01.02.24 22:19:07.820  ### WARNING object 'objects\vehicles\ghost\garbage\r_wing_shell\r_wing_shell' has a bounding sphere radius much less than its model (0.120000 vs 0.264751)
+01.02.24 22:19:08.108  ### WARNING physics model 'objects\vehicles\phantom\phantom' couldn't resolve material 'gravity_lift' (''), using default material
+01.02.24 22:19:08.110  ### WARNING physics model 'objects\vehicles\phantom\phantom' couldn't resolve material 'gravity_lift_brake' (''), using default material
+01.02.24 22:19:08.111  ### WARNING physics model 'objects\vehicles\phantom\phantom' couldn't resolve material 'special_material' (''), using default material
+01.02.24 22:19:08.112  ### WARNING physics model 'objects\vehicles\phantom\phantom' couldn't resolve material 'gravity_lift_vehicle' (''), using default material
+01.02.24 22:19:09.897  ### WARNING model 'objects\weapons\rifle\brute_plasma_rifle\brute_plasma_rifle' collision model region 'default' has no corresponding model region (will not be collideable)
+01.02.24 22:19:10.626  ### WARNING object 'scenarios\objects\covenant\military\scarab\scarab' has a bounding sphere radius much less than its model (12.500000 vs 16.304300)
+01.02.24 22:19:11.489  ### WARNING collision model 'scenarios\objects\solo\deltacontrolroom\control_walkway\control_walkway' has 4 nonconvex surfaces
+01.02.24 22:19:12.544  ### WARNING physics model 'scenarios\objects\solo\highcharity\pedestal\pedestal' couldn't resolve material 'phantom' (''), using default material
+01.02.24 22:19:18.394  ### WARNING collision model 'objects\gear\covenant\military\battery\battery' has 1 nonconvex surfaces
+01.02.24 22:19:18.800  ### WARNING physics model 'scenarios\objects\solo\deltacontrolroom\control_room\grav_lift\grav_lift' couldn't resolve material 'lower_lift' (''), using default material
+01.02.24 22:19:18.801  ### WARNING physics model 'scenarios\objects\solo\deltacontrolroom\control_room\grav_lift\grav_lift' couldn't resolve material 'upper_lift' (''), using default material
+01.02.24 22:19:19.659  ### WARNING physics model 'objects\characters\ambient_life\reach_moa\reach_moa' couldn't resolve material 'reach_moa' (''), using default material
+01.02.24 22:19:25.338  ### WARNING object 'objects\characters\bugger\bugger' has a bounding sphere radius much less than its model (0.380000 vs 0.670935)
+01.02.24 22:19:26.760  ### ERROR geometry 'objects\characters\elite\fp_body\fp_body' shader 'objects\characters\elite\shaders\inset_lights' is opaque but was imported as transparent
+01.02.24 22:19:26.763  ### WARNING model 'objects\characters\elite\elite_mp' variant 'default' cannot find region 'hg_lights'
