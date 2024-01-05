@@ -1,9 +1,0 @@
-
-
-============================================================================================
-12.26.23 13:43:24.154  tool  debug pc untracked version  Jun 20 2023 11:27:47
-============================================================================================
-
-
-12.26.23 13:43:24.154  ### WARNING structure bsp 'scenarios\solo\03a_oldmombasa\earthcity_1' has 52 nonconvex surfaces
-12.26.23 13:43:27.468  ### WARNING structure bsp 'scenarios\solo\03a_oldmombasa\earthcity_2' has 14 nonconvex surfaces
