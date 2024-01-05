@@ -1,8 +1,0 @@
-
-
-============================================================================================
-12.26.23 13:40:46.940  tool  debug pc untracked version  Jun 20 2023 11:27:47
-============================================================================================
-
-
-12.26.23 13:40:46.940  ### WARNING model 'objects\vehicles\civilian\uberchassis\uberchassis_tire\uberchassis_tire' material 'uberchassis_wheels_dead' ('') couldn't find a global material named 'uberchassis_wheels_dead'
