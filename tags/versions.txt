@@ -5,6 +5,15 @@ faire les swap banshee and ghost IA
 4 hunter bug, les faire pop ailleurs
 more weapon before floods
 shader vk78
+melee SAW
+place AA player beach
+replace all banshee and ghost with banished
+hunter door not Firing
+hunter hotel not Firing
+lights on weapons
+hotel exit zqrthog pqssenger FRG
+plqce plusieurs scorpion et siege dqns le tunnel
+booster le zqrthog des PNJ 
 
 
 BSP1
@@ -62,6 +71,7 @@ use my hunter frg
 gore biped
 earthmilitia
 add stacker creep
+add stacker digsite shadow
 Give AI weapons
 ludantes lights
 give Mangoose model_animation_graph !! HAMMER
