@@ -22,10 +22,10 @@
 # !/tags/scenarios
 # !/tags/shaders
 # !/tags/stacker
-# # !/tags/temp_scenario
-# # !/tags/test
-# # !/tags/ui
-# # !/tags/sound_remastered
+# !/tags/temp_scenario
+# !/tags/test
+# !/tags/ui
+# !/tags/sound_remastered
 # !/tags/sound
 # /tags/sound/*
 # !/tags/sound/ambience
@@ -71,5 +71,6 @@
 /*.7z
 /*.rar
 /h2_maps_win64_dx11/*
+/H2EK/*
 # tags\dw3\scenarios\solo\07a_highcharity\07a_highcharity_high_4_lightmap_bitmaps.bitmap
 # C:\Program Files (x86)\Steam\steamapps\common\H2EK\tags\objects\weapons\zoephie\infinite_weapons\objects\weapons\support_high\skewer\zoephs_bitmaps\receiver_lower
