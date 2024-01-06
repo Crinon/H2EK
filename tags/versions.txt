@@ -85,8 +85,15 @@ remplacer spectre beta DW3
 ready + reload smg mac
 ready + reload chaingun mac
 inclure credits.txt ?
+limiter balles armes
 
 
+Before compiling oldmombasa
+Files to add from 7z
+tags/sound_remastered
+tags/scenarios/multi
+tags/scenarios/solo
+Use /mcc_build_scenarios_shared.py
 
 
 Version 11
