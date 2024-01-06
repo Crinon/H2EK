@@ -1,0 +1,25 @@
+{
+	"MapGuid": "be4a0b2d-db1e-47dd-bc76-db94f26e0843",
+	"ScenarioFile": "03a_oldmombasa",
+	"Title": {
+		"Neutral": "Mission 2 : Outskirts"
+	},
+	"Images": {
+		"Large": "battlegrounds_images\\Capture d'�cran 2024-01-06 173418.png",
+		"Thumbnail": "battlegrounds_images\\Capture d'�cran 2024-01-06 173418.png",
+		"LoadingScreen": "battlegrounds_images\\Capture d'�cran 2024-01-06 173418.png",
+		"TopDown": ""
+	},
+	"Flags": [
+		"DisableSavedFilms"
+	],
+	"InsertionPoints": [],
+	"CampaignMapKind": "Default",
+	"CampaignMetagame": {
+		"IsNonScoring": false,
+		"MissionSegmentCount": 0,
+		"ParTimeInSeconds": 0.0,
+		"AverageTimeInSeconds": 0.0,
+		"MaxTimeInSeconds": 0.0
+	}
+}

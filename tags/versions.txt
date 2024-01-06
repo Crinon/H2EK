@@ -1,20 +1,7 @@
 To solve :
-Mauvais scorption dans tunnel
-plus d'armes avant l'hotel
-faire les swap banshee and ghost IA
-4 hunter bug, les faire pop ailleurs
-more weapon before floods
-shader vk78
-melee SAW
-place AA player beach
-replace all banshee and ghost with banished
-hunter door not Firing
-hunter hotel not Firing
-lights on weapons
-hotel exit zqrthog pqssenger FRG
-plqce plusieurs scorpion et siege dqns le tunnel
-booster le zqrthog des PNJ 
-
+FINAL : variant marines + cov
+tunnel : booster le wartohg des PNJ 
+make ghost1 explode when driver dies
 
 BSP1
 - Weapons and vehicle placing
@@ -25,13 +12,13 @@ BSP1
 BSP2
 - Weapons and vehicle placing
 - NPC variety
-- Enemy gravity throne
-BSP2 : FRG hunter
 
 BSP3
 - Add backup fun scorpion and banshee
 - remove container
 - Weapons and vehicle placing
+- Enemy gravity throne
+- plqce plusieurs scorpion et siege dqns le tunnel
 
 Compilation >1.1go
 Osoyoos simple package : ERROR
@@ -54,20 +41,14 @@ color weapon
 color vehicle
 
 Add E3 BR
-"C:\Program Files (x86)\Steam\steamapps\common\H2EK\tags\dw3\objects\weapons\rifle\battle_rifle\e3\e3_battle_rifle.weapon"
+"F:\SteamLibrary\steamapps\common\H2EK\tags\dw3\objects\weapons\rifle\battle_rifle\e3\e3_battle_rifle.weapon"
 
 Add sentinel beam variant (dw3/char/sentinel/weapons)
-"C:\Program Files (x86)\Steam\steamapps\common\H2EK\tags\dw3\objects\characters\sentinel_aggressor_dw3\weapons\sentinel_enforcer_charged_bolt.weapon"
-"C:\Program Files (x86)\Steam\steamapps\common\H2EK\tags\dw3\objects\characters\sentinel_aggressor_dw3\weapons\grenade_launcher\sentinel_aggressor_gl.weapon"
-"C:\Program Files (x86)\Steam\steamapps\common\H2EK\tags\dw3\objects\characters\sentinel_aggressor_dw3\weapons\needler\sentinel_aggressor_needler.weapon"
+"F:\SteamLibrary\steamapps\common\H2EK\tags\dw3\objects\characters\sentinel_aggressor_dw3\weapons\sentinel_enforcer_charged_bolt.weapon"
+"F:\SteamLibrary\steamapps\common\H2EK\tags\dw3\objects\characters\sentinel_aggressor_dw3\weapons\grenade_launcher\sentinel_aggressor_gl.weapon"
+"F:\SteamLibrary\steamapps\common\H2EK\tags\dw3\objects\characters\sentinel_aggressor_dw3\weapons\needler\sentinel_aggressor_needler.weapon"
 
-Add short brute shot
-"C:\Program Files (x86)\Steam\steamapps\common\H2EK\tags\prerelease\objects\weapons\support_low\brute_shot\brute_shot.weapon"
 
-Set encounter Spartan Laser
-Set encounter E3 brute shot
-add AI sentinel with new weapon
-use my hunter frg
 gore biped
 earthmilitia
 add stacker creep
@@ -76,7 +57,6 @@ Give AI weapons
 ludantes lights
 give Mangoose model_animation_graph !! HAMMER
 plasma repeater
-skewer
 cov turret DW3
 destrictible pelican
 destrictible phantom
@@ -85,7 +65,14 @@ remplacer spectre beta DW3
 ready + reload smg mac
 ready + reload chaingun mac
 inclure credits.txt ?
+shader vk78
+melee SAW
+
+Weapon balance :
 limiter balles armes
+plus d'armes avant l'hotel
+more weapon before floods
+
 
 
 Before compiling oldmombasa
@@ -96,10 +83,22 @@ tags/scenarios/solo
 Use /mcc_build_scenarios_shared.py
 
 
+
+
 Version 11
 Fix h turret gl placement
 Add second h turret gl
 Remove one banshee from ghost1
+Swap banshee and ghost to Halo Wars 2 version
+Fixed dw3 shielded hunter AI to use FRG
+lights on weapons courtyard
+place AA player beach
+hotel exit warthog passenger spartan laser
+Courtyard encounter Spartan Laser
+Beach encounter Spartan Laser
+Beach encounter Gravity throne + FRG hunter
+Add short brute shot
+
 
 
 

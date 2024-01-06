@@ -41,6 +41,7 @@
 /shader_cache/*
 /tags/sound_remastered/*
 /tags/ui/*
+!/Campaign_workshop_structure
 
 !/init.txt
 !/collect_tag_list.py

@@ -1,0 +1,38 @@
+{
+	"ModIdentifier": {
+		"ModGuid": "3c2c78fb-792f-4e52-950e-c9df6de7ab50",
+		"HostedModIds": {
+			"SteamWorkshopId": 3133086229
+		}
+	},
+	"ModVersion": {
+		"Major": 0,
+		"Minor": 0,
+		"Patch": 0
+	},
+	"MinAppVersion": {
+		"Major": 1,
+		"Minor": 3232,
+		"Patch": 0
+	},
+	"MaxAppVersion": {
+		"Major": 1,
+		"Minor": 3272,
+		"Patch": 0
+	},
+	"Engine": "Halo2",
+	"Title": {
+		"Neutral": "Halo 2 Battlegrounds"
+	},
+	"InheritSharedFiles": "FromMCC",
+	"ModContents": {
+		"HasBackgroundVideos": false,
+		"HasNameplates": false
+	},
+	"GameModContents": {
+		"HasSharedFiles": false,
+		"HasCampaign": true,
+		"HasSpartanOps": false,
+		"HasController": false
+	}
+}
