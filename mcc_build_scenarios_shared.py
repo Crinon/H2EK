@@ -642,7 +642,7 @@ def main():
     style = ttk.Style()
     style.theme_use('vista')
     selected_engine = tk.StringVar(window)
-    selected_engine.set("Halo 3") # Default to H3
+    selected_engine.set("Halo 2") # Default to H3
     folder_label = tk.Label(window, text='Select engine version:')
     folder_label.grid(row=2, column=1, padx=5, pady=5)
     ek_entry = ttk.Combobox(window, textvariable=selected_engine, values=["Halo 2", "Halo 3", "Halo 3: ODST", "Halo Reach", "Halo 4", "Halo 2: AMP"], state="readonly")

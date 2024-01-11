@@ -2730,6 +2730,15 @@ Open Issues
 	; Ludantes
 	(ai_place aawraith)
 
+	; Ludantes
+	(ai_place gravity_throne_0)
+
+	; Ludantes
+	(ai_place sentinel01)
+
+	; Ludantes
+	(ai_place squads_150)
+
 	; Muzak
 	(wake e9_music)
 

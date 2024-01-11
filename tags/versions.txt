@@ -1,24 +1,39 @@
 To solve :
-FINAL : variant marines + cov
-tunnel : booster le wartohg des PNJ 
-make ghost1 explode when driver dies
+FINAL : new weapon to AI
+color scorpion
+"F:\SteamLibrary\steamapps\common\H2EK\tags\objects\weapons\melee\gravity_hammer_h3\gravity_hammer_h3_variant_rukt.weapon"
+"F:\SteamLibrary\steamapps\common\H2EK\tags\objects\weapons\melee\gravity_hammer_h3\gravity_hammer_h3_variant_golf_club.weapon"
+melee SAW
+changer bugger en sentinel needler
+mongoose ?
+hydra
 
-BSP1
-- Weapons and vehicle placing
-- Give AI weapons
-- Give AI variety
-- Falling pod
 
-BSP2
-- Weapons and vehicle placing
-- NPC variety
+Tags coming :
+ - Zoephie plasma repeater
+ - Zoephie hunter FRG 2 versions
+ - Paddy tee restored weapon
+ - Paddy tee restored disintegrator
+ - matapuelc0s kestrel
+ - matapuelc0s banished revenant
+ - matapuelc0s banished wraith
+ - killtrocity fly hog
+ - killtrocity pike
+ - killtrocity seraph
+ - killtrocity destructible pelican
+ - killtrocity destructible phantom
+ - Mythic Hydra
 
-BSP3
-- Add backup fun scorpion and banshee
-- remove container
-- Weapons and vehicle placing
-- Enemy gravity throne
-- plqce plusieurs scorpion et siege dqns le tunnel
+Screenshots
+
+Upload
+workshop full description
+nexus
+
+Pub
+Reddit
+Discords
+generalkidd ?
 
 Compilation >1.1go
 Osoyoos simple package : ERROR
@@ -36,17 +51,12 @@ tool strings to compile it after editing
 
 https://www.nexusmods.com/halothemasterchiefcollection/mods/edit/?step=details&id=2453
 
-End
-color weapon
-color vehicle
 
-Add E3 BR
-"F:\SteamLibrary\steamapps\common\H2EK\tags\dw3\objects\weapons\rifle\battle_rifle\e3\e3_battle_rifle.weapon"
 
-Add sentinel beam variant (dw3/char/sentinel/weapons)
-"F:\SteamLibrary\steamapps\common\H2EK\tags\dw3\objects\characters\sentinel_aggressor_dw3\weapons\sentinel_enforcer_charged_bolt.weapon"
-"F:\SteamLibrary\steamapps\common\H2EK\tags\dw3\objects\characters\sentinel_aggressor_dw3\weapons\grenade_launcher\sentinel_aggressor_gl.weapon"
-"F:\SteamLibrary\steamapps\common\H2EK\tags\dw3\objects\characters\sentinel_aggressor_dw3\weapons\needler\sentinel_aggressor_needler.weapon"
+lacks :
+grunt all
+jackal not minor
+ranger 2 color
 
 
 gore biped
@@ -54,7 +64,6 @@ earthmilitia
 add stacker creep
 add stacker digsite shadow
 Give AI weapons
-ludantes lights
 give Mangoose model_animation_graph !! HAMMER
 plasma repeater
 cov turret DW3
@@ -66,13 +75,14 @@ ready + reload smg mac
 ready + reload chaingun mac
 inclure credits.txt ?
 shader vk78
-melee SAW
+give more AI weapon model_animation_graph
+
 
 Weapon balance :
 limiter balles armes
 plus d'armes avant l'hotel
 more weapon before floods
-
+known issue secondary fire primari fire
 
 
 Before compiling oldmombasa
@@ -82,6 +92,45 @@ tags/scenarios/multi
 tags/scenarios/solo
 Use /mcc_build_scenarios_shared.py
 
+
+Importer brutes vanilla BUG 
+Supprimer brutes vanilla OK 
+Importer brutes lacks BUG 
+Supprimer brutes lacks OK 
+Remove from palette some useless char + biped : BUG
+
+
+
+Weapon available:
+Assault rifle
+Flamethrower (elite et brute only)
+FRG CE (all)
+Pistol CE (marine, grunt et elite)
+Chaingun (elite OK, brute buggy)
+99SMG (marine, elite, brute jackal)
+Excavator Mauler (grunt, elite, marine jackal) NO BRUTE
+Spiker rifle (marine, grunt elite jackal drone)
+GPMG (marine brute elite jackal)
+plasma canon (marine brute elite jackal)
+e3 BR (marine brute elite jackal)
+e3 brute shot (elite brute)
+DMR (marine brute elite jackal)
+needle rifle (marine brute elite jackal)
+plasma canon (marine elite)
+SAW (marine elite jackal)
+pluse_carbine (marine brute elite jackal)
+VK78 (marine brute elite jackal)
+MA40 AR (marine brute elite jackal)
+Skewer (marine elite grunt)
+Spartan laser (marine elite grunt)
+Sentinel GL (elite brute sentinel)
+Sentinel needler  (sentinel)
+Sentinel charged bolt AI (elite brute sentinel)
+
+
+
+
+"F:\SteamLibrary\steamapps\common\H2EK\tags\kashiiera\objects\weapons\support_low\flamethrower_ce\flamethrower_ce.weapon"
 
 
 
@@ -98,10 +147,9 @@ Courtyard encounter Spartan Laser
 Beach encounter Spartan Laser
 Beach encounter Gravity throne + FRG hunter
 Add short brute shot
-
-
-
-
+ludantes lights
+script sentinel et gravity throne
+elite ranger
 
 
 Version 10 OVER
