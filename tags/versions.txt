@@ -156,6 +156,21 @@ Sentinel charged bolt AI (elite brute sentinel)
 
 
 
+
+
+
+plushies
+grav hammer tartarus
+grav hammer golf
+piglet
+
+Version 16
+
+
+
+Version 15 OVER
+anim graph digsite (hammer effect OK)
+
 Version 14 OVER
 ?
 
