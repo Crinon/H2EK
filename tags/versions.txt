@@ -1,12 +1,38 @@
+Etat actuel :
+OK
+pas de variant hammer
+pas de variant frg
+zoephie doit réduire le skewer
+
+
+
+
+
 To solve :
 FINAL : new weapon to AI
 color scorpion
 "F:\SteamLibrary\steamapps\common\H2EK\tags\objects\weapons\melee\gravity_hammer_h3\gravity_hammer_h3_variant_rukt.weapon"
 "F:\SteamLibrary\steamapps\common\H2EK\tags\objects\weapons\melee\gravity_hammer_h3\gravity_hammer_h3_variant_golf_club.weapon"
-melee SAW
-changer bugger en sentinel needler
 mongoose ?
 hydra
+Tunnel end : banshee, scorpion, revenant, wraith + AA ...
+
+Version 11 ABANDON
+Fix h turret gl placement
+Add second h turret gl
+Remove one banshee from ghost1
+Swap banshee and ghost to Halo Wars 2 version
+Fixed dw3 shielded hunter AI to use FRG
+lights on weapons courtyard
+place AA player beach
+hotel exit warthog passenger spartan laser
+Courtyard encounter Spartan Laser
+Beach encounter Spartan Laser
+Beach encounter Gravity throne + FRG hunter
+Add short brute shot
+ludantes lights
+script sentinel et gravity throne
+elite ranger
 
 
 Tags coming :
@@ -130,26 +156,16 @@ Sentinel charged bolt AI (elite brute sentinel)
 
 
 
-"F:\SteamLibrary\steamapps\common\H2EK\tags\kashiiera\objects\weapons\support_low\flamethrower_ce\flamethrower_ce.weapon"
+Version 14 OVER
+?
+
+Version 13 OVER
+BSP1 : All weapon placed with light
 
 
-
-Version 11
-Fix h turret gl placement
-Add second h turret gl
-Remove one banshee from ghost1
-Swap banshee and ghost to Halo Wars 2 version
-Fixed dw3 shielded hunter AI to use FRG
-lights on weapons courtyard
-place AA player beach
-hotel exit warthog passenger spartan laser
-Courtyard encounter Spartan Laser
-Beach encounter Spartan Laser
-Beach encounter Gravity throne + FRG hunter
-Add short brute shot
-ludantes lights
-script sentinel et gravity throne
-elite ranger
+Version 12 OVER
+BSP1 : AI with new weapon until hotel entry excluded
+BSP1 : Weapon not falling courtyard
 
 
 Version 10 OVER
