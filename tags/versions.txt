@@ -1,7 +1,7 @@
 Etat actuel :
 Moindre ajout / modification = no arms
 pas de variant frg
-pas de variant 
+plushies sans variants
 zoephie doit réduire le skewer
 
 
@@ -157,23 +157,21 @@ Sentinel charged bolt AI (elite brute sentinel)
 
 
 
-NO ARMS :
-grav hammer tartarus
-grav hammer golf
-plushies
+Version 18 OVER
+plushie
 
-
-Version 17
-
+Version 17 OVER
+hammer variants
 
 Version 16 OVER
 piglet
 
 Version 15 OVER
-anim graph digsite (hammer effect OK)
+optimize
 
 Version 14 OVER
-?
+anim graph digsite (hammer effect OK)
+
 
 Version 13 OVER
 BSP1 : All weapon placed with light
