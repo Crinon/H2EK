@@ -152,10 +152,12 @@ Sentinel charged bolt AI (elite brute sentinel)
 
 
 
+Version 20
 
 
 
-
+Version 19 OVER
+Hydra
 
 Version 18 OVER
 plushie

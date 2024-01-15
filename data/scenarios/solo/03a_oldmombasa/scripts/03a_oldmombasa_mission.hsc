@@ -6282,6 +6282,8 @@ Open Issues
 	; Ludantes
 	(ai_place engineer1)
 	; Ludantes
+	(ai_place squads_151)
+	; Ludantes
 	(ai_place rhogia1)
 	; Ludantes
 	(ai_place ghost1)
