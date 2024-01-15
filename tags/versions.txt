@@ -3,7 +3,10 @@ Moindre ajout / modification = no arms
 pas de variant frg
 plushies sans variants
 zoephie doit réduire le skewer
-creat ramp 
+crate ramp 
+desctrucvctible wall "railing" (scenery)
+
+MAKE DROP FALL
 
 Crash
 Halo CE digsite kestrel
@@ -15,6 +18,7 @@ FINAL : new weapon to AI
 color scorpion
 hydra
 Tunnel end : banshee, scorpion, revenant, wraith + AA ...
+end map in tunnel
 Add in description : MS Store : https://www.youtube.com/watch?v=sMI3AnQgnnw
 Add in Nexus repo the Steam version (rename number folder) for MS Xbox users
 
@@ -156,10 +160,21 @@ Sentinel needler  (sentinel)
 Sentinel charged bolt AI (elite brute sentinel)
 
 
-replace 99 smg
+replace 99 smg location
+
+
+Version 23
+
+
+
+Version 22
+Removed all biped
+
+Version 21
+Removed all sceneries
 
 Version 20
-
+Removed all crate
 
 Version 19 OVER
 Hydra
