@@ -163,9 +163,10 @@ Sentinel charged bolt AI (elite brute sentinel)
 replace 99 smg location
 
 
+REMOVE MORE sceneries ?
+
 Version 23
-
-
+Removed all equipment
 
 Version 22
 Removed all biped
