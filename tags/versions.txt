@@ -3,6 +3,11 @@ Moindre ajout / modification = no arms
 pas de variant frg
 plushies sans variants
 zoephie doit réduire le skewer
+creat ramp 
+
+Crash
+Halo CE digsite kestrel
+Halo wars 2 revenant
 
 
 To solve :
@@ -151,9 +156,9 @@ Sentinel needler  (sentinel)
 Sentinel charged bolt AI (elite brute sentinel)
 
 
+replace 99 smg
 
 Version 20
-
 
 
 Version 19 OVER

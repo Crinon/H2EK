@@ -1867,6 +1867,7 @@ Open Issues:
 	(object_cannot_die warthog_for_the_masses true)
 )
 
+
 (script dormant e11_main
 	(sleep_until (volume_test_objects tv_e11_main_begin (players)) 15)
 	(set g_e11_started true)
