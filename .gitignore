@@ -22,7 +22,7 @@
 /tags/scenarios/*
 !/tags/scenarios/solo
 /tags/scenarios/solo/*
-!/tags/scenarios/solo/03a_oldmombasa
+!/tags/scenarios/solo/03a_oldmombasa*
 !/tags/shaders
 !/tags/stacker
 !/tags/temp_scenario
