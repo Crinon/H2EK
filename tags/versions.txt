@@ -1,21 +1,17 @@
 Etat actuel :
-OK
-pas de variant hammer
+Moindre ajout / modification = no arms
 pas de variant frg
+pas de variant 
 zoephie doit réduire le skewer
-
-
-
 
 
 To solve :
 FINAL : new weapon to AI
 color scorpion
-"F:\SteamLibrary\steamapps\common\H2EK\tags\objects\weapons\melee\gravity_hammer_h3\gravity_hammer_h3_variant_rukt.weapon"
-"F:\SteamLibrary\steamapps\common\H2EK\tags\objects\weapons\melee\gravity_hammer_h3\gravity_hammer_h3_variant_golf_club.weapon"
-mongoose ?
 hydra
 Tunnel end : banshee, scorpion, revenant, wraith + AA ...
+Add in description : MS Store : https://www.youtube.com/watch?v=sMI3AnQgnnw
+Add in Nexus repo the Steam version (rename number folder) for MS Xbox users
 
 Version 11 ABANDON
 Fix h turret gl placement
@@ -35,6 +31,8 @@ script sentinel et gravity throne
 elite ranger
 
 
+
+
 Tags coming :
  - Zoephie plasma repeater
  - Zoephie hunter FRG 2 versions
@@ -48,14 +46,13 @@ Tags coming :
  - killtrocity seraph
  - killtrocity destructible pelican
  - killtrocity destructible phantom
- - Mythic Hydra
 
 Screenshots
 
 Upload
-workshop full description
-nexus
-
+-workshop full description
+-nexus
+-MS store
 Pub
 Reddit
 Discords
@@ -159,14 +156,18 @@ Sentinel charged bolt AI (elite brute sentinel)
 
 
 
-plushies
+
+NO ARMS :
 grav hammer tartarus
 grav hammer golf
+plushies
+
+
+Version 17
+
+
+Version 16 OVER
 piglet
-
-Version 16
-
-
 
 Version 15 OVER
 anim graph digsite (hammer effect OK)
