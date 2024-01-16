@@ -8,9 +8,7 @@ desctrucvctible wall "railing" (scenery)
 
 MAKE DROP FALL
 
-Crash
-Halo CE digsite kestrel
-Halo wars 2 revenant
+
 
 
 To solve :
@@ -47,9 +45,10 @@ Tags coming :
  - Zoephie hunter FRG 2 versions
  - Paddy tee restored weapon
  - Paddy tee restored disintegrator
- - matapuelc0s kestrel
- - matapuelc0s banished revenant
  - matapuelc0s banished wraith
+ - matapuelc0s albatross
+ - matapuelc0s Halo 3 chopper
+ - matapuelc0s Halo 3 digsite walking turret
  - killtrocity fly hog
  - killtrocity pike
  - killtrocity seraph
@@ -160,21 +159,44 @@ Sentinel needler  (sentinel)
 Sentinel charged bolt AI (elite brute sentinel)
 
 
+
+Remove list :
+Hammer variant 1
+Hammer variant 2
+Plushies
+SMG silenced
+Piglet
+Grav throne (remove IA)
+Uberchassis (remove IA)
+Mangoose
+
+
+
+remove cinematic ?
+
+
+TODO
 replace 99 smg location
+AI revenant
 
+Version 25 OVER
+Added banished Revenant
+Added CE digsite Kestrel
 
-REMOVE MORE sceneries ?
+Version 24 OVER
+Removed all creates
+Removed all lights
 
-Version 23
+Version 23 OVER
 Removed all equipment
 
-Version 22
+Version 22 OVER
 Removed all biped
 
-Version 21
+Version 21 OVER
 Removed all sceneries
 
-Version 20
+Version 20 OVER
 Removed all crate
 
 Version 19 OVER
