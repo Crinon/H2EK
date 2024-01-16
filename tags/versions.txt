@@ -3,42 +3,28 @@ Moindre ajout / modification = no arms
 pas de variant frg
 plushies sans variants
 zoephie doit réduire le skewer
-crate ramp 
-desctrucvctible wall "railing" (scenery)
-
-MAKE DROP FALL
-
-
-
+use crate ramp 
+destructible wall "railing" (scenery)
+use explosive crates
 
 To solve :
-FINAL : new weapon to AI
-color scorpion
-hydra
 Tunnel end : banshee, scorpion, revenant, wraith + AA ...
-end map in tunnel
-Add in description : MS Store : https://www.youtube.com/watch?v=sMI3AnQgnnw
-Add in Nexus repo the Steam version (rename number folder) for MS Xbox users
-
-Version 11 ABANDON
-Fix h turret gl placement
-Add second h turret gl
-Remove one banshee from ghost1
-Swap banshee and ghost to Halo Wars 2 version
-Fixed dw3 shielded hunter AI to use FRG
-lights on weapons courtyard
-place AA player beach
-hotel exit warthog passenger spartan laser
-Courtyard encounter Spartan Laser
-Beach encounter Spartan Laser
-Beach encounter Gravity throne + FRG hunter
-Add short brute shot
-ludantes lights
-script sentinel et gravity throne
-elite ranger
+Add in Nexus repo the Steam version (WindowsStoreVersion.zip) for MS Xbox users
 
 
+Ideas :
+gore biped
+earthmilitia
+lacks
+add stacker creep
+add stacker digsite shadow
+cov turret DW3
+scarab DW3 dans l'eau et le faire tirer
 
+lacks with real difference to use :
+grunt all variants
+jackal not minor
+ranger 2 color
 
 Tags coming :
  - Zoephie plasma repeater
@@ -82,54 +68,21 @@ tool strings to compile it after editing
 
 https://www.nexusmods.com/halothemasterchiefcollection/mods/edit/?step=details&id=2453
 
+Release :
+Screenshots
+- 
+Nexus repo : version Steam + version Xbox
 
-
-lacks :
-grunt all
-jackal not minor
-ranger 2 color
-
-
-gore biped
-earthmilitia
-add stacker creep
-add stacker digsite shadow
-Give AI weapons
-give Mangoose model_animation_graph !! HAMMER
-plasma repeater
-cov turret DW3
-destrictible pelican
-destrictible phantom
-scarab DW3 dans l'eau et le faire tirer
-remplacer spectre beta DW3
-ready + reload smg mac
-ready + reload chaingun mac
-inclure credits.txt ?
-shader vk78
-give more AI weapon model_animation_graph
-
-
-Weapon balance :
-limiter balles armes
-plus d'armes avant l'hotel
-more weapon before floods
-known issue secondary fire primari fire
+After release :
+- video showcase
 
 
 Before compiling oldmombasa
-Files to add from 7z
+Files to add from tags.7z
 tags/sound_remastered
 tags/scenarios/multi
 tags/scenarios/solo
-Use /mcc_build_scenarios_shared.py
-
-
-Importer brutes vanilla BUG 
-Supprimer brutes vanilla OK 
-Importer brutes lacks BUG 
-Supprimer brutes lacks OK 
-Remove from palette some useless char + biped : BUG
-
+Use /mcc_build_scenarios_shared.py to build map
 
 
 Weapon available:
@@ -170,14 +123,28 @@ Grav throne (remove IA)
 Uberchassis (remove IA)
 Mangoose
 
-
-
 remove cinematic ?
 
 
+
+AI lists :
+elite ranger
+
+Release: 
+
+
 TODO
+end map in tunnel
+plasma repeater
+h turret gl
+ready smg mac
+ready + reload chaingun mac
+fix huds
+
+
+Version 26 OVER
 replace 99 smg location
-AI revenant
+AI revenant end beach
 
 Version 25 OVER
 Added banished Revenant

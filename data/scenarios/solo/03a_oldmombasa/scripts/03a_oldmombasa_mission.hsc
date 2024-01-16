@@ -2629,6 +2629,9 @@ Open Issues
 
 	; Ludantes
 	(ai_place e9_drinol2)
+
+	; Ludantes
+	(ai_place e9_revenant_1)
 	
 	; Retreat checkpoint
 	(wake e9_retreat_checkpoint0)
@@ -6282,8 +6285,6 @@ Open Issues
 	(ai_place e1_cov_inf0_3)
 	; Ludantes
 	(ai_place engineer1)
-	; Ludantes
-	(ai_place squads_151)
 	; Ludantes
 	(ai_place rhogia1)
 	; Ludantes
