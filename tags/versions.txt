@@ -69,6 +69,8 @@ tool strings to compile it after editing
 https://www.nexusmods.com/halothemasterchiefcollection/mods/edit/?step=details&id=2453
 
 Release :
+Best played in normal + flying skull
+Not tested in coop
 Screenshots
 - 
 Nexus repo : version Steam + version Xbox
@@ -134,13 +136,19 @@ Release:
 
 
 TODO
-end map in tunnel
 plasma repeater
-h turret gl
+END LEVEL TUNNEL
+place more weapon streets + beach
+correct ammo sentinel street
 ready smg mac
 ready + reload chaingun mac
-fix huds
 
+
+Version 28
+READY
+
+Version 27 OVER
+Ammo
 
 Version 26 OVER
 replace 99 smg location
