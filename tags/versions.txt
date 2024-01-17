@@ -12,14 +12,7 @@ Tunnel end : banshee, scorpion, revenant, wraith + AA ...
 Add in Nexus repo the Steam version (WindowsStoreVersion.zip) for MS Xbox users
 
 
-Ideas :
-gore biped
-earthmilitia
-lacks
-add stacker creep
-add stacker digsite shadow
-cov turret DW3
-scarab DW3 dans l'eau et le faire tirer
+
 
 lacks with real difference to use :
 grunt all variants
@@ -71,6 +64,7 @@ https://www.nexusmods.com/halothemasterchiefcollection/mods/edit/?step=details&i
 Release :
 Best played in normal + flying skull
 Not tested in coop
+Game end during tunnel as map is overloaded
 Screenshots
 - 
 Nexus repo : version Steam + version Xbox
@@ -87,7 +81,7 @@ tags/scenarios/solo
 Use /mcc_build_scenarios_shared.py to build map
 
 
-Weapon available:
+Weapon available for AI :
 Assault rifle
 Flamethrower (elite et brute only)
 FRG CE (all)
@@ -115,7 +109,7 @@ Sentinel charged bolt AI (elite brute sentinel)
 
 
 
-Remove list :
+Remove list if overload :
 Hammer variant 1
 Hammer variant 2
 Plushies
@@ -124,7 +118,6 @@ Piglet
 Grav throne (remove IA)
 Uberchassis (remove IA)
 Mangoose
-
 remove cinematic ?
 
 
@@ -135,17 +128,28 @@ elite ranger
 Release: 
 
 
+Ideas :
+gore biped
+earthmilitia
+lacks
+add stacker creep
+add stacker digsite shadow
+cov turret DW3
+scarab DW3 dans l'eau et le faire tirer
+
 TODO
-plasma repeater
-END LEVEL TUNNEL
-place more weapon streets + beach
+change weapon start
 correct ammo sentinel street
+place more weapon streets + beach
 ready smg mac
 ready + reload chaingun mac
 
 
-Version 28
-READY
+Version 29
+
+
+Version 28 OVER
+Moved end of mission after hog destroyed by scarab : tirgger volume "tv_mission_end"
 
 Version 27 OVER
 Ammo
