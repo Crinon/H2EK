@@ -140,13 +140,15 @@ scarab DW3 dans l'eau et le faire tirer
 TODO
 change weapon start
 correct ammo sentinel street
+remove grav throne AI encounter
 place more weapon streets + beach
 ready smg mac
 ready + reload chaingun mac
 
 
-Version 29
-
+Version 29 OVER
+Removed gravity throne
+Added plasma repeater
 
 Version 28 OVER
 Moved end of mission after hog destroyed by scarab : tirgger volume "tv_mission_end"

@@ -1,0 +1,32 @@
+file                                                           bytes    heap size blocks nonheap size blocks      min      max        avg
+sapien\editor_ugly_startup_wtl.cpp                               144          144     18            0      0        8        8        8.0
+tag_files\tag_groups.cpp                                          84           84      1            0      0       84       84       84.0
+
+largest sizes: heap 1518553750 bytes, nonheap 1357589582 bytes
+current sizes: 228 bytes (heap 228 in 19 blocks, nonheap 0 in 0 blocks)
+physical usage: 0 bytes (2147483647 bytes free, 2147483647 bytes total)
+
+TIMESTAMP: 01.17.24 18:09:23.115
+file                                                     line     size       type/subtype                                                            name          id ATEXIT
+sapien\editor_ugly_startup_wtl.cpp                        485        8 bytes untracked C++                                                                h   1158958       
+sapien\editor_ugly_startup_wtl.cpp                        485        8 bytes untracked C++                                                                h   1166304       
+tag_files\tag_groups.cpp                                 2606       84 bytes tag                                                    scenario_weapon_block h   1166987       
+sapien\editor_ugly_startup_wtl.cpp                        485        8 bytes untracked C++                                                                h   1186718       
+sapien\editor_ugly_startup_wtl.cpp                        485        8 bytes untracked C++                                                                h   1192596       
+sapien\editor_ugly_startup_wtl.cpp                        485        8 bytes untracked C++                                                                h   1196536       
+sapien\editor_ugly_startup_wtl.cpp                        485        8 bytes untracked C++                                                                h   1216087       
+sapien\editor_ugly_startup_wtl.cpp                        485        8 bytes untracked C++                                                                h   1245142       
+sapien\editor_ugly_startup_wtl.cpp                        485        8 bytes untracked C++                                                                h   1247772       
+sapien\editor_ugly_startup_wtl.cpp                        485        8 bytes untracked C++                                                                h   1250656       
+sapien\editor_ugly_startup_wtl.cpp                        485        8 bytes untracked C++                                                                h   1269170       
+sapien\editor_ugly_startup_wtl.cpp                        485        8 bytes untracked C++                                                                h   1270773       
+sapien\editor_ugly_startup_wtl.cpp                        485        8 bytes untracked C++                                                                h   1276663       
+sapien\editor_ugly_startup_wtl.cpp                        485        8 bytes untracked C++                                                                h   1281533       
+sapien\editor_ugly_startup_wtl.cpp                        485        8 bytes untracked C++                                                                h   1288195       
+sapien\editor_ugly_startup_wtl.cpp                        485        8 bytes untracked C++                                                                h   1295986       
+sapien\editor_ugly_startup_wtl.cpp                        485        8 bytes untracked C++                                                                h   1311974       
+sapien\editor_ugly_startup_wtl.cpp                        485        8 bytes untracked C++                                                                h   1325762       
+sapien\editor_ugly_startup_wtl.cpp                        485        8 bytes untracked C++                                                                h   1331041       
+
+Total Allocated: 228 bytes (Total to free ATEXIT 0)
+
