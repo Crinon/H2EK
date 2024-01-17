@@ -7,9 +7,6 @@ use crate ramp
 destructible wall "railing" (scenery)
 use explosive crates
 
-To solve :
-Tunnel end : banshee, scorpion, revenant, wraith + AA ...
-Add in Nexus repo the Steam version (WindowsStoreVersion.zip) for MS Xbox users
 
 
 
@@ -65,9 +62,9 @@ Release :
 Best played in normal + flying skull
 Not tested in coop
 Game end during tunnel as map is overloaded
+Add in Nexus repo the Steam version 
 Screenshots
-- 
-Nexus repo : version Steam + version Xbox
+Nexus repo : version Steam + WindowsStoreVersion.zip for MS Xbox users
 
 After release :
 - video showcase
@@ -115,10 +112,13 @@ Hammer variant 2
 Plushies
 SMG silenced
 Piglet
-Grav throne (remove IA)
 Uberchassis (remove IA)
 Mangoose
 remove cinematic ?
+
+Removed :
+Removed gravity throne
+Removed fun scorpion
 
 
 
@@ -129,22 +129,28 @@ Release:
 
 
 Ideas :
-gore biped
-earthmilitia
-lacks
+Use gore bipeds
+Use earthmilitia bipeds
+Use lacks grunts + jackals
 add stacker creep
 add stacker digsite shadow
 cov turret DW3
 scarab DW3 dans l'eau et le faire tirer
 
 TODO
-change weapon start
-correct ammo sentinel street
-remove grav throne AI encounter
-place more weapon streets + beach
 ready smg mac
 ready + reload chaingun mac
 
+Version 31 OVER
+suppr marine
+change insertion pod 1 weapon
+place more weapon streets + beach + vehicles
+
+Version 30 OVER
+change weapon start
+correct ammo sentinel street
+remove grav throne AI encounter
+give AI plasma repeater
 
 Version 29 OVER
 Removed gravity throne
