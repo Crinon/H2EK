@@ -111,19 +111,18 @@ Hammer variant 1
 Hammer variant 2
 Plushies
 SMG silenced
-Piglet
 Uberchassis (remove IA)
 Mangoose
 remove cinematic ?
 
 Removed :
+Removed Piglet
 Removed gravity throne
 Removed fun scorpion
+Removed vanilla creep
+Removed vanilla ghost
 
 
-
-AI lists :
-elite ranger
 
 Release: 
 
@@ -131,17 +130,18 @@ Release:
 Ideas :
 Use gore bipeds
 Use earthmilitia bipeds
+elite ranger
 Use lacks grunts + jackals
 add stacker creep
 add stacker digsite shadow
 cov turret DW3
 scarab DW3 dans l'eau et le faire tirer
 
-TODO
-ready smg mac
-ready + reload chaingun mac
+TODO :
 
 
+Version 34
+READY
 
 
 Version 33 OVER
