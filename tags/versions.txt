@@ -8,7 +8,10 @@ destructible wall "railing" (scenery)
 use explosive crates
 
 
-
+Missing :
+disruptor
+funny weapons
+AA scorpion (ask Luna)
 
 
 lacks with real difference to use :
@@ -17,11 +20,9 @@ jackal not minor
 ranger 2 color
 
 Tags coming :
- - Zoephie plasma repeater
  - Zoephie hunter FRG 2 versions
  - Paddy tee restored weapon
  - Paddy tee restored disintegrator
- - matapuelc0s banished wraith
  - matapuelc0s albatross
  - matapuelc0s Halo 3 chopper
  - matapuelc0s Halo 3 digsite walking turret
@@ -59,10 +60,6 @@ tool strings to compile it after editing
 https://www.nexusmods.com/halothemasterchiefcollection/mods/edit/?step=details&id=2453
 
 Release :
-Best played in normal + flying skull
-Not tested in coop
-Game end during tunnel as map is overloaded
-Add in Nexus repo the Steam version 
 Screenshots
 Nexus repo : version Steam + WindowsStoreVersion.zip for MS Xbox users
 
@@ -106,6 +103,9 @@ Sentinel charged bolt AI (elite brute sentinel)
 
 
 
+
+
+
 Remove list if overload :
 Hammer variant 1
 Hammer variant 2
@@ -140,6 +140,21 @@ scarab DW3 dans l'eau et le faire tirer
 TODO
 ready smg mac
 ready + reload chaingun mac
+
+
+
+
+Version 33 OVER
+add banished wraith
+swap ghost and creep
+remove vanilla ghost
+remove vanilla creep
+remove piglet
+
+Version 32 OVER
+removed all gore + sentinel except first
+fix sentinel guns ammo
+added area for sentinels
 
 Version 31 OVER
 suppr marine
