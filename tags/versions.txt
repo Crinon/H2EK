@@ -138,10 +138,23 @@ cov turret DW3
 scarab DW3 dans l'eau et le faire tirer
 
 TODO :
+sound full reload 99smg
+attendre plasma repeater final
+attendre wraith final
 
-
-Version 34
+Version 36
 READY
+
+
+Version 35 OVER
+Ma12 noir
+DMR sounds
+SAW ready sound
+
+
+Version 34 OVER
+Spread weapons
+Spread vehicles
 
 
 Version 33 OVER
