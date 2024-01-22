@@ -1,8 +1,10 @@
+Not latest tags :
+- Zoephie plasma repeater
+
 Etat actuel :
 Moindre ajout / modification = no arms
 pas de variant frg
 plushies sans variants
-zoephie doit réduire le skewer
 use crate ramp 
 destructible wall "railing" (scenery)
 use explosive crates
@@ -138,8 +140,8 @@ cov turret DW3
 scarab DW3 dans l'eau et le faire tirer
 
 TODO :
+MA12 turret no hud
 sound full reload 99smg
-attendre plasma repeater final
 attendre wraith final
 
 Version 36

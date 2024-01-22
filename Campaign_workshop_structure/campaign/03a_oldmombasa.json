@@ -4,10 +4,13 @@
 	"Title": {
 		"Neutral": "Mission 2 : Outskirts"
 	},
+	"Description": {
+		"Neutral": "Play with lot of new stuff, end of level cut as it was not possible to mod it"
+	},
 	"Images": {
-		"Large": "battlegrounds_images\\Capture d'�cran 2024-01-06 173418.png",
-		"Thumbnail": "battlegrounds_images\\Capture d'�cran 2024-01-06 173418.png",
-		"LoadingScreen": "battlegrounds_images\\Capture d'�cran 2024-01-06 173418.png",
+		"Large": "battlegrounds_images\\vlcsnap-2024-01-14-21h24m09s477.png",
+		"Thumbnail": "battlegrounds_images\\vlcsnap-2024-01-14-21h24m09s477.png",
+		"LoadingScreen": "battlegrounds_images\\vlcsnap-2024-01-14-21h24m09s477.png",
 		"TopDown": ""
 	},
 	"Flags": [

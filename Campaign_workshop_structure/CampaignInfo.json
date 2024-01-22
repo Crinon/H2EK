@@ -1,7 +1,10 @@
 {
 	"CampaignGuid": "5b0de97f-4451-43c5-bf5f-4e88edc6f4f8",
 	"Title": {
-		"Neutral": "Battlegrounds"
+		"Neutral": "Outskirts Battlegrounds"
+	},
+	"Description": {
+		"Neutral": "Play with lot of new stuff"
 	},
 	"CampaignMaps": [
 		"campaign/03a_oldmombasa.json"
