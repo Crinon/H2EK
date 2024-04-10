@@ -1,0 +1,16 @@
+file                                                           bytes    heap size blocks nonheap size blocks      min      max        avg
+sapien\editor_ugly_startup_wtl.cpp                                32           32      4            0      0        8        8        8.0
+
+largest sizes: heap 679467004 bytes, nonheap 316141839 bytes
+current sizes: 32 bytes (heap 32 in 4 blocks, nonheap 0 in 0 blocks)
+physical usage: 0 bytes (2147483647 bytes free, 2147483647 bytes total)
+
+TIMESTAMP: 04.10.24 21:39:38.608
+file                                                     line     size       type/subtype                                                            name          id ATEXIT
+sapien\editor_ugly_startup_wtl.cpp                        485        8 bytes untracked C++                                                                h    408069       
+sapien\editor_ugly_startup_wtl.cpp                        485        8 bytes untracked C++                                                                h    419302       
+sapien\editor_ugly_startup_wtl.cpp                        485        8 bytes untracked C++                                                                h    422008       
+sapien\editor_ugly_startup_wtl.cpp                        485        8 bytes untracked C++                                                                h    426047       
+
+Total Allocated: 32 bytes (Total to free ATEXIT 0)
+

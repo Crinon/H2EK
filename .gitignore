@@ -17,6 +17,7 @@
 !/tags/multiplayer
 !/tags/objects
 !/tags/phanrev
+!/tags/killtrocity
 !/tags/rasterizer
 !/tags/objects
 !/tags/scenarios
@@ -24,6 +25,9 @@
 !/tags/scenarios/solo
 /tags/scenarios/solo/*
 !/tags/scenarios/solo/03a_oldmombasa*
+!/tags/scenarios/multi
+/tags/scenarios/multi/*
+!/tags/scenarios/multi/cyberdyne_h2
 !/tags/shaders
 !/tags/stacker
 !/tags/temp_scenario
