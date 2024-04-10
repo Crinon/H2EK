@@ -1,3 +1,7 @@
+POST REDDIT
+POST DISCORD AUTRES SERVEURS
+
+
 Not latest tags :
 - Zoephie plasma repeater
 
@@ -23,16 +27,18 @@ ranger 2 color
 
 Tags coming :
  - Zoephie hunter FRG 2 versions
- - Paddy tee restored weapon
+ - Paddy tee restored weapon plasma rifle
  - Paddy tee restored disintegrator
  - matapuelc0s albatross
  - matapuelc0s Halo 3 chopper
  - matapuelc0s Halo 3 digsite walking turret
  - killtrocity fly hog
+ - killtrocity human jet
  - killtrocity pike
  - killtrocity seraph
  - killtrocity destructible pelican
  - killtrocity destructible phantom
+ - killtrocity gravity wrench
 
 Screenshots
 
@@ -143,6 +149,8 @@ TODO :
 MA12 turret no hud
 sound full reload 99smg
 attendre wraith final
+AA scorpion (ask Luna)
+apprendre anim graph pour autre biped
 
 Version 36
 READY
