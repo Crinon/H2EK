@@ -562,7 +562,7 @@
 	(sleep 30)
 	
 	(sound_class_set_gain ambient_machinery 0 2)
-	(sound_impulse_start sound_remastered\visual_effects\ss_airlock\airlock NONE 1)
+;	(sound_impulse_start sound_remastered\visual_effects\ss_airlock\airlock NONE 1)
 	(begin_random
 		(begin
 			(object_create_anew gas01)
@@ -1845,6 +1845,7 @@
 		)
 	30 150)
 	(ai_place hangar_phantom)
+	(object_cannot_take_damage (ai_vehicle_get_from_starting_location hangar_phantom/pilot))
 	(cs_run_command_script hangar_phantom hangar_phantom_arrives)
 	(sleep 60)
 
@@ -3006,13 +3007,14 @@
 	(unit_add_equipment (unit (list_get (ai_actors underhangar_sentinels_initial) 1)) swap TRUE TRUE)
 	(unit_add_equipment (unit (list_get (ai_actors underhangar_sentinels_initial) 2)) swap TRUE TRUE)
 	(unit_add_equipment (unit (list_get (ai_actors underhangar_sentinels_initial) 3)) swap TRUE TRUE)
-	(sleep_until 
-		(or
-			(= sen_elite_line1_done TRUE)
-			(= sen_no_bitches TRUE)
+	(sleep_until (= (ai_living_count underhangar_sentinels_initial) 0))
+	(if (= sen_no_bitches true)
+		(ai_place underhangar_sentinels)
+		(begin
+			(sleep 175)
+			(ai_place underhangar_sentinels)
 		)
 	)
-	(ai_place underhangar_sentinels)
 	(sleep 30)
 	(set sen_spawns_started TRUE)
 )
@@ -3084,8 +3086,8 @@
 	(ai_scene underhangar_sen_elite_react_scene sen_emit_elite_react allies_elites)
 	(if
 		(or
-			(= (volume_test_objects vol_underhangar_ai_scene (ai_actors allies_elites)) FALSE)
-			(= (volume_test_objects vol_underhangar_ai_scene (ai_actors allies_grunts)) FALSE)
+			(<= (ai_living_count allies_elites) 0)
+			(<= (ai_living_count allies_grunts) 0)
 		)
 		(set sen_no_bitches TRUE)
 	)

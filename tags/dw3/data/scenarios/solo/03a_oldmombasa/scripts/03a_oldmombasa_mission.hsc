@@ -1686,11 +1686,13 @@ Open Issues:
 
 ;- Init and Cleanup ------------------------------------------------------------
 
-(script dormant e11_warthog_for_the_masses
+(script dormant e11_piglet_for_the_masses
 	(sleep 300)
-	(object_create warthog_for_the_masses)
+	(object_create piglet_for_the_masses)
+	(object_create piglet_for_the_masses2)
 	(sleep 2)
-	(object_cannot_die warthog_for_the_masses true)
+	(object_cannot_die piglet_for_the_masses true)
+	(object_cannot_die piglet_for_the_masses2 true)
 )
 
 (script dormant e11_main
@@ -1715,7 +1717,7 @@ Open Issues:
 	(wake e11_cov_phantom0_main)
 	(wake e11_dialog)
 	(wake e11_miranda_dialog)
-	(wake e11_warthog_for_the_masses)
+	(wake e11_piglet_for_the_masses)
 	
 	; Shut down
 	(sleep_until g_e12_started)
@@ -1931,6 +1933,7 @@ Covenant
 			(<= (object_get_health e10_guntower0) 0)
 			(<= (object_get_health e10_guntower0_base) 0)
 		)
+		5
 	)
 	(object_set_region_state e10_guntower0 "guntower" destroyed)
 	(object_set_region_state e10_guntower0_base "guntower" destroyed)
@@ -2398,6 +2401,7 @@ Open Issues
 			(<= (object_get_health e9_guntower0) 0)
 			(<= (object_get_health e9_guntower0_base) 0)
 		)
+		5
 	)
 	(object_set_region_state e9_guntower0 "guntower" destroyed)
 	(object_set_region_state e9_guntower0_base "guntower" destroyed)
@@ -2991,15 +2995,15 @@ Open Issues
 ;	(object_can_take_damage (ai_actors e8_mars_warthog0))
 	
 	; Unreserve the seat as soon as the player is in a vehicle
+	
 	(sleep_until
 		(or
-			(and
-				(player_in_vehicle)
-				(<= (ai_living_count e8_cov_inf1) 0)
-			)
-			g_e9_started
+			(volume_test_objects tv_e9_main_begin (players))
+			(<= (ai_living_count e8_cov_inf1) 0)
 		)
 	)
+	(set g_e9_started true)
+	
 	(ai_vehicle_reserve_seat (ai_vehicle_get_from_starting_location e8_mars_warthog0/warthog0) "warthog_d" false)
 
 	; Kick start e9
@@ -5552,26 +5556,34 @@ Open Issues
 	
 	; Continue
 	(cs_face false e1_mars_pelican/p1_facing)
+	(cs_shoot true (ai_get_object e1_cov_phantom0_1))
 	(cs_fly_to e1_mars_pelican/p6)
+	(sleep 30)
+	(cs_shoot false)
 	(sleep_until (= lz_is_clear true))
-	(cs_fly_to e1_mars_pelican/p1)
-	(set go_pilots true)
 	(cs_vehicle_speed 0.75)
+	(cs_fly_to e1_mars_pelican/p1)
 	
 	; We've appeared
 	(set g_e1_mars_pelican0_appeared true)
 	
-	(cs_fly_to e1_mars_pelican/p5 1.0)
+	(cs_fly_to_and_face e1_mars_pelican/p5 e1_mars_pelican/p5_facing 1.0)
 	(sleep 45)
 	
-	(ai_vehicle_exit e1_mars_pelican0 "scorpion_p")
-	(sleep 60)
-	(set board_pilots true)
+	(ai_vehicle_exit e1_mars_pelican0 "pelican_p_r01")
+	(sleep 5)
+	(ai_vehicle_exit e1_mars_pelican0 "pelican_p_r05")
+	(sleep 20)
+	(ai_vehicle_exit e1_mars_pelican0 "pelican_p_l05")
+	(ai_set_blind e1_mars_inf2 false)
+	(ai_set_deaf e1_mars_inf2 false)
+	(set go_pilots true)
+	(sleep 120)
 	(set johnson_go true)
 	(sleep_until g_e1_mars_ready 5)
 	
 	; Continue
-	(cs_fly_to e1_mars_pelican/p1)
+	(cs_fly_to_and_face e1_mars_pelican/p1 e1_mars_pelican/p1_facing)
 	(cs_fly_to e1_mars_pelican/p2 0.5)
 	(cs_face false e1_mars_pelican/p1_facing)
 	(sleep_until 
@@ -5610,10 +5622,12 @@ Open Issues
 	(sleep 20)
 	(custom_animation (ai_get_unit ai_current_actor) "objects\characters\marine\marine" "combat:rifle:wave" true)
 	(sleep (unit_get_custom_animation_time (ai_get_unit ai_current_actor)))
-	(ai_vehicle_enter_immediate e1_mars_johnson (ai_vehicle_get e1_mars_pelican0/pelican0) "scorpion_p_rb")
-	(custom_animation (ai_get_unit ai_current_actor) "objects\characters\marine\marine" "scorpion_p_lf:enter" true)
+	(cs_move_in_direction -30 1.5 0)
+	(ai_vehicle_enter_immediate e1_mars_johnson (ai_vehicle_get e1_mars_pelican0/pelican0) "pelican_p_r01")
+	(custom_animation (ai_get_unit ai_current_actor) "objects\characters\marine\marine" "pelican_p_r05:enter" false)
 	(sleep (unit_get_custom_animation_time (ai_get_unit ai_current_actor)))
-	(custom_animation_loop (ai_get_unit ai_current_actor) "objects\characters\marine\marine" "scorpion_p_lf:rifle:idle" true)
+	(custom_animation_loop (ai_get_unit ai_current_actor) "objects\characters\marine\marine" "pelican_p_l01:rifle:idle" false)
+	(sleep (unit_get_custom_animation_time (ai_get_unit ai_current_actor)))
 	(set g_e1_mars_ready true)
 )
 
@@ -5621,11 +5635,11 @@ Open Issues
 	(sleep_until (= go_pilots true))
 	(cs_enable_pathfinding_failsafe true)
 	(cs_go_to e1_mars_johnson_finale/p1)
-	(sleep_until (= board_pilots true))
-	(ai_vehicle_enter_immediate e1_mars_inf1/marine0 (ai_vehicle_get e1_mars_pelican0/pelican0) "scorpion_p_rf")
-	(custom_animation (ai_get_unit ai_current_actor) "objects\characters\marine\marine" "scorpion_p_lf:enter" true)
+	(cs_move_in_direction -30 1.5 0)
+	(ai_vehicle_enter_immediate e1_mars_inf1/marine0 (ai_vehicle_get e1_mars_pelican0/pelican0) "pelican_p_r05")
+	(custom_animation (ai_get_unit ai_current_actor) "objects\characters\marine\marine" "pelican_p_l05:enter" false)
 	(sleep (unit_get_custom_animation_time (ai_get_unit ai_current_actor)))
-	(custom_animation_loop (ai_get_unit ai_current_actor) "objects\characters\marine\marine" "scorpion_p_lf:rifle:idle" true)
+	(custom_animation_loop (ai_get_unit ai_current_actor) "objects\characters\marine\marine" "pelican_p_l01:rifle:idle" false)
 	(sleep (unit_get_custom_animation_time (ai_get_unit ai_current_actor)))
 )
 
@@ -5633,11 +5647,11 @@ Open Issues
 	(sleep_until (= go_pilots true))
 	(cs_enable_pathfinding_failsafe true)
 	(cs_go_to e1_mars_johnson_finale/p2)
-	(sleep_until (= board_pilots true))
-	(ai_vehicle_enter_immediate e1_mars_inf1/marine1 (ai_vehicle_get e1_mars_pelican0/pelican0) "scorpion_p_lb")
-	(custom_animation (ai_get_unit ai_current_actor) "objects\characters\marine\marine" "scorpion_p_lf:enter" true)
+	(cs_move_in_direction -105 2.5 0)
+	(ai_vehicle_enter_immediate e1_mars_inf1/marine1 (ai_vehicle_get e1_mars_pelican0/pelican0) "pelican_p_l05")
+	(custom_animation (ai_get_unit ai_current_actor) "objects\characters\marine\marine" "pelican_p_r05:enter" false)
 	(sleep (unit_get_custom_animation_time (ai_get_unit ai_current_actor)))
-	(custom_animation_loop (ai_get_unit ai_current_actor) "objects\characters\marine\marine" "scorpion_p_lf:rifle:idle" true)
+	(custom_animation_loop (ai_get_unit ai_current_actor) "objects\characters\marine\marine" "pelican_p_l01:rifle:idle" false)
 	(sleep (unit_get_custom_animation_time (ai_get_unit ai_current_actor)))
 )
 
@@ -6077,11 +6091,15 @@ Open Issues
 	(sleep_until (= (ai_spawn_count e1_cov_phantom0_1) 1) 10)
 	
 	; Spawn and send in the Pelican
-	(sleep 650)
+	(sleep 540)
 	(ai_place e1_mars_pelican0)
 	(ai_cannot_die e1_mars_pelican0 true)
 	(ai_place e1_mars_inf2)
-	(ai_vehicle_enter_immediate e1_mars_inf2 (ai_vehicle_get e1_mars_pelican0/pelican0) "scorpion_p")
+	(ai_vehicle_enter_immediate e1_mars_inf2/female0 (ai_vehicle_get e1_mars_pelican0/pelican0) "pelican_p_r05")
+	(ai_vehicle_enter_immediate e1_mars_inf2/male0 (ai_vehicle_get e1_mars_pelican0/pelican0) "pelican_p_r01")
+	(ai_vehicle_enter_immediate e1_mars_inf2/male1 (ai_vehicle_get e1_mars_pelican0/pelican0) "pelican_p_l05")
+	(ai_set_blind e1_mars_inf2 true)
+	(ai_set_deaf e1_mars_inf2 true)
 	
 	; Apply the command scripts
 	(cs_run_command_script e1_mars_pelican0/pelican0 cs_e1_mars_pelican0_entry)

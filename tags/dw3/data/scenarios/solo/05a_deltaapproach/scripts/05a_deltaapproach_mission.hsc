@@ -2408,8 +2408,8 @@
 		)
 	)
 	(vehicle_unload (ai_vehicle_get_from_starting_location bridge_pelican/pilot) "pelican_lc")
-	(sound_impulse_start sound_remastered\vehicles\scorpion\scorpion_drop\mono bridge_tank 1)
-	(sound_impulse_start sound_remastered\vehicles\scorpion\scorpion_drop\reflections bridge_tank 1)
+;	(sound_impulse_start sound_remastered\vehicles\scorpion\scorpion_drop\mono bridge_tank 1)
+;	(sound_impulse_start sound_remastered\vehicles\scorpion\scorpion_drop\reflections bridge_tank 1)
 	(sleep 60)
 	(vehicle_unload (ai_vehicle_get_from_starting_location bridge_pelican/pilot) "pelican_p")
 	(set bridge_pelican_arrived TRUE)
@@ -2519,6 +2519,17 @@
 	)
 )
 
+(script dormant spectre_lines
+	(sleep_until (= (objects_can_see_object (players) (list_get (ai_actors bridge_farside_spectre) 0) 30) true) 5)
+	(ai_dialogue_enable FALSE)
+	(sleep 45)
+	(sleep (ai_play_line_on_object NONE 0550))
+	(sleep 30)
+	(sleep (ai_play_line_on_object NONE 2050))
+	(sleep 60)
+	(ai_dialogue_enable TRUE)
+)
+
 ;Spawns ghosts on the far side once the bridge is extended
 (script dormant farside_ghosts_spawn
 	(sleep_until 
@@ -2528,6 +2539,8 @@
 		)
 	)
 	(ai_place bridge_farside_ghosts 2)
+	(ai_place bridge_farside_spectre)
+	(wake spectre_lines)
 	
 	(sleep_until
 		(OR
@@ -6169,6 +6182,7 @@
 	(sleep_forever bunker_spawn_checker)
 	(sleep_forever bridge_ghosts_by_phantom)
 	(sleep_forever farside_ghosts_spawn)
+	(sleep_forever spectre_lines)
 	(sleep_forever bridge_phantom_reinforce_01a)
 	(sleep_forever bridge_phantom_reinforce_01b)
 	(sleep_forever bridge_phantom_reinforce_02a)

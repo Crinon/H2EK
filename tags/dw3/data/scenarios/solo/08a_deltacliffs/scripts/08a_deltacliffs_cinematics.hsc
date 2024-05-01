@@ -18,112 +18,166 @@
 (global real g_scarab_interpolation1 0.25)
 
 ;= SCARAB 1 =========================================================================
+
 (script static void scarab_idle_var01cin
-	(print "scarab_idle_var0")
-	(device_set_position_track s1 combat:idle:var0 g_scarab_interpolation1)
-	(device_animate_position s1 1.0 4 0 0 true)
-	(sleep_until (>= (device_get_position s1) 1.0) 1)
+    (begin
+        (print "scarab_idle_var0")
+        (device_set_position_track "s1" "combat:idle:var0" g_scarab_interpolation1)
+        (device_animate_position "s1" 1.0 4.0 0.0 0.0 true)
+        (sleep_until (>= (device_get_position "s1") 1.0) 1)
+    )
 )
+
 (script static void scarab_idle_var0_no_block1cin
-	(print "scarab_idle_var0")
-	(device_set_position_track s1 combat:idle:var0 g_scarab_interpolation1)
-	(device_animate_position s1 1.0 4 0 0 true)
+    (begin
+        (print "scarab_idle_var0")
+        (device_set_position_track "s1" "combat:idle:var0" g_scarab_interpolation1)
+        (device_animate_position "s1" 1.0 4.0 0.0 0.0 true)
+    )
 )
+
 (script static void scarab_idle_to_walk_front1cin
-	(print "scarab_idle_to_walk_front")
-	(device_set_position_track s1 combat:idle:2:walk_front g_scarab_interpolation1)
-	(device_animate_position s1 1.0 3 0 0 true)
-	(sleep_until (>= (device_get_position s1) 1.0) 1)
+    (begin
+        (print "scarab_idle_to_walk_front")
+        (device_set_position_track "s1" "combat:idle:2:walk_front" g_scarab_interpolation1)
+        (device_animate_position "s1" 1.0 3.0 0.0 0.0 true)
+        (sleep_until (>= (device_get_position "s1") 1.0) 1)
+    )
 )
+
 (script static void scarab_walk_front_var01cin
-	(print "scarab_walk_front_var0")
-	(device_set_position_track s1 combat:walk_front:var0 g_scarab_interpolation1)
-	(device_animate_position s1 1.0 4 0 0 true)
-	(sleep_until (>= (device_get_position s1) 1.0) 1)
+    (begin
+        (print "scarab_walk_front_var0")
+        (device_set_position_track "s1" "combat:walk_front:var0" g_scarab_interpolation1)
+        (device_animate_position "s1" 1.0 4.0 0.0 0.0 true)
+        (sleep_until (>= (device_get_position "s1") 1.0) 1)
+    )
 )
+
 (script static void scarab_walk_front_to_idle01cin
-	(print "scarab_walk_front_to_idle")
-	(device_set_position_track s1 combat:walk_front:2:idle g_scarab_interpolation1)
-	(device_animate_position s1 1.0 3 0 0 true)
-	(sleep_until (>= (device_get_position s1) 1.0) 1)
+    (begin
+        (print "scarab_walk_front_to_idle")
+        (device_set_position_track "s1" "combat:walk_front:2:idle" g_scarab_interpolation1)
+        (device_animate_position "s1" 1.0 3.0 0.0 0.0 true)
+        (sleep_until (>= (device_get_position "s1") 1.0) 1)
+    )
 )
+
 (script static void scarab_idle_t_15_left1cin
-	(print "scarab_idle_turn_15_left")
-	(device_set_position_track s1 combat:turn_15_left g_scarab_interpolation1)
-	(device_animate_position s1 1.0 4 0 0 true)
-	(sleep_until (>= (device_get_position s1) 1.0) 1)
+    (begin
+        (print "scarab_idle_turn_15_left")
+        (device_set_position_track "s1" "combat:turn_15_left" g_scarab_interpolation1)
+        (device_animate_position "s1" 1.0 4.0 0.0 0.0 true)
+        (sleep_until (>= (device_get_position "s1") 1.0) 1)
+    )
 )
+
 (script static void scarab_idle_t_15_right1cin
-	(print "scarab_idle_turn_15_right")
-	(device_set_position_track s1 combat:turn_15_right g_scarab_interpolation1)
-	(device_animate_position s1 1.0 4 0 0 true)
-	(sleep_until (>= (device_get_position s1) 1.0) 1)
+    (begin
+        (print "scarab_idle_turn_15_right")
+        (device_set_position_track "s1" "combat:turn_15_right" g_scarab_interpolation1)
+        (device_animate_position "s1" 1.0 4.0 0.0 0.0 true)
+        (sleep_until (>= (device_get_position "s1") 1.0) 1)
+    )
 )
+
 (script static void scarab_idle_t_22_left1cin
-	(print "scarab_idle_turn_22_left")
-	(device_set_position_track s1 combat:turn_22_left g_scarab_interpolation1)
-	(device_animate_position s1 1.0 4 0 0 true)
-	(sleep_until (>= (device_get_position s1) 1.0) 1)
+    (begin
+        (print "scarab_idle_turn_22_left")
+        (device_set_position_track "s1" "combat:turn_22_left" g_scarab_interpolation1)
+        (device_animate_position "s1" 1.0 4.0 0.0 0.0 true)
+        (sleep_until (>= (device_get_position "s1") 1.0) 1)
+    )
 )
+
 (script static void scarab_idle_t_22_right1cin
-	(print "scarab_idle_turn_22_right")
-	(device_set_position_track s1 combat:turn_22_right g_scarab_interpolation1)
-	(device_animate_position s1 1.0 4 0 0 true)
-	(sleep_until (>= (device_get_position s1) 1.0) 1)
+    (begin
+        (print "scarab_idle_turn_22_right")
+        (device_set_position_track "s1" "combat:turn_22_right" g_scarab_interpolation1)
+        (device_animate_position "s1" 1.0 4.0 0.0 0.0 true)
+        (sleep_until (>= (device_get_position "s1") 1.0) 1)
+    )
 )
+
 (script static void scarab_idle_t_45_left1cin
-	(print "scarab_idle_turn_45_left")
-	(device_set_position_track s1 combat:turn_45_left g_scarab_interpolation1)
-	(device_animate_position s1 1.0 4 0 0 true)
-	(sleep_until (>= (device_get_position s1) 1.0) 1)
+    (begin
+        (print "scarab_idle_turn_45_left")
+        (device_set_position_track "s1" "combat:turn_45_left" g_scarab_interpolation1)
+        (device_animate_position "s1" 1.0 4.0 0.0 0.0 true)
+        (sleep_until (>= (device_get_position "s1") 1.0) 1)
+    )
 )
+
 (script static void scarab_idle_t_45_right1cin
-	(print "scarab_idle_turn_45_right")
-	(device_set_position_track s1 combat:turn_45_right g_scarab_interpolation1)
-	(device_animate_position s1 1.0 4 0 0 true)
-	(sleep_until (>= (device_get_position s1) 1.0) 1)
+    (begin
+        (print "scarab_idle_turn_45_right")
+        (device_set_position_track "s1" "combat:turn_45_right" g_scarab_interpolation1)
+        (device_animate_position "s1" 1.0 4.0 0.0 0.0 true)
+        (sleep_until (>= (device_get_position "s1") 1.0) 1)
+    )
 )
+
 (script static void scarab_idle_t_45_right_slow1cin
-	(print "scarab_idle_turn_45_right_slow")
-	(device_set_position_track s1 combat:turn_45_right g_scarab_interpolation1)
-	(device_animate_position s1 1.0 6 0 0 true)
-	(sleep_until (>= (device_get_position s1) 1.0) 1)
+    (begin
+        (print "scarab_idle_turn_45_right_slow")
+        (device_set_position_track "s1" "combat:turn_45_right" g_scarab_interpolation1)
+        (device_animate_position "s1" 1.0 6.0 0.0 0.0 true)
+        (sleep_until (>= (device_get_position "s1") 1.0) 1)
+    )
 )
+
 (script static void scarab_walk_front_t_15_left1cin
-	(print "scarab_walk_front_turn_15_left")
-	(device_set_position_track s1 combat:walk_front_turn_15_left g_scarab_interpolation1)
-	(device_animate_position s1 1.0 4 0 0 true)
-	(sleep_until (>= (device_get_position s1) 1.0) 1)
+    (begin
+        (print "scarab_walk_front_turn_15_left")
+        (device_set_position_track "s1" "combat:walk_front_turn_15_left" g_scarab_interpolation1)
+        (device_animate_position "s1" 1.0 4.0 0.0 0.0 true)
+        (sleep_until (>= (device_get_position "s1") 1.0) 1)
+    )
 )
+
 (script static void scarab_walk_front_t_15right1cin
-	(print "scarab_walk_front_turn_15_right")
-	(device_set_position_track s1 combat:walk_front_turn_15_right g_scarab_interpolation1)
-	(device_animate_position s1 1.0 4 0 0 true)
-	(sleep_until (>= (device_get_position s1) 1.0) 1)
+    (begin
+        (print "scarab_walk_front_turn_15_right")
+        (device_set_position_track "s1" "combat:walk_front_turn_15_right" g_scarab_interpolation1)
+        (device_animate_position "s1" 1.0 4.0 0.0 0.0 true)
+        (sleep_until (>= (device_get_position "s1") 1.0) 1)
+    )
 )
+
 (script static void scarab_walk_front_t_22_left1cin
-	(print "scarab_walk_front_turn_22_left")
-	(device_set_position_track s1 combat:walk_front_turn_22_left g_scarab_interpolation1)
-	(device_animate_position s1 1.0 4 0 0 true)
-	(sleep_until (>= (device_get_position s1) 1.0) 1)
+    (begin
+        (print "scarab_walk_front_turn_22_left")
+        (device_set_position_track "s1" "combat:walk_front_turn_22_left" g_scarab_interpolation1)
+        (device_animate_position "s1" 1.0 4.0 0.0 0.0 true)
+        (sleep_until (>= (device_get_position "s1") 1.0) 1)
+    )
 )
+
 (script static void scarab_walk_front_t_22right1cin
-	(print "scarab_walk_front_turn_22_right")
-	(device_set_position_track s1 combat:walk_front_turn_22_right g_scarab_interpolation1)
-	(device_animate_position s1 1.0 4 0 0 true)
-	(sleep_until (>= (device_get_position s1) 1.0) 1)
+    (begin
+        (print "scarab_walk_front_turn_22_right")
+        (device_set_position_track "s1" "combat:walk_front_turn_22_right" g_scarab_interpolation1)
+        (device_animate_position "s1" 1.0 4.0 0.0 0.0 true)
+        (sleep_until (>= (device_get_position "s1") 1.0) 1)
+    )
 )
+
 (script static void scarab_walk_front_t_45_left1cin
-	(print "scarab_walk_front_turn_45_left")
-	(device_set_position_track s1 combat:walk_front_turn_45_left g_scarab_interpolation1)
-	(device_animate_position s1 1.0 4 0 0 true)
-	(sleep_until (>= (device_get_position s1) 1.0) 1)
+    (begin
+        (print "scarab_walk_front_turn_45_left")
+        (device_set_position_track "s1" "combat:walk_front_turn_45_left" g_scarab_interpolation1)
+        (device_animate_position "s1" 1.0 4.0 0.0 0.0 true)
+        (sleep_until (>= (device_get_position "s1") 1.0) 1)
+    )
 )
+
 (script static void scarab_walk_front_t_45right1cin
-	(print "scarab_walk_front_turn_45_right")
-	(device_set_position_track s1 combat:walk_front_turn_45_right g_scarab_interpolation1)
-	(device_animate_position s1 1.0 4 0 0 true)
-	(sleep_until (>= (device_get_position s1) 1.0) 1)
+    (begin
+        (print "scarab_walk_front_turn_45_right")
+        (device_set_position_track "s1" "combat:walk_front_turn_45_right" g_scarab_interpolation1)
+        (device_animate_position "s1" 1.0 4.0 0.0 0.0 true)
+        (sleep_until (>= (device_get_position "s1") 1.0) 1)
+    )
 )
 
 ;= SCARAB 2 =========================================================================
@@ -242,10 +296,12 @@
 ;= SCARAB 4 =========================================================================
 
 (script static void scarab_walk_front_var04cin
-	(print "scarab_walk_front_var0")
-	(device_set_position_track s4 combat:walk_front:var0 g_scarab_interpolation1)
-	(device_animate_position s4 1.0 4 0 0 true)
-	(sleep_until (>= (device_get_position s4) 1.0) 1)
+    (begin
+        (print "scarab_walk_front_var0")
+        (device_set_position_track "s4" "combat:walk_front:var0" g_scarab_interpolation1)
+        (device_animate_position "s4" 1.0 4.0 0.0 0.0 true)
+        (sleep_until (>= (device_get_position "s4") 1.0) 1)
+    )
 )
 
 ; C08_INTRO -----------------------------------------------------------
@@ -575,42 +631,44 @@
 	(object_uses_cinematic_lighting phantom_02 1)
 	
 	)
-	
+
 (script static void scarab1cin
-	(begin
-		(scarab_idle_to_walk_front1cin)
-		(scarab_walk_front_var01cin)
-		(scarab_walk_front_var01cin)
-		(scarab_walk_front_var01cin)
-		(scarab_walk_front_var01cin)
-		(scarab_walk_front_var01cin)
-		(scarab_walk_front_var01cin)
-		(scarab_walk_front_to_idle01cin)
-		(scarab_idle_t_45_right1cin)
-		(scarab_idle_t_45_right1cin)		
-		(scarab_idle_to_walk_front1cin)
-		(scarab_walk_front_t_45right1cin)
-		(scarab_walk_front_t_15_left1cin)		
-		(scarab_walk_front_t_15_left1cin)
-		(scarab_walk_front_t_45right1cin)
-		(scarab_walk_front_t_15right1cin)
-		(scarab_walk_front_t_15right1cin)
-		(scarab_walk_front_t_15right1cin)
-		(scarab_walk_front_t_45right1cin)
-		(scarab_walk_front_var01cin)
-		(scarab_walk_front_t_15right1cin)
-		(scarab_walk_front_var01cin)
-		(scarab_walk_front_t_22_left1cin)
-		(scarab_walk_front_var01cin)
-		(scarab_walk_front_var01cin)
-		(scarab_walk_front_t_45_left1cin)
-		(scarab_walk_front_var01cin)
-		(scarab_walk_front_var01cin)
-		(scarab_walk_front_t_45_left1cin)
-		(object_destroy s1)
-	)
+    (begin
+        (begin
+            (scarab_idle_to_walk_front1cin)
+            (scarab_walk_front_var01cin)
+            (scarab_walk_front_var01cin)
+            (scarab_walk_front_var01cin)
+            (scarab_walk_front_var01cin)
+            (scarab_walk_front_var01cin)
+            (scarab_walk_front_var01cin)
+            (scarab_walk_front_to_idle01cin)
+            (scarab_idle_t_45_right1cin)
+            (scarab_idle_t_45_right1cin)
+            (scarab_idle_to_walk_front1cin)
+            (scarab_walk_front_t_45right1cin)
+            (scarab_walk_front_t_15_left1cin)
+            (scarab_walk_front_t_15_left1cin)
+            (scarab_walk_front_t_45right1cin)
+            (scarab_walk_front_t_15right1cin)
+            (scarab_walk_front_t_15right1cin)
+            (scarab_walk_front_t_15right1cin)
+            (scarab_walk_front_t_45right1cin)
+            (scarab_walk_front_var01cin)
+            (scarab_walk_front_t_15right1cin)
+            (scarab_walk_front_var01cin)
+            (scarab_walk_front_t_22_left1cin)
+            (scarab_walk_front_var01cin)
+            (scarab_walk_front_var01cin)
+            (scarab_walk_front_t_45_left1cin)
+            (scarab_walk_front_var01cin)
+            (scarab_walk_front_var01cin)
+            (scarab_walk_front_t_45_left1cin)
+            (object_destroy "s1")
+        )
+    )
 )
-	
+		
 (script static void scarab2cin
 	(begin
 		(scarab_idle_to_walk_front2cin)
@@ -646,19 +704,25 @@
 )
 
 (script dormant scarab1_wake_cin
-	(object_create s1)
-	(scarab1cin)
+    (begin
+        (object_create "s1")
+        (scarab1cin)
+    )
 )
 
 (script dormant scarab2_wake_cin
-	(object_create s2)
-	(scarab2cin)
+    (begin
+        (object_create "s2")
+        (scarab2cin)
+    )
 )
 
 (script dormant wake_the_scarabs3
-	(sleep 245)
-	(wake scarab1_wake_cin)
-	(wake scarab2_wake_cin)
+    (begin
+        (sleep 245)
+        (wake scarab1_wake_cin)
+        (wake scarab2_wake_cin)
+    )
 )
 
 (script dormant fov_change
@@ -734,9 +798,7 @@
 	(camera_pan 0 1 154 30 0 0 0)
 	(sleep 124)
 	(object_create s3)
-	(object_create s4)
 	(sleep 34)
-	(object_destroy s1)
 	(object_destroy s2)
 )
 	
@@ -799,38 +861,48 @@
 	(object_uses_cinematic_lighting brute_04 1)
 	
 	)
+	
 (script static void scarab3cin
-	(scarab_walk_front_var03cin)
-	(scarab_walk_front_var03cin)
-	(scarab_walk_front_var03cin)
-	(scarab_walk_front_var03cin)
-	(scarab_walk_front_var03cin)
-	(scarab_walk_front_var03cin)
-	(scarab_walk_front_var03cin)
+    (begin
+        (scarab_walk_front_var03cin)
+        (scarab_walk_front_var03cin)
+        (scarab_walk_front_var03cin)
+        (scarab_walk_front_var03cin)
+        (scarab_walk_front_var03cin)
+        (scarab_walk_front_var03cin)
+        (scarab_walk_front_var03cin)
+    )
 )
 
 (script static void scarab4cin
-	(scarab_walk_front_var04cin)
-	(scarab_walk_front_var04cin)
-	(scarab_walk_front_var04cin)
-	(scarab_walk_front_var04cin)
-	(scarab_walk_front_var04cin)
-	(scarab_walk_front_var04cin)
-	(scarab_walk_front_var04cin)
+    (begin
+        (scarab_walk_front_var04cin)
+        (scarab_walk_front_var04cin)
+        (scarab_walk_front_var04cin)
+        (scarab_walk_front_var04cin)
+        (scarab_walk_front_var04cin)
+        (scarab_walk_front_var04cin)
+        (scarab_walk_front_var04cin)
+    )
 )
 
-
 (script dormant scarab3_wake_cin
-	(scarab3cin)
+    (begin
+        (scarab3cin)
+    )
 )
 
 (script dormant scarab4_wake_cin
-	(scarab4cin)
+    (begin
+        (scarab4cin)
+    )
 )
-	
+
 (script dormant wake_the_scarabs4
-	(wake scarab3_wake_cin)
-	(wake scarab4_wake_cin)
+    (begin
+        (wake scarab3_wake_cin)
+        (wake scarab4_wake_cin)
+    )
 )
 
 	

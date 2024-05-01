@@ -13,6 +13,8 @@
 (global short one_minute 1800)
 (global short two_minutes 3600)
 
+(global boolean water_started false)
+
 
 ;- Stubs -----------------------------------------------------------------------
 
@@ -1543,6 +1545,10 @@ Covenant
 (script dormant e23_mars_scorpions0_main
 	(sleep_until (volume_test_objects tv_e23_scarab_corner_continue (players)))
 	(ai_place e23_mars_scorpions0)
+	(unit_set_current_vitality (ai_get_unit e23_mars_scorpions0/scorpion0) 0.25 0)
+	(unit_set_current_vitality (ai_get_unit e23_mars_scorpions0/scorpion1) 0.25 0)
+	(unit_set_maximum_vitality (ai_get_unit e23_mars_scorpions0/scorpion0) 0.25 0)
+	(unit_set_maximum_vitality (ai_get_unit e23_mars_scorpions0/scorpion1) 0.25 0)
 )
 	
 ;- Init and Cleanup ------------------------------------------------------------
@@ -3429,6 +3435,9 @@ Covenant
 	; Objectives
 	(wake objective1_clear)
 	(wake objective2_set)
+	(set water_started false)
+	(ai_disregard (player0) false)
+	(ai_disregard (player1) false)
 
 	; Wake subsequent scripts
 	(wake e19_main)
@@ -3506,7 +3515,6 @@ Covenant
 
 (global boolean g_e17_started false)		; Encounter has been activated?
 (global boolean g_e17_mars_warthog0_arrived false)
-(global boolean water_started false)
 
 
 ;- Command Scripts -------------------------------------------------------------
@@ -3570,7 +3578,7 @@ Covenant
 	; Sleep until we've been given a different weapon, or the player is gone
 	(sleep_until
 		(or
-			(not (unit_has_weapon (ai_get_unit ai_current_actor) "objects\weapons\rifle\shotgun\shotgun.weapon"))
+			(not (unit_has_weapon (ai_get_unit ai_current_actor) "dw3\objects\weapons\rifle\shotgun_beta\shotgun_beta.weapon"))
 			(> (objects_distance_to_object (players) (ai_get_object ai_current_actor)) 5)
 		)
 		15
@@ -3655,10 +3663,9 @@ Covenant
 ;- Event Controls --------------------------------------------------------------
 
 (script dormant e17_doors_main
-	(device_set_position e17_door1 1.0)
-
+	(device_set_position e17_door0 0)
 	; Wait for the player to cross certain trigger volumes, then open the doors
-	(sleep_until (volume_test_objects tv_e17_section2 (players)) 15)
+	(sleep_until (volume_test_objects tv_e17_on_ramp (players)))
 	(device_set_position e17_door0 1.0)
 )
 
@@ -3670,18 +3677,23 @@ Covenant
 	)
 )
 
-(script continuous water_blind
+(script dormant water_blind
 	(sleep_until water_started)
-	(if (volume_test_object tv_ai_noblind (player0))
-        (begin (ai_disregard (player0) false) (print "player0 can be seen")) ; do
-        (begin (ai_disregard (player0) true) (print "player0 disregarded")) ; else
-    )
-	(if (volume_test_object tv_ai_noblind (player1))
-        (begin (ai_disregard (player1) false) (print "player1 can be seen")) ; do
-        (begin (ai_disregard (player1) true) (print "player1 disregarded")) ; else
-    )		
+	(sleep_until
+		(begin
+			(if (volume_test_object tv_ai_noblind (player0))
+				(begin (ai_disregard (player0) false) (print "player0 can be seen")) ; do
+				(begin (ai_disregard (player0) true) (print "player0 disregarded")) ; else
+			)
+			(if (volume_test_object tv_ai_noblind (player1))
+				(begin (ai_disregard (player1) false) (print "player1 can be seen")) ; do
+				(begin (ai_disregard (player1) true) (print "player1 disregarded")) ; else
+			)
+			false
+		)
+	)
 )
-
+			
 (script static void water_not_blind0_0pt1
 	(sleep_until (= (ai_living_count e17_cov_inf0_0) 2))
 	(ai_disregard (player0) false)
@@ -3910,13 +3922,6 @@ Covenant
 	(water_not_blind2_1)
 )
 
-(script dormant water_exit
-	(sleep_until (volume_test_objects tv_e17_exit (players)))
-	(ai_disregard (player0) false)
-	(ai_disregard (player1) false)
-	(sleep_forever water_blind)
-)
-
 ;- Init and Cleanup ------------------------------------------------------------
 
 (script dormant e17_main
@@ -3939,7 +3944,7 @@ Covenant
 	(wake e17_doors_main)
 	(wake e17_dialog)
 	(wake water_start)
-	(wake water_exit)
+	(wake water_blind)
 	
 	; Shut down
 	(sleep_until g_e18_started)
@@ -3949,9 +3954,18 @@ Covenant
 	(sleep_forever e17_cov_inf2_main)
 	(sleep_forever e17_doors_main)
 	(sleep_forever e17_dialog)
+	(sleep_forever water_start)
+	(sleep_forever water_blind)
+	(sleep_forever water_not_blind0_0pt1)
+	(sleep_forever water_not_blind0_0pt2)
+	(sleep_forever water_not_blind0_0pt3)
+	(sleep_forever water_not_blind2_0pt1)
+	(sleep_forever water_not_blind2_0pt2)
+	(sleep_forever water_not_blind2_0pt3)
+	(sleep_forever water_not_blind2_1)
+	(set water_started false)
 	(ai_disregard (player0) false)
 	(ai_disregard (player1) false)
-	(set water_started false)
 
 	; Condemn
 	(ai_disposable e17_cov true)
@@ -4152,10 +4166,14 @@ Covenant
 		)
 	)
 	(ai_place e16_cov_ubers)
-	(object_set_scale (ai_get_object e16_cov_ubers/grunt0) 0.78 0)
-	(object_set_scale (ai_get_object e16_cov_ubers/grunt1) 0.78 0)
-	(object_set_scale (ai_get_object e16_cov_ubers/grunt2) 0.78 0)
-	(object_set_scale (ai_get_object e16_cov_ubers/grunt3) 0.78 0)
+	(object_set_scale (ai_get_object e16_cov_ubers/grunt0) 0.7 0)
+	(object_set_scale (ai_get_object e16_cov_ubers/grunt1) 0.7 0)
+	(object_set_scale (ai_get_object e16_cov_ubers/grunt2) 0.7 0)
+	(object_set_scale (ai_get_object e16_cov_ubers/grunt3) 0.7 0)
+	(vehicle_load_magic (ai_vehicle_get_from_starting_location e16_cov_ubers/grunt0) "warthog_p2" (ai_get_object e16_cov_ubers/bugger0))
+	(vehicle_load_magic (ai_vehicle_get_from_starting_location e16_cov_ubers/grunt1) "warthog_p2" (ai_get_object e16_cov_ubers/bugger1))
+	(vehicle_load_magic (ai_vehicle_get_from_starting_location e16_cov_ubers/grunt2) "warthog_p2" (ai_get_object e16_cov_ubers/bugger2))
+	(vehicle_load_magic (ai_vehicle_get_from_starting_location e16_cov_ubers/grunt3) "warthog_p2" (ai_get_object e16_cov_ubers/bugger3))
 )
 
 (script dormant e16_cov_banshees0_main

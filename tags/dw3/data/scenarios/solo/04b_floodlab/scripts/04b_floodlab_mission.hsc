@@ -1636,7 +1636,7 @@
 		(AND
 			(= (volume_test_objects_all vol_research_arm_swap (players)) TRUE)
 			(> (player_count) 0)
-			;(= (volume_test_objects_all vol_research_arm_swap (ai_actors disposal_commander)) TRUE)
+			(= (volume_test_objects_all vol_research_arm_swap (ai_actors disposal_commander)) TRUE)
 			(<= (device_get_position lab_exit_int) 0)
 		)
 	)
@@ -1901,14 +1901,14 @@
 	)
 )
 
-(script command_script ignore_lab_flood
-	(ai_disregard (ai_get_object lab_flood) true)
-)
-
 (script dormant fuck_this_turret_shit
 	(sleep 120)
 	(ai_vehicle_enter lab_grunts_02 (ai_vehicle_get_from_starting_location lab_exit_turrets/r))
 	(ai_vehicle_enter lab_grunts_02 (ai_vehicle_get_from_starting_location lab_exit_turrets/l))
+)
+
+(script command_script lab_transition
+	(cs_go_to_nearest lab_transition)
 )
 
 (global short lab_flood_count 0)
@@ -1974,7 +1974,7 @@
 )
 
 (script dormant teleport_commander
-	(sleep_until (volume_test_objects vol_lab_enter (players)))
+	(sleep_until (volume_test_objects vol_teleport_commander (players)))
 	(if (not (volume_test_object vol_hall_to_lab (ai_get_object disposal_commander)))
 		(begin
 			(ai_erase disposal_commander/beginning) 
@@ -2189,25 +2189,25 @@
 	(music_04b_03_stop_alt)
 
 	(set lab_flood_count 0)
-	(wake lab_wave_new_01)	
+;	(wake lab_wave_new_01)	
 	(data_mine_set_mission_segment "04b_10_flood_lab_end")
 	(game_save)
 	(sleep 90)
 	(device_operates_automatically_set lab_exit_int TRUE)
-	(ai_set_orders all_allies allies_airlock)
-	(cs_run_command_script disposal_commander ignore_lab_flood)
-	(cs_run_command_script allies_elites ignore_lab_flood)
 	(ai_place lab_heretics_02 2)
 	(ai_place lab_grunts_02 3)
 	(wake fuck_this_turret_shit)
 	
 	(wake music_04b_03_stop)
 	
+	(sleep_until (= (ai_living_count lab_heretics) 0))
+	(cs_run_command_script all_allies lab_transition)
+	(ai_set_orders all_allies lab_transition)
+	
 	(sleep_until 
 		(AND
-			(= (ai_living_count lab_heretics) 0)
 			(= (volume_test_objects_all vol_research_arm_swap (players)) TRUE)
-			(= (volume_test_object vol_research_arm_swap (ai_get_object disposal_commander)) TRUE)
+;			(= (volume_test_object vol_research_arm_swap (ai_get_object disposal_commander)) TRUE)
 			(> (player_count) 0)
 		)
 	)
@@ -2614,8 +2614,8 @@
 	(cs_enable_looking TRUE)
 	(if 
 		(OR 
-			(unit_has_weapon (unit (player0)) "objects\weapons\melee\energy_blade\energy_blade.weapon") 
-			(unit_has_weapon (unit (player1)) "objects\weapons\melee\energy_blade\energy_blade.weapon")
+			(unit_has_weapon (unit (player0)) "dw3\objects\weapons\melee\energy_blade\energy_blade_dw3.weapon") 
+			(unit_has_weapon (unit (player1)) "dw3\objects\weapons\melee\energy_blade\energy_blade_dw3.weapon")
 		)
 			(begin
 				(cs_play_line 0140)
@@ -2624,8 +2624,8 @@
 				(cs_play_line 0130)
 				(sleep_until 
 					(OR
-						(unit_has_weapon (unit (player0)) "objects\weapons\melee\energy_blade\energy_blade.weapon") 
-						(unit_has_weapon (unit (player1)) "objects\weapons\melee\energy_blade\energy_blade.weapon")
+						(unit_has_weapon (unit (player0)) "dw3\objects\weapons\melee\energy_blade\energy_blade_dw3.weapon") 
+						(unit_has_weapon (unit (player1)) "dw3\objects\weapons\melee\energy_blade\energy_blade_dw3.weapon")
 						(= (volume_test_objects vol_control_middle (players)) TRUE)
 					)
 				30 900)
@@ -3379,7 +3379,7 @@
 			(cam_shake)
 			(device_set_position real_cable_a 1)
 			(sound_impulse_start sound\ambience\alphagasgiant\cable_snaps\cable_snap_one "none" 1)
-			(sound_looping_start sound_remastered\visual_effects\alphagas_cablelist\alphacable_swtnr_01_quad "none" 1)
+;			(sound_looping_start sound_remastered\visual_effects\alphagas_cablelist\alphacable_swtnr_01_quad "none" 1)
 			(device_set_position_track cableroom cable_room_rot_5_bc 0)
 			(device_animate_position cableroom 1 10 1 4 FALSE)
 			;(ai_set_orders cable_flood cable_room_bc)
@@ -3394,7 +3394,7 @@
 			(cam_shake)
 			(device_set_position real_cable_a 1)
 			(sound_impulse_start sound\ambience\alphagasgiant\cable_snaps\cable_snap_one "none" 1)
-			(sound_looping_start sound_remastered\visual_effects\alphagas_cablelist\alphacable_swtnr_02_quad "none" 1)
+;			(sound_looping_start sound_remastered\visual_effects\alphagas_cablelist\alphacable_swtnr_02_quad "none" 1)
 			(if (<= (object_get_health real_cable_b) 0)
 				(begin
 					(device_set_position_track cableroom cable_room_rot_ac2c 0)
@@ -3423,7 +3423,7 @@
 			(cam_shake)
 			(device_set_position real_cable_a 1)
 			(sound_impulse_start sound\ambience\alphagasgiant\cable_snaps\cable_snap_two "none" 1)
-			(sound_looping_start sound_remastered\visual_effects\alphagas_cablelist\alphacable_swtnr_03_quad "none" 1)
+;			(sound_looping_start sound_remastered\visual_effects\alphagas_cablelist\alphacable_swtnr_03_quad "none" 1)
 			(device_set_position_track cableroom cable_room_rot_a_back 0)
 			(device_animate_position cableroom 1 2 0 .5 FALSE)
 			;(cs_run_command_script cable_room_sentinels try_to_fix)
@@ -3507,7 +3507,7 @@
 			(cam_shake)
 			(device_set_position real_cable_b 1)
 			(sound_impulse_start sound\ambience\alphagasgiant\cable_snaps\cable_snap_one "none" 1)
-			(sound_looping_start sound_remastered\visual_effects\alphagas_cablelist\alphacable_swtnr_01_quad "none" 1)
+;			(sound_looping_start sound_remastered\visual_effects\alphagas_cablelist\alphacable_swtnr_01_quad "none" 1)
 			(device_set_position_track cableroom cable_room_rot_5_ac 0)
 			(device_animate_position cableroom 1 10 1 4 FALSE)
 			;(ai_set_orders cable_flood cable_room_ac)
@@ -3522,7 +3522,7 @@
 			(cam_shake)
 			(device_set_position real_cable_b 1)
 			(sound_impulse_start sound\ambience\alphagasgiant\cable_snaps\cable_snap_one "none" 1)
-			(sound_looping_start sound_remastered\visual_effects\alphagas_cablelist\alphacable_swtnr_02_quad "none" 1)
+;			(sound_looping_start sound_remastered\visual_effects\alphagas_cablelist\alphacable_swtnr_02_quad "none" 1)
 			(if (<= (object_get_health real_cable_a) 0)
 				(begin
 					(device_set_position_track cableroom cable_room_rot_bc2c 0)
@@ -3551,7 +3551,7 @@
 			(cam_shake)
 			(device_set_position real_cable_b 1)
 			(sound_impulse_start sound\ambience\alphagasgiant\cable_snaps\cable_snap_two "none" 1)
-			(sound_looping_start sound_remastered\visual_effects\alphagas_cablelist\alphacable_swtnr_03_quad "none" 1)
+;			(sound_looping_start sound_remastered\visual_effects\alphagas_cablelist\alphacable_swtnr_03_quad "none" 1)
 			(device_set_position_track cableroom cable_room_rot_b_back 0)
 			(device_animate_position cableroom 1 2 0 .5 FALSE)
 			(cs_run_command_script cable_room_sentinels try_to_fix)
@@ -3635,7 +3635,7 @@
 			(cam_shake)
 			(device_set_position real_cable_c 1)
 			(sound_impulse_start sound\ambience\alphagasgiant\cable_snaps\cable_snap_one "none" 1)
-			(sound_looping_start sound_remastered\visual_effects\alphagas_cablelist\alphacable_swtnr_01_quad "none" 1)
+;			(sound_looping_start sound_remastered\visual_effects\alphagas_cablelist\alphacable_swtnr_01_quad "none" 1)
 			(device_set_position_track cableroom cable_room_rot_5_ab 0)
 			(device_animate_position cableroom 1 10 1 4 FALSE)
 			;(ai_set_orders cable_flood cable_room_ab)
@@ -3650,7 +3650,7 @@
 			(cam_shake)
 			(device_set_position real_cable_c 1)
 			(sound_impulse_start sound\ambience\alphagasgiant\cable_snaps\cable_snap_one "none" 1)
-			(sound_looping_start sound_remastered\visual_effects\alphagas_cablelist\alphacable_swtnr_02_quad "none" 1)
+;			(sound_looping_start sound_remastered\visual_effects\alphagas_cablelist\alphacable_swtnr_02_quad "none" 1)
 			(if (<= (object_get_health real_cable_a) 0)
 				(begin
 					(device_set_position_track cableroom cable_room_rot_bc2b 0)
@@ -3679,7 +3679,7 @@
 			(cam_shake)
 			(device_set_position real_cable_c 1)
 			(sound_impulse_start sound\ambience\alphagasgiant\cable_snaps\cable_snap_two "none" 1)
-			(sound_looping_start sound_remastered\visual_effects\alphagas_cablelist\alphacable_swtnr_03_quad "none" 1)
+;			(sound_looping_start sound_remastered\visual_effects\alphagas_cablelist\alphacable_swtnr_03_quad "none" 1)
 			(device_set_position_track cableroom cable_room_rot_c_back 0)
 			(device_animate_position cableroom 1 2 0 .5 FALSE)
 			(cs_run_command_script cable_room_sentinels try_to_fix)
@@ -5656,7 +5656,7 @@
 (script static void banshee_sin_01_weapon
 	(if 
 		(AND
-			(unit_has_weapon (unit (player0)) "objects\weapons\rifle\plasma_rifle\plasma_rifle.weapon")
+			(unit_has_weapon (unit (player0)) "dw3\objects\weapons\rifle\plasma_rifle\plasma_rifle_final\plasma_rifle_final.weapon")
 			(= banshee_sin_01_ready FALSE)
 		)
 			(begin
@@ -5666,7 +5666,7 @@
 	)
 	(if 
 		(AND
-			(unit_has_weapon (unit (player0)) "objects\weapons\rifle\covenant_carbine\covenant_carbine.weapon")
+			(unit_has_weapon (unit (player0)) "dw3\objects\weapons\rifle\carbine\carbine_unused\covenant_carbine_unused.weapon")
 			(= banshee_sin_01_ready FALSE)
 		)
 			(begin
@@ -5676,7 +5676,7 @@
 	)
 	(if 
 		(AND
-			(unit_has_weapon (unit (player0)) "objects\weapons\rifle\beam_rifle\beam_rifle.weapon")
+			(unit_has_weapon (unit (player0)) "dw3\objects\weapons\rifle\beam_rifle_beta\beam_rifle_beta.weapon")
 			(= banshee_sin_01_ready FALSE)
 		)
 			(begin
@@ -5686,7 +5686,7 @@
 	)
 	(if 
 		(AND
-			(unit_has_weapon (unit (player0)) "objects\weapons\pistol\needler\needler.weapon")
+			(unit_has_weapon (unit (player0)) "dw3\objects\weapons\pistol\needler_beta\needler_beta.weapon")
 			(= banshee_sin_01_ready FALSE)
 		)
 			(begin
@@ -5696,7 +5696,7 @@
 	)
 	(if 
 		(AND
-			(unit_has_weapon (unit (player0)) "objects\weapons\pistol\plasma_pistol\plasma_pistol.weapon")
+			(unit_has_weapon (unit (player0)) "dw3\objects\weapons\pistol\plasma_pistol_beta\plasma_pistol_beta.weapon")
 			(= banshee_sin_01_ready FALSE)
 		)
 			(begin
@@ -5706,7 +5706,7 @@
 	)
 	(if 
 		(AND
-			(unit_has_weapon (unit (player0)) "objects\weapons\support_high\flak_cannon\flak_cannon.weapon")
+			(unit_has_weapon (unit (player0)) "dw3\objects\weapons\support_high\flak_cannon_beta\flak_cannon_beta.weapon")
 			(= banshee_sin_01_ready FALSE)
 		)
 			(begin
@@ -5716,7 +5716,7 @@
 	)
 	(if 
 		(AND
-			(unit_has_weapon (unit (player0)) "objects\characters\sentinel_aggressor\weapons\beam\sentinel_aggressor_beam.weapon")
+			(unit_has_weapon (unit (player0)) "dw3\objects\characters\sentinel_aggressor_dw3\weapons\beam\sentinel_aggressor_beam_dw3.weapon")
 			(= banshee_sin_01_ready FALSE)
 		)
 			(begin
@@ -5971,7 +5971,7 @@
 (script static void banshee_sin_02_weapon
 	(if 
 		(AND
-			(unit_has_weapon (unit (player0)) "objects\weapons\rifle\plasma_rifle\plasma_rifle.weapon")
+			(unit_has_weapon (unit (player0)) "dw3\objects\weapons\rifle\plasma_rifle\plasma_rifle_final\plasma_rifle_final.weapon")
 			(= banshee_sin_02_ready FALSE)
 		)
 			(begin
@@ -5981,7 +5981,7 @@
 	)
 	(if 
 		(AND
-			(unit_has_weapon (unit (player0)) "dw3\objects\weapons\rifle\carbine\carbine_beta\covenant_carbine_beta.weapon")
+			(unit_has_weapon (unit (player0)) "dw3\objects\weapons\rifle\carbine\carbine_unused\covenant_carbine_unused.weapon")
 			(= banshee_sin_02_ready FALSE)
 		)
 			(begin
@@ -6031,7 +6031,7 @@
 	)
 	(if 
 		(AND
-			(unit_has_weapon (unit (player0)) "objects\characters\sentinel_aggressor\weapons\beam\sentinel_aggressor_beam.weapon")
+			(unit_has_weapon (unit (player0)) "dw3\objects\characters\sentinel_aggressor_dw3\weapons\beam\sentinel_aggressor_beam_dw3.weapon")
 			(= banshee_sin_02_ready FALSE)
 		)
 			(begin
@@ -9186,8 +9186,11 @@
 
 	(wake hangar_fx)
 	(ai_place monitor)
+	(ai_disregard (ai_actors monitor) true)
 	(ai_place boss_fight_heretic_leader)
+	(ai_disregard (ai_actors boss_fight_heretic_leader) true)
 	(ai_migrate boss_fight_heretic_leader hl_boss_random)
+	(ai_disregard (ai_actors hl_boss_random) true)
 	(ai_cannot_die hl_boss_random TRUE)
 
 	(ai_place boss_fight_hl_hologram_01)

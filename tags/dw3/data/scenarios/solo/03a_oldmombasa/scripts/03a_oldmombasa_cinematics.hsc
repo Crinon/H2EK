@@ -239,8 +239,8 @@
 ;	(cinematic_lighting_set_ambient_light 0.0588235 0.0509804 0.0392157)
 	
 	
-	(object_create little_fire2)
-	(object_create big_fire)
+	(object_create_anew little_fire2)
+	(object_create_anew big_fire)
 	
 	(sleep 20)
 	(fade_in 1 1 1 5)
@@ -255,7 +255,7 @@
 	(object_destroy iac_bridge)
 	(print "destroy miranda, iac bridge")
 
-;	(print "light approach")
+	(print "light approach")
 	
 	(cinematic_lighting_set_primary_light 43 122 0.54902 0.478431 0.34902)
 	(cinematic_lighting_set_secondary_light -25 98 0.317647 0.313726 0.396078)
@@ -277,13 +277,13 @@
 	(cinematic_lighting_set_ambient_light 0 0 0)
 	
 	(print "big building fire")
-	(object_create big_building_fire)
+	(object_create_anew big_building_fire)
 	(print "2 number 9s")
-	(object_create big_smoke)
+	(object_create_anew big_smoke)
 	(print "A number 9 large")
-	(object_create big_smoke2)
+	(object_create_anew big_smoke2)
 	(print "little fire")
-	(object_create little_fire)
+	(object_create_anew little_fire)
 	
 	)
 	
@@ -788,7 +788,7 @@
 	)
 	
 (script dormant c03_1120_jon
-	(object_create big_fire2)
+	(object_create_anew big_fire2)
 	(sleep 135)
 	(sound_impulse_start sound\dialog\levels\03_earthcity\cinematic\c03_1120_jon johnson 1)
 	(cinematic_subtitle c03_1120_jon 2)
@@ -804,7 +804,7 @@
 (script dormant c03_1140_lhd
 	(sleep 314)
 	(sound_impulse_start_effect sound\dialog\levels\03_earthcity\cinematic\c03_1140_lhd none 1 radio_default_out)
-	(object_create big_fire3)
+	(object_create_anew big_fire3)
 	(cinematic_subtitle c03_1140_lhd 5)
 	)
 
@@ -1392,7 +1392,7 @@
 		(fade_in 0 0 0 30)
 		
 		(sound_impulse_start sound\dialog\levels\03_earthcity\mission\l03_9000_cor none 1)
-		(sound_impulse_start "sound_remastered\visual_effects\oldmombasa_intro_tinnitus" none 1)
+;		(sound_impulse_start "sound_remastered\visual_effects\oldmombasa_intro_tinnitus" none 1)
 		
 		(sleep 35)
 		(fade_out 0 0 0 30)
@@ -1431,7 +1431,7 @@
 		(fade_in 0 0 0 30)
 		
 		(sound_impulse_start sound\dialog\levels\03_earthcity\mission\l03_9030_cor none 1)
-		(sound_impulse_start "sound_remastered\visual_effects\oldmombasa_intro_tinnitus" none 1)
+;		(sound_impulse_start "sound_remastered\visual_effects\oldmombasa_intro_tinnitus" none 1)
 		
 		(sleep 35)
 		(fade_out 0 0 0 30)
@@ -1470,7 +1470,7 @@
 		(fade_in 0 0 0 30)
 		
 		(sound_impulse_start sound\dialog\levels\03_earthcity\mission\l03_9020_cor none 1)
-		(sound_impulse_start "sound_remastered\visual_effects\oldmombasa_intro_tinnitus" none 1)
+;		(sound_impulse_start "sound_remastered\visual_effects\oldmombasa_intro_tinnitus" none 1)
 		
 		(sleep 35)
 		(fade_out 0 0 0 30)
@@ -1509,7 +1509,7 @@
 		(fade_in 0 0 0 30)
 		
 		(sound_impulse_start sound\dialog\levels\03_earthcity\mission\l03_9010_cor none 1)
-		(sound_impulse_start "sound_remastered\visual_effects\oldmombasa_intro_tinnitus" none 1)
+;		(sound_impulse_start "sound_remastered\visual_effects\oldmombasa_intro_tinnitus" none 1)
 		
 		(sleep 35)
 		(fade_out 0 0 0 30)

@@ -1,0 +1,20 @@
+(script dormant meme
+	(sleep_until (= (ai_living_count vadam) 1))
+	(sleep 500)
+	(object_set_scale throne 2 100)
+	(sleep 60)
+	(object_set_scale throne 3 100)
+	(sleep 60)
+	(object_set_scale throne 4 100)
+	(sleep 60)
+	(object_set_scale throne 5 100)
+	(sleep 60)
+	(object_set_scale throne 6 100)
+	(sleep 60)
+	(object_set_scale throne 7 100)
+)
+
+(script startup fade_in
+	(fade_in 0 0 0 30)
+	(wake meme)
+)

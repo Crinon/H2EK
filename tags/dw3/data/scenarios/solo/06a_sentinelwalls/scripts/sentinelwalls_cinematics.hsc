@@ -1344,15 +1344,21 @@
 	(sleep 642)
 	(print "carbine shot")
 	(effect_new_on_object_marker effects\objects\weapons\rifle\covenant_carbine\firing carbine "primary_trigger")
+	(sleep 2)
+	(effect_new_on_object_marker effects\objects\weapons\rifle\covenant_carbine\firing carbine "primary_trigger")
 	
 ;	(time_code_reset)
+	
+	(sleep 20)
+	(print "carbine shot")
+	(effect_new_on_object_marker effects\objects\weapons\rifle\covenant_carbine\firing carbine "primary_trigger")
+	(sleep 2)
+	(effect_new_on_object_marker effects\objects\weapons\rifle\covenant_carbine\firing carbine "primary_trigger")
 	
 	(sleep 22)
 	(print "carbine shot")
 	(effect_new_on_object_marker effects\objects\weapons\rifle\covenant_carbine\firing carbine "primary_trigger")
-	
-	(sleep 24)
-	(print "carbine shot")
+	(sleep 2)
 	(effect_new_on_object_marker effects\objects\weapons\rifle\covenant_carbine\firing carbine "primary_trigger")
 	
 	)

@@ -3565,19 +3565,21 @@ Flood
 	(ai_migrate e21_fld_carriers0 e21_fld_carriers1)
 	
 	; Respawner
-	(sleep_until
-		(begin
+;	(sleep_until
+;		(begin
 			; Replenish the carrier forms
-			(if (< (ai_swarm_count e21_fld_carriers1) 2)
+;			(if (< (ai_swarm_count e21_fld_carriers1) 2)
 				; Respawn one
 				(ai_place e21_fld_carriers1 1)
-			)
+				(sleep 180)
+				(ai_place e21_fld_carriers1 1)
+;			)
 		
 			; Loop until the shaft
-			g_key_lock1_second_arch
-		)
-		90
-	)
+;			g_key_lock1_second_arch
+;		)
+;		90
+;	)
 )
 
 (script static void e21_fld_inf1_spawn
@@ -3655,21 +3657,24 @@ Flood
 	(sleep_until (= (structure_bsp_index) 4))
 
 	; Respawner
-	(sleep_until
-		(begin			
+;	(sleep_until
+;		(begin			
 			; Replenish the carrier forms
-			(if (< (ai_nonswarm_count e21_fld_carriers0) 2)
+;			(if (< (ai_nonswarm_count e21_fld_carriers0) 2)
 				; Respawn one
 				(ai_place e21_fld_carriers0 1)
-			)
+				(sleep 180)
+				(ai_place e21_fld_carriers0 1)
+;			)
 		
 			; Loop until the shaft
-			g_key_shaft_rising
-		)
-		90
-	)
+;			g_key_shaft_rising
+;		)
+;		90
+;	)
 	
 	; Switch sides
+	(sleep_until g_key_shaft_rising 90)
 	(wake e21_fld_carriers1_main)
 )
 

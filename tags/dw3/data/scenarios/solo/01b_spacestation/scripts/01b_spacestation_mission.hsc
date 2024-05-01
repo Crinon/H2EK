@@ -72,7 +72,7 @@
 	(ice_cream_flavor_stock 3)
 	(print "blam")
 )
-
+	
 ;========== Checkpoint Scripts ==========
 (script static void save_cutscene
 	(data_mine_set_mission_segment "01b_cutscene")
@@ -602,7 +602,7 @@
 	(cs_face_object 1 1st_door_blast)
 	(sleep 60)
 	(custom_animation (ai_get_unit ai_current_actor) "objects\characters\marine\marine" "combat:missile:point" true)
-    (sound_impulse_start sound_remastered\weapons\chain_gun\place (ai_get_object 1st_hum_johnson) 1)
+;    (sound_impulse_start sound_remastered\weapons\chain_gun\place (ai_get_object 1st_hum_johnson) 1)
 	
 	(sleep (unit_get_custom_animation_time (ai_get_unit ai_current_actor)))
      (sleep 30)
@@ -646,7 +646,7 @@
 ;	(sleep (sound_impulse_language_time sound\dialog\levels\01_spacestation\mission\L01_0130_mm1))
 	(sleep_until (< (device_get_position 1st_craft) 0.75) 1)
 	(print "DOCKING SOUND")
-    (sound_impulse_start sound_remastered\ambience\spacestation\docking_clangs\dockingcov_incoming NONE 1)
+;    (sound_impulse_start sound_remastered\ambience\spacestation\docking_clangs\dockingcov_incoming NONE 1)
 	 
 	(sleep_until (<= (device_get_position 1st_craft) 0.1) 1)
 	(print "KLANG malta!")
@@ -914,7 +914,7 @@
 	(sleep_until (objects_can_see_object (players) malta 35) 1 120)
 	(print "BOOM!")
 	(object_damage_damage_section malta default 1)
-	(sound_impulse_start sound_remastered\visual_effects\ss_distship_explode NONE 1)
+;	(sound_impulse_start sound_remastered\visual_effects\ss_distship_explode NONE 1)
 	(sound_looping_start scenarios\solo\01b_spacestation\01b_music\01b_03 NONE 1); borealis
 
 	(sleep 60)
@@ -922,7 +922,7 @@
 	(sound_impulse_start sound\dialog\levels\01_spacestation\mission\l01_0221_cky (ai_get_object bay1_hum) 1)
 
 	(sleep 90)
-	(sound_looping_start sound_remastered\visual_effects\ss_distship_shake_quad NONE 1)
+;	(sound_looping_start sound_remastered\visual_effects\ss_distship_shake_quad NONE 1)
 	(damage_players effects\damage_effects\spacestation_shockwave) 
 	(player_effect_set_max_translation .01 .01 .01)
 	(player_effect_start 1 .25)
@@ -1045,8 +1045,8 @@
 	(sleep 2)
 	(effect_new "effects\objects\weapons\grenade\plasma_grenade\detonation.effect" bay1_blast_flag_2)
 	(damage_new "objects\weapons\grenade\plasma_grenade\damage_effects\plasma_grenade_explosion.damage_effect" bay1_blast_flag_2)
-	(sound_impulse_start sound_remastered\visual_effects\ss_smalldoor_explode bay1_door_exit 1)
-	(sound_impulse_start sound_remastered\weapons\plasma_grenade\plasma_expl bay1_door_exit 1)
+;	(sound_impulse_start sound_remastered\visual_effects\ss_smalldoor_explode bay1_door_exit 1)
+;	(sound_impulse_start sound_remastered\weapons\plasma_grenade\plasma_expl bay1_door_exit 1)
 	(object_destroy bay1_door_exit)
 	(set mark_flavor_brace TRUE)
 
@@ -1086,11 +1086,11 @@
 
 	(sleep_until (objects_can_see_object (players) athens 25) 1 120)
 	(print "BOOM!")
-	(sound_impulse_start sound_remastered\visual_effects\ss_distship_explode NONE 1)
+;	(sound_impulse_start sound_remastered\visual_effects\ss_distship_explode NONE 1)
 	(object_damage_damage_section athens default 1)
 
 	(sleep 90)
-	(sound_looping_start sound_remastered\visual_effects\ss_distship_shake_quad NONE 1)
+;	(sound_looping_start sound_remastered\visual_effects\ss_distship_shake_quad NONE 1)
 	(damage_players effects\damage_effects\spacestation_shockwave) 
 	(player_effect_set_max_translation .01 .01 .01)
 	(player_effect_start 1 .25)
