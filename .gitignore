@@ -14,8 +14,11 @@ shader_cache/*
 !/tags/scenarios/multi/dangercanyon*
 !/tags/scenarios/multi/cyberdyne_h2*
 
-memusage.txt
 h2_maps_win64_dx11/*
+
+debug.txt
+memusage.txt
+gamestate.txt
 
 
 # /*

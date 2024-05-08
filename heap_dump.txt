@@ -1,15 +1,20 @@
 file                                                           bytes    heap size blocks nonheap size blocks      min      max        avg
-tag_files\tag_groups.cpp                                          68           68      3            0      0       16       32       22.7
+tag_files\tag_groups.cpp                                          84           84      1            0      0       84       84       84.0
+sapien\editor_ugly_startup_wtl.cpp                                48           48      6            0      0        8        8        8.0
 
-largest sizes: heap 200378593 bytes, nonheap 5138772 bytes
-current sizes: 68 bytes (heap 68 in 3 blocks, nonheap 0 in 0 blocks)
+largest sizes: heap 1306279638 bytes, nonheap 1430745481 bytes
+current sizes: 132 bytes (heap 132 in 7 blocks, nonheap 0 in 0 blocks)
 physical usage: 0 bytes (2147483647 bytes free, 2147483647 bytes total)
 
-TIMESTAMP: 05.03.24 22:48:02.494
+TIMESTAMP: 05.08.24 19:08:53.753
 file                                                     line     size       type/subtype                                                            name          id ATEXIT
-tag_files\tag_groups.cpp                                 5004       16 bytes                                                                              h      2043       
-tag_files\tag_groups.cpp                                 5004       32 bytes                                                                              h      2044       
-tag_files\tag_groups.cpp                                 5004       20 bytes                                                                              h      2045       
+sapien\editor_ugly_startup_wtl.cpp                        485        8 bytes untracked C++                                                                h   1024374       
+tag_files\tag_groups.cpp                                 2606       84 bytes tag                                                   scenario_vehicle_block h   1026687       
+sapien\editor_ugly_startup_wtl.cpp                        485        8 bytes untracked C++                                                                h   1046429       
+sapien\editor_ugly_startup_wtl.cpp                        485        8 bytes untracked C++                                                                h   1054784       
+sapien\editor_ugly_startup_wtl.cpp                        485        8 bytes untracked C++                                                                h   1062283       
+sapien\editor_ugly_startup_wtl.cpp                        485        8 bytes untracked C++                                                                h   1075702       
+sapien\editor_ugly_startup_wtl.cpp                        485        8 bytes untracked C++                                                                h   1080630       
 
-Total Allocated: 68 bytes (Total to free ATEXIT 0)
+Total Allocated: 132 bytes (Total to free ATEXIT 0)
 
