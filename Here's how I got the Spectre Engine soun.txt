@@ -1,0 +1,34 @@
+Here's how I got the Spectre Engine sounds working.
+
+First I recorded using Audacity by playing the sounds in the H2EK Guerilla. I don't know how to extract them using Reclaimer
+
+In Audacity, I set the sample rate to be 48000hz,
+I then split the stereo into mono
+and enhanced (aka "amplify" in Audacity) it to be as loud as the stock sounds,
+then exported as 16 bit .wav
+
+I set the engine sound directory as data/directorytosound/spectre/spectre_engine/track1
+
+in the track1 folder, I made a folder called in, a folder called loop and then a folder called out
+
+in the loop folder, you make two folders or more depending on how many pitch ranges you want. in the case for the spectre i just made a "hi" and "lo"
+
+so for example of the spectre engine, you should have the following folders: 
+data/directorytosound/spectre/spectre_engine/track1/in
+data/directorytosound/spectre/spectre_engine/track1/loop
+data/directorytosound/spectre/spectre_engine/track1/loop/hi
+data/directorytosound/spectre/spectre_engine/track1/loop/lo
+data/directorytosound/spectre/spectre_engine/track1/out
+
+then i imported them using the command
+
+"tool sound-looping directorytosound/spectre_engine vehicle_engine -bank:spectre_engine"
+
+this then creates a new fsb named spectre_engine just for the spectre engine sound
+
+you can then alter the .sound files it makes so it works appriopriately, i used the ghost_engine as a base
+
+
+tool sound-looping phanrev/sound/vehicles/brute_chopper_t/brute_chopper_t_engine vehicle_engine opus
+//opus = compression
+= multilayer
