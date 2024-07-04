@@ -119,6 +119,24 @@
     )
 )
 
+(script dormant navpoints
+	(sleep_until (volume_test_objects tv_s3_cov_chokepoint_init0 (players)))
+	(activate_nav_point_flag "default" (player0) navpoint_1 0.5)
+	
+	(sleep_until (volume_test_objects tv_navpoint1 (players)))
+	(deactivate_nav_point_flag (player0) navpoint_1)
+	(activate_nav_point_flag "default" (player0) navpoint_2 0.5)
+	
+	(sleep_until (volume_test_objects tv_navpoint2 (players)))
+	(deactivate_nav_point_flag (player0) navpoint_2)
+	
+	(sleep_until (volume_test_objects tv_section4 (players)))
+	(activate_nav_point_flag "default" (player0) navpoint_3 0.5)
+	
+	(sleep_until (volume_test_objects tv_s4_deactivate_roadblock (players)))
+	(deactivate_nav_point_flag (player0) navpoint_3)
+)
+
 (script static void s4_test
     (begin
         (object_teleport (player0) "s4_test")
@@ -346,6 +364,7 @@
         (print "begin fun part")
         (print "begin fun part")
         (print "begin fun part")
+		(wake navpoints)
         (wake s3_main)
         (wake s4_main)
     )
