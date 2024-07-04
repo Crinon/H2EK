@@ -91,8 +91,6 @@ ob          scenarios\objects
 sky         scenarios\skies
 multi       objects\multi
 
-
-
 ; ========== test level shaders
 oddiology                    scenarios\shaders\test\oddiology
 test                         scenarios\shaders\test
@@ -203,3 +201,28 @@ empty_sky_box                test\empty_sky_box
 decals                       test\decals
 water                        test\water
 mirror                       test\mirrored_uv
+
+; ========== forerunner shaders (Digsite)
+d_f           digsite\scenarios\shaders\forerunner
+d_f_im        digsite\scenarios\shaders\forerunner\industrial\metals
+
+; ========== nature shaders (Digsite)
+d_tre         digsite\scenarios\shaders\nature\trees
+
+; ========== level-specific shaders (Digsite)
+mb       digsite\scenarios\shaders\solo\moonbase
+h2d      digsite\scenarios\shaders\solo\h2defense
+m1a		 digsite\scenarios\shaders\solo\m1_assault
+tl       digsite\scenarios\shaders\multi\halopc\timberland
+der		 scenarios\shaders\multi\halo\derelict
+sol		 digsite\scenarios\shaders\multi\solitude
+over	 digsite\scenarios\shaders\multi\overboard
+
+; ========== object shaders for bsp geometry (Digsite)
+d_ob			digsite\scenarios\objects
+pt				objects\characters\prophet\shaders
+gt				objects\vehicles\gravity_throne\shaders
+
+; ========== test level shaders (Digsite)
+incom						 incompetent\shaders
+d_incom						 digsite\incompetent\shaders
