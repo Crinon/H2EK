@@ -1,5 +1,8 @@
 header;null;6448
 gamestate allocation;null;4
+rasterizer cinematics;null;1020
+rasterizer bloom globals;null;52
+bloom globals;null;36
 game globals;null;6392
 random math;globals;8
 game time globals;null;44
@@ -14,14 +17,11 @@ widget;data;852
 antenna;data;8480
 cloth;data;37648
 liquid;data;17492
-device groups;data;12492
 lights;data;95320
 lights globals;null;12
 light;cluster references;2048
 cluster light reference;data;24908
 light cluster reference;data;24908
-object;data;24908
-objects;memory pool;1048652
 object globals;null;132
 object name list;null;2560
 collideable object;cluster references;2048
@@ -41,6 +41,7 @@ scripted camera globals;null;120
 observer globals;null;20
 decals;data;82124
 decal globals;null;15404
+decal vertex cache;lruv_cache;24888
 contrail;data;18540
 contrail point;data;57548
 effect;data;206988
@@ -102,3 +103,4 @@ scenario interpolator globals;null;516
 game save globals;null;4
 ice cream flavor globals;null;4
 game campaign results stat globals;null;16256
+final size 2582372, remaining size 1603740, alloc crc 0x80D18E67

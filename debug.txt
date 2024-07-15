@@ -1,351 +1,520 @@
 
 
 ============================================================================================
-07.04.24 22:24:47.895  guerilla  debug pc untracked version  Jun 20 2023 11:28:32
+07.15.24 20:24:24.328  sapien  debug pc untracked version  Jun 20 2023 11:29:20
 ============================================================================================
 
 
-07.04.24 22:24:47.895  telnet: transport_endpoint_bind() failed on telnet console endpoint
-07.04.24 22:28:17.569  Miles reports a max delay of 15 (assuming ms)
-07.04.24 22:29:47.380  map_profile: failed to call map_profile_end_map_loading before map_profile_start_map_loading
-07.04.24 22:29:47.615  ### WARNING physics model 'scenarios\objects\covenant\military\scarab\scarab' couldn't resolve material 'physics_ref_phantom' (''), using default material
-07.04.24 22:29:47.616  ### WARNING physics model 'scenarios\objects\covenant\military\scarab\scarab' couldn't resolve material 'attractor' (''), using default material
-07.04.24 22:29:47.634  ### WARNING physics model 'scenarios\objects\solo\earthcity\road_objects\garage_door\garage_door' couldn't resolve material 'h_um_matte_grey_edge_rusty' (''), using default material
-07.04.24 22:29:47.635  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'scenarios\objects\special\null_up\null_up'
-07.04.24 22:29:47.639  ### WARNING object 'objects\cinematics\human\inamberclad_bridge\inamberclad_bridge' has a bounding sphere radius much less than its model (2.500000 vs 3.266184)
-07.04.24 22:29:47.640  ### WARNING object 'objects\cinematics\texture_camera\texture_camera' has no bounding radius
-07.04.24 22:29:47.642  ### WARNING object 'objects\cinematics\effects\slipspace_shockwave\slipspace_shockwave' has a bounding sphere radius much less than its model (1.000000 vs 92.079803)
-07.04.24 22:29:47.644  ### WARNING object 'objects\cinematics\human\weapons\smg\smg' has no bounding radius
-07.04.24 22:29:47.645  ### WARNING physics model 'scenarios\objects\special\cooke_cutter_cylinder\cooke_cutter_cylinder' couldn't resolve material 'large_dias' (''), using default material
-07.04.24 22:29:48.426  ### WARNING model 'objects\characters\marine\crewman\crewman' material 'helmet' ('') couldn't find a global material named 'helmet'
-07.04.24 22:29:48.426  ### WARNING model 'objects\characters\marine\crewman\crewman' collision model region 'helmet' has no corresponding model region (will not be collideable)
-07.04.24 22:29:48.573  sound 'sound_remastered\weapons\impacts_riccs\bullet_impact_energy' maximum gain is too large: 3.00dB, should be <= 0.0dB
-07.04.24 22:29:48.573  sound 'sound_remastered\weapons\impacts_riccs\bullet_impact_energy' gain bounds clamped to: [-3.00dB, 0.00dB]
-07.04.24 22:29:48.578  sound 'sound_remastered\weapons\impacts_riccs\bullet_flyby_short' maximum gain is too large: 1.00dB, should be <= 0.0dB
-07.04.24 22:29:48.578  sound 'sound_remastered\weapons\impacts_riccs\bullet_flyby_short' gain bounds clamped to: [-3.00dB, 0.00dB]
-07.04.24 22:29:48.585  ### WARNING sound 'sound_remastered\materials\particles\shell_casings\concrete\browning' last promotion rule 2 has a maximum play count of 3, resetting to 0
-07.04.24 22:29:48.598  sound 'sound\vehicles\scorpion\scorpion_projectile_up' maximum gain is too large: 3.00dB, should be <= 0.0dB
-07.04.24 22:29:48.598  sound 'sound\vehicles\scorpion\scorpion_projectile_up' gain bounds clamped to: [-3.00dB, 0.00dB]
-07.04.24 22:29:48.639  ### WARNING physics model 'objects\vehicles\phantom\phantom' couldn't resolve material 'gravity_lift' (''), using default material
-07.04.24 22:29:48.639  ### WARNING physics model 'objects\vehicles\phantom\phantom' couldn't resolve material 'gravity_lift_brake' (''), using default material
-07.04.24 22:29:48.640  ### WARNING physics model 'objects\vehicles\phantom\phantom' couldn't resolve material 'special_material' (''), using default material
-07.04.24 22:29:48.640  ### WARNING physics model 'objects\vehicles\phantom\phantom' couldn't resolve material 'gravity_lift_vehicle' (''), using default material
-07.04.24 22:29:48.648  ### WARNING physics model 'phanrev\objects\vehicles\kestrel\garbage\r_wing_garbage\r_wing_garbage' couldn't resolve material 'metal_hum' (''), using default material
-07.04.24 22:29:48.652  ### WARNING physics model 'phanrev\objects\vehicles\brute_revenant\turrets\plasma_mortar\plasma_mortar' couldn't resolve material 'metal' (''), using default material
-07.04.24 22:29:48.659  ### WARNING physics model 'd_flog_flag_ports\reach\objects\vehicles\covenant\tuning_fork\tuning_fork' couldn't resolve material 'hull' (''), using default material
-07.04.24 22:29:48.659  ### WARNING physics model 'd_flog_flag_ports\reach\objects\vehicles\covenant\tuning_fork\turret\turret' couldn't resolve material 'default' (''), using default material
-07.04.24 22:29:48.660  ### WARNING physics model 'objects\vehicles\phantom_prophet\phantom_prophet' couldn't resolve material 'gravity_lift_vehicle' (''), using default material
-07.04.24 22:29:48.660  ### WARNING physics model 'objects\vehicles\phantom_prophet\phantom_prophet' couldn't resolve material 'special_material' (''), using default material
-07.04.24 22:29:48.661  ### WARNING physics model 'objects\vehicles\phantom_prophet\phantom_prophet' couldn't resolve material 'gravity_lift' (''), using default material
-07.04.24 22:29:48.661  ### WARNING physics model 'objects\vehicles\phantom_prophet\phantom_prophet' couldn't resolve material 'gravity_lift_brake' (''), using default material
-07.04.24 22:29:48.662  ### WARNING physics model 'objects\vehicles\falcon_rjs\falcon_rjs' couldn't resolve material 'falcon_bay' (''), using default material
-07.04.24 22:29:48.663  ### WARNING physics model 'objects\vehicles\falcon_rjs\falcon_rjs' couldn't resolve material 'falcon_hull' (''), using default material
-07.04.24 22:29:48.665  ### WARNING physics model 'killtrocity\objects\vehicles\warthog_raptor\warthog_raptor' couldn't resolve material 'hum_metal_bumper' (''), using default material
-07.04.24 22:29:48.665  ### WARNING physics model 'killtrocity\objects\vehicles\warthog_raptor\warthog_raptor' couldn't resolve material 'hum_metal' (''), using default material
-07.04.24 22:29:48.666  ### WARNING physics model 'killtrocity\objects\vehicles\warthog_raptor\warthog_raptor' couldn't resolve material 'hum_metal.002' (''), using default material
-07.04.24 22:29:48.666  ### WARNING physics model 'killtrocity\objects\vehicles\warthog_raptor\warthog_raptor' couldn't resolve material 'hum_metal.001' (''), using default material
-07.04.24 22:29:48.668  ### WARNING physics model 'spv3\vehicles\grizzly\grizzly' couldn't resolve material 'grizzly_dynamic.001' (''), using default material
-07.04.24 22:29:48.669  ### WARNING physics model 'spv3\vehicles\grizzly\cannon\cannon' couldn't resolve material 'grizzly_static).001' (''), using default material
-07.04.24 22:29:48.669  ### WARNING physics model 'dw3\objects\vehicles\falcon\falcon' couldn't resolve material 'metal' (''), using default material
-07.04.24 22:29:48.671  ### WARNING physics model 'dw3\objects\vehicles\falcon_uncut\chingun\chingun' couldn't resolve material 'metal' (''), using default material
-07.04.24 22:29:48.673  ### WARNING physics model 'dw3\altsierra\objects\vehicles\phantom\phantom' couldn't resolve material 'gravity_lift' (''), using default material
-07.04.24 22:29:48.674  ### WARNING physics model 'dw3\altsierra\objects\vehicles\phantom\phantom' couldn't resolve material 'gravity_lift_brake' (''), using default material
-07.04.24 22:29:48.674  ### WARNING physics model 'dw3\altsierra\objects\vehicles\phantom\phantom' couldn't resolve material 'special_material' (''), using default material
-07.04.24 22:29:48.675  ### WARNING physics model 'dw3\altsierra\objects\vehicles\phantom\phantom' couldn't resolve material 'gravity_lift_vehicle' (''), using default material
-07.04.24 22:29:48.685  ### WARNING physics model 'phanrev\objects\vehicles\prowler\brute_turret\brute_turret' couldn't resolve material 'metal' (''), using default material
-07.04.24 22:29:48.692  sound 'sound_remastered\weapons\frag_grenade\frag_bnc_dirt' maximum gain is too large: 1.00dB, should be <= 0.0dB
-07.04.24 22:29:48.692  sound 'sound_remastered\weapons\frag_grenade\frag_bnc_dirt' gain bounds clamped to: [-1.00dB, 0.00dB]
-07.04.24 22:29:48.698  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'objects\powerups\health_pack\health_pack'
-07.04.24 22:29:48.711  sound 'sound_remastered\weapons\plasma_rifle\plas_fire_mech_swtnr' minimum gain is too small: -65.00dB, should be >= -64.0dB
-07.04.24 22:29:48.711  sound 'sound_remastered\weapons\plasma_rifle\plas_fire_mech_swtnr' gain bounds clamped to: [-64.00dB, -63.00dB]
-07.04.24 22:29:48.712  sound 'sound\weapons\plasma_rifle\plasma_rifle_fire' maximum gain is too large: 1.50dB, should be <= 0.0dB
-07.04.24 22:29:48.713  sound 'sound\weapons\plasma_rifle\plasma_rifle_fire' gain bounds clamped to: [-1.50dB, 0.00dB]
-07.04.24 22:29:48.720  sound 'sound_remastered\weapons\impacts_riccs\bullet_flyby_medium' maximum gain is too large: 1.00dB, should be <= 0.0dB
-07.04.24 22:29:48.720  sound 'sound_remastered\weapons\impacts_riccs\bullet_flyby_medium' gain bounds clamped to: [-3.00dB, 0.00dB]
-07.04.24 22:29:48.723  ### WARNING sound 'sound_remastered\materials\particles\shell_casings\concrete\308' last promotion rule 1 has a maximum play count of 3, resetting to 0
-07.04.24 22:29:48.724  ### WARNING sound 'sound_remastered\materials\particles\shell_casings\dirt\308' promotion rules do not reference all pitch ranges
-07.04.24 22:29:48.736  sound 'sound_remastered\weapons\impacts_riccs\bullet_flyby_long' maximum gain is too large: 1.00dB, should be <= 0.0dB
-07.04.24 22:29:48.736  sound 'sound_remastered\weapons\impacts_riccs\bullet_flyby_long' gain bounds clamped to: [-3.00dB, 0.00dB]
-07.04.24 22:29:48.738  ### WARNING sound 'sound_remastered\materials\particles\shell_casings\concrete\50cal' last promotion rule 2 has a maximum play count of 5, resetting to 0
-07.04.24 22:29:48.745  ### WARNING sound 'sound_remastered\materials\particles\shell_casings\concrete\shotgun' last promotion rule 0 has a maximum play count of 4, resetting to 0
-07.04.24 22:29:48.763  sound 'sound\weapons\energy_sword\sword_impact_character' maximum gain is too large: 2.00dB, should be <= 0.0dB
-07.04.24 22:29:48.763  sound 'sound\weapons\energy_sword\sword_impact_character' gain bounds clamped to: [-2.00dB, 0.00dB]
-07.04.24 22:29:48.769  ### WARNING model 'objects\weapons\zoephie\infinite_weapons\objects\weapons\rifle\vk78\vk78' collision model node counts don't match (will not be collideable)
-07.04.24 22:29:48.770  ### WARNING model 'objects\weapons\zoephie\infinite_weapons\objects\weapons\rifle\pluse_carbine\pluse_carbine' animation graph node graph doesn't match at #1 'barrel'/'rod_left' (will not animate)
-07.04.24 22:29:48.779  ### WARNING model 'objects\weapons\zoephie\halo_4\rifle\storm_lmg\storm_lmg' collision model region 'gun' has no corresponding model region (will not be collideable)
-07.04.24 22:29:48.782  ### WARNING model 'objects\weapons\zoephie\halo_reach\weapons\support_high\plasma_launcher\plasma_launcher' collision model node counts don't match (will not be collideable)
-07.04.24 22:29:48.798  ### WARNING model 'spv3\weapons\assault_rifle\assault_rifle' collision model region 'gun' has no corresponding model region (will not be collideable)
-07.04.24 22:29:48.799  ### WARNING model 'spv3\weapons\battle_rifle\battle_rifle' collision model region 'gun' has no corresponding model region (will not be collideable)
-07.04.24 22:29:48.801  ### WARNING model 'spv3\weapons\brute_shot\brute_shot' collision model region 'gun' has no corresponding model region (will not be collideable)
-07.04.24 22:29:48.803  ### WARNING model 'spv3\weapons\focus_rifle\focus_rifle' collision model region 'standard' has no corresponding model region (will not be collideable)
-07.04.24 22:29:48.806  ### WARNING model 'spv3\weapons\hunter_cannon\hunter_cannon' collision model node counts don't match (will not be collideable)
-07.04.24 22:29:48.809  ### WARNING model 'spv3\weapons\needler\needler' collision model node counts don't match (will not be collideable)
-07.04.24 22:29:48.810  ### WARNING model 'spv3\weapons\needler\needler' animation graph node counts don't match (will not animate)
-07.04.24 22:29:48.811  ### WARNING model 'spv3\weapons\particle_carbine\particle_carbine' collision model region 'gun' has no corresponding model region (will not be collideable)
-07.04.24 22:29:48.812  ### WARNING model 'spv3\weapons\piercer\piercer' collision model region 'gun' has no corresponding model region (will not be collideable)
-07.04.24 22:29:48.814  ### WARNING object 'spv3\weapons\piercer\spike' has no bounding radius
-07.04.24 22:29:48.816  ### WARNING model 'spv3\weapons\pistol\pistol' collision model region 'gun' has no corresponding model region (will not be collideable)
-07.04.24 22:29:48.820  ### WARNING model 'spv3\weapons\plasma_pistol\plasma_pistol' collision model region 'standard' has no corresponding model region (will not be collideable)
-07.04.24 22:29:48.821  ### WARNING model 'spv3\weapons\plasma_pistol_brute\plasma_pistol_brute' collision model region 'standard' has no corresponding model region (will not be collideable)
-07.04.24 22:29:48.825  ### WARNING model 'spv3\weapons\rocket_launcher\rocket_launcher' collision model region 'standard' has no corresponding model region (will not be collideable)
-07.04.24 22:29:48.826  ### WARNING model 'spv3\weapons\sentinel_beam\sentinel_gun' collision model region 'gun' has no corresponding model region (will not be collideable)
-07.04.24 22:29:48.829  ### WARNING model 'spv3\weapons\sentinel_sniper_beam\sentinel_sniper_gun' collision model node counts don't match (will not be collideable)
-07.04.24 22:29:48.830  ### WARNING model 'spv3\weapons\shotgun\shotgun' collision model region 'standard' has no corresponding model region (will not be collideable)
-07.04.24 22:29:48.831  ### WARNING model 'spv3\weapons\shredder\shredder' collision model node counts don't match (will not be collideable)
-07.04.24 22:29:48.832  ### WARNING model 'spv3\weapons\shredder\shredder' animation graph node counts don't match (will not animate)
-07.04.24 22:29:48.833  ### WARNING model 'spv3\weapons\smg\smg' collision model region 'standard' has no corresponding model region (will not be collideable)
-07.04.24 22:29:48.834  ### WARNING model 'spv3\weapons\sniper_rifle\sniper_rifle' collision model region 'standard' has no corresponding model region (will not be collideable)
-07.04.24 22:29:48.835  ### WARNING model 'killtrocity\objects\weapons\battle_rifle\halo_4\tp\battle_rifle' collision model region 'gun' has no corresponding model region (will not be collideable)
-07.04.24 22:29:48.836  ### WARNING model 'objects\weapons\rifle\lasgun\lasgun' material 'metal' ('') couldn't find a global material named 'metal'
-07.04.24 22:29:48.837  ### WARNING model 'objects\powerups\assault_rifle_ammo_fixed\assault_rifle_ammo_fixed' material 'metal' ('') couldn't find a global material named 'metal'
-07.04.24 22:29:48.839  ### WARNING model 'dw3\krevil\objects\weapons\support_low\brute_shot\brute_shot' collision model region 'gun' has no corresponding model region (will not be collideable)
-07.04.24 22:29:48.887  ### WARNING model 'objects\weapons\rifle\brute_plasma_rifle\brute_plasma_rifle' collision model region 'default' has no corresponding model region (will not be collideable)
-07.04.24 22:29:48.888  ### WARNING physics model 'scenarios\objects\human\urban\air\air' couldn't resolve material 'airshader' (''), using default material
-07.04.24 22:29:48.890  ### WARNING physics model 'objects\characters\ambient_life\reach_moa\reach_moa' couldn't resolve material 'reach_moa' (''), using default material
-07.04.24 22:29:49.006  ### WARNING model 'scenarios\objects\covenant\military\scarab\scarab' material 'scarab_bloom_int' ('') couldn't find a global material named 'scarab_bloom_int'
-07.04.24 22:29:49.030  ### WARNING object 'effects\scenery\skies\human_and_cov_firing' has no bounding radius
-07.04.24 22:29:49.036  ### WARNING model 'scenarios\objects\special\cooke_cutter_cylinder\cooke_cutter_cylinder' material 'large_dias' ('') couldn't find a global material named 'large_dias'
-07.04.24 22:29:49.038  ### WARNING model 'objects\characters\marine\marine' variant 'johnson_combat' cannot find region 'arms'
-07.04.24 22:29:50.046  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'objects\weapons\rifle\smg\garbage\magazine\magazine'
-07.04.24 22:29:51.365  ### WARNING model 'objects\characters\brute\brute' variant 'tartarus' region 'hair' cannot find permutation 'tartarus'
-07.04.24 22:29:51.366  ### WARNING model 'objects\characters\brute\brute' variant 'skull' region 'hair' cannot find permutation 'tartarus'
-07.04.24 22:29:51.541  damage info postprocess: model 'objects\vehicles\warthog\warthog' couldn't find a physics model constraint with name: hinge02
-07.04.24 22:29:51.557  ### WARNING model 'phanrev\objects\vehicles\brute_revenant\brute_revenant' variant 'default' region 'back_left' permutation 'base' state 'destroyed' cannot find permutation 'destroyed'
-07.04.24 22:29:51.558  ### WARNING model 'phanrev\objects\vehicles\brute_revenant\brute_revenant' variant 'default' region 'back_right' permutation 'base' state 'destroyed' cannot find permutation 'destroyed'
-07.04.24 22:29:51.558  ### ERROR model 'phanrev\objects\vehicles\brute_revenant\brute_revenant' variant 'default' region 'front_right' permutation 'base' has duplicate state 'major damage'
-07.04.24 22:29:51.558  ### WARNING model 'phanrev\objects\vehicles\brute_revenant\brute_revenant' variant 'damaged' region 'back_left' permutation 'base' state 'destroyed' cannot find permutation 'destroyed'
-07.04.24 22:29:51.559  ### WARNING model 'phanrev\objects\vehicles\brute_revenant\brute_revenant' variant 'damaged' region 'back_right' permutation 'base' state 'destroyed' cannot find permutation 'destroyed'
-07.04.24 22:29:51.560  ### WARNING model 'phanrev\objects\vehicles\brute_revenant\brute_revenant' variant 'multiplayer' region 'back_left' permutation 'base' state 'destroyed' cannot find permutation 'destroyed'
-07.04.24 22:29:51.561  ### WARNING model 'phanrev\objects\vehicles\brute_revenant\turrets\plasma_mortar\brute_mortar' variant 'default' region 'turret' permutation 'base' state 'destroyed' cannot find permutation 'destroyed'
-07.04.24 22:29:51.561  ### WARNING model 'phanrev\objects\vehicles\brute_revenant\turrets\plasma_mortar\brute_mortar' variant 'default' region 'turret_gun' permutation 'base' state 'medium damage' cannot find permutation 'medium'
-07.04.24 22:29:51.562  ### WARNING model 'phanrev\objects\vehicles\brute_revenant\turrets\plasma_mortar\brute_mortar' variant 'default' region 'turret_gun' permutation 'base' state 'major damage' cannot find permutation 'major'
-07.04.24 22:29:51.562  ### WARNING model 'phanrev\objects\vehicles\brute_revenant\turrets\plasma_mortar\brute_mortar' variant 'default' region 'turret_gun' permutation 'base' state 'destroyed' cannot find permutation 'destroyed'
-07.04.24 22:29:51.563  ### WARNING model 'phanrev\objects\vehicles\brute_revenant\turrets\plasma_mortar\brute_mortar' variant 'damaged' region 'turret' permutation 'base' state 'destroyed' cannot find permutation 'destroyed'
-07.04.24 22:29:51.563  ### WARNING model 'phanrev\objects\vehicles\brute_revenant\turrets\plasma_mortar\brute_mortar' variant 'damaged' region 'turret_gun' permutation 'base' state 'medium damage' cannot find permutation 'medium'
-07.04.24 22:29:51.564  ### WARNING model 'phanrev\objects\vehicles\brute_revenant\turrets\plasma_mortar\brute_mortar' variant 'damaged' region 'turret_gun' permutation 'base' state 'major damage' cannot find permutation 'major'
-07.04.24 22:29:51.564  ### WARNING model 'phanrev\objects\vehicles\brute_revenant\turrets\plasma_mortar\brute_mortar' variant 'damaged' region 'turret_gun' permutation 'base' state 'destroyed' cannot find permutation 'destroyed'
-07.04.24 22:29:51.567  ### WARNING model 'phanrev\objects\vehicles\brute_wraith\brute_mortar\brute_mortar' collision model region 'backhatch' has no corresponding model region (will not be collideable)
-07.04.24 22:29:51.567  ### WARNING model 'phanrev\objects\vehicles\brute_wraith\brute_mortar\brute_mortar' variant 'default' region 'turret' permutation 'base' state 'minor damage' cannot find permutation 'minor'
-07.04.24 22:29:51.568  ### WARNING model 'phanrev\objects\vehicles\brute_wraith\brute_mortar\brute_mortar' variant 'default' region 'turret' permutation 'base' state 'medium damage' cannot find permutation 'medium'
-07.04.24 22:29:51.568  ### WARNING model 'phanrev\objects\vehicles\brute_wraith\brute_mortar\brute_mortar' variant 'default' region 'turret' permutation 'base' state 'major damage' cannot find permutation 'major'
-07.04.24 22:29:51.569  ### WARNING model 'phanrev\objects\vehicles\brute_wraith\brute_mortar\brute_mortar' variant 'default' region 'turret' permutation 'base' state 'destroyed' cannot find permutation 'destroyed'
-07.04.24 22:29:51.570  ### WARNING model 'phanrev\objects\vehicles\brute_wraith\brute_mortar\brute_mortar' variant 'default' cannot find region 'backhatch'
-07.04.24 22:29:51.570  ### WARNING model 'phanrev\objects\vehicles\brute_wraith\brute_mortar\brute_mortar' variant 'damaged' region 'turret' permutation 'base' state 'minor damage' cannot find permutation 'minor'
-07.04.24 22:29:51.571  ### WARNING model 'phanrev\objects\vehicles\brute_wraith\brute_mortar\brute_mortar' variant 'damaged' region 'turret' permutation 'base' state 'medium damage' cannot find permutation 'medium'
-07.04.24 22:29:51.571  ### WARNING model 'phanrev\objects\vehicles\brute_wraith\brute_mortar\brute_mortar' variant 'damaged' region 'turret' permutation 'base' state 'major damage' cannot find permutation 'major'
-07.04.24 22:29:51.572  ### WARNING model 'phanrev\objects\vehicles\brute_wraith\brute_mortar\brute_mortar' variant 'damaged' region 'turret' permutation 'base' state 'destroyed' cannot find permutation 'destroyed'
-07.04.24 22:29:51.572  ### WARNING model 'phanrev\objects\vehicles\brute_wraith\brute_mortar\brute_mortar' variant 'damaged' cannot find region 'backhatch'
-07.04.24 22:29:51.574  ### WARNING model 'phanrev\objects\vehicles\brute_banshee\brute_banshee' variant 'heretic' region 'lights' permutation 'heretic' state 'major damage' cannot find permutation 'major'
-07.04.24 22:29:51.574  ### WARNING model 'phanrev\objects\vehicles\brute_banshee\brute_banshee' variant 'heretic' region 'lights' permutation 'heretic' state 'medium damage' cannot find permutation 'medium'
-07.04.24 22:29:51.577  ### WARNING model 'd_flog_flag_ports\reach\objects\vehicles\covenant\tuning_fork\tuning_fork' material 'hull' ('') couldn't find a global material named 'hull'
-07.04.24 22:29:51.578  ### WARNING model 'objects\vehicles\phantom_prophet\phantom_prophet' does not define material type for collision material 'hard_metal_solid_cov_scarab_int'
-07.04.24 22:29:51.578  ### WARNING model 'objects\vehicles\phantom_prophet\phantom_prophet' does not define material type for collision material 'hard_metal_solid_cov_scarab_int'
-07.04.24 22:29:51.579  ### WARNING model 'objects\vehicles\phantom_prophet\phantom_prophet' does not define material type for collision material 'hard_metal_solid_cov_scarab_int'
-07.04.24 22:29:51.580  ### WARNING model 'objects\vehicles\phantom_prophet\phantom_prophet' does not define material type for collision material 'hard_metal_solid_cov_scarab_int'
-07.04.24 22:29:51.580  ### WARNING model 'objects\vehicles\phantom_prophet\phantom_prophet' does not define material type for collision material 'hard_metal_solid_cov_scarab_int'
-07.04.24 22:29:51.581  ### WARNING model 'objects\vehicles\phantom_prophet\phantom_prophet' does not define material type for collision material 'hard_metal_solid_cov_scarab_int'
-07.04.24 22:29:51.582  ### WARNING model 'objects\vehicles\falcon_rjs\falcon_rjs' material 'falcon_bay' ('') couldn't find a global material named 'falcon_bay'
-07.04.24 22:29:51.582  ### WARNING model 'objects\vehicles\falcon_rjs\falcon_rjs' material 'falcon_hull' ('') couldn't find a global material named 'falcon_hull'
-07.04.24 22:29:51.583  damage info postprocess: model 'killtrocity\objects\vehicles\warthog_raptor\warthog_raptor' couldn't find a physics model constraint with name: hinge01
-07.04.24 22:29:51.584  damage info postprocess: model 'killtrocity\objects\vehicles\warthog_raptor\warthog_raptor' couldn't find a physics model constraint with name: hinge02
-07.04.24 22:29:51.585  ### WARNING model 'spv3\vehicles\grizzly\cannon\cannon' material 'default' ('') couldn't find a global material named 'default'
-07.04.24 22:29:51.585  ### WARNING model 'spv3\vehicles\grizzly\cannon\cannon' variant 'default' region 'turret' permutation 'base' state 'medium damage' cannot find permutation 'medium'
-07.04.24 22:29:51.585  ### WARNING model 'spv3\vehicles\grizzly\cannon\cannon' variant 'default' region 'turret' permutation 'base' state 'major damage' cannot find permutation 'major'
-07.04.24 22:29:51.586  ### WARNING model 'spv3\vehicles\grizzly\cannon\cannon' variant 'default' region 'gun' permutation 'base' state 'medium damage' cannot find permutation 'medium'
-07.04.24 22:29:51.587  ### WARNING model 'spv3\vehicles\grizzly\cannon\cannon' variant 'default' region 'gun' permutation 'base' state 'major damage' cannot find permutation 'major'
-07.04.24 22:29:51.587  ### WARNING model 'spv3\vehicles\grizzly\cannon\cannon' variant 'damaged' region 'turret' permutation 'base' state 'medium damage' cannot find permutation 'medium'
-07.04.24 22:29:51.588  ### WARNING model 'spv3\vehicles\grizzly\cannon\cannon' variant 'damaged' region 'turret' permutation 'base' state 'major damage' cannot find permutation 'major'
-07.04.24 22:29:51.588  ### WARNING model 'spv3\vehicles\grizzly\cannon\cannon' variant 'damaged' region 'gun' permutation 'base' state 'medium damage' cannot find permutation 'medium'
-07.04.24 22:29:51.588  ### WARNING model 'spv3\vehicles\grizzly\cannon\cannon' variant 'damaged' region 'gun' permutation 'base' state 'major damage' cannot find permutation 'major'
-07.04.24 22:29:51.590  ### WARNING model 'dw3\objects\vehicles\falcon\falcon' material 'falcon_accessorys' ('') couldn't find a global material named 'falcon_accessorys'
-07.04.24 22:29:51.590  ### WARNING model 'dw3\objects\vehicles\falcon\falcon' material 'falcon_glass' ('') couldn't find a global material named 'falcon_glass'
-07.04.24 22:29:51.591  ### WARNING model 'dw3\objects\vehicles\falcon\falcon' material 'falcon_metal_tiled' ('') couldn't find a global material named 'falcon_metal_tiled'
-07.04.24 22:29:51.591  ### WARNING model 'dw3\objects\vehicles\falcon\falcon' material 'falcon_exterior' ('') couldn't find a global material named 'falcon_exterior'
-07.04.24 22:29:51.592  ### WARNING model 'dw3\objects\vehicles\falcon\falcon' material 'falcon_interior' ('') couldn't find a global material named 'falcon_interior'
-07.04.24 22:29:51.593  ### WARNING model 'dw3\objects\vehicles\falcon_uncut\falcon' material 'falcon_exterior.001' ('') couldn't find a global material named 'falcon_exterior.001'
-07.04.24 22:29:51.593  ### WARNING model 'dw3\objects\vehicles\falcon_uncut\falcon' material 'falcon_interior.001' ('') couldn't find a global material named 'falcon_interior.001'
-07.04.24 22:29:51.593  ### WARNING model 'dw3\objects\vehicles\falcon_uncut\falcon' material 'falcon_glass' ('') couldn't find a global material named 'falcon_glass'
-07.04.24 22:29:51.594  ### WARNING model 'dw3\objects\vehicles\falcon_uncut\falcon' material 'falcon_engines' ('') couldn't find a global material named 'falcon_engines'
-07.04.24 22:29:51.594  ### WARNING model 'dw3\objects\vehicles\falcon_uncut\falcon' material 'falcon_ext_acc' ('') couldn't find a global material named 'falcon_ext_acc'
-07.04.24 22:29:51.595  ### WARNING model 'dw3\objects\vehicles\falcon_uncut\falcon' material 'falcon_seats' ('') couldn't find a global material named 'falcon_seats'
-07.04.24 22:29:51.595  ### WARNING model 'dw3\objects\vehicles\falcon_uncut\falcon' material 'falcon_cargo_net' ('') couldn't find a global material named 'falcon_cargo_net'
-07.04.24 22:29:51.596  ### WARNING model 'dw3\objects\vehicles\falcon_uncut\falcon' material 'pelican_hull' ('') couldn't find a global material named 'pelican_hull'
-07.04.24 22:29:51.597  ### WARNING model 'dw3\objects\vehicles\falcon_uncut\chingun\chingun' material 'pelican_hull' ('') couldn't find a global material named 'pelican_hull'
-07.04.24 22:29:51.598  ### WARNING model 'objects\vehicles\civilian\uberchassis\uberchassis_tire\uberchassis_tire' material 'uberchassis_wheels_dead' ('') couldn't find a global material named 'uberchassis_wheels_dead'
-07.04.24 22:29:51.599  ### WARNING model 'objects\vehicles\civilian\uberchassis\uberchassis_tire\uberchassis_tire' collision model region 'tire' has no corresponding model region (will not be collideable)
-07.04.24 22:29:51.602  ### WARNING model 'phanrev\objects\vehicles\brute_chopper\brute_chopper' variant 'default' region 'hull' permutation 'base' state 'medium damage' cannot find permutation 'medium'
-07.04.24 22:29:51.602  ### WARNING model 'phanrev\objects\vehicles\brute_chopper\brute_chopper' variant 'default' region 'hull' permutation 'base' state 'major damage' cannot find permutation 'major'
-07.04.24 22:29:51.603  ### WARNING model 'phanrev\objects\vehicles\brute_chopper\brute_chopper' variant 'default' region 'hull' permutation 'base' state 'destroyed' cannot find permutation 'destroyed'
-07.04.24 22:29:51.603  ### WARNING model 'phanrev\objects\vehicles\brute_chopper\brute_chopper' variant 'default' region 'seat' permutation 'base' state 'medium damage' cannot find permutation 'medium'
-07.04.24 22:29:51.604  ### WARNING model 'phanrev\objects\vehicles\brute_chopper\brute_chopper' variant 'default' region 'seat' permutation 'base' state 'major damage' cannot find permutation 'major'
-07.04.24 22:29:51.604  ### WARNING model 'phanrev\objects\vehicles\brute_chopper\brute_chopper' variant 'default' region 'seat' permutation 'base' state 'destroyed' cannot find permutation 'destroyed'
-07.04.24 22:29:51.605  ### WARNING model 'phanrev\objects\vehicles\brute_chopper\brute_chopper' variant 'default' region 'l_engine' permutation 'base' state 'medium damage' cannot find permutation 'medium'
-07.04.24 22:29:51.605  ### WARNING model 'phanrev\objects\vehicles\brute_chopper\brute_chopper' variant 'default' region 'l_engine' permutation 'base' state 'major damage' cannot find permutation 'major'
-07.04.24 22:29:51.606  ### WARNING model 'phanrev\objects\vehicles\brute_chopper\brute_chopper' variant 'default' region 'l_engine' permutation 'base' state 'destroyed' cannot find permutation 'destroyed'
-07.04.24 22:29:51.606  ### WARNING model 'phanrev\objects\vehicles\brute_chopper\brute_chopper' variant 'default' region 'r_engine' permutation 'base' state 'medium damage' cannot find permutation 'medium'
-07.04.24 22:29:51.607  ### WARNING model 'phanrev\objects\vehicles\brute_chopper\brute_chopper' variant 'default' region 'r_engine' permutation 'base' state 'major damage' cannot find permutation 'major'
-07.04.24 22:29:51.607  ### WARNING model 'phanrev\objects\vehicles\brute_chopper\brute_chopper' variant 'default' region 'r_engine' permutation 'base' state 'destroyed' cannot find permutation 'destroyed'
-07.04.24 22:29:51.608  ### WARNING model 'phanrev\objects\vehicles\brute_chopper\brute_chopper' variant 'default' region 'l_gun' permutation 'base' state 'medium damage' cannot find permutation 'medium'
-07.04.24 22:29:51.608  ### WARNING model 'phanrev\objects\vehicles\brute_chopper\brute_chopper' variant 'default' region 'l_gun' permutation 'base' state 'major damage' cannot find permutation 'major'
-07.04.24 22:29:51.608  ### WARNING model 'phanrev\objects\vehicles\brute_chopper\brute_chopper' variant 'default' region 'l_gun' permutation 'base' state 'destroyed' cannot find permutation 'destroyed'
-07.04.24 22:29:51.609  ### WARNING model 'phanrev\objects\vehicles\brute_chopper\brute_chopper' variant 'default' region 'r_gun' permutation 'base' state 'medium damage' cannot find permutation 'medium'
-07.04.24 22:29:51.610  ### WARNING model 'phanrev\objects\vehicles\brute_chopper\brute_chopper' variant 'default' region 'r_gun' permutation 'base' state 'major damage' cannot find permutation 'major'
-07.04.24 22:29:51.611  ### WARNING model 'phanrev\objects\vehicles\brute_chopper\brute_chopper' variant 'default' region 'r_gun' permutation 'base' state 'destroyed' cannot find permutation 'destroyed'
-07.04.24 22:29:51.611  ### WARNING model 'phanrev\objects\vehicles\brute_chopper\brute_chopper' variant 'default' region 'l_wheel' permutation 'base' state 'medium damage' cannot find permutation 'medium'
-07.04.24 22:29:51.611  ### WARNING model 'phanrev\objects\vehicles\brute_chopper\brute_chopper' variant 'default' region 'l_wheel' permutation 'base' state 'major damage' cannot find permutation 'major'
-07.04.24 22:29:51.612  ### WARNING model 'phanrev\objects\vehicles\brute_chopper\brute_chopper' variant 'default' region 'l_wheel' permutation 'base' state 'destroyed' cannot find permutation 'destroyed'
-07.04.24 22:29:51.612  ### WARNING model 'phanrev\objects\vehicles\brute_chopper\brute_chopper' variant 'default' region 'r_wheel' permutation 'base' state 'medium damage' cannot find permutation 'medium'
-07.04.24 22:29:51.613  ### WARNING model 'phanrev\objects\vehicles\brute_chopper\brute_chopper' variant 'default' region 'r_wheel' permutation 'base' state 'major damage' cannot find permutation 'major'
-07.04.24 22:29:51.613  ### WARNING model 'phanrev\objects\vehicles\brute_chopper\brute_chopper' variant 'default' region 'r_wheel' permutation 'base' state 'destroyed' cannot find permutation 'destroyed'
-07.04.24 22:29:51.614  ### WARNING model 'phanrev\objects\vehicles\prowler\prowler' material 'right_eng' ('') couldn't find a global material named 'right_eng'
-07.04.24 22:29:51.615  ### WARNING model 'phanrev\objects\vehicles\prowler\prowler' material 'front_hull' ('') couldn't find a global material named 'front_hull'
-07.04.24 22:29:51.615  ### WARNING model 'phanrev\objects\vehicles\prowler\prowler' material 'rear_hull' ('') couldn't find a global material named 'rear_hull'
-07.04.24 22:29:51.616  ### WARNING model 'phanrev\objects\vehicles\prowler\prowler' material 'left_eng' ('') couldn't find a global material named 'left_eng'
-07.04.24 22:29:51.616  ### WARNING model 'phanrev\objects\vehicles\prowler\prowler' material 'interior' ('') couldn't find a global material named 'interior'
-07.04.24 22:29:51.617  ### WARNING model 'phanrev\objects\vehicles\prowler\prowler' variant 'default' region 'front_hull' permutation 'base' state 'minor damage' cannot find permutation 'minor'
-07.04.24 22:29:51.617  ### WARNING model 'phanrev\objects\vehicles\prowler\prowler' variant 'default' region 'front_hull' permutation 'base' state 'medium damage' cannot find permutation 'medium'
-07.04.24 22:29:51.618  ### WARNING model 'phanrev\objects\vehicles\prowler\prowler' variant 'default' region 'front_hull' permutation 'base' state 'major damage' cannot find permutation 'major'
-07.04.24 22:29:51.618  ### WARNING model 'phanrev\objects\vehicles\prowler\prowler' variant 'default' region 'rear_hull' permutation 'base' state 'minor damage' cannot find permutation 'minor'
-07.04.24 22:29:51.620  ### WARNING model 'phanrev\objects\vehicles\prowler\prowler' variant 'default' region 'rear_hull' permutation 'base' state 'medium damage' cannot find permutation 'medium'
-07.04.24 22:29:51.620  ### WARNING model 'phanrev\objects\vehicles\prowler\prowler' variant 'default' region 'rear_hull' permutation 'base' state 'major damage' cannot find permutation 'major'
-07.04.24 22:29:51.621  ### WARNING model 'phanrev\objects\vehicles\prowler\prowler' variant 'default' region 'rear_hull' permutation 'base' state 'destroyed' cannot find permutation 'destroyed'
-07.04.24 22:29:51.621  ### WARNING model 'phanrev\objects\vehicles\prowler\prowler' variant 'default' region 'left_engine' permutation 'base' state 'minor damage' cannot find permutation 'minor'
-07.04.24 22:29:51.622  ### WARNING model 'phanrev\objects\vehicles\prowler\prowler' variant 'default' region 'left_engine' permutation 'base' state 'medium damage' cannot find permutation 'medium'
-07.04.24 22:29:51.623  ### WARNING model 'phanrev\objects\vehicles\prowler\prowler' variant 'default' region 'left_engine' permutation 'base' state 'major damage' cannot find permutation 'major'
-07.04.24 22:29:51.623  ### WARNING model 'phanrev\objects\vehicles\prowler\prowler' variant 'default' region 'left_engine' permutation 'base' state 'destroyed' cannot find permutation 'destroyed'
-07.04.24 22:29:51.624  ### WARNING model 'phanrev\objects\vehicles\prowler\prowler' variant 'default' region 'right_engine' permutation 'base' state 'minor damage' cannot find permutation 'minor'
-07.04.24 22:29:51.624  ### WARNING model 'phanrev\objects\vehicles\prowler\prowler' variant 'default' region 'right_engine' permutation 'base' state 'medium damage' cannot find permutation 'medium'
-07.04.24 22:29:51.625  ### WARNING model 'phanrev\objects\vehicles\prowler\prowler' variant 'default' region 'right_engine' permutation 'base' state 'major damage' cannot find permutation 'major'
-07.04.24 22:29:51.625  ### WARNING model 'phanrev\objects\vehicles\prowler\prowler' variant 'default' region 'right_engine' permutation 'base' state 'destroyed' cannot find permutation 'destroyed'
-07.04.24 22:29:51.626  ### WARNING model 'phanrev\objects\vehicles\prowler\prowler' variant 'default' region 'cockpit' permutation 'base' state 'standard' cannot find permutation 'minor'
-07.04.24 22:29:51.626  ### WARNING model 'phanrev\objects\vehicles\prowler\prowler' variant 'default' region 'cockpit' permutation 'base' state 'medium damage' cannot find permutation 'medium'
-07.04.24 22:29:51.626  ### WARNING model 'phanrev\objects\vehicles\prowler\prowler' variant 'default' region 'cockpit' permutation 'base' state 'major damage' cannot find permutation 'major'
-07.04.24 22:29:51.628  ### WARNING model 'phanrev\objects\vehicles\prowler\brute_turret\brute_turret' variant 'default' cannot find region 'turret'
-07.04.24 22:29:51.629  ### WARNING model 'phanrev\objects\vehicles\prowler\brute_turret\brute_turret' variant 'damaged' cannot find region 'turret'
-07.04.24 22:29:51.629  ### WARNING model 'phanrev\objects\vehicles\brute_chopper_t\brute_chopper_t' variant 'default' region 'hull' permutation 'base' state 'medium damage' cannot find permutation 'medium'
-07.04.24 22:29:51.630  ### WARNING model 'phanrev\objects\vehicles\brute_chopper_t\brute_chopper_t' variant 'default' region 'hull' permutation 'base' state 'major damage' cannot find permutation 'major'
-07.04.24 22:29:51.630  ### WARNING model 'phanrev\objects\vehicles\brute_chopper_t\brute_chopper_t' variant 'default' region 'hull' permutation 'base' state 'destroyed' cannot find permutation 'destroyed'
-07.04.24 22:29:51.631  ### WARNING model 'phanrev\objects\vehicles\brute_chopper_t\brute_chopper_t' variant 'default' region 'seat' permutation 'base' state 'medium damage' cannot find permutation 'medium'
-07.04.24 22:29:51.631  ### WARNING model 'phanrev\objects\vehicles\brute_chopper_t\brute_chopper_t' variant 'default' region 'seat' permutation 'base' state 'major damage' cannot find permutation 'major'
-07.04.24 22:29:51.632  ### WARNING model 'phanrev\objects\vehicles\brute_chopper_t\brute_chopper_t' variant 'default' region 'seat' permutation 'base' state 'destroyed' cannot find permutation 'destroyed'
-07.04.24 22:29:51.632  ### WARNING model 'phanrev\objects\vehicles\brute_chopper_t\brute_chopper_t' variant 'default' region 'l_engine' permutation 'base' state 'medium damage' cannot find permutation 'medium'
-07.04.24 22:29:51.633  ### WARNING model 'phanrev\objects\vehicles\brute_chopper_t\brute_chopper_t' variant 'default' region 'l_engine' permutation 'base' state 'major damage' cannot find permutation 'major'
-07.04.24 22:29:51.633  ### WARNING model 'phanrev\objects\vehicles\brute_chopper_t\brute_chopper_t' variant 'default' region 'l_engine' permutation 'base' state 'destroyed' cannot find permutation 'destroyed'
-07.04.24 22:29:51.634  ### WARNING model 'phanrev\objects\vehicles\brute_chopper_t\brute_chopper_t' variant 'default' region 'r_engine' permutation 'base' state 'medium damage' cannot find permutation 'medium'
-07.04.24 22:29:51.634  ### WARNING model 'phanrev\objects\vehicles\brute_chopper_t\brute_chopper_t' variant 'default' region 'r_engine' permutation 'base' state 'major damage' cannot find permutation 'major'
-07.04.24 22:29:51.635  ### WARNING model 'phanrev\objects\vehicles\brute_chopper_t\brute_chopper_t' variant 'default' region 'r_engine' permutation 'base' state 'destroyed' cannot find permutation 'destroyed'
-07.04.24 22:29:51.635  ### WARNING model 'phanrev\objects\vehicles\brute_chopper_t\brute_chopper_t' variant 'default' region 'l_gun' permutation 'base' state 'medium damage' cannot find permutation 'medium'
-07.04.24 22:29:51.636  ### WARNING model 'phanrev\objects\vehicles\brute_chopper_t\brute_chopper_t' variant 'default' region 'l_gun' permutation 'base' state 'major damage' cannot find permutation 'major'
-07.04.24 22:29:51.636  ### WARNING model 'phanrev\objects\vehicles\brute_chopper_t\brute_chopper_t' variant 'default' region 'l_gun' permutation 'base' state 'destroyed' cannot find permutation 'destroyed'
-07.04.24 22:29:51.637  ### WARNING model 'phanrev\objects\vehicles\brute_chopper_t\brute_chopper_t' variant 'default' region 'r_gun' permutation 'base' state 'medium damage' cannot find permutation 'medium'
-07.04.24 22:29:51.637  ### WARNING model 'phanrev\objects\vehicles\brute_chopper_t\brute_chopper_t' variant 'default' region 'r_gun' permutation 'base' state 'major damage' cannot find permutation 'major'
-07.04.24 22:29:51.638  ### WARNING model 'phanrev\objects\vehicles\brute_chopper_t\brute_chopper_t' variant 'default' region 'r_gun' permutation 'base' state 'destroyed' cannot find permutation 'destroyed'
-07.04.24 22:29:51.638  ### WARNING model 'phanrev\objects\vehicles\brute_chopper_t\brute_chopper_t' variant 'default' region 'l_wheel' permutation 'base' state 'medium damage' cannot find permutation 'medium'
-07.04.24 22:29:51.639  ### WARNING model 'phanrev\objects\vehicles\brute_chopper_t\brute_chopper_t' variant 'default' region 'l_wheel' permutation 'base' state 'major damage' cannot find permutation 'major'
-07.04.24 22:29:51.639  ### WARNING model 'phanrev\objects\vehicles\brute_chopper_t\brute_chopper_t' variant 'default' region 'l_wheel' permutation 'base' state 'destroyed' cannot find permutation 'destroyed'
-07.04.24 22:29:51.640  ### WARNING model 'phanrev\objects\vehicles\brute_chopper_t\brute_chopper_t' variant 'default' region 'r_wheel' permutation 'base' state 'medium damage' cannot find permutation 'medium'
-07.04.24 22:29:51.640  ### WARNING model 'phanrev\objects\vehicles\brute_chopper_t\brute_chopper_t' variant 'default' region 'r_wheel' permutation 'base' state 'major damage' cannot find permutation 'major'
-07.04.24 22:29:51.641  ### WARNING model 'phanrev\objects\vehicles\brute_chopper_t\brute_chopper_t' variant 'default' region 'r_wheel' permutation 'base' state 'destroyed' cannot find permutation 'destroyed'
-07.04.24 22:29:51.643  tags: missing tag (ffffffff)objects\weapons\rifle\smg\damage_effects\smg_empty.damage_effect replaced by (feef1d7a)globals\global_missing_damage_effect.damage_effect
-07.04.24 22:29:51.647  ### WARNING model 'objects\weapons\zoephie\infinite_weapons\objects\weapons\rifle\ma40\ma40' collision model region 'gun' has no corresponding model region (will not be collideable)
-07.04.24 22:29:51.647  ### WARNING model 'objects\weapons\zoephie\infinite_weapons\objects\weapons\rifle\ma40\ma40' physics model node counts don't match (will not be physical)
-07.04.24 22:29:51.649  ### WARNING model 'objects\weapons\melee\gravity_hammer_h3\gravity_hammer_h3' animation graph node counts don't match (will not animate)
-07.04.24 22:29:51.650  ### WARNING model 'dragonsoul\objects\weapons\support_high\spartan_laser\spartan_laser' level of detail distances are incorrect (must be in descending order)
-07.04.24 22:29:51.652  tags: missing tag (ffffffff)objects\weapons\support_low\brute_shot\damage_effects\trigger.damage_effect replaced by (feef1d7a)globals\global_missing_damage_effect.damage_effect
-07.04.24 22:29:51.659  ### WARNING model 'dw3\objects\weapons\fixed\plasma_cannon\plasma_cannon_dw3' collision model node counts don't match (will not be collideable)
-07.04.24 22:29:51.660  ### WARNING model 'dw3\objects\weapons\fixed\plasma_cannon\plasma_cannon_dw3' animation graph node counts don't match (will not animate)
-07.04.24 22:29:51.661  ### WARNING model 'dw3\objects\weapons\fixed\plasma_cannon\plasma_cannon_dw3' variant 'default' cannot find region 'barrel'
-07.04.24 22:29:51.661  ### WARNING model 'dw3\objects\weapons\fixed\plasma_cannon\plasma_cannon_dw3' variant 'default' cannot find region 'tripod'
-07.04.24 22:29:51.662  ### WARNING model 'dw3\objects\weapons\fixed\plasma_cannon\plasma_cannon_dw3' physics model node counts don't match (will not be physical)
-07.04.24 22:29:51.664  ### WARNING object 'objects\weapons\rifle\lasgun\m36_lasgun' has a bounding sphere radius much less than its model (0.175000 vs 0.318876)
-07.04.24 22:29:51.676  ### WARNING model 'objects\vehicles\civilian\uberchassis\uberchassis' variant 'destroyed' cannot find region 'wheel_fr'
-07.04.24 22:29:51.677  ### WARNING model 'objects\vehicles\civilian\uberchassis\uberchassis' variant 'destroyed' cannot find region 'wheel_fl'
-07.04.24 22:29:51.677  ### WARNING model 'objects\vehicles\civilian\uberchassis\uberchassis' variant 'destroyed' cannot find region 'wheel_bl'
-07.04.24 22:29:51.678  ### WARNING model 'objects\vehicles\civilian\uberchassis\uberchassis' variant 'destroyed' cannot find region 'wheel_br'
-07.04.24 22:29:51.730  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\covenant_carbine\bitmaps\covenant_carbine_bump
-07.04.24 22:29:51.789  fixing bitmap for DX11 (forced=default, format=r5g6b5) objects\weapons\rifle\covenant_carbine\bitmaps\covenant_carbine_switch_illum
-07.04.24 22:29:51.793  ### WARNING loading from unsupported 2D storage format: r5g6b5 from objects\weapons\rifle\covenant_carbine\bitmaps\covenant_carbine_switch_illum
-07.04.24 22:29:51.922  ### WARNING model 'objects\characters\ambient_life\reach_moa\reach_moa' material 'reach_moa_collision' ('') couldn't find a global material named 'reach_moa_collision'
-07.04.24 22:29:51.924  ### WARNING looping sound 'sound_remastered\ambience\earthcity\earthcity_ocean_ext\earthcity_ocean_ext' components 'sound_remastered\ambience\earthcity\earthcity_ocean_ext\front_speakers\loop' and 'sound_remastered\ambience\earthcity\earthcity_ocean_ext\rear_speakers\loop' permutations '|default|:amb_ocean_wind_front_lp' and '|default|:amb_ocean_wind_rear_lp' have different sample lengths (10730496 vs 11336704)
-07.04.24 22:29:51.925  ### WARNING looping_sound sound_remastered\ambience\earthcity\earthcity_ocean_ext\earthcity_ocean_ext will go out of sync
-07.04.24 22:29:51.926  ### the creature 'objects\characters\ambient_life\seagull\seagull' has no 'head' marker
-07.04.24 22:29:51.926  ### WARNING object 'objects\characters\ambient_life\seagull\seagull' has a bounding sphere radius much less than its model (0.200000 vs 0.250794)
-07.04.24 22:29:51.932  ### WARNING model 'objects\characters\elite\elite_mp' variant 'default' cannot find region 'hg_lights'
-07.04.24 22:29:51.937  ### WARNING object 'scenarios\objects\covenant\military\cov_recharge_station\cov_recharge_station' has a bounding sphere radius much less than its model (1.300000 vs 1.723440)
-07.04.24 22:29:51.943  ### WARNING object 'scenarios\objects\nature\trees\tree_acacia\acacia_l\acacia_l' has a bounding sphere radius much less than its model (6.500000 vs 9.932560)
-07.04.24 22:29:51.944  ### WARNING object 'scenarios\objects\nature\trees\tree_acacia\acacia\acacia' has a bounding sphere radius much less than its model (5.500000 vs 8.444750)
-07.04.24 22:29:51.947  ### WARNING object 'objects\characters\brute\garbage\brute_helmet\brute_helmet' has a bounding sphere radius much less than its model (0.050000 vs 0.079948)
-07.04.24 22:29:51.953  ### WARNING object 'objects\vehicles\ghost\garbage\seat\seat' has a bounding sphere radius much less than its model (0.120000 vs 0.364857)
-07.04.24 22:29:51.954  ### WARNING object 'objects\vehicles\ghost\garbage\l_wing_shell\l_wing_shell' has a bounding sphere radius much less than its model (0.080000 vs 0.285048)
-07.04.24 22:29:51.955  ### WARNING object 'objects\vehicles\ghost\garbage\r_wing_shell\r_wing_shell' has a bounding sphere radius much less than its model (0.120000 vs 0.264751)
-07.04.24 22:29:51.964  ### WARNING object 'phanrev\objects\vehicles\brute_ghost\garbage\seat\b_seat' has a bounding sphere radius much less than its model (0.120000 vs 0.364857)
-07.04.24 22:29:51.965  ### WARNING object 'phanrev\objects\vehicles\brute_ghost\garbage\l_wing_shell\b_l_wing_shell' has a bounding sphere radius much less than its model (0.080000 vs 0.285048)
-07.04.24 22:29:51.966  ### WARNING object 'phanrev\objects\vehicles\brute_ghost\garbage\r_wing_shell\b_r_wing_shell' has a bounding sphere radius much less than its model (0.080000 vs 0.285048)
-07.04.24 22:29:51.970  antigrav marker lf_engine on vehicle dw3\objects\vehicles\falcon\falcon needs to be attached to root node
-07.04.24 22:29:51.971  antigrav marker rf_engine on vehicle dw3\objects\vehicles\falcon\falcon needs to be attached to root node
-07.04.24 22:29:51.971  antigrav marker lr_engine on vehicle dw3\objects\vehicles\falcon\falcon needs to be attached to root node
-07.04.24 22:29:51.972  antigrav marker rr_engine on vehicle dw3\objects\vehicles\falcon\falcon needs to be attached to root node
-07.04.24 22:29:51.975  ### the vehicle 'phanrev\objects\vehicles\brute_chopper\brute_chopper' has no valid collision global material name set for friction point index 2.  Using default material
-07.04.24 22:29:51.976  ### the vehicle 'phanrev\objects\vehicles\brute_chopper\brute_chopper' has no valid collision global material name set for friction point index 3.  Using default material
-07.04.24 22:29:51.977  ### WARNING object 'phanrev\objects\vehicles\prowler\prowler' has a bounding sphere radius much less than its model (1.300000 vs 1.663710)
-07.04.24 22:29:51.980  ### WARNING object 'scenarios\objects\covenant\military\scarab\scarab' has a bounding sphere radius much less than its model (12.500000 vs 16.304300)
-07.04.24 22:29:51.985  ### WARNING object 'objects\vehicles\civilian\uberchassis\uberchassis' has a bounding sphere radius much less than its model (0.750000 vs 0.971937)
-07.04.24 22:29:51.986  ### WARNING object 'scenarios\objects\human\urban\air\ai_cap' has a bounding sphere radius much less than its model (0.100000 vs 0.521992)
-07.04.24 22:29:51.999  solo map, players are [dervish/chief]
-07.04.24 22:29:52.013  tags: missing tag (ffffffff)scenarios\objects\human\residential\cafe_table\cafe_table.scenery replaced by (e56d03f8)incompetent\default_object.scenery
-07.04.24 22:29:52.013  tags: missing tag (ffffffff)scenarios\objects\human\residential\cafe_chair\cafe_chair.scenery replaced by (e56d03f8)incompetent\default_object.scenery
-07.04.24 22:29:52.017  ### WARNING 'scenario_scenery_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_scenery_resource' that is about to be stomped over isn't empty!
-07.04.24 22:29:52.017  ### WARNING 'scenario_scenery_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_scenery_resource' that is about to be stomped over isn't empty!
-07.04.24 22:29:52.018  ### WARNING 'scenario_crate_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_scenery_resource' that is about to be stomped over isn't empty!
-07.04.24 22:29:52.018  ### WARNING 'scenario_crate_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_scenery_resource' that is about to be stomped over isn't empty!
-07.04.24 22:29:52.019  ### WARNING 'scenario_biped_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_bipeds_resource' that is about to be stomped over isn't empty!
-07.04.24 22:29:52.019  ### WARNING 'scenario_biped_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_bipeds_resource' that is about to be stomped over isn't empty!
-07.04.24 22:29:52.019  ### WARNING 'scenario_vehicle_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_vehicles_resource' that is about to be stomped over isn't empty!
-07.04.24 22:29:52.020  ### WARNING 'scenario_vehicle_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_vehicles_resource' that is about to be stomped over isn't empty!
-07.04.24 22:29:52.020  ### WARNING 'scenario_equipment_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_equipment_resource' that is about to be stomped over isn't empty!
-07.04.24 22:29:52.020  ### WARNING 'scenario_equipment_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_equipment_resource' that is about to be stomped over isn't empty!
-07.04.24 22:29:52.021  ### WARNING 'scenario_weapon_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_weapons_resource' that is about to be stomped over isn't empty!
-07.04.24 22:29:52.021  ### WARNING 'scenario_weapon_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_weapons_resource' that is about to be stomped over isn't empty!
-07.04.24 22:29:52.022  ### WARNING 'scenario_sound_scenery_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_sound_scenery_resource' that is about to be stomped over isn't empty!
-07.04.24 22:29:52.022  ### WARNING 'scenario_sound_scenery_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_sound_scenery_resource' that is about to be stomped over isn't empty!
-07.04.24 22:29:52.022  ### WARNING 'scenario_light_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_lights_resource' that is about to be stomped over isn't empty!
-07.04.24 22:29:52.023  ### WARNING 'scenario_light_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_lights_resource' that is about to be stomped over isn't empty!
-07.04.24 22:29:52.023  ### WARNING 'device_group_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_devices_resource' that is about to be stomped over isn't empty!
-07.04.24 22:29:52.024  ### WARNING 'scenario_machine_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_devices_resource' that is about to be stomped over isn't empty!
-07.04.24 22:29:52.024  ### WARNING 'scenario_machine_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_devices_resource' that is about to be stomped over isn't empty!
-07.04.24 22:29:52.025  ### WARNING 'scenario_decals_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_decals_resource' that is about to be stomped over isn't empty!
-07.04.24 22:29:52.025  ### WARNING 'scenario_decal_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_decals_resource' that is about to be stomped over isn't empty!
-07.04.24 22:29:52.026  ### WARNING 'scenario_cutscene_camera_point_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_cinematics_resource' that is about to be stomped over isn't empty!
-07.04.24 22:29:52.026  ### WARNING 'scenario_cutscene_flag_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_cinematics_resource' that is about to be stomped over isn't empty!
-07.04.24 22:29:52.026  ### WARNING 'scenario_trigger_volume_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_trigger_volumes_resource' that is about to be stomped over isn't empty!
-07.04.24 22:29:52.027  ### WARNING 'structure_bsp_background_sound_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_cluster_data_resource' that is about to be stomped over isn't empty!
-07.04.24 22:29:52.027  ### WARNING 'structure_bsp_sound_environment_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_cluster_data_resource' that is about to be stomped over isn't empty!
-07.04.24 22:29:52.027  ### WARNING 'scenario_atmospheric_fog_palette' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_cluster_data_resource' that is about to be stomped over isn't empty!
-07.04.24 22:29:52.028  ### WARNING 'scenario_cluster_data_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_cluster_data_resource' that is about to be stomped over isn't empty!
-07.04.24 22:29:52.028  ### WARNING 'editor_comment_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_comments_resource' that is about to be stomped over isn't empty!
-07.04.24 22:29:52.029  ### WARNING 'scenario_creature_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_creature_resource' that is about to be stomped over isn't empty!
-07.04.24 22:29:52.029  ### WARNING 'scenario_structure_bsp_spherical_harmonic_lighting_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_structure_lighting_resource' that is about to be stomped over isn't empty!
-07.04.24 22:29:52.030  ### WARNING 'scenario_decorator_set_palette_entry_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_decorators_resource' that is about to be stomped over isn't empty!
-07.04.24 22:29:52.053  tags: missing tag (ffffffff)scenarios\objects\human\residential\cafe_table\cafe_table.scenery replaced by (e56d03f8)incompetent\default_object.scenery
-07.04.24 22:29:52.054  tags: missing tag (ffffffff)scenarios\objects\human\residential\cafe_chair\cafe_chair.scenery replaced by (e56d03f8)incompetent\default_object.scenery
-07.04.24 22:29:52.129  tags: missing tag (ffffffff)ui\hud\bitmaps\hud_msg_icons_sm.bitmap replaced by (ff0a1d95)rasterizer\invalid.bitmap
-07.04.24 22:29:52.468  ### WARNING model 'objects\vehicles\falcon_rjs\falcon_rjs' unknown variant name 'default'
-07.04.24 22:31:03.015  ### WARNING model 'digsite\objects\weapons\grenade\plasma_charge\plasma_charge' level of detail distances are incorrect (must be in descending order)
-07.04.24 22:31:35.837  render debug cache overflow.
-07.04.24 22:31:45.383  ### damage effect error: marker <l_rudder_destroyed> not found
-07.04.24 22:31:45.383  ### damage effect error: marker <r_rudder_destroyed> not found
-07.04.24 22:31:51.965  rigid body has exited broadphase at (-433.860321 326.133331 -103.435204).  The associated object has been deleted. crate b_r_pod_destroyed
-07.04.24 22:31:51.965  rigid body has exited broadphase at (-433.898895 326.151581 -103.917282).  The associated object has been deleted. crate b_r_pod_destroyed
-07.04.24 22:31:55.303  rigid body has exited broadphase at (-426.157410 322.974854 -103.853020).  The associated object has been deleted. crate concrete_chunk_b
-07.04.24 22:31:55.304  rigid body has exited broadphase at (-426.157410 322.974854 -104.335030).  The associated object has been deleted. crate concrete_chunk_b
-07.04.24 22:31:57.869  rigid body has exited broadphase at (-425.692291 324.847382 -103.859375).  The associated object has been deleted. crate br_pod_garbage
-07.04.24 22:31:57.870  rigid body has exited broadphase at (-425.691803 324.847168 -104.343307).  The associated object has been deleted. crate br_pod_garbage
-07.04.24 22:33:15.417  overflowed working portal stack during visibility traversal
-07.04.24 22:34:01.485  overflowed working portal stack during visibility traversal
-07.04.24 22:34:54.466  ### WARNING model 'digsite\objects\weapons\melee\pike\pike' collision model region 'standard' has no corresponding model region (will not be collideable)
-07.04.24 22:35:50.301  fixing bitmap for DX11 (forced=default, format=p8_bump) digsite\objects\weapons\support_low\disintegrator\bitmaps\disintegrator_bump
-07.04.24 22:35:50.353  fixing bitmap for DX11 (forced=default, format=p8_bump) digsite\objects\weapons\support_low\disintegrator\bitmaps\disintegrator_bulb_bump
-07.04.24 22:36:29.172  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'digsite\objects\powerups\flamethrower_ammo\flamethrower_ammo'
-07.04.24 22:36:29.182  ### WARNING effect 'digsite\effects\objects\weapons\support_low\flamethrower\flame_detonation' has a part which does not specify a type reference. You can safely cleanup tags by running 'tool fix-tags fix-effects'.
-07.04.24 22:36:29.182  ### WARNING effect 'digsite\effects\objects\weapons\support_low\flamethrower\flame_detonation' part '' was not found
-07.04.24 22:47:05.798  file_delete('tags\temp_scenario') error 0x00000091 'Le répertoire n’est pas vide. '
+07.15.24 20:24:24.328  solo map, players are [/chief]
+07.15.24 20:24:24.408  ### WARNING loading from unsupported 2D storage format: y8 from scenarios\skies\solo\earthcity\bitmaps\ec_sky_dome2
+07.15.24 20:24:24.556  ### WARNING loading from unsupported 2D storage format: y8 from scenarios\skies\solo\earthcity\bitmaps\nm_clouds
+07.15.24 20:24:24.593  ### WARNING loading from unsupported 2D storage format: y8 from scenarios\skies\solo\earthcity\bitmaps\ec_sky_dome
+07.15.24 20:24:24.610  ### WARNING loading from unsupported 2D storage format: y8 from scenarios\skies\solo\earthcity\bitmaps\ec_sky_land
+07.15.24 20:24:24.692  ### WARNING loading from unsupported 2D storage format: y8 from scenarios\skies\solo\earthcity\bitmaps\bridge_sky_dome
+07.15.24 20:24:24.726  ### WARNING loading from unsupported 2D storage format: y8 from scenarios\skies\solo\sentinelhq\bitmaps\sky_shq_layer_tile
+07.15.24 20:24:26.528  fixing bitmap for DX11 (forced=default, format=a8y8) rasterizer\linear_corner_fade
+07.15.24 20:24:26.530  ### WARNING loading from unsupported 2D storage format: a8y8 from rasterizer\linear_corner_fade
+07.15.24 20:24:26.660  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\detail_maps\nature\treebark\palmtree_bark_bump
+07.15.24 20:24:28.003  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\nature\trees\palm_frond_a_bump
+07.15.24 20:24:29.918  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\vehicles\h_semi_trailer\bitmaps\semi_trailer_bump
+07.15.24 20:24:30.241  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\metals\matte_grey_edge_bump
+07.15.24 20:24:30.251  ### WARNING loading from unsupported CUBE MAP storage format: y8 from scenarios\bitmaps\multi\triplicate\cubemap_triplicate_metal
+07.15.24 20:24:30.260  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\metals\metal_strips_c_bump
+07.15.24 20:24:30.603  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\covenant\military\scarab\bitmaps\scarab_legs_bump
+07.15.24 20:24:30.629  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\covenant\military\scarab\bitmaps\scarab_hull_ext_bump
+07.15.24 20:24:30.661  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) scenarios\objects\covenant\military\scarab\bitmaps\scarab_hull_int
+07.15.24 20:24:31.007  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from scenarios\objects\covenant\military\scarab\bitmaps\scarab_hull_int
+07.15.24 20:24:31.015  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\covenant\military\scarab\bitmaps\scarab_hull_int_bump
+07.15.24 20:24:31.137  ### WARNING physics model 'scenarios\objects\covenant\military\scarab\scarab' couldn't resolve material 'physics_ref_phantom' (''), using default material
+07.15.24 20:24:31.139  ### WARNING physics model 'scenarios\objects\covenant\military\scarab\scarab' couldn't resolve material 'attractor' (''), using default material
+07.15.24 20:24:31.139  ### WARNING model 'scenarios\objects\covenant\military\scarab\scarab' material 'scarab_bloom_int' ('') couldn't find a global material named 'scarab_bloom_int'
+07.15.24 20:24:32.368  fixing bitmap for DX11 (forced=default, format=a8y8) effects\bitmaps\sparks\sparks_animated
+07.15.24 20:24:32.370  ### WARNING loading from unsupported 2D storage format: a8y8 from effects\bitmaps\sparks\sparks_animated
+07.15.24 20:24:32.576  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\ghost\bitmaps\blown_open_bump
+07.15.24 20:24:32.769  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\ghost\bitmaps\torn_up_bump
+07.15.24 20:24:33.393  ### WARNING loading from unsupported 2D storage format: y8 from effects\bitmaps\lens_flares\flares_generic2
+07.15.24 20:24:33.394  ### WARNING loading from unsupported 2D storage format: y8 from effects\bitmaps\lens_flares\flares_generic2
+07.15.24 20:24:33.394  ### WARNING loading from unsupported 2D storage format: y8 from effects\bitmaps\lens_flares\flares_generic2
+07.15.24 20:24:33.394  ### WARNING loading from unsupported 2D storage format: y8 from effects\bitmaps\lens_flares\flares_generic2
+07.15.24 20:24:33.443  ### WARNING loading from unsupported 2D storage format: y8 from effects\decals\blast_scorches\bitmaps\default_scorch
+07.15.24 20:24:33.806  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\phantom\bitmaps\phantom_exterior_bump
+07.15.24 20:24:34.210  ### WARNING loading from unsupported 2D storage format: y8 from objects\powerups\active_camouflage\bitmaps\powerup_noise_1
+07.15.24 20:24:34.215  ### WARNING loading from unsupported 2D storage format: y8 from objects\powerups\active_camouflage\bitmaps\powerup_noise_2
+07.15.24 20:24:34.264  ### WARNING loading from unsupported 2D storage format: y8 from effects\bitmaps\lens_flares\iac_engine
+07.15.24 20:24:34.285  fixing bitmap for DX11 (forced=default, format=p8_bump) incompetent\bitmaps\grey_generic_bump
+07.15.24 20:24:34.366  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\covenant\military\capital_ship\bitmaps\capital_ship_b_bump
+07.15.24 20:24:34.394  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\covenant\military\capital_ship\bitmaps\capital_ship_a_bump
+07.15.24 20:24:34.414  fixing bitmap for DX11 (forced=default, format=a8y8) shaders\default_bitmaps\bitmaps\clouds_256
+07.15.24 20:24:34.485  ### WARNING loading from unsupported 2D storage format: a8y8 from shaders\default_bitmaps\bitmaps\clouds_256
+07.15.24 20:24:34.588  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\cinematics\human\inamberclad\bitmaps\inamberclad_aft_bump
+07.15.24 20:24:34.610  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\cinematics\human\inamberclad\bitmaps\inamberclad_details_bump
+07.15.24 20:24:34.635  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\cinematics\human\inamberclad\bitmaps\inamberclad_fore_bump
+07.15.24 20:24:34.654  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'objects\cinematics\human\inamberclad\inamberclad'
+07.15.24 20:24:34.736  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\metals\titanium_lightblue_base_bump
+07.15.24 20:24:34.843  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\solo\earthcity\bitmaps\adproject_plaza_body_destroyed_b
+07.15.24 20:24:34.869  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\solo\earthcity\debris_buildingchunk01\bitmaps\debris_bldingchnk_rebar_bump
+07.15.24 20:24:34.884  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\solo\earthcity\bitmaps\adproject_plaza_body_bump
+07.15.24 20:24:35.392  ### WARNING loading from unsupported 2D storage format: y8 from shaders\default_bitmaps\bitmaps\default_monochrome
+07.15.24 20:24:35.547  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\glass\window_office_bump
+07.15.24 20:24:35.560  fixing bitmap for DX11 (forced=default, format=a8y8) scenarios\bitmaps\human\urban\glass\window_office_specular
+07.15.24 20:24:35.597  ### WARNING loading from unsupported 2D storage format: a8y8 from scenarios\bitmaps\human\urban\glass\window_office_specular
+07.15.24 20:24:35.659  ### WARNING loading from unsupported 2D storage format: y8 from scenarios\objects\lights\bitmaps\generic\gel_circle_fade
+07.15.24 20:24:35.684  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\metals\matte_grey_bump
+07.15.24 20:24:35.709  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\metals\panel_service_door_plain_bump
+07.15.24 20:24:35.721  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\metals\ec_ext_bset_matte_bump
+07.15.24 20:24:35.806  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\covenant\military\cov_recharge_station\bitmaps\cov_recharge_bump
+07.15.24 20:24:35.850  ### WARNING object 'scenarios\objects\covenant\military\cov_recharge_station\cov_recharge_station' has a bounding sphere radius much less than its model (1.300000 vs 1.723440)
+07.15.24 20:24:35.875  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\nm\nm_metal_grey_panels_bump
+07.15.24 20:24:35.909  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\metals\metal_strips_b_bump
+07.15.24 20:24:35.917  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\metals\hazard_strips_a_bump
+07.15.24 20:24:35.931  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\interior\int_pipes_a_bump
+07.15.24 20:24:36.141  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\metals\street_tunnel_border_bump
+07.15.24 20:24:36.191  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\metals\panel_buliding_base_a_bump
+07.15.24 20:24:36.208  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\lights\light_florescent_a_bump
+07.15.24 20:24:36.342  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\nm\nm_trima_bump
+07.15.24 20:24:36.385  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\toll_booth_panel_bump
+07.15.24 20:24:36.463  ### WARNING effect 'effects\scenarios\objects\solo\earthcity\toll_booth\toll_booth_top_destroyed' particle system is invalid
+07.15.24 20:24:36.504  ### WARNING effect 'effects\scenarios\objects\solo\earthcity\toll_booth\toll_booth_bot_destroyed' particle system is invalid
+07.15.24 20:24:36.523  ### WARNING physics model 'scenarios\objects\solo\earthcity\road_objects\garage_door\garage_door' couldn't resolve material 'h_um_matte_grey_edge_rusty' (''), using default material
+07.15.24 20:24:36.551  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\nm\nm_concrete_floor_bump
+07.15.24 20:24:36.592  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\detail_maps\nature\rock\rock_cave1_bump
+07.15.24 20:24:36.659  ### ERROR geometry 'scenarios\objects\special\null_up\null_up' shader 'scenarios\objects\special\shaders\invisible' is transparent but was imported as opaque
+07.15.24 20:24:36.665  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'scenarios\objects\special\null_up\null_up'
+07.15.24 20:24:36.747  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'incompetent\default_object'
+07.15.24 20:24:36.748  tags: missing tag (ffffffff)scenarios\objects\human\residential\cafe_table\cafe_table.scenery replaced by (e56d03f8)incompetent\default_object.scenery
+07.15.24 20:24:36.748  tags: missing tag (ffffffff)scenarios\objects\human\residential\cafe_chair\cafe_chair.scenery replaced by (e56d03f8)incompetent\default_object.scenery
+07.15.24 20:24:36.770  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\nm\nm_metal_grey_trim_bump
+07.15.24 20:24:36.784  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\nm\nm_walkway_bump
+07.15.24 20:24:36.894  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\detail_maps\concrete\concrete_bubble_bump
+07.15.24 20:24:36.910  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\detail_maps\concrete\concrete_broken_bump
+07.15.24 20:24:36.966  ### WARNING loading from unsupported 2D storage format: y8 from effects\bitmaps\lens_flares\flares_weapon_lens
+07.15.24 20:24:37.045  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\detail_maps\concrete\concrete_pitted_bump
+07.15.24 20:24:37.085  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\solo\spacestation\ss_furniture\bitmaps\couch_bump
+07.15.24 20:24:37.097  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\spacestation\tile_metal_dark_bump
+07.15.24 20:24:37.122  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\spacestation\panel_tech_rack_bump
+07.15.24 20:24:37.140  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\spacestation\panel_strips_unpainted_bump
+07.15.24 20:24:37.156  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\military\lights\light_uplight_hall_bump
+07.15.24 20:24:37.226  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\spacestation\panel_floor_rubber_bump
+07.15.24 20:24:37.252  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\spacestation\panel_mech_long_bump
+07.15.24 20:24:37.272  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\spacestation\panel_hall_mech_bump
+07.15.24 20:24:37.297  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\spacestation\ss_door_mech_small_bump
+07.15.24 20:24:37.314  ### WARNING object 'objects\cinematics\human\inamberclad_bridge\inamberclad_bridge' has a bounding sphere radius much less than its model (2.500000 vs 3.266184)
+07.15.24 20:24:37.338  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\battle_rifle\bitmaps\battle_rifle_bump
+07.15.24 20:24:37.366  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\battle_rifle\bitmaps\ejection_port_bump
+07.15.24 20:24:37.403  WARNING: shader 'objects\weapons\rifle\battle_rifle\shaders\tens' could not resolve bitmap 'zero'
+07.15.24 20:24:37.410  WARNING: shader 'objects\weapons\rifle\battle_rifle\shaders\ones' could not resolve bitmap 'zero'
+07.15.24 20:24:37.437  fixing bitmap for DX11 (forced=default, format=a8y8) effects\bitmaps\lens_flares\soft_flare_large
+07.15.24 20:24:37.445  ### WARNING loading from unsupported 2D storage format: a8y8 from effects\bitmaps\lens_flares\soft_flare_large
+07.15.24 20:24:37.464  ### WARNING object 'effects\scenery\skies\human_and_cov_firing' has no bounding radius
+07.15.24 20:24:37.486  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\h_turret_ap\bitmaps\h_turret_ap_bump
+07.15.24 20:24:37.500  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\fixed\h_turret_mp\bitmaps\h_turret_mp_gun_bump
+07.15.24 20:24:37.735  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\nm\nm_building_straight_bump
+07.15.24 20:24:37.835  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'objects\cinematics\texture_camera\texture_camera'
+07.15.24 20:24:37.836  ### WARNING object 'objects\cinematics\texture_camera\texture_camera' has no bounding radius
+07.15.24 20:24:37.888  ### WARNING loading from unsupported 2D storage format: y8 from scenarios\bitmaps\nature\trees\acacia_bark
+07.15.24 20:24:37.985  ### WARNING object 'scenarios\objects\nature\trees\tree_acacia\acacia_l\acacia_l' has a bounding sphere radius much less than its model (6.500000 vs 9.932560)
+07.15.24 20:24:38.007  ### WARNING object 'scenarios\objects\nature\trees\tree_acacia\acacia\acacia' has a bounding sphere radius much less than its model (5.500000 vs 8.444750)
+07.15.24 20:24:38.031  WARNING: shader 'objects\cinematics\effects\slipspace_shockwave\shaders\slipspace_shockwave_exterior' could not resolve bitmap 'alpha_map'
+07.15.24 20:24:38.084  ### WARNING object 'objects\cinematics\effects\slipspace_shockwave\slipspace_shockwave' has a bounding sphere radius much less than its model (1.000000 vs 92.079803)
+07.15.24 20:24:38.285  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\civilian\bus\bitmaps\bus_bump
+07.15.24 20:24:38.400  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\civilian\panel_truck\bitmaps\panel_truck_bump
+07.15.24 20:24:38.454  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\solo\earthcity\bitmaps\big_generator_bump
+07.15.24 20:24:38.639  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\solo\earthcity\bitmaps\big_generator_in_op
+07.15.24 20:24:38.684  ### WARNING effect 'effects\cinematics\03\slipspace_collapse' particle system is invalid
+07.15.24 20:24:38.708  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\cinematics\human\cigar\bitmaps\cigar_bump
+07.15.24 20:24:38.743  WARNING: shader 'objects\cinematics\effects\slipspace_shockwave_start\shaders\slipspace_shockwave_exterior' could not resolve bitmap 'alpha_map'
+07.15.24 20:24:38.752  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'objects\cinematics\effects\slipspace_shockwave_start\slipspace_shockwave_start'
+07.15.24 20:24:38.770  WARNING: shader 'objects\cinematics\effects\slipspace_shockwave_closeup\shaders\slipspace_shockwave_exterior' could not resolve bitmap 'alpha_map'
+07.15.24 20:24:38.775  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'objects\cinematics\effects\slipspace_shockwave_closeup\slipspace_shockwave_closeup'
+07.15.24 20:24:38.805  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\human\military\spotting_scope\bitmaps\spotting_scope_bump
+07.15.24 20:24:38.829  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'scenarios\objects\human\military\spotting_scope\spotting_scope'
+07.15.24 20:24:38.852  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\bitmaps\comm_pack_bump
+07.15.24 20:24:38.971  ### WARNING object 'objects\cinematics\human\weapons\smg\smg' has no bounding radius
+07.15.24 20:24:38.991  ### WARNING physics model 'scenarios\objects\special\cooke_cutter_cylinder\cooke_cutter_cylinder' couldn't resolve material 'large_dias' (''), using default material
+07.15.24 20:24:38.991  ### WARNING model 'scenarios\objects\special\cooke_cutter_cylinder\cooke_cutter_cylinder' material 'large_dias' ('') couldn't find a global material named 'large_dias'
+07.15.24 20:24:39.046  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\bitmaps\head_smith_bump
+07.15.24 20:24:39.073  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\bitmaps\helmet_standard_bump
+07.15.24 20:24:39.098  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\bitmaps\marine_standard_bump
+07.15.24 20:24:39.124  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\bitmaps\head_dion_bump
+07.15.24 20:24:39.157  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\bitmaps\packs_bump
+07.15.24 20:24:39.184  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\bitmaps\marine_odst_bump
+07.15.24 20:24:39.209  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\bitmaps\head_wounded_bump
+07.15.24 20:24:39.222  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\bitmaps\marine_wounded_bump
+07.15.24 20:24:39.238  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\bitmaps\head_morgan_bump
+07.15.24 20:24:39.252  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\bitmaps\head_perez_bump
+07.15.24 20:24:39.265  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\bitmaps\head_walter_bump
+07.15.24 20:24:39.439  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\lord_hood\bitmaps\lord_hood_main_bump
+07.15.24 20:24:39.458  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\lord_hood\bitmaps\lord_hood_badging_bump
+07.15.24 20:24:39.489  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\bitmaps\teeth_bump
+07.15.24 20:24:39.505  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\bitmaps\helmet_pilot_bump
+07.15.24 20:24:39.518  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\bitmaps\hat_bump
+07.15.24 20:24:39.524  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\bitmaps\head_johnson_bump
+07.15.24 20:24:40.045  ### ERROR model 'objects\characters\marine\marine' could not find variant 'sailor_nrl' to strip
+07.15.24 20:24:40.045  ### ERROR model 'objects\characters\marine\marine' could not find variant 'sailor_cky' to strip
+07.15.24 20:24:40.046  ### ERROR model 'objects\characters\marine\marine' could not find variant 'sailor_tmd' to strip
+07.15.24 20:24:40.046  ### ERROR model 'objects\characters\marine\marine' could not find variant 'sailor_ntz' to strip
+07.15.24 20:24:40.047  ### WARNING model 'objects\characters\marine\marine' variant 'johnson_combat' cannot find region 'arms'
+07.15.24 20:24:47.620  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\bitmaps\head_bump
+07.15.24 20:24:47.652  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\bitmaps\helmet_bump
+07.15.24 20:24:47.669  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\bitmaps\arms_bump
+07.15.24 20:24:47.695  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\bitmaps\torso_bump
+07.15.24 20:24:47.718  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\bitmaps\legs_bump
+07.15.24 20:24:47.766  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\bitmaps\council_helmet_bump
+07.15.24 20:24:48.053  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\elite_honor_guard\bitmaps\elite_honor_armor_bump
+07.15.24 20:24:48.085  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\bitmaps\teeth_bump
+07.15.24 20:24:49.080  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'objects\weapons\rifle\smg\garbage\magazine\magazine'
+07.15.24 20:24:49.195  fixing bitmap for DX11 (forced=default, format=a8y8) rasterizer\plasma_shield_noise
+07.15.24 20:24:49.315  ### WARNING loading from unsupported 3D storage format: a8y8 from rasterizer\plasma_shield_noise
+07.15.24 20:24:49.381  fixing bitmap for DX11 (forced=default, format=a1r5g5b5) effects\bitmaps\energy\spark_c_flak
+07.15.24 20:24:49.400  ### WARNING loading from unsupported 2D storage format: a1r5g5b5 from effects\bitmaps\energy\spark_c_flak
+07.15.24 20:24:53.870  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\masterchief\bitmaps\masterchief_bump
+07.15.24 20:24:55.232  ### WARNING loading from unsupported 2D storage format: y8 from objects\characters\masterchief\bitmaps\flashlight_gel
+07.15.24 20:24:55.287  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\meters\shield_meter
+07.15.24 20:24:55.313  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\meters\shield_meter
+07.15.24 20:24:55.313  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\meters\shield_meter
+07.15.24 20:24:55.314  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\meters\shield_meter
+07.15.24 20:24:55.315  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\meters\shield_meter
+07.15.24 20:24:55.315  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\meters\shield_meter
+07.15.24 20:24:55.316  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\meters\shield_meter
+07.15.24 20:24:55.316  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\meters\shield_meter
+07.15.24 20:24:55.317  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\meters\shield_meter
+07.15.24 20:24:55.432  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\miranda\bitmaps\head_miranda_bump
+07.15.24 20:24:55.454  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\miranda\bitmaps\hair_miranda_bump
+07.15.24 20:24:55.480  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\miranda\bitmaps\body_miranda_bump
+07.15.24 20:24:55.502  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\miranda\bitmaps\badges_miranda_bump
+07.15.24 20:24:55.636  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\marine_female\bitmaps\head_female_bump_lp
+07.15.24 20:24:55.647  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\marine_female\bitmaps\head_female_bump_lrm
+07.15.24 20:24:55.658  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\marine_female\bitmaps\head_female_bump_mr
+07.15.24 20:24:57.889  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\crewman\bitmaps\crewman_body_bump
+07.15.24 20:24:57.896  ### WARNING model 'objects\characters\marine\crewman\crewman' material 'helmet' ('') couldn't find a global material named 'helmet'
+07.15.24 20:24:57.897  ### WARNING model 'objects\characters\marine\crewman\crewman' collision model region 'helmet' has no corresponding model region (will not be collideable)
+07.15.24 20:24:57.922  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\lord_hood\bitmaps\lord_hood_head_bump
+07.15.24 20:24:57.981  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\grunt\bitmaps\head_bump
+07.15.24 20:24:58.020  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\grunt\bitmaps\backpack_bump
+07.15.24 20:24:58.038  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\grunt\bitmaps\chest_bump
+07.15.24 20:24:58.059  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\grunt\bitmaps\legs_bump
+07.15.24 20:24:58.075  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\grunt\bitmaps\arms_bump
+07.15.24 20:25:00.818  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\scorpion\bitmaps\scorpion_hull_bump
+07.15.24 20:25:00.833  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\scorpion\bitmaps\scorpion_treads_bump
+07.15.24 20:25:00.889  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\scorpion\bitmaps\scorpion_guts_bump
+07.15.24 20:25:01.121  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\scorpion\turrets\cannon\bitmaps\turret_cannon_bump
+07.15.24 20:25:01.634  sound 'sound_remastered\weapons\impacts_riccs\bullet_impact_energy' maximum gain is too large: 3.00dB, should be <= 0.0dB
+07.15.24 20:25:01.639  sound 'sound_remastered\weapons\impacts_riccs\bullet_impact_energy' gain bounds clamped to: [-3.00dB, 0.00dB]
+07.15.24 20:25:01.777  fixing bitmap for DX11 (forced=default, format=a8y8) effects\decals\bullet_holes\bitmaps\metal
+07.15.24 20:25:01.783  ### WARNING loading from unsupported 2D storage format: a8y8 from effects\decals\bullet_holes\bitmaps\metal
+07.15.24 20:25:01.968  fixing bitmap for DX11 (forced=default, format=a8y8) effects\decals\bullet_holes\bitmaps\stone
+07.15.24 20:25:01.975  ### WARNING loading from unsupported 2D storage format: a8y8 from effects\decals\bullet_holes\bitmaps\stone
+07.15.24 20:25:02.224  sound 'sound_remastered\weapons\impacts_riccs\bullet_flyby_short' maximum gain is too large: 1.00dB, should be <= 0.0dB
+07.15.24 20:25:02.224  sound 'sound_remastered\weapons\impacts_riccs\bullet_flyby_short' gain bounds clamped to: [-3.00dB, 0.00dB]
+07.15.24 20:25:02.302  ### WARNING sound 'sound_remastered\materials\particles\shell_casings\concrete\browning' last promotion rule 2 has a maximum play count of 3, resetting to 0
+07.15.24 20:25:02.518  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\warthog\bitmaps\tires_bump
+07.15.24 20:25:02.536  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\warthog\bitmaps\warthog_standard_bump
+07.15.24 20:25:02.557  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\warthog\bitmaps\chassis_bump
+07.15.24 20:25:02.575  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\warthog\bitmaps\hub_bump
+07.15.24 20:25:02.983  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\warthog\turrets\chaingun\bitmaps\chaingun_bump
+07.15.24 20:25:03.034  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\warthog\turrets\bitmaps\gun_mount_bump
+07.15.24 20:25:03.245  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\warthog\turrets\gauss\bitmaps\gauss_turret_bump
+07.15.24 20:25:03.263  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\warthog\turrets\gauss\bitmaps\gauss_turret_sensor_bump
+07.15.24 20:25:03.368  sound 'sound\vehicles\scorpion\scorpion_projectile_up' maximum gain is too large: 3.00dB, should be <= 0.0dB
+07.15.24 20:25:03.369  sound 'sound\vehicles\scorpion\scorpion_projectile_up' gain bounds clamped to: [-3.00dB, 0.00dB]
+07.15.24 20:25:03.474  damage info postprocess: model 'objects\vehicles\warthog\warthog' couldn't find a physics model constraint with name: hinge02
+07.15.24 20:25:03.688  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\pelican\bitmaps\pelican_bump
+07.15.24 20:25:03.710  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\pelican\bitmaps\pelican_bay_bump
+07.15.24 20:25:03.736  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\pelican\bitmaps\pelican_cargo_net_bump
+07.15.24 20:25:03.810  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\pelican\bitmaps\pelican_hard_point_bump
+07.15.24 20:25:03.927  ### WARNING loading from unsupported 2D storage format: y8 from effects\decals\blast_scorches\bitmaps\default_blast
+07.15.24 20:25:03.993  ### WARNING loading from unsupported 2D storage format: y8 from effects\bitmaps\weapons_fire\plasma_sphere
+07.15.24 20:25:04.049  fixing bitmap for DX11 (forced=default, format=a8y8) effects\decals\bullet_holes\bitmaps\ice
+07.15.24 20:25:04.076  ### WARNING loading from unsupported 2D storage format: a8y8 from effects\decals\bullet_holes\bitmaps\ice
+07.15.24 20:25:04.141  ### WARNING loading from unsupported 2D storage format: y8 from effects\decals\vehicle_marks\bitmaps\snow_treadmarks
+07.15.24 20:25:04.343  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\ghost\bitmaps\ghost_bump
+07.15.24 20:25:04.465  ### WARNING object 'objects\vehicles\ghost\garbage\seat\seat' has a bounding sphere radius much less than its model (0.120000 vs 0.364857)
+07.15.24 20:25:04.661  ### WARNING object 'objects\vehicles\ghost\garbage\l_wing_shell\l_wing_shell' has a bounding sphere radius much less than its model (0.080000 vs 0.285048)
+07.15.24 20:25:04.686  ### WARNING object 'objects\vehicles\ghost\garbage\r_wing_shell\r_wing_shell' has a bounding sphere radius much less than its model (0.120000 vs 0.264751)
+07.15.24 20:25:05.102  fixing bitmap for DX11 (forced=default, format=r5g6b5) effects\bitmaps\lens_flares\light_volume
+07.15.24 20:25:05.104  ### WARNING loading from unsupported 2D storage format: r5g6b5 from effects\bitmaps\lens_flares\light_volume
+07.15.24 20:25:05.207  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\wraith\bitmaps\wraith_bump
+07.15.24 20:25:05.452  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\wraith\turrets\mortar\bitmaps\mortar_bump
+07.15.24 20:25:06.002  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\banshee\bitmaps\banshee_plate_bump
+07.15.24 20:25:06.080  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\banshee\bitmaps\banshee_torn_up_plate_bump
+07.15.24 20:25:06.534  ### ERROR geometry 'objects\weapons\support_high\flak_cannon\projectiles\flak_projectile' shader 'objects\weapons\support_high\flak_cannon\shaders\flak_bolt_luminous' is transparent but was imported as opaque
+07.15.24 20:25:06.636  ### WARNING physics model 'objects\vehicles\phantom\phantom' couldn't resolve material 'gravity_lift' (''), using default material
+07.15.24 20:25:06.636  ### WARNING physics model 'objects\vehicles\phantom\phantom' couldn't resolve material 'gravity_lift_brake' (''), using default material
+07.15.24 20:25:06.637  ### WARNING physics model 'objects\vehicles\phantom\phantom' couldn't resolve material 'special_material' (''), using default material
+07.15.24 20:25:06.638  ### WARNING physics model 'objects\vehicles\phantom\phantom' couldn't resolve material 'gravity_lift_vehicle' (''), using default material
+07.15.24 20:25:06.817  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\fixed\plasma_cannon\bitmaps\plasma_cannon_bump
+07.15.24 20:25:06.959  ### WARNING loading from unsupported 2D storage format: y8 from effects\decals\bullet_holes\bitmaps\plasma_fizzle
+07.15.24 20:25:07.403  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\grenade\frag_grenade\bitmaps\frag_grenade_bump
+07.15.24 20:25:07.522  sound 'sound_remastered\weapons\frag_grenade\frag_bnc_dirt' maximum gain is too large: 1.00dB, should be <= 0.0dB
+07.15.24 20:25:07.523  sound 'sound_remastered\weapons\frag_grenade\frag_bnc_dirt' gain bounds clamped to: [-1.00dB, 0.00dB]
+07.15.24 20:25:07.651  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\powerups\rocket_launcher_ammo\bitmaps\rocket_launcher_ammo_bump
+07.15.24 20:25:07.682  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\powerups\battle_rifle_ammo\bitmaps\br_ammo_bump
+07.15.24 20:25:07.719  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\powerups\smg_ammo\bitmaps\smg_ammo_bump
+07.15.24 20:25:07.746  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\powerups\shotgun_ammo\bitmaps\sg_ammo_bump
+07.15.24 20:25:07.780  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\grenade\plasma_grenade\bitmaps\plasma_grenade_bump
+07.15.24 20:25:07.874  ### WARNING loading from unsupported 2D storage format: y8 from effects\decals\blast_scorches\bitmaps\tough_scorch
+07.15.24 20:25:07.888  ### WARNING loading from unsupported 2D storage format: y8 from effects\decals\blast_scorches\bitmaps\sand_scorch
+07.15.24 20:25:07.975  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\pistol\plasma_pistol\bitmaps\plasma_pistol_bump
+07.15.24 20:25:08.924  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\plasma_rifle\bitmaps\plasma_rifle_card_bump
+07.15.24 20:25:08.945  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\plasma_rifle\bitmaps\plasma_rifle_bump
+07.15.24 20:25:09.085  sound 'sound_remastered\weapons\plasma_rifle\plas_fire_mech_swtnr' minimum gain is too small: -65.00dB, should be >= -64.0dB
+07.15.24 20:25:09.086  sound 'sound_remastered\weapons\plasma_rifle\plas_fire_mech_swtnr' gain bounds clamped to: [-64.00dB, -63.00dB]
+07.15.24 20:25:09.106  sound 'sound\weapons\plasma_rifle\plasma_rifle_fire' maximum gain is too large: 1.50dB, should be <= 0.0dB
+07.15.24 20:25:09.106  sound 'sound\weapons\plasma_rifle\plasma_rifle_fire' gain bounds clamped to: [-1.50dB, 0.00dB]
+07.15.24 20:25:09.808  sound 'sound_remastered\weapons\impacts_riccs\bullet_flyby_medium' maximum gain is too large: 1.00dB, should be <= 0.0dB
+07.15.24 20:25:09.808  sound 'sound_remastered\weapons\impacts_riccs\bullet_flyby_medium' gain bounds clamped to: [-3.00dB, 0.00dB]
+07.15.24 20:25:09.899  ### WARNING sound 'sound_remastered\materials\particles\shell_casings\concrete\308' last promotion rule 1 has a maximum play count of 3, resetting to 0
+07.15.24 20:25:09.908  ### WARNING sound 'sound_remastered\materials\particles\shell_casings\dirt\308' promotion rules do not reference all pitch ranges
+07.15.24 20:25:09.942  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\battle_rifle\bitmaps\battle_rifle_knob_bump
+07.15.24 20:25:09.998  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\smg\bitmaps\smg_bump
+07.15.24 20:25:10.426  tags: missing tag (ffffffff)objects\weapons\rifle\smg\damage_effects\smg_empty.damage_effect replaced by (fd321bbd)globals\global_missing_damage_effect.damage_effect
+07.15.24 20:25:10.689  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\sniper_rifle\bitmaps\sniper_rifle_bump
+07.15.24 20:25:10.811  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\powerups\sniper_rifle_ammo\bitmaps\sr_ammo_bump
+07.15.24 20:25:10.835  sound 'sound_remastered\weapons\impacts_riccs\bullet_flyby_long' maximum gain is too large: 1.00dB, should be <= 0.0dB
+07.15.24 20:25:10.835  sound 'sound_remastered\weapons\impacts_riccs\bullet_flyby_long' gain bounds clamped to: [-3.00dB, 0.00dB]
+07.15.24 20:25:10.923  ### WARNING sound 'sound_remastered\materials\particles\shell_casings\concrete\50cal' last promotion rule 2 has a maximum play count of 5, resetting to 0
+07.15.24 20:25:10.988  ### WARNING shader pass 'shaders\shader_passes\texture_camera\scope' texture #0 (implementation #0) has source extern - ignoring parameter name "scope"
+07.15.24 20:25:11.059  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\support_high\rocket_launcher\bitmaps\rocket_launcher_lod_bump
+07.15.24 20:25:11.114  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\support_high\rocket_launcher\bitmaps\rocket_launcher_bump
+07.15.24 20:25:11.137  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\support_high\rocket_launcher\bitmaps\rocket_launcher_ends_bump
+07.15.24 20:25:11.335  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\shotgun\bitmaps\shotgun_card_bump
+07.15.24 20:25:11.350  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\shotgun\bitmaps\shotgun_bump
+07.15.24 20:25:11.394  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\shotgun\bitmaps\shotgun_bolt_bump
+07.15.24 20:25:11.412  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\shotgun\bitmaps\shotgun_port_bump
+07.15.24 20:25:11.594  ### WARNING sound 'sound_remastered\materials\particles\shell_casings\concrete\shotgun' last promotion rule 0 has a maximum play count of 4, resetting to 0
+07.15.24 20:25:11.640  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\shotgun\bitmaps\shotshell_bump
+07.15.24 20:25:11.736  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\pistol\needler\bitmaps\needler_bump
+07.15.24 20:25:11.890  fixing bitmap for DX11 (forced=default, format=a8y8) effects\decals\bullet_holes\bitmaps\impact_scratch
+07.15.24 20:25:11.895  ### WARNING loading from unsupported 2D storage format: a8y8 from effects\decals\bullet_holes\bitmaps\impact_scratch
+07.15.24 20:25:11.937  fixing bitmap for DX11 (forced=default, format=a8y8) incompetent\bitmaps\clouds_256
+07.15.24 20:25:12.011  ### WARNING loading from unsupported 2D storage format: a8y8 from incompetent\bitmaps\clouds_256
+07.15.24 20:25:12.354  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\beam_rifle\bitmaps\beam_rifle_bump
+07.15.24 20:25:12.465  fixing bitmap for DX11 (forced=default, format=a8y8) effects\bitmaps\flares\ring
+07.15.24 20:25:12.469  ### WARNING loading from unsupported 2D storage format: a8y8 from effects\bitmaps\flares\ring
+07.15.24 20:25:12.849  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\melee\energy_blade\bitmaps\energy_blade_bump
+07.15.24 20:25:12.880  sound 'sound\weapons\energy_sword\sword_impact_character' maximum gain is too large: 2.00dB, should be <= 0.0dB
+07.15.24 20:25:12.880  sound 'sound\weapons\energy_sword\sword_impact_character' gain bounds clamped to: [-2.00dB, 0.00dB]
+07.15.24 20:25:13.041  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\multiplayer\ball\bitmaps\gameball_bump
+07.15.24 20:25:13.390  ### WARNING object 'objects\weapons\zoephie\h2_kitbash\weapons\support_high\hunter_cannon\hunter_particle_cannon' has no bounding radius
+07.15.24 20:25:13.405  tags: missing tag (ffffffff)objects\weapons\damage_effects\slice_melee - copy.damage_effect replaced by (fd321bbd)globals\global_missing_damage_effect.damage_effect
+07.15.24 20:25:13.406  tags: missing tag (ffffffff)objects\weapons\damage_effects\dash_melee - copy.damage_effect replaced by (fd321bbd)globals\global_missing_damage_effect.damage_effect
+07.15.24 20:25:13.412  tags: missing tag (ffffffff)objects\weapons\damage_effects\slice_melee - copy.damage_effect replaced by (fd321bbd)globals\global_missing_damage_effect.damage_effect
+07.15.24 20:25:13.413  tags: missing tag (ffffffff)objects\weapons\damage_effects\dash_melee - copy.damage_effect replaced by (fd321bbd)globals\global_missing_damage_effect.damage_effect
+07.15.24 20:25:13.436  ### WARNING model 'zoephie\objects\weapons\melee\infected_sword\infected_arm' variant 'default' region 'blade' cannot find permutation 'noblade'
+07.15.24 20:25:13.436  ### WARNING model 'zoephie\objects\weapons\melee\infected_sword\infected_arm' variant 'noblade' region 'blade' cannot find permutation 'noblade'
+07.15.24 20:25:13.460  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\melee\gravity_hammer\bitmaps\gravity_hammer_bump
+07.15.24 20:25:13.483  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'objects\weapons\melee\gravity_hammer\gravity_hammer'
+07.15.24 20:25:13.557  tags: missing tag (ffffffff)objects\weapons\rifle\dmr\bitmaps\rubber.bitmap replaced by (ff9c1e27)rasterizer\invalid.bitmap
+07.15.24 20:25:13.566  ### WARNING model 'objects\weapons\melee\gravity_hammer_h3\gravity_hammer_h3' animation graph node counts don't match (will not animate)
+07.15.24 20:25:13.663  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\jackal\bitmaps\torso_bump
+07.15.24 20:25:13.758  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\melee\pike\bitmaps\pike_bump
+07.15.24 20:25:13.855  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\powerups\pistol_ammo\bitmaps\pistol_ammo_bump
+07.15.24 20:25:13.860  tags: missing tag (ffffffff)objects\weapons\pistol\pist\damage_effects\pist_trigger.damage_effect replaced by (fd321bbd)globals\global_missing_damage_effect.damage_effect
+07.15.24 20:25:13.959  tags: missing tag (ffffffff)objects\weapons\support_high\splazer\damage_effects\splazer_overcharged.damage_effect replaced by (fd321bbd)globals\global_missing_damage_effect.damage_effect
+07.15.24 20:25:13.960  tags: missing tag (ffffffff)objects\characters\splazer\weapons\beam\damage_effects\splazer_beam_firing.damage_effect replaced by (fd321bbd)globals\global_missing_damage_effect.damage_effect
+07.15.24 20:25:14.226  ### WARNING physics model 'kashiiera\objects\weapons\support_high\fuel_rod_ce\fuel_rod_ce' couldn't resolve material 'fuel_rod_ce' (''), using default material
+07.15.24 20:25:14.226  ### WARNING model 'kashiiera\objects\weapons\support_high\fuel_rod_ce\fuel_rod_ce' material 'fuel_rod_ce' ('') couldn't find a global material named 'fuel_rod_ce'
+07.15.24 20:25:14.710  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\support_high\flak_cannon\bitmaps\flak_cannon_bump
+07.15.24 20:25:14.966  ### WARNING object 'objects\weapons\zoephie\halo_2_beta\objects\weapons\support_low\disintegrator\disintegrator' has no bounding radius
+07.15.24 20:25:15.071  ### ERROR geometry 'objects\weapons\zoephie\halo_2_beta\objects\weapons\support_low\flamethrower\flamethrower' shader 'objects\weapons\zoephie\halo_2_beta\objects\weapons\support_low\flamethrower\shaders\heat_display' is transparent but was imported as opaque
+07.15.24 20:25:15.082  ### WARNING physics model 'objects\weapons\zoephie\halo_2_beta\objects\weapons\support_low\flamethrower\flamethrower' couldn't resolve material 'metal' (''), using default material
+07.15.24 20:25:15.082  ### WARNING model 'objects\weapons\zoephie\halo_2_beta\objects\weapons\support_low\flamethrower\flamethrower' material 'metal' ('') couldn't find a global material named 'metal'
+07.15.24 20:25:15.221  WARNING: shader 'kashiiera\objects\weapons\support_low\flamethrower_ce\shaders\one' could not resolve bitmap 'zero'
+07.15.24 20:25:15.228  WARNING: shader 'kashiiera\objects\weapons\support_low\flamethrower_ce\shaders\ten' could not resolve bitmap 'zero'
+07.15.24 20:25:15.232  WARNING: shader 'kashiiera\objects\weapons\support_low\flamethrower_ce\shaders\hundred' could not resolve bitmap 'zero'
+07.15.24 20:25:15.500  WARNING: shader 'objects\weapons\zoephie\halo_4\rifle\storm_battle_rifle\shaders\br_display_ones' could not resolve bitmap 'zero'
+07.15.24 20:25:15.508  WARNING: shader 'objects\weapons\zoephie\halo_4\rifle\storm_battle_rifle\shaders\br_display_tens' could not resolve bitmap 'zero'
+07.15.24 20:25:15.574  tags: missing tag (ffffffff)objects\weapons\zoephie\halo_4\rifle\storm_lmg\shaders\storm_lmg_display_depleted_diff.shader replaced by (e2f2017d)shaders\invalid.shader
+07.15.24 20:25:15.580  ### ERROR geometry 'objects\weapons\zoephie\halo_4\rifle\storm_lmg\storm_lmg' shader 'objects\weapons\zoephie\halo_4\rifle\storm_lmg\shaders\storm_lmg_display_diff' is transparent but was imported as opaque
+07.15.24 20:25:15.580  ### WARNING model 'objects\weapons\zoephie\halo_4\rifle\storm_lmg\storm_lmg' collision model region 'gun' has no corresponding model region (will not be collideable)
+07.15.24 20:25:15.588  ### ERROR geometry 'objects\weapons\zoephie\halo_4\rifle\storm_lmg\fp\fp' shader 'objects\weapons\zoephie\halo_4\rifle\storm_lmg\shaders\storm_lmg_display_diff' is transparent but was imported as opaque
+07.15.24 20:25:15.630  WARNING: shader 'objects\weapons\zoephie\halo_reach\weapons\rifle\assault_rifle\shaders\compass' could not resolve bitmap 'zero'
+07.15.24 20:25:15.634  WARNING: shader 'objects\weapons\zoephie\halo_reach\weapons\rifle\assault_rifle\shaders\ones' could not resolve bitmap 'zero'
+07.15.24 20:25:15.640  WARNING: shader 'objects\weapons\zoephie\halo_reach\weapons\rifle\assault_rifle\shaders\tens' could not resolve bitmap 'zero'
+07.15.24 20:25:15.721  WARNING: shader 'objects\weapons\zoephie\halo_reach\weapons\rifle\dmr\shaders\ones_dmr' could not resolve bitmap 'zero'
+07.15.24 20:25:15.722  WARNING: shader 'objects\weapons\zoephie\halo_reach\weapons\rifle\dmr\shaders\tens_dmr' could not resolve bitmap 'zero'
+07.15.24 20:25:15.789  tags: missing tag (ffffffff)halo_reach\objects\zoephie\weapons\rifle\needle_rifle\bitmaps\needle_rifle_normal.bitmap replaced by (ff9c1e27)rasterizer\invalid.bitmap
+07.15.24 20:25:15.789  tags: missing tag (ffffffff)halo_reach\objects\zoephie\weapons\rifle\needle_rifle\bitmaps\needle_rifle_diffuse.bitmap replaced by (ff9c1e27)rasterizer\invalid.bitmap
+07.15.24 20:25:15.790  tags: missing tag (ffffffff)halo_reach\objects\zoephie\weapons\rifle\needle_rifle\bitmaps\cov_hex_detail_grey.bitmap replaced by (ff9c1e27)rasterizer\invalid.bitmap
+07.15.24 20:25:15.942  tags: missing tag (ffffffff)halo_reach\objects\zoephie\weapons\support_high\plasma_launcher\shaders\plasma_launcher_metal.shader replaced by (e2f2017d)shaders\invalid.shader
+07.15.24 20:25:15.943  tags: missing tag (ffffffff)halo_reach\objects\zoephie\weapons\support_high\plasma_launcher\shaders\plasma_launcher_shell.shader replaced by (e2f2017d)shaders\invalid.shader
+07.15.24 20:25:15.943  tags: missing tag (ffffffff)halo_reach\objects\zoephie\weapons\support_high\plasma_launcher\shaders\circular_indicator.shader replaced by (e2f2017d)shaders\invalid.shader
+07.15.24 20:25:15.944  tags: missing tag (ffffffff)halo_reach\objects\zoephie\weapons\support_high\plasma_launcher\shaders\plasma_launcher_display.shader replaced by (e2f2017d)shaders\invalid.shader
+07.15.24 20:25:15.945  ### ERROR geometry 'objects\weapons\zoephie\halo_reach\weapons\support_high\plasma_launcher\plasma_launcher' shader 'halo_reach\objects\zoephie\weapons\support_high\plasma_launcher\shaders\circular_indicator' is opaque but was imported as transparent
+07.15.24 20:25:15.945  ### ERROR geometry 'objects\weapons\zoephie\halo_reach\weapons\support_high\plasma_launcher\plasma_launcher' shader 'halo_reach\objects\zoephie\weapons\support_high\plasma_launcher\shaders\plasma_launcher_display' is opaque but was imported as transparent
+07.15.24 20:25:15.946  ### WARNING model 'objects\weapons\zoephie\halo_reach\weapons\support_high\plasma_launcher\plasma_launcher' collision model node counts don't match (will not be collideable)
+07.15.24 20:25:16.004  ### WARNING loading from unsupported 2D storage format: y8 from objects\weapons\zoephie\hce\support_high\fuel_rod_gun_sp\bitmaps\fuel rod gun illum
+07.15.24 20:25:16.016  ### WARNING model 'objects\weapons\zoephie\hce\support_high\fuel_rod_gun_sp\fuel_rod_gun_sp' material 'shell' ('') couldn't find a global material named 'shell'
+07.15.24 20:25:16.016  ### WARNING model 'objects\weapons\zoephie\hce\support_high\fuel_rod_gun_sp\fuel_rod_gun_sp' material 'metal' ('') couldn't find a global material named 'metal'
+07.15.24 20:25:16.017  ### WARNING model 'objects\weapons\zoephie\hce\support_high\fuel_rod_gun_sp\fuel_rod_gun_sp' collision model region 'gun' has no corresponding model region (will not be collideable)
+07.15.24 20:25:16.030  ### WARNING model 'objects\weapons\zoephie\hce\support_high\fuel_rod_gun_sp_yellow\fuel_rod_gun_sp' material 'shell' ('') couldn't find a global material named 'shell'
+07.15.24 20:25:16.031  ### WARNING model 'objects\weapons\zoephie\hce\support_high\fuel_rod_gun_sp_yellow\fuel_rod_gun_sp' material 'metal' ('') couldn't find a global material named 'metal'
+07.15.24 20:25:16.031  ### WARNING model 'objects\weapons\zoephie\hce\support_high\fuel_rod_gun_sp_yellow\fuel_rod_gun_sp' collision model region 'gun' has no corresponding model region (will not be collideable)
+07.15.24 20:25:16.060  ### WARNING object 'scenarios\objects\covenant\military\scarab\scarab' has a bounding sphere radius much less than its model (12.500000 vs 16.304300)
+07.15.24 20:25:16.080  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\ec_blastdoors_bump
+07.15.24 20:25:16.123  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\nm\panel_bluegrey_bump
+07.15.24 20:25:16.283  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\metals\door_bulkhead_wall_new_bump
+07.15.24 20:25:16.476  ### WARNING loading from unsupported 2D storage format: y8 from scenarios\objects\lights\bitmaps\generic\gel_octangonal_fade
+07.15.24 20:25:16.804  ### WARNING effect 'effects\cinematics\03\slipspace_open' particle system is invalid
+07.15.24 20:25:16.847  ### WARNING effect 'effects\cinematics\03\slipspace_widening' particle system is invalid
+07.15.24 20:25:16.848  ### WARNING effect 'effects\cinematics\03\slipspace_widening' particle system is invalid
+07.15.24 20:25:17.061  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\solo\earthcity\road_cone\bitmaps\road_cone_bump
+07.15.24 20:25:17.078  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\solo\earthcity\crush_barrel\bitmaps\crush_barrel_bump
+07.15.24 20:25:17.095  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\multi\zanzibar\dumpster\bitmaps\dumpster_bump
+07.15.24 20:25:17.117  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\spacestation\ss_panel_crate_bump
+07.15.24 20:25:17.176  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\civilian\uberchassis\bitmaps\uberchassis_body_bump
+07.15.24 20:25:17.207  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\civilian\uberchassis\bitmaps\uberchassis_body_wheels_bump
+07.15.24 20:25:17.234  ### ERROR geometry 'objects\vehicles\civilian\uberchassis\uberchassis' shader 'objects\vehicles\civilian\uberchassis\shaders\uberchassis_glass_dead' is opaque but was imported as transparent
+07.15.24 20:25:17.235  ### ERROR geometry 'objects\vehicles\civilian\uberchassis\uberchassis' shader 'objects\vehicles\civilian\uberchassis\shaders\uberchassis_glass_dead' is opaque but was imported as transparent
+07.15.24 20:25:17.235  ### ERROR geometry 'objects\vehicles\civilian\uberchassis\uberchassis' shader 'objects\vehicles\civilian\uberchassis\shaders\uberchassis_glass_dead' is opaque but was imported as transparent
+07.15.24 20:25:17.282  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\gear\human\military\bitmaps\human_military_equipment_bump
+07.15.24 20:25:17.354  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\solo\earthcity\bitmaps\trash_can_bump
+07.15.24 20:25:17.388  tags: missing tag (ffffffff)scenarios\objects\human\residential\cafe_table\cafe_table.scenery replaced by (e56d03f8)incompetent\default_object.scenery
+07.15.24 20:25:17.389  tags: missing tag (ffffffff)scenarios\objects\human\residential\cafe_chair\cafe_chair.scenery replaced by (e56d03f8)incompetent\default_object.scenery
+07.15.24 20:25:17.620  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\gear\covenant\military\bitmaps\cov_comm_tower_bump
+07.15.24 20:25:17.642  ### WARNING loading from unsupported 2D storage format: y8 from objects\gear\covenant\military\bitmaps\antennae_comm_noise_a
+07.15.24 20:25:17.650  fixing bitmap for DX11 (forced=default, format=a8y8) objects\gear\covenant\military\bitmaps\antennae_comm_web_alpha
+07.15.24 20:25:17.664  ### WARNING loading from unsupported 2D storage format: a8y8 from objects\gear\covenant\military\bitmaps\antennae_comm_web_alpha
+07.15.24 20:25:17.673  ### WARNING loading from unsupported 2D storage format: y8 from objects\gear\covenant\military\bitmaps\pulse_256
+07.15.24 20:25:17.762  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\gear\covenant\military\bitmaps\cov_battery_bump
+07.15.24 20:25:17.780  ### WARNING collision model 'objects\gear\covenant\military\battery\battery' has 1 nonconvex surfaces
+07.15.24 20:25:17.889  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\gear\covenant\military\bitmaps\cov_storage_bump
+07.15.24 20:25:17.900  ### WARNING loading from unsupported 2D storage format: y8 from objects\gear\covenant\military\bitmaps\cov_storage_cc
+07.15.24 20:25:17.929  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\gear\covenant\military\bitmaps\cov_holo_generator_bump
+07.15.24 20:25:18.097  ### WARNING model 'objects\vehicles\civilian\uberchassis\uberchassis_tire\uberchassis_tire' material 'uberchassis_wheels_dead' ('') couldn't find a global material named 'uberchassis_wheels_dead'
+07.15.24 20:25:18.097  ### WARNING model 'objects\vehicles\civilian\uberchassis\uberchassis_tire\uberchassis_tire' collision model region 'tire' has no corresponding model region (will not be collideable)
+07.15.24 20:25:18.098  ### WARNING model 'objects\vehicles\civilian\uberchassis\uberchassis' variant 'destroyed' cannot find region 'wheel_fr'
+07.15.24 20:25:18.099  ### WARNING model 'objects\vehicles\civilian\uberchassis\uberchassis' variant 'destroyed' cannot find region 'wheel_fl'
+07.15.24 20:25:18.100  ### WARNING model 'objects\vehicles\civilian\uberchassis\uberchassis' variant 'destroyed' cannot find region 'wheel_bl'
+07.15.24 20:25:18.101  ### WARNING model 'objects\vehicles\civilian\uberchassis\uberchassis' variant 'destroyed' cannot find region 'wheel_br'
+07.15.24 20:25:18.118  ### WARNING object 'objects\vehicles\civilian\uberchassis\uberchassis' has a bounding sphere radius much less than its model (0.750000 vs 0.971937)
+07.15.24 20:25:18.178  ### WARNING model 'objects\weapons\rifle\brute_plasma_rifle\brute_plasma_rifle' collision model region 'default' has no corresponding model region (will not be collideable)
+07.15.24 20:25:18.304  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\support_low\brute_shot\bitmaps\brute_shot_bump
+07.15.24 20:25:18.394  ### WARNING effect 'effects\impact\explosion_small\brute_shot\detonation' part 'effects\impact\explosion_small\brute_shot\detonation' was not found
+07.15.24 20:25:18.573  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\forerunner\industrial\metals\flat_generic_bump
+07.15.24 20:25:18.612  ### WARNING physics model 'scenarios\objects\human\urban\air\air' couldn't resolve material 'airshader' (''), using default material
+07.15.24 20:25:18.619  ### WARNING object 'scenarios\objects\human\urban\air\ai_cap' has a bounding sphere radius much less than its model (0.100000 vs 0.521992)
+07.15.24 20:25:18.726  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\solo\earthcity\medical_crate_med\bitmaps\medical_crate_med_bump
+07.15.24 20:25:18.804  ### WARNING physics model 'objects\characters\ambient_life\reach_moa\reach_moa' couldn't resolve material 'reach_moa' (''), using default material
+07.15.24 20:25:18.816  ### WARNING model 'objects\characters\ambient_life\reach_moa\reach_moa' material 'reach_moa_collision' ('') couldn't find a global material named 'reach_moa_collision'
+07.15.24 20:25:19.036  ### WARNING looping sound 'sound_remastered\ambience\earthcity\earthcity_ocean_ext\earthcity_ocean_ext' components 'sound_remastered\ambience\earthcity\earthcity_ocean_ext\front_speakers\loop' and 'sound_remastered\ambience\earthcity\earthcity_ocean_ext\rear_speakers\loop' permutations '|default|:amb_ocean_wind_front_lp' and '|default|:amb_ocean_wind_rear_lp' have different sample lengths (10730496 vs 11336704)
+07.15.24 20:25:19.037  ### WARNING looping_sound sound_remastered\ambience\earthcity\earthcity_ocean_ext\earthcity_ocean_ext will go out of sync
+07.15.24 20:25:19.146  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\ambient_life\seagull\bitmaps\seagull_bump
+07.15.24 20:25:19.190  ### the creature 'objects\characters\ambient_life\seagull\seagull' has no 'head' marker
+07.15.24 20:25:19.191  ### WARNING object 'objects\characters\ambient_life\seagull\seagull' has a bounding sphere radius much less than its model (0.200000 vs 0.250794)
+07.15.24 20:25:19.242  found an unknown escape sequence '|d'
+07.15.24 20:25:20.117  ### WARNING 'scenario_scenery_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_scenery_resource' that is about to be stomped over isn't empty!
+07.15.24 20:25:20.118  ### WARNING 'scenario_scenery_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_scenery_resource' that is about to be stomped over isn't empty!
+07.15.24 20:25:20.118  ### WARNING 'scenario_crate_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_scenery_resource' that is about to be stomped over isn't empty!
+07.15.24 20:25:20.119  ### WARNING 'scenario_crate_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_scenery_resource' that is about to be stomped over isn't empty!
+07.15.24 20:25:20.120  ### WARNING 'scenario_biped_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_bipeds_resource' that is about to be stomped over isn't empty!
+07.15.24 20:25:20.120  ### WARNING 'scenario_biped_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_bipeds_resource' that is about to be stomped over isn't empty!
+07.15.24 20:25:20.120  ### WARNING 'scenario_vehicle_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_vehicles_resource' that is about to be stomped over isn't empty!
+07.15.24 20:25:20.121  ### WARNING 'scenario_vehicle_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_vehicles_resource' that is about to be stomped over isn't empty!
+07.15.24 20:25:20.122  ### WARNING 'scenario_equipment_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_equipment_resource' that is about to be stomped over isn't empty!
+07.15.24 20:25:20.122  ### WARNING 'scenario_equipment_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_equipment_resource' that is about to be stomped over isn't empty!
+07.15.24 20:25:20.123  ### WARNING 'scenario_weapon_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_weapons_resource' that is about to be stomped over isn't empty!
+07.15.24 20:25:20.123  ### WARNING 'scenario_weapon_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_weapons_resource' that is about to be stomped over isn't empty!
+07.15.24 20:25:20.124  ### WARNING 'scenario_sound_scenery_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_sound_scenery_resource' that is about to be stomped over isn't empty!
+07.15.24 20:25:20.125  ### WARNING 'scenario_sound_scenery_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_sound_scenery_resource' that is about to be stomped over isn't empty!
+07.15.24 20:25:20.125  ### WARNING 'scenario_light_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_lights_resource' that is about to be stomped over isn't empty!
+07.15.24 20:25:20.126  ### WARNING 'scenario_light_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_lights_resource' that is about to be stomped over isn't empty!
+07.15.24 20:25:20.126  ### WARNING 'device_group_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_devices_resource' that is about to be stomped over isn't empty!
+07.15.24 20:25:20.127  ### WARNING 'scenario_machine_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_devices_resource' that is about to be stomped over isn't empty!
+07.15.24 20:25:20.127  ### WARNING 'scenario_machine_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_devices_resource' that is about to be stomped over isn't empty!
+07.15.24 20:25:20.128  ### WARNING 'scenario_decals_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_decals_resource' that is about to be stomped over isn't empty!
+07.15.24 20:25:20.128  ### WARNING 'scenario_decal_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_decals_resource' that is about to be stomped over isn't empty!
+07.15.24 20:25:20.129  ### WARNING 'scenario_cutscene_camera_point_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_cinematics_resource' that is about to be stomped over isn't empty!
+07.15.24 20:25:20.129  ### WARNING 'scenario_cutscene_flag_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_cinematics_resource' that is about to be stomped over isn't empty!
+07.15.24 20:25:20.130  ### WARNING 'scenario_trigger_volume_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_trigger_volumes_resource' that is about to be stomped over isn't empty!
+07.15.24 20:25:20.130  ### WARNING 'structure_bsp_background_sound_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_cluster_data_resource' that is about to be stomped over isn't empty!
+07.15.24 20:25:20.130  ### WARNING 'structure_bsp_sound_environment_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_cluster_data_resource' that is about to be stomped over isn't empty!
+07.15.24 20:25:20.131  ### WARNING 'scenario_atmospheric_fog_palette' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_cluster_data_resource' that is about to be stomped over isn't empty!
+07.15.24 20:25:20.132  ### WARNING 'scenario_cluster_data_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_cluster_data_resource' that is about to be stomped over isn't empty!
+07.15.24 20:25:20.132  ### WARNING 'editor_comment_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_comments_resource' that is about to be stomped over isn't empty!
+07.15.24 20:25:20.132  ### WARNING 'scenario_creature_palette_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_creature_resource' that is about to be stomped over isn't empty!
+07.15.24 20:25:20.133  ### WARNING 'scenario_structure_bsp_spherical_harmonic_lighting_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_structure_lighting_resource' that is about to be stomped over isn't empty!
+07.15.24 20:25:20.133  ### WARNING 'scenario_decorator_set_palette_entry_block' referenced by resource 'scenarios\solo\03b_newmombasa\resources\03b_newmombasa.scenario_decorators_resource' that is about to be stomped over isn't empty!
+07.15.24 20:25:20.159  tags: missing tag (ffffffff)scenarios\objects\human\residential\cafe_table\cafe_table.scenery replaced by (e56d03f8)incompetent\default_object.scenery
+07.15.24 20:25:20.159  tags: missing tag (ffffffff)scenarios\objects\human\residential\cafe_chair\cafe_chair.scenery replaced by (e56d03f8)incompetent\default_object.scenery
+07.15.24 20:25:20.278  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\jackal\bitmaps\legs_bump
+07.15.24 20:25:20.306  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\jackal\bitmaps\head_bump
+07.15.24 20:25:20.320  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\jackal\bitmaps\arms_bump
+07.15.24 20:25:21.219  fixing bitmap for DX11 (forced=default, format=a8y8) rasterizer\distance_attenuation
+07.15.24 20:25:21.236  ### WARNING loading from unsupported 3D storage format: a8y8 from rasterizer\distance_attenuation
+07.15.24 20:25:21.256  ### WARNING loading from unsupported 2D storage format: y8 from globals\loading_screen\loading_screen_sweep
+07.15.24 20:25:21.267  fixing bitmap for DX11 (forced=default, format=a8y8) rasterizer\glow
+07.15.24 20:25:21.285  ### WARNING loading from unsupported 2D storage format: a8y8 from rasterizer\glow
+07.15.24 20:25:21.472  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\hud_waypoints
+07.15.24 20:25:21.493  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+07.15.24 20:25:21.494  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+07.15.24 20:25:21.494  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+07.15.24 20:25:21.495  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+07.15.24 20:25:21.495  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+07.15.24 20:25:21.496  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+07.15.24 20:25:21.496  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+07.15.24 20:25:21.497  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+07.15.24 20:25:21.497  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+07.15.24 20:25:21.576  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\default_arrow
+07.15.24 20:25:21.577  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\default_arrow
+07.15.24 20:25:21.610  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\dead_friendly_arrow
+07.15.24 20:25:21.612  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\dead_friendly_arrow
+07.15.24 20:25:21.641  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\reset_flag
+07.15.24 20:25:21.644  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\reset_flag
+07.15.24 20:25:21.672  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\reset_bomb
+07.15.24 20:25:21.676  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\reset_bomb
+07.15.24 20:25:21.680  ### WARNING loading from unsupported 2D storage format: y8 from ui\hud\bitmaps\new_hud\emblem_dummy
+07.15.24 20:25:21.724  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\reset_ball
+07.15.24 20:25:21.727  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\reset_ball
+07.15.24 20:25:21.895  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\h_topright
+07.15.24 20:25:21.896  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\h_topright
+07.15.24 20:25:21.900  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\h_topcenter
+07.15.24 20:25:21.901  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\h_topcenter
+07.15.24 20:25:21.906  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\h_topleft
+07.15.24 20:25:21.906  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\h_topleft
+07.15.24 20:25:21.910  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\h_center
+07.15.24 20:25:21.911  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\h_center
+07.15.24 20:25:21.915  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\c_topright
+07.15.24 20:25:21.915  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\c_topright
+07.15.24 20:25:21.920  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\c_topcenter
+07.15.24 20:25:21.921  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\c_topcenter
+07.15.24 20:25:21.925  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\c_topleft
+07.15.24 20:25:21.926  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\c_topleft
+07.15.24 20:25:21.929  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\c_center
+07.15.24 20:25:21.930  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\c_center
+07.15.24 20:25:21.955  tags: missing tag (ffffffff)ui\hud\bitmaps\hud_msg_icons_sm.bitmap replaced by (ff9c1e27)rasterizer\invalid.bitmap
+07.15.24 20:25:23.249  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\masterchief\fp\bitmaps\fp_arms_bump
+07.15.24 20:25:23.317  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\dervish\fp\bitmaps\dervish_fp_arms_bump
+07.15.24 20:25:23.345  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\dervish\bitmaps\dervish_bump
+07.15.24 20:25:23.397  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\dervish\bitmaps\dervish_helmet_bump
+07.15.24 20:25:23.427  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\dervish\bitmaps\dervish_nude_brand_bump
+07.15.24 20:25:23.446  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\dervish\bitmaps\dervish_nude_body_bump
+07.15.24 20:25:23.566  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\fp_arms\bitmaps\elite_fp_arms_bump
+07.15.24 20:25:23.603  ### ERROR geometry 'objects\characters\elite\fp_body\fp_body' shader 'objects\characters\elite\shaders\inset_lights' is opaque but was imported as transparent
+07.15.24 20:25:23.614  ### ERROR model 'objects\characters\elite\elite_mp' could not find variant 'spec_ops_scl' to strip
+07.15.24 20:25:23.614  ### ERROR model 'objects\characters\elite\elite_mp' could not find variant 'spec_ops_dog' to strip
+07.15.24 20:25:23.615  ### ERROR model 'objects\characters\elite\elite_mp' could not find variant 'zealot_scl' to strip
+07.15.24 20:25:23.615  ### ERROR model 'objects\characters\elite\elite_mp' could not find variant 'zealot_dog' to strip
+07.15.24 20:25:23.615  ### ERROR model 'objects\characters\elite\elite_mp' could not find variant 'stealth_scl' to strip
+07.15.24 20:25:23.615  ### ERROR model 'objects\characters\elite\elite_mp' could not find variant 'stealth_dog' to strip
+07.15.24 20:25:23.616  ### ERROR model 'objects\characters\elite\elite_mp' could not find variant 'stealth_major_scl' to strip
+07.15.24 20:25:23.617  ### ERROR model 'objects\characters\elite\elite_mp' could not find variant 'stealth_major_dog' to strip
+07.15.24 20:25:23.617  ### ERROR model 'objects\characters\elite\elite_mp' could not find variant 'honor_scl' to strip
+07.15.24 20:25:23.618  ### ERROR model 'objects\characters\elite\elite_mp' could not find variant 'honor_dog' to strip
+07.15.24 20:25:23.618  ### ERROR model 'objects\characters\elite\elite_mp' could not find variant 'soc' to strip
+07.15.24 20:25:23.619  ### ERROR model 'objects\characters\elite\elite_mp' could not find variant 'council_scl' to strip
+07.15.24 20:25:23.619  ### ERROR model 'objects\characters\elite\elite_mp' could not find variant 'council_dog' to strip
+07.15.24 20:25:23.620  ### WARNING model 'objects\characters\elite\elite_mp' variant 'default' cannot find region 'hg_lights'
+07.15.24 20:25:33.821  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\metals\street_straight_bump
+07.15.24 20:25:33.839  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\metals\girders_a_bump
+07.15.24 20:25:33.877  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\metals\street_highway_bottom_bump
+07.15.24 20:25:33.910  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\detail_maps\concrete\poured_bump
+07.15.24 20:25:33.924  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\metals\metal_slats_bump
+07.15.24 20:25:33.951  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\pavers\paver_concrete_bump
+07.15.24 20:25:33.961  ### WARNING loading from unsupported 2D storage format: y8 from scenarios\bitmaps\human\urban\pavers\paver_concrete_specular
+07.15.24 20:25:33.989  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\park_glass_bump
+07.15.24 20:25:34.011  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\door_metal_a_bump
+07.15.24 20:25:34.067  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\solo\earthcity\debris_pile_large\bitmaps\debris_pile_large_bump
+07.15.24 20:25:34.116  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\multi\zanzibar\basic_concrete_bump
+07.15.24 20:25:34.191  fixing bitmap for DX11 (forced=default, format=a8y8) scenarios\bitmaps\detail_maps\metal\metal_smallpanels
+07.15.24 20:25:34.551  ### WARNING loading from unsupported 2D storage format: a8y8 from scenarios\bitmaps\detail_maps\metal\metal_smallpanels
