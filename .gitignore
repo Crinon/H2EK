@@ -1,5 +1,7 @@
 # HENLO
 bin/*
+reports/*
+shader_cache/*
 *.rar
 *.zip
 *.7z
@@ -68,136 +70,7 @@ tags/cursors/default/bitmaps/pointer2.bitmap
 tags/cursors/default/bitmaps/text_cursor1.bitmap
 tags/cursors/default/bitmaps/waiting_cursor1.bitmap
 tags/cursors/default/default.mouse_cursor_definition
-tags/digsite/camera/mongoose_d_camera.camera_track
-tags/digsite/objects/characters/elite/elite.model_animation_graph
-tags/digsite/objects/characters/masterchief/fp/weapons/rifle/fp_battle_rifle/fp_battle_rifle.model_animation_graph
-tags/digsite/objects/characters/masterchief/fp/weapons/rifle/fp_smg/combos/combos.model_animation_graph
-tags/digsite/objects/characters/masterchief/fp/weapons/rifle/fp_smg/melee/melee.model_animation_graph
-tags/digsite/objects/characters/masterchief/fp/weapons/rifle/fp_sniper_rifle/fp_sniper_rifle.model_animation_graph
-tags/digsite/objects/characters/masterchief/masterchief.model_animation_graph
-tags/digsite/objects/vehicles/mongoose/bitmaps/mongoose.bitmap
-tags/digsite/objects/vehicles/mongoose/bitmaps/mongoose_bump.bitmap
-tags/digsite/objects/vehicles/mongoose/bitmaps/mongoose_wheel.bitmap
-tags/digsite/objects/vehicles/mongoose/bitmaps/mongoose_wheel_bump.bitmap
-tags/digsite/objects/vehicles/mongoose/mongoose.collision_model
-tags/digsite/objects/vehicles/mongoose/mongoose.model
-tags/digsite/objects/vehicles/mongoose/mongoose.model_animation_graph
 tags/digsite/objects/vehicles/mongoose/mongoose.physics
-tags/digsite/objects/vehicles/mongoose/mongoose.physics_model
-tags/digsite/objects/vehicles/mongoose/mongoose.render_model
-tags/digsite/objects/vehicles/mongoose/mongoose.vehicle
-tags/digsite/objects/vehicles/mongoose/shaders/mongoose_body.shader
-tags/digsite/objects/vehicles/mongoose/shaders/mongoose_glass.shader
-tags/digsite/objects/vehicles/mongoose/shaders/mongoose_wheels.shader
-tags/digsite/objects/vehicles/piglet/attachments/piglet_headlights.light
-tags/digsite/objects/vehicles/piglet/attachments/piglet_headlights_flare.lens_flare
-tags/digsite/objects/vehicles/piglet/bitmaps/piglet.bitmap
-tags/digsite/objects/vehicles/piglet/bitmaps/piglet_bump.bitmap
-tags/digsite/objects/vehicles/piglet/bitmaps/piglet_feet.bitmap
-tags/digsite/objects/vehicles/piglet/bitmaps/piglet_feet_bump.bitmap
-tags/digsite/objects/vehicles/piglet/piglet.collision_model
-tags/digsite/objects/vehicles/piglet/piglet.model
-tags/digsite/objects/vehicles/piglet/piglet.model_animation_graph
-tags/digsite/objects/vehicles/piglet/piglet.physics_model
-tags/digsite/objects/vehicles/piglet/piglet.render_model
-tags/digsite/objects/vehicles/piglet/piglet.vehicle
-tags/digsite/objects/vehicles/piglet/shaders/console.shader
-tags/digsite/objects/vehicles/piglet/shaders/lights.shader
-tags/digsite/objects/vehicles/piglet/shaders/piglet_glass.shader
-tags/digsite/objects/vehicles/piglet/shaders/piglet_hull.shader
-tags/digsite/objects/vehicles/piglet/shaders/piglet_wheels.shader
-tags/digsite/objects/vehicles/piglet/shaders/speedo.shader
-tags/digsite/objects/vehicles/uberchassis/uberchassis.collision_model
-tags/digsite/objects/vehicles/uberchassis/uberchassis.model
-tags/digsite/objects/vehicles/uberchassis/uberchassis.model_animation_graph
-tags/digsite/objects/vehicles/uberchassis/uberchassis.physics_model
-tags/digsite/objects/vehicles/uberchassis/uberchassis.render_model
-tags/digsite/objects/vehicles/uberchassis/uberchassis.vehicle
-tags/digsite/objects/weapons/rifle/battle_rifle_combo/battle_rifle_combo.model
-tags/digsite/objects/weapons/rifle/battle_rifle_combo/battle_rifle_combo.render_model
-tags/digsite/objects/weapons/rifle/battle_rifle_combo/battle_rifle_combo.weapon
-tags/digsite/objects/weapons/rifle/battle_rifle_combo/bitmaps/battle_rifle.bitmap
-tags/digsite/objects/weapons/rifle/battle_rifle_combo/bitmaps/battle_rifle_bump.bitmap
-tags/digsite/objects/weapons/rifle/battle_rifle_combo/damage_effects/battle_rifle_bullet.damage_effect
-tags/digsite/objects/weapons/rifle/battle_rifle_combo/fp/fp.render_model
-tags/digsite/objects/weapons/rifle/battle_rifle_combo/projectiles/battle_rifle_bullet.projectile
-tags/digsite/objects/weapons/rifle/battle_rifle_combo/shaders/battle_rifle_metal.shader
-tags/digsite/objects/weapons/rifle/smg_combo/smg_combo.weapon
-tags/digsite/objects/weapons/rifle/sniper_rifle_combo/sniper_rifle_combo.weapon
-tags/digsite/scenarios/decals/test/multi/alien_ministry_signage.decal
-tags/digsite/scenarios/decals/test/multi/alien_ministry_signage_micro.decal
-tags/digsite/scenarios/decals/test/multi/alien_ministry_signage_small.decal
-tags/digsite/scenarios/decals/test/multi/apollos_coffee_signage.decal
-tags/digsite/scenarios/decals/test/multi/blue_sahara_parking_signage.decal
-tags/digsite/scenarios/decals/test/multi/home_world_savings_signage.decal
-tags/digsite/scenarios/decals/test/multi/home_world_savings_signage_small.decal
-tags/digsite/scenarios/decals/test/multi/ivory_towers_signage.decal
-tags/digsite/scenarios/decals/test/multi/ivory_towers_signage_micro.decal
-tags/digsite/scenarios/decals/test/multi/ivory_towers_signage_small.decal
-tags/digsite/scenarios/decals/test/multi/teleporter_coinslot.decal
-tags/digsite/scenarios/decals/test/multi/to_elevator.decal
-tags/digsite/scenarios/multi/03_ascension/03_ascension.scenario
-tags/digsite/scenarios/multi/03_ascension/03_ascension.scenario_structure_bsp
-tags/digsite/scenarios/multi/03_ascension/03_ascension_03_ascension_lightmap.scenario_structure_lightmap
-tags/digsite/scenarios/multi/03_ascension/03_ascension_03_ascension_lightmap_bitmaps.bitmap
-tags/digsite/scenarios/multi/03_ascension/03_ascension_03_ascension_lightmap_truecolor_bitmaps.bitmap
-tags/digsite/scenarios/multi/03_burial_mounds/03_burial_mounds.scenario
-tags/digsite/scenarios/multi/03_burial_mounds/03_burial_mounds.scenario_structure_bsp
-tags/digsite/scenarios/multi/03_burial_mounds/03_burial_mounds_03_burial_mounds_lightmap.scenario_structure_lightmap
-tags/digsite/scenarios/multi/03_burial_mounds/03_burial_mounds_03_burial_mounds_lightmap_bitmaps.bitmap
-tags/digsite/scenarios/multi/03_burial_mounds/03_burial_mounds_03_burial_mounds_lightmap_truecolor_bitmaps.bitmap
-tags/digsite/scenarios/multi/03_colossus/03_colossus.scenario
-tags/digsite/scenarios/multi/03_colossus/03_colossus.scenario_structure_bsp
-tags/digsite/scenarios/multi/03_colossus/03_colossus_03_colossus_lightmap.scenario_structure_lightmap
-tags/digsite/scenarios/multi/03_colossus/03_colossus_03_colossus_lightmap_bitmaps.bitmap
-tags/digsite/scenarios/multi/03_colossus/03_colossus_03_colossus_lightmap_truecolor_bitmaps.bitmap
-tags/digsite/scenarios/multi/03_headlong/03_headlong.scenario
-tags/digsite/scenarios/multi/03_headlong/03_headlong.scenario_structure_bsp
-tags/digsite/scenarios/multi/03_headlong/03_headlong_03_headlong_lightmap.scenario_structure_lightmap
-tags/digsite/scenarios/multi/03_headlong/03_headlong_03_headlong_lightmap_bitmaps.bitmap
-tags/digsite/scenarios/multi/03_headlong/03_headlong_03_headlong_lightmap_truecolor_bitmaps.bitmap
-tags/digsite/scenarios/multi/03_lockout/03_lockout.scenario
-tags/digsite/scenarios/multi/03_lockout/03_lockout.scenario_structure_bsp
-tags/digsite/scenarios/multi/03_lockout/03_lockout_03_lockout_lightmap.scenario_structure_lightmap
-tags/digsite/scenarios/multi/03_lockout/03_lockout_03_lockout_lightmap_bitmaps.bitmap
-tags/digsite/scenarios/multi/03_lockout/03_lockout_03_lockout_lightmap_truecolor_bitmaps.bitmap
-tags/digsite/scenarios/multi/03_midship/03_midship.scenario
-tags/digsite/scenarios/multi/03_midship/03_midship.scenario_structure_bsp
-tags/digsite/scenarios/multi/03_midship/03_midship_03_midship_lightmap.scenario_structure_lightmap
-tags/digsite/scenarios/multi/03_midship/03_midship_03_midship_lightmap_bitmaps.bitmap
-tags/digsite/scenarios/multi/03_midship/03_midship_03_midship_lightmap_truecolor_bitmaps.bitmap
-tags/digsite/scenarios/multi/03_waterworks/03_waterworks.scenario
-tags/digsite/scenarios/multi/03_waterworks/03_waterworks.scenario_structure_bsp
-tags/digsite/scenarios/multi/03_waterworks/03_waterworks_03_waterworks_lightmap.scenario_structure_lightmap
-tags/digsite/scenarios/multi/03_waterworks/03_waterworks_03_waterworks_lightmap_bitmaps.bitmap
-tags/digsite/scenarios/multi/03_waterworks/03_waterworks_03_waterworks_lightmap_truecolor_bitmaps.bitmap
-tags/digsite/scenarios/objects/multi/headlong/elevator_headlong/elevator_headlong.collision_model
-tags/digsite/scenarios/objects/multi/headlong/elevator_headlong/elevator_headlong.device_machine
-tags/digsite/scenarios/objects/multi/headlong/elevator_headlong/elevator_headlong.model
-tags/digsite/scenarios/objects/multi/headlong/elevator_headlong/elevator_headlong.model_animation_graph
-tags/digsite/scenarios/objects/multi/headlong/elevator_headlong/elevator_headlong.physics_model
-tags/digsite/scenarios/objects/multi/headlong/elevator_headlong/elevator_headlong.render_model
-tags/digsite/scenarios/objects/multi/lockout/elevator_lockout/elevator_lockout.collision_model
-tags/digsite/scenarios/objects/multi/lockout/elevator_lockout/elevator_lockout.device_machine
-tags/digsite/scenarios/objects/multi/lockout/elevator_lockout/elevator_lockout.model
-tags/digsite/scenarios/objects/multi/lockout/elevator_lockout/elevator_lockout.model_animation_graph
-tags/digsite/scenarios/objects/multi/lockout/elevator_lockout/elevator_lockout.physics_model
-tags/digsite/scenarios/objects/multi/lockout/elevator_lockout/elevator_lockout.render_model
-tags/digsite/scenarios/objects/multi/waterworks/elev_back_wworks/elev_back_wworks.collision_model
-tags/digsite/scenarios/objects/multi/waterworks/elev_back_wworks/elev_back_wworks.device_machine
-tags/digsite/scenarios/objects/multi/waterworks/elev_back_wworks/elev_back_wworks.model
-tags/digsite/scenarios/objects/multi/waterworks/elev_back_wworks/elev_back_wworks.model_animation_graph
-tags/digsite/scenarios/objects/multi/waterworks/elev_back_wworks/elev_back_wworks.physics_model
-tags/digsite/scenarios/objects/multi/waterworks/elev_back_wworks/elev_back_wworks.render_model
-tags/digsite/scenarios/solo/arcology/arcology.scenario
-tags/digsite/scenarios/solo/arcology/arcology.scenario_structure_bsp
-tags/digsite/scenarios/solo/arcology/arcology_arcology_lightmap.scenario_structure_lightmap
-tags/digsite/scenarios/solo/arcology/arcology_arcology_lightmap_truecolor_bitmaps.bitmap
-tags/digsite/scenarios/solo/arcology/arcology_playground.scenario
-tags/digsite/scenarios/solo/arcology/scripts/arcology.scenario_hs_source_file
-tags/digsite/scenarios/solo/arcology/scripts/arcology_playground.scenario_hs_source_file
-tags/digsite/ui/hud/battle_rifle_combo.new_hud_definition
-tags/digsite/ui/hud/hud_messages.multilingual_unicode_string_list
 tags/effects/bitmaps/contrails/banshee_contrail.bitmap
 tags/effects/bitmaps/contrails/condensation_contrail.bitmap
 tags/effects/bitmaps/contrails/contrail_human.bitmap
@@ -3743,9 +3616,7 @@ tags/objects/characters/masterchief/helmet/helmet.scenery
 tags/objects/characters/masterchief/masterchief.biped
 tags/objects/characters/masterchief/masterchief.collision_model
 tags/objects/characters/masterchief/masterchief.model
-tags/objects/characters/masterchief/masterchief.model_animation_graph
 tags/objects/characters/masterchief/masterchief.physics_model
-tags/objects/characters/masterchief/masterchief.render_model
 tags/objects/characters/masterchief/masterchief_mp.biped
 tags/objects/characters/masterchief/masterchief_mp.model
 tags/objects/characters/masterchief/shaders/active_camo.shader
@@ -14854,7 +14725,6 @@ tags/scenarios/shaders/nature/trees/tree_cliff_leaf.shader
 tags/scenarios/shaders/nature/trees/tree_leafy_leaves.shader
 tags/scenarios/shaders/nature/trees/tree_leafy_trunk.shader
 tags/scenarios/shaders/nature/water/water_pool2.shader
-tags/scenarios/shaders/shader_collections.shader_collections
 tags/scenarios/shaders/shared/shaders/box.shader
 tags/scenarios/shaders/shared/shaders/invisible_wall.shader
 tags/scenarios/shaders/solo/alphagasgiant/atmosphere/gas_intake_a.shader
@@ -29521,15 +29391,6 @@ data/digsite/objects/characters/elite/animations/phantom_p_a01 any any idle.jmm
 data/digsite/objects/characters/elite/animations/phantom_p_a02 any any exit.jmm
 data/digsite/objects/characters/elite/animations/phantom_p_a03 any any exit.jmm
 data/digsite/objects/characters/elite/animations/phonemes.jmo
-data/digsite/objects/characters/elite/animations/piglet_d acc-front-back.jmo
-data/digsite/objects/characters/elite/animations/piglet_d acc-left-right.jmo
-data/digsite/objects/characters/elite/animations/piglet_d acc-up-down.jmo
-data/digsite/objects/characters/elite/animations/piglet_d aim-still-up.jmo
-data/digsite/objects/characters/elite/animations/piglet_d ejected.jmm
-data/digsite/objects/characters/elite/animations/piglet_d ejection.jmm
-data/digsite/objects/characters/elite/animations/piglet_d enter.jmm
-data/digsite/objects/characters/elite/animations/piglet_d exit.jmm
-data/digsite/objects/characters/elite/animations/piglet_d unarmed idle.jmm
 data/digsite/objects/characters/elite/animations/rename.txt
 data/digsite/objects/characters/elite/animations/s-kill back gut var0.jma
 data/digsite/objects/characters/elite/animations/s-kill back head var0.jma
@@ -30259,13 +30120,6 @@ data/digsite/objects/characters/masterchief/animations/h_turret_mp_d enter.jmm
 data/digsite/objects/characters/masterchief/animations/h_turret_mp_d exit.jmm
 data/digsite/objects/characters/masterchief/animations/h_turret_mp_d fire-1.jmo
 data/digsite/objects/characters/masterchief/animations/h_turret_mp_d idle.jmm
-data/digsite/objects/characters/masterchief/animations/mongoose_d acc-front-back.JMO
-data/digsite/objects/characters/masterchief/animations/mongoose_d acc-left-right.JMO
-data/digsite/objects/characters/masterchief/animations/mongoose_d acc-up-down.JMO
-data/digsite/objects/characters/masterchief/animations/mongoose_d enter.JMM
-data/digsite/objects/characters/masterchief/animations/mongoose_d exit.JMM
-data/digsite/objects/characters/masterchief/animations/mongoose_d unarmed aim-still-up.JMO
-data/digsite/objects/characters/masterchief/animations/mongoose_d unarmed idle.JMM
 data/digsite/objects/characters/masterchief/animations/patrol rifle aim-move-up.jmo
 data/digsite/objects/characters/masterchief/animations/patrol rifle move-front.jmA
 data/digsite/objects/characters/masterchief/animations/pelican_b idle.jmm
@@ -30274,15 +30128,6 @@ data/digsite/objects/characters/masterchief/animations/pelican_p_l05 exit.jmm
 data/digsite/objects/characters/masterchief/animations/pelican_p_l05 rifle idle.jmm
 data/digsite/objects/characters/masterchief/animations/pelican_p_r05 enter.jmm
 data/digsite/objects/characters/masterchief/animations/pelican_p_r05 exit.jmm
-data/digsite/objects/characters/masterchief/animations/piglet_d acc-front-back.jmo
-data/digsite/objects/characters/masterchief/animations/piglet_d acc-left-right.jmo
-data/digsite/objects/characters/masterchief/animations/piglet_d acc-up-down.jmo
-data/digsite/objects/characters/masterchief/animations/piglet_d ejection.jmm
-data/digsite/objects/characters/masterchief/animations/piglet_d enter.jmm
-data/digsite/objects/characters/masterchief/animations/piglet_d exit.jmm
-data/digsite/objects/characters/masterchief/animations/piglet_d grip.jmr
-data/digsite/objects/characters/masterchief/animations/piglet_d unarmed aim-still-up.jmo
-data/digsite/objects/characters/masterchief/animations/piglet_d unarmed idle.JMM
 data/digsite/objects/characters/masterchief/animations/rename.txt
 data/digsite/objects/characters/masterchief/animations/s-kill back gut var0.jma
 data/digsite/objects/characters/masterchief/animations/s-kill back gut var1.jma
@@ -30504,115 +30349,10 @@ data/digsite/objects/characters/masterchief/animations/wraith_d enter-a.jmm
 data/digsite/objects/characters/masterchief/animations/wraith_d enter.jmm
 data/digsite/objects/characters/masterchief/animations/wraith_d exit.jmm
 data/digsite/objects/characters/masterchief/animations/wraith_d unarmed idle.jmm
-data/digsite/objects/characters/masterchief/fp/render/fp_arms.jms
-data/digsite/objects/characters/masterchief/fp/weapons/rifle/fp_battle_rifle/animations/first-person melee-strike-1.jmm
-data/digsite/objects/characters/masterchief/fp/weapons/rifle/fp_battle_rifle/animations/first-person melee-strike-2.jmm
-data/digsite/objects/characters/masterchief/fp/weapons/rifle/fp_battle_rifle/animations/first-person melee-strike-3.jmm
-data/digsite/objects/characters/masterchief/fp/weapons/rifle/fp_battle_rifle/animations/first-person reload-empty.JMM
-data/digsite/objects/characters/masterchief/fp/weapons/rifle/fp_battle_rifle/source/animations/first-person melee-1sthit.jmm
-data/digsite/objects/characters/masterchief/fp/weapons/rifle/fp_battle_rifle/source/animations/first-person melee-1sthit2idle.jmm
-data/digsite/objects/characters/masterchief/fp/weapons/rifle/fp_battle_rifle/source/animations/first-person melee-2ndhit.jmm
-data/digsite/objects/characters/masterchief/fp/weapons/rifle/fp_battle_rifle/source/animations/first-person melee-2ndhit2idle.jmm
-data/digsite/objects/characters/masterchief/fp/weapons/rifle/fp_battle_rifle/source/animations/first-person melee-3rd.jmm
-data/digsite/objects/characters/masterchief/fp/weapons/rifle/fp_battle_rifle/source/animations/first-person reload-empty.JMM
-data/digsite/objects/characters/masterchief/fp/weapons/rifle/fp_smg/combos/animations/first-person melee-strike-1.jmm
-data/digsite/objects/characters/masterchief/fp/weapons/rifle/fp_smg/combos/animations/first-person melee-strike-2.jmm
-data/digsite/objects/characters/masterchief/fp/weapons/rifle/fp_smg/combos/animations/first-person melee-strike-3.jmm
-data/digsite/objects/characters/masterchief/fp/weapons/rifle/fp_smg/combos/animations/first-person reload-empty.jmm
-data/digsite/objects/characters/masterchief/fp/weapons/rifle/fp_smg/combos/source/animations/first-person melee-1sthit.jmm
-data/digsite/objects/characters/masterchief/fp/weapons/rifle/fp_smg/combos/source/animations/first-person melee-1sthit2i.jmm
-data/digsite/objects/characters/masterchief/fp/weapons/rifle/fp_smg/combos/source/animations/first-person melee-2ndhit.jmm
-data/digsite/objects/characters/masterchief/fp/weapons/rifle/fp_smg/combos/source/animations/first-person melee-2ndhit2i.jmm
-data/digsite/objects/characters/masterchief/fp/weapons/rifle/fp_smg/combos/source/animations/first-person melee-3rdhit.jmm
-data/digsite/objects/characters/masterchief/fp/weapons/rifle/fp_smg/combos/source/animations/first-person reload-empty.jmm
-data/digsite/objects/characters/masterchief/fp/weapons/rifle/fp_smg/melee/animations/first-person melee-strike-2.jmm
-data/digsite/objects/characters/masterchief/fp/weapons/rifle/fp_smg/melee/animations/first-person reload-empty.jmm
-data/digsite/objects/characters/masterchief/fp/weapons/rifle/fp_sniper_rifle/animations/first-person melee-strike-1.jmm
-data/digsite/objects/characters/masterchief/fp/weapons/rifle/fp_sniper_rifle/animations/first-person melee-strike-2.jmm
-data/digsite/objects/characters/masterchief/fp/weapons/rifle/fp_sniper_rifle/animations/first-person reload-empty.jmm
-data/digsite/objects/characters/masterchief/fp/weapons/rifle/fp_sniper_rifle/source/animations/first-person melee-1sthit.jmm
-data/digsite/objects/characters/masterchief/fp/weapons/rifle/fp_sniper_rifle/source/animations/first-person melee-1sthit2idle.jmm
-data/digsite/objects/characters/masterchief/fp/weapons/rifle/fp_sniper_rifle/source/animations/first-person melee-2ndhit.jmm
-data/digsite/objects/characters/masterchief/fp/weapons/rifle/fp_sniper_rifle/source/animations/first-person reload-empty.jmm
-data/digsite/objects/characters/masterchief/render/L5_masterchief.jms
-data/digsite/objects/vehicles/mongoose/animations/suspension left-back.jmo
-data/digsite/objects/vehicles/mongoose/animations/suspension left-front.jmo
-data/digsite/objects/vehicles/mongoose/animations/suspension right-back.jmo
-data/digsite/objects/vehicles/mongoose/animations/suspension right-front.jmo
-data/digsite/objects/vehicles/mongoose/animations/vehicle ground-speed.jmo
-data/digsite/objects/vehicles/mongoose/animations/vehicle steering.jmo
-data/digsite/objects/vehicles/mongoose/bitmaps/mongoose.tif
-data/digsite/objects/vehicles/mongoose/collision/mongoose_collision.JMS
-data/digsite/objects/vehicles/mongoose/physics/mongoose_physics.JMS
-data/digsite/objects/vehicles/mongoose/render/mongoose.blend
-data/digsite/objects/vehicles/mongoose/render/mongoose.JMS
-data/digsite/objects/vehicles/piglet/animations/suspension left back.JMO
-data/digsite/objects/vehicles/piglet/animations/suspension left front.JMO
-data/digsite/objects/vehicles/piglet/animations/suspension right back.JMO
-data/digsite/objects/vehicles/piglet/animations/suspension right front.JMO
-data/digsite/objects/vehicles/piglet/animations/vehicle ground_speed.JMO
-data/digsite/objects/vehicles/piglet/animations/vehicle ground_speed_rear.JMO
-data/digsite/objects/vehicles/piglet/animations/vehicle steering.JMO
-data/digsite/objects/vehicles/piglet/bitmaps/piglet.tif
-data/digsite/objects/vehicles/piglet/bitmaps/piglet_bump.tif
-data/digsite/objects/vehicles/piglet/bitmaps/piglet_feet.tif
-data/digsite/objects/vehicles/piglet/bitmaps/piglet_feet_bump.tif
 data/digsite/objects/vehicles/piglet/collision/piglet_collision.JMS
 data/digsite/objects/vehicles/piglet/physics/piglet_physics.JMS
-data/digsite/objects/vehicles/piglet/render/piglet.blend
-data/digsite/objects/vehicles/piglet/render/piglet.JMS
-data/digsite/objects/vehicles/uberchassis/animations/combat closing.jma
-data/digsite/objects/vehicles/uberchassis/animations/combat opening.jma
-data/digsite/objects/vehicles/uberchassis/animations/suspension left back.jmo
-data/digsite/objects/vehicles/uberchassis/animations/suspension left front.jmo
-data/digsite/objects/vehicles/uberchassis/animations/suspension right back.jmo
-data/digsite/objects/vehicles/uberchassis/animations/suspension right front.jmo
-data/digsite/objects/vehicles/uberchassis/animations/vehicle ground_speed.JMO
-data/digsite/objects/vehicles/uberchassis/animations/vehicle ground_speed_rear.JMO
-data/digsite/objects/vehicles/uberchassis/animations/vehicle steering.JMO
 data/digsite/objects/vehicles/uberchassis/collision/uberchassis_collision.JMS
 data/digsite/objects/vehicles/uberchassis/physics/uberchassis_physics.JMS
-data/digsite/objects/vehicles/uberchassis/render/uberchassis.blend
-data/digsite/objects/vehicles/uberchassis/render/uberchassis.JMS
-data/digsite/objects/weapons/rifle/battle_rifle_combo/bitmaps/battle_rifle.tif
-data/digsite/objects/weapons/rifle/battle_rifle_combo/bitmaps/battle_rifle_bump.tif
-data/digsite/objects/weapons/rifle/battle_rifle_combo/fp/render/fp_battle_rifle_combo.JMS
-data/digsite/objects/weapons/rifle/battle_rifle_combo/render/battle_rifle_combo.JMS
-data/digsite/objects/weapons/rifle/smg_combo/fp_smg/render/fp_smg.JMS
-data/digsite/objects/weapons/rifle/sniper_rifle_combo/fp_sniper_rifle/render/fp_sniper_rifle.jms
-data/digsite/scenarios/multi/03_ascension/source/03_ascension.blend
-data/digsite/scenarios/multi/03_ascension/structure/03_ascension.ASS
-data/digsite/scenarios/multi/03_burial_mounds/source/03_burial_mounds.blend
-data/digsite/scenarios/multi/03_burial_mounds/structure/03_burial_mounds.ASS
-data/digsite/scenarios/multi/03_colossus/source/03_colossus.blend
-data/digsite/scenarios/multi/03_colossus/structure/03_colossus.ASS
-data/digsite/scenarios/multi/03_headlong/scripts/03_headlong_main.hsc
-data/digsite/scenarios/multi/03_headlong/source/03_headlong.blend
-data/digsite/scenarios/multi/03_headlong/structure/03_headlong.ASS
-data/digsite/scenarios/multi/03_lockout/scripts/03_lockout_main.hsc
-data/digsite/scenarios/multi/03_lockout/source/03_lockout.blend
-data/digsite/scenarios/multi/03_lockout/structure/03_lockout.ASS
-data/digsite/scenarios/multi/03_midship/scripts/03_midship_main.hsc
-data/digsite/scenarios/multi/03_midship/source/03_midship.blend
-data/digsite/scenarios/multi/03_midship/structure/03_midship.ASS
-data/digsite/scenarios/multi/03_waterworks/source/03_waterworks.blend
-data/digsite/scenarios/multi/03_waterworks/structure/03_waterworks.ASS
-data/digsite/scenarios/objects/multi/headlong/elevator_headlong/animations/device position.JMo
-data/digsite/scenarios/objects/multi/headlong/elevator_headlong/collision/base.JMS
-data/digsite/scenarios/objects/multi/headlong/elevator_headlong/render/elevator_headlong.JMS
-data/digsite/scenarios/objects/multi/lockout/elevator_lockout/animations/device position.JMo
-data/digsite/scenarios/objects/multi/lockout/elevator_lockout/collision/elevator_lockout_collision.JMS
-data/digsite/scenarios/objects/multi/lockout/elevator_lockout/physics/elevator_lockout_physics.JMS
-data/digsite/scenarios/objects/multi/lockout/elevator_lockout/render/elevator_lockout.JMS
-data/digsite/scenarios/objects/multi/waterworks/elev_back_wworks/animations/device position.JMO
-data/digsite/scenarios/objects/multi/waterworks/elev_back_wworks/collision/elev_back_wworks_collision.JMS
-data/digsite/scenarios/objects/multi/waterworks/elev_back_wworks/physics/elev_back_wworks_physics.JMS
-data/digsite/scenarios/objects/multi/waterworks/elev_back_wworks/render/elev_back_wworks.blend
-data/digsite/scenarios/objects/multi/waterworks/elev_back_wworks/render/elev_back_wworks.JMS
-data/digsite/scenarios/solo/arcology/scripts/arcology.hsc
-data/digsite/scenarios/solo/arcology/source/arcology.blend
-data/digsite/scenarios/solo/arcology/structure/arcology.ASS
-data/digsite/ui/hud/hud_messages.txt
 data/globals/armor_vs_damage.csv
 data/globals/armor_vs_damage.xls
 data/globals/global_scripts.hsc

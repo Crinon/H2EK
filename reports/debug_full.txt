@@ -1,0 +1,933 @@
+
+
+============================================================================================
+11.19.24 20:33:17.705  sapien  debug pc untracked version  Jun 20 2023 11:29:20
+============================================================================================
+
+
+11.19.24 20:33:17.705  solo map, players are [/chief]
+11.19.24 20:33:17.825  ### WARNING loading from unsupported 2D storage format: y8 from scenarios\skies\solo\earthcity\bitmaps\ec_sky_dome2
+11.19.24 20:33:18.037  ### WARNING loading from unsupported 2D storage format: y8 from scenarios\skies\solo\earthcity\bitmaps\nm_clouds
+11.19.24 20:33:18.075  ### WARNING loading from unsupported 2D storage format: y8 from scenarios\skies\solo\earthcity\bitmaps\ec_sky_dome
+11.19.24 20:33:18.096  ### WARNING loading from unsupported 2D storage format: y8 from scenarios\skies\solo\earthcity\bitmaps\ec_sky_land
+11.19.24 20:33:18.202  ### WARNING loading from unsupported 2D storage format: y8 from scenarios\skies\solo\earthcity\bitmaps\bridge_sky_dome
+11.19.24 20:33:18.255  ### WARNING loading from unsupported 2D storage format: y8 from scenarios\skies\solo\sentinelhq\bitmaps\sky_shq_layer_tile
+11.19.24 20:33:22.568  fixing bitmap for DX11 (forced=default, format=a8y8) rasterizer\linear_corner_fade
+11.19.24 20:33:22.571  ### WARNING loading from unsupported 2D storage format: a8y8 from rasterizer\linear_corner_fade
+11.19.24 20:33:22.775  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\detail_maps\concrete\poured_bump
+11.19.24 20:33:22.791  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\detail_maps\concrete\concrete_pitted_bump
+11.19.24 20:33:24.089  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\detail_maps\nature\treebark\palmtree_bark_bump
+11.19.24 20:33:27.553  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\nature\trees\palm_frond_a_bump
+11.19.24 20:33:30.773  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\insertion_pod\bitmaps\insertion_pod_bump
+11.19.24 20:33:36.313  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\vehicles\h_semi_trailer\bitmaps\semi_trailer_bump
+11.19.24 20:33:36.379  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\metals\matte_grey_edge_bump
+11.19.24 20:33:36.392  ### WARNING loading from unsupported CUBE MAP storage format: y8 from scenarios\bitmaps\multi\triplicate\cubemap_triplicate_metal
+11.19.24 20:33:36.404  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\metals\metal_strips_c_bump
+11.19.24 20:33:36.509  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\detail_maps\concrete\concrete_bubble_bump
+11.19.24 20:33:36.521  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\detail_maps\concrete\concrete_broken_bump
+11.19.24 20:33:36.641  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\cov_guntower\bitmaps\cov_guntower_base_bump
+11.19.24 20:33:36.719  fixing bitmap for DX11 (forced=default, format=p8_bump) incompetent\bitmaps\grey_generic_bump
+11.19.24 20:33:36.812  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\cinematics\human\inamberclad\bitmaps\inamberclad_aft_bump
+11.19.24 20:33:36.848  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\cinematics\human\inamberclad\bitmaps\inamberclad_details_bump
+11.19.24 20:33:36.882  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\cinematics\human\inamberclad\bitmaps\inamberclad_fore_bump
+11.19.24 20:33:36.906  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'objects\cinematics\human\inamberclad\inamberclad'
+11.19.24 20:33:36.928  ### WARNING loading from unsupported 2D storage format: y8 from effects\bitmaps\lens_flares\iac_engine
+11.19.24 20:33:37.049  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\covenant\military\scarab\bitmaps\scarab_legs_bump
+11.19.24 20:33:37.079  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\covenant\military\scarab\bitmaps\scarab_hull_ext_bump
+11.19.24 20:33:37.103  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) scenarios\objects\covenant\military\scarab\bitmaps\scarab_hull_int
+11.19.24 20:33:37.179  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from scenarios\objects\covenant\military\scarab\bitmaps\scarab_hull_int
+11.19.24 20:33:37.191  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\covenant\military\scarab\bitmaps\scarab_hull_int_bump
+11.19.24 20:33:37.329  ### WARNING physics model 'scenarios\objects\covenant\military\scarab\scarab' couldn't resolve material 'physics_ref_phantom' (''), using default material
+11.19.24 20:33:37.330  ### WARNING physics model 'scenarios\objects\covenant\military\scarab\scarab' couldn't resolve material 'attractor' (''), using default material
+11.19.24 20:33:37.331  ### WARNING model 'scenarios\objects\covenant\military\scarab\scarab' material 'scarab_bloom_int' ('') couldn't find a global material named 'scarab_bloom_int'
+11.19.24 20:33:37.519  fixing bitmap for DX11 (forced=default, format=a8y8) effects\bitmaps\sparks\sparks_animated
+11.19.24 20:33:37.522  ### WARNING loading from unsupported 2D storage format: a8y8 from effects\bitmaps\sparks\sparks_animated
+11.19.24 20:33:37.677  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\ghost\bitmaps\blown_open_bump
+11.19.24 20:33:38.426  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\ghost\bitmaps\torn_up_bump
+11.19.24 20:33:39.150  ### WARNING loading from unsupported 2D storage format: y8 from effects\bitmaps\lens_flares\flares_generic2
+11.19.24 20:33:39.152  ### WARNING loading from unsupported 2D storage format: y8 from effects\bitmaps\lens_flares\flares_generic2
+11.19.24 20:33:39.153  ### WARNING loading from unsupported 2D storage format: y8 from effects\bitmaps\lens_flares\flares_generic2
+11.19.24 20:33:39.155  ### WARNING loading from unsupported 2D storage format: y8 from effects\bitmaps\lens_flares\flares_generic2
+11.19.24 20:33:39.220  ### WARNING loading from unsupported 2D storage format: y8 from effects\decals\blast_scorches\bitmaps\default_scorch
+11.19.24 20:33:39.669  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\phantom\bitmaps\phantom_exterior_bump
+11.19.24 20:33:40.213  ### WARNING loading from unsupported 2D storage format: y8 from objects\powerups\active_camouflage\bitmaps\powerup_noise_1
+11.19.24 20:33:40.219  ### WARNING loading from unsupported 2D storage format: y8 from objects\powerups\active_camouflage\bitmaps\powerup_noise_2
+11.19.24 20:33:40.311  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\human\military\spotting_scope\bitmaps\spotting_scope_bump
+11.19.24 20:33:40.327  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'scenarios\objects\human\military\spotting_scope\spotting_scope'
+11.19.24 20:33:40.371  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\sniper_rifle\bitmaps\sniper_rifle_bump
+11.19.24 20:33:40.520  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\battle_rifle\bitmaps\battle_rifle_bump
+11.19.24 20:33:40.552  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\battle_rifle\bitmaps\ejection_port_bump
+11.19.24 20:33:40.604  WARNING: shader 'objects\weapons\rifle\battle_rifle\shaders\tens' could not resolve bitmap 'zero'
+11.19.24 20:33:40.610  WARNING: shader 'objects\weapons\rifle\battle_rifle\shaders\ones' could not resolve bitmap 'zero'
+11.19.24 20:33:40.811  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\pelican\bitmaps\pelican_bump
+11.19.24 20:33:40.836  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\pelican\bitmaps\pelican_bay_bump
+11.19.24 20:33:40.923  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\pelican\bitmaps\pelican_cargo_net_bump
+11.19.24 20:33:41.004  ### ERROR geometry 'scenarios\objects\special\null_up\null_up' shader 'scenarios\objects\special\shaders\invisible' is transparent but was imported as opaque
+11.19.24 20:33:41.009  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'scenarios\objects\special\null_up\null_up'
+11.19.24 20:33:41.127  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\covenant\military\cov_recharge_station\bitmaps\cov_recharge_bump
+11.19.24 20:33:41.197  ### WARNING object 'scenarios\objects\covenant\military\cov_recharge_station\cov_recharge_station' has a bounding sphere radius much less than its model (1.300000 vs 1.723440)
+11.19.24 20:33:41.229  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\nature\bush\bitmaps\bush_beach_a_bark_bump
+11.19.24 20:33:41.259  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\nature\bush\bitmaps\bush_beach_a_bump
+11.19.24 20:33:41.309  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\nm\nm_metal_grey_panels_bump
+11.19.24 20:33:41.349  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\metals\panel_service_door_plain_bump
+11.19.24 20:33:41.369  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\metals\hazard_strips_a_bump
+11.19.24 20:33:41.385  ### WARNING physics model 'scenarios\objects\solo\earthcity\road_objects\garage_door\garage_door' couldn't resolve material 'h_um_matte_grey_edge_rusty' (''), using default material
+11.19.24 20:33:41.936  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\spacestation\ss_panel_crate_bump
+11.19.24 20:33:42.007  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\solo\spacestation\ss_furniture\bitmaps\couch_bump
+11.19.24 20:33:42.024  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\spacestation\tile_metal_dark_bump
+11.19.24 20:33:42.098  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\spacestation\panel_tech_rack_bump
+11.19.24 20:33:42.116  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\spacestation\panel_strips_unpainted_bump
+11.19.24 20:33:42.136  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\military\lights\light_uplight_hall_bump
+11.19.24 20:33:42.221  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\spacestation\panel_floor_rubber_bump
+11.19.24 20:33:42.249  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\spacestation\panel_mech_long_bump
+11.19.24 20:33:42.268  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\spacestation\panel_hall_mech_bump
+11.19.24 20:33:42.299  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\spacestation\ss_door_mech_small_bump
+11.19.24 20:33:42.320  ### WARNING object 'objects\cinematics\human\inamberclad_bridge\inamberclad_bridge' has a bounding sphere radius much less than its model (2.500000 vs 3.266184)
+11.19.24 20:33:42.356  fixing bitmap for DX11 (forced=default, format=a8y8) effects\bitmaps\lens_flares\soft_flare_large
+11.19.24 20:33:42.359  ### WARNING loading from unsupported 2D storage format: a8y8 from effects\bitmaps\lens_flares\soft_flare_large
+11.19.24 20:33:42.392  ### WARNING object 'effects\scenery\skies\human_and_cov_firing' has no bounding radius
+11.19.24 20:33:42.429  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\bitmaps\helmet_standard_bump
+11.19.24 20:33:43.005  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\metals\titanium_lightblue_base_bump
+11.19.24 20:33:43.138  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\human\urban\loud_speaker\bitmaps\loud_speaker_bump
+11.19.24 20:33:43.277  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\covenant\military\capital_ship\bitmaps\capital_ship_b_bump
+11.19.24 20:33:43.304  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\covenant\military\capital_ship\bitmaps\capital_ship_a_bump
+11.19.24 20:33:43.325  fixing bitmap for DX11 (forced=default, format=a8y8) shaders\default_bitmaps\bitmaps\clouds_256
+11.19.24 20:33:43.398  ### WARNING loading from unsupported 2D storage format: a8y8 from shaders\default_bitmaps\bitmaps\clouds_256
+11.19.24 20:33:43.478  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\metals\metal_strips_b_bump
+11.19.24 20:33:43.490  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\interior\int_pipes_a_bump
+11.19.24 20:33:43.729  ### WARNING object 'effects\cinematics\c01_outro\human_and_cov_firing_cine' has no bounding radius
+11.19.24 20:33:43.825  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\bitmaps\head_smith_bump
+11.19.24 20:33:43.855  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\bitmaps\marine_standard_bump
+11.19.24 20:33:43.886  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\bitmaps\head_dion_bump
+11.19.24 20:33:43.921  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\bitmaps\packs_bump
+11.19.24 20:33:43.948  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\bitmaps\marine_odst_bump
+11.19.24 20:33:43.973  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\bitmaps\head_wounded_bump
+11.19.24 20:33:43.995  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\bitmaps\marine_wounded_bump
+11.19.24 20:33:44.014  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\bitmaps\head_morgan_bump
+11.19.24 20:33:44.030  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\bitmaps\head_perez_bump
+11.19.24 20:33:44.044  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\bitmaps\head_walter_bump
+11.19.24 20:33:44.506  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\lord_hood\bitmaps\lord_hood_main_bump
+11.19.24 20:33:44.537  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\lord_hood\bitmaps\lord_hood_badging_bump
+11.19.24 20:33:44.575  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\bitmaps\teeth_bump
+11.19.24 20:33:44.590  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\bitmaps\helmet_pilot_bump
+11.19.24 20:33:44.608  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\bitmaps\hat_bump
+11.19.24 20:33:44.619  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\bitmaps\head_johnson_bump
+11.19.24 20:33:44.637  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\marine\bitmaps\comm_pack_bump
+11.19.24 20:33:45.239  ### ERROR model 'objects\characters\marine\marine' could not find variant 'sailor_nrl' to strip
+11.19.24 20:33:45.239  ### ERROR model 'objects\characters\marine\marine' could not find variant 'sailor_cky' to strip
+11.19.24 20:33:45.239  ### ERROR model 'objects\characters\marine\marine' could not find variant 'sailor_tmd' to strip
+11.19.24 20:33:45.240  ### ERROR model 'objects\characters\marine\marine' could not find variant 'sailor_ntz' to strip
+11.19.24 20:33:45.241  ### WARNING model 'objects\characters\marine\marine' variant 'johnson_combat' cannot find region 'arms'
+11.19.24 20:34:00.518  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\bitmaps\head_bump
+11.19.24 20:34:00.566  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\bitmaps\helmet_bump
+11.19.24 20:34:00.585  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\bitmaps\arms_bump
+11.19.24 20:34:00.618  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\bitmaps\torso_bump
+11.19.24 20:34:00.650  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\bitmaps\legs_bump
+11.19.24 20:34:00.689  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\bitmaps\council_helmet_bump
+11.19.24 20:34:01.566  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\elite_honor_guard\bitmaps\elite_honor_armor_bump
+11.19.24 20:34:01.605  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\bitmaps\teeth_bump
+11.19.24 20:34:02.850  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'objects\weapons\rifle\smg\garbage\magazine\magazine'
+11.19.24 20:34:03.009  fixing bitmap for DX11 (forced=default, format=a8y8) rasterizer\plasma_shield_noise
+11.19.24 20:34:03.041  ### WARNING loading from unsupported 3D storage format: a8y8 from rasterizer\plasma_shield_noise
+11.19.24 20:34:03.133  fixing bitmap for DX11 (forced=default, format=a1r5g5b5) effects\bitmaps\energy\spark_c_flak
+11.19.24 20:34:03.138  ### WARNING loading from unsupported 2D storage format: a1r5g5b5 from effects\bitmaps\energy\spark_c_flak
+11.19.24 20:34:09.085  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\masterchief\bitmaps\masterchief_bump
+11.19.24 20:34:10.662  ### WARNING loading from unsupported 2D storage format: y8 from objects\characters\masterchief\bitmaps\flashlight_gel
+11.19.24 20:34:10.752  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\meters\shield_meter
+11.19.24 20:34:10.778  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\meters\shield_meter
+11.19.24 20:34:10.778  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\meters\shield_meter
+11.19.24 20:34:10.779  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\meters\shield_meter
+11.19.24 20:34:10.780  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\meters\shield_meter
+11.19.24 20:34:10.781  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\meters\shield_meter
+11.19.24 20:34:10.781  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\meters\shield_meter
+11.19.24 20:34:10.782  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\meters\shield_meter
+11.19.24 20:34:10.782  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\meters\shield_meter
+11.19.24 20:34:11.002  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\miranda\bitmaps\head_miranda_bump
+11.19.24 20:34:11.028  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\miranda\bitmaps\hair_miranda_bump
+11.19.24 20:34:11.065  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\miranda\bitmaps\body_miranda_bump
+11.19.24 20:34:11.087  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\miranda\bitmaps\badges_miranda_bump
+11.19.24 20:34:11.268  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\grunt\bitmaps\head_bump
+11.19.24 20:34:11.315  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\grunt\bitmaps\backpack_bump
+11.19.24 20:34:11.336  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\grunt\bitmaps\chest_bump
+11.19.24 20:34:11.367  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\grunt\bitmaps\legs_bump
+11.19.24 20:34:11.393  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\grunt\bitmaps\arms_bump
+11.19.24 20:34:16.260  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\jackal\bitmaps\torso_bump
+11.19.24 20:34:16.287  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\jackal\bitmaps\legs_bump
+11.19.24 20:34:16.323  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\jackal\bitmaps\head_bump
+11.19.24 20:34:16.341  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\jackal\bitmaps\arms_bump
+11.19.24 20:34:17.045  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\warthog\bitmaps\tires_bump
+11.19.24 20:34:17.063  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\warthog\bitmaps\warthog_standard_bump
+11.19.24 20:34:17.153  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\warthog\bitmaps\chassis_bump
+11.19.24 20:34:17.188  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\warthog\bitmaps\hub_bump
+11.19.24 20:34:17.901  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\warthog\turrets\chaingun\bitmaps\chaingun_bump
+11.19.24 20:34:17.917  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\warthog\turrets\bitmaps\gun_mount_bump
+11.19.24 20:34:18.094  sound 'sound_remastered\weapons\impacts_riccs\bullet_impact_energy' maximum gain is too large: 3.00dB, should be <= 0.0dB
+11.19.24 20:34:18.097  sound 'sound_remastered\weapons\impacts_riccs\bullet_impact_energy' gain bounds clamped to: [-3.00dB, 0.00dB]
+11.19.24 20:34:18.232  fixing bitmap for DX11 (forced=default, format=a8y8) effects\decals\bullet_holes\bitmaps\metal
+11.19.24 20:34:18.239  ### WARNING loading from unsupported 2D storage format: a8y8 from effects\decals\bullet_holes\bitmaps\metal
+11.19.24 20:34:18.428  fixing bitmap for DX11 (forced=default, format=a8y8) effects\decals\bullet_holes\bitmaps\stone
+11.19.24 20:34:18.436  ### WARNING loading from unsupported 2D storage format: a8y8 from effects\decals\bullet_holes\bitmaps\stone
+11.19.24 20:34:18.769  sound 'sound_remastered\weapons\impacts_riccs\bullet_flyby_short' maximum gain is too large: 1.00dB, should be <= 0.0dB
+11.19.24 20:34:18.770  sound 'sound_remastered\weapons\impacts_riccs\bullet_flyby_short' gain bounds clamped to: [-3.00dB, 0.00dB]
+11.19.24 20:34:18.927  ### WARNING sound 'sound_remastered\materials\particles\shell_casings\concrete\browning' last promotion rule 2 has a maximum play count of 3, resetting to 0
+11.19.24 20:34:18.993  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\warthog\turrets\gauss\bitmaps\gauss_turret_bump
+11.19.24 20:34:19.012  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\warthog\turrets\gauss\bitmaps\gauss_turret_sensor_bump
+11.19.24 20:34:19.155  sound 'sound\vehicles\scorpion\scorpion_projectile_up' maximum gain is too large: 3.00dB, should be <= 0.0dB
+11.19.24 20:34:19.155  sound 'sound\vehicles\scorpion\scorpion_projectile_up' gain bounds clamped to: [-3.00dB, 0.00dB]
+11.19.24 20:34:19.281  damage info postprocess: model 'objects\vehicles\warthog\warthog' couldn't find a physics model constraint with name: hinge02
+11.19.24 20:34:19.613  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\h_turret_ap\bitmaps\h_turret_ap_bump
+11.19.24 20:34:19.631  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\fixed\h_turret_mp\bitmaps\h_turret_mp_gun_bump
+11.19.24 20:34:19.705  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\pelican\bitmaps\pelican_hard_point_bump
+11.19.24 20:34:19.890  ### WARNING loading from unsupported 2D storage format: y8 from effects\decals\blast_scorches\bitmaps\default_blast
+11.19.24 20:34:19.974  ### WARNING loading from unsupported 2D storage format: y8 from effects\bitmaps\weapons_fire\plasma_sphere
+11.19.24 20:34:20.044  fixing bitmap for DX11 (forced=default, format=a8y8) effects\decals\bullet_holes\bitmaps\ice
+11.19.24 20:34:20.072  ### WARNING loading from unsupported 2D storage format: a8y8 from effects\decals\bullet_holes\bitmaps\ice
+11.19.24 20:34:20.163  ### WARNING loading from unsupported 2D storage format: y8 from effects\decals\vehicle_marks\bitmaps\snow_treadmarks
+11.19.24 20:34:20.451  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\ghost\bitmaps\ghost_bump
+11.19.24 20:34:20.603  ### WARNING object 'objects\vehicles\ghost\garbage\seat\seat' has a bounding sphere radius much less than its model (0.120000 vs 0.364857)
+11.19.24 20:34:20.838  ### WARNING object 'objects\vehicles\ghost\garbage\l_wing_shell\l_wing_shell' has a bounding sphere radius much less than its model (0.080000 vs 0.285048)
+11.19.24 20:34:20.869  ### WARNING object 'objects\vehicles\ghost\garbage\r_wing_shell\r_wing_shell' has a bounding sphere radius much less than its model (0.120000 vs 0.264751)
+11.19.24 20:34:21.417  fixing bitmap for DX11 (forced=default, format=r5g6b5) effects\bitmaps\lens_flares\light_volume
+11.19.24 20:34:21.419  ### WARNING loading from unsupported 2D storage format: r5g6b5 from effects\bitmaps\lens_flares\light_volume
+11.19.24 20:34:21.575  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\creep\bitmaps\creep_hull_bump
+11.19.24 20:34:21.797  ### WARNING physics model 'objects\vehicles\phantom\phantom' couldn't resolve material 'gravity_lift' (''), using default material
+11.19.24 20:34:21.798  ### WARNING physics model 'objects\vehicles\phantom\phantom' couldn't resolve material 'gravity_lift_brake' (''), using default material
+11.19.24 20:34:21.799  ### WARNING physics model 'objects\vehicles\phantom\phantom' couldn't resolve material 'special_material' (''), using default material
+11.19.24 20:34:21.799  ### WARNING physics model 'objects\vehicles\phantom\phantom' couldn't resolve material 'gravity_lift_vehicle' (''), using default material
+11.19.24 20:34:22.053  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\c_turret_ap\bitmaps\c_turret_ap_bump
+11.19.24 20:34:22.253  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\cov_guntower\bitmaps\cov_guntower_turret_bump
+11.19.24 20:34:22.728  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\fixed\plasma_cannon\bitmaps\plasma_cannon_bump
+11.19.24 20:34:22.911  ### WARNING loading from unsupported 2D storage format: y8 from effects\decals\bullet_holes\bitmaps\plasma_fizzle
+11.19.24 20:34:23.238  ### WARNING loading from unsupported 2D storage format: y8 from effects\bitmaps\lens_flares\flares_weapon_lens
+11.19.24 20:34:23.269  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\grenade\frag_grenade\bitmaps\frag_grenade_bump
+11.19.24 20:34:23.434  sound 'sound_remastered\weapons\frag_grenade\frag_bnc_dirt' maximum gain is too large: 1.00dB, should be <= 0.0dB
+11.19.24 20:34:23.435  sound 'sound_remastered\weapons\frag_grenade\frag_bnc_dirt' gain bounds clamped to: [-1.00dB, 0.00dB]
+11.19.24 20:34:23.674  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\powerups\battle_rifle_ammo\bitmaps\br_ammo_bump
+11.19.24 20:34:23.718  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\powerups\pistol_ammo\bitmaps\pistol_ammo_bump
+11.19.24 20:34:23.754  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\powerups\smg_ammo\bitmaps\smg_ammo_bump
+11.19.24 20:34:23.803  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\powerups\sniper_rifle_ammo\bitmaps\sr_ammo_bump
+11.19.24 20:34:23.850  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\powerups\rocket_launcher_ammo\bitmaps\rocket_launcher_ammo_bump
+11.19.24 20:34:23.887  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\grenade\plasma_grenade\bitmaps\plasma_grenade_bump
+11.19.24 20:34:23.974  ### WARNING loading from unsupported 2D storage format: y8 from effects\decals\blast_scorches\bitmaps\tough_scorch
+11.19.24 20:34:23.991  ### WARNING loading from unsupported 2D storage format: y8 from effects\decals\blast_scorches\bitmaps\sand_scorch
+11.19.24 20:34:24.088  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\pistol\plasma_pistol\bitmaps\plasma_pistol_bump
+11.19.24 20:34:25.180  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\plasma_rifle\bitmaps\plasma_rifle_card_bump
+11.19.24 20:34:25.203  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\plasma_rifle\bitmaps\plasma_rifle_bump
+11.19.24 20:34:25.350  sound 'sound_remastered\weapons\plasma_rifle\plas_fire_mech_swtnr' minimum gain is too small: -65.00dB, should be >= -64.0dB
+11.19.24 20:34:25.351  sound 'sound_remastered\weapons\plasma_rifle\plas_fire_mech_swtnr' gain bounds clamped to: [-64.00dB, -63.00dB]
+11.19.24 20:34:25.374  sound 'sound\weapons\plasma_rifle\plasma_rifle_fire' maximum gain is too large: 1.50dB, should be <= 0.0dB
+11.19.24 20:34:25.375  sound 'sound\weapons\plasma_rifle\plasma_rifle_fire' gain bounds clamped to: [-1.50dB, 0.00dB]
+11.19.24 20:34:26.154  sound 'sound_remastered\weapons\impacts_riccs\bullet_flyby_medium' maximum gain is too large: 1.00dB, should be <= 0.0dB
+11.19.24 20:34:26.154  sound 'sound_remastered\weapons\impacts_riccs\bullet_flyby_medium' gain bounds clamped to: [-3.00dB, 0.00dB]
+11.19.24 20:34:26.287  ### WARNING sound 'sound_remastered\materials\particles\shell_casings\concrete\308' last promotion rule 1 has a maximum play count of 3, resetting to 0
+11.19.24 20:34:26.297  ### WARNING sound 'sound_remastered\materials\particles\shell_casings\dirt\308' promotion rules do not reference all pitch ranges
+11.19.24 20:34:26.339  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\battle_rifle\bitmaps\battle_rifle_knob_bump
+11.19.24 20:34:26.409  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\smg\bitmaps\smg_bump
+11.19.24 20:34:26.908  tags: missing tag (ffffffff)objects\weapons\rifle\smg\damage_effects\smg_empty.damage_effect replaced by (f9ea1875)globals\global_missing_damage_effect.damage_effect
+11.19.24 20:34:27.299  sound 'sound_remastered\weapons\impacts_riccs\bullet_flyby_long' maximum gain is too large: 1.00dB, should be <= 0.0dB
+11.19.24 20:34:27.300  sound 'sound_remastered\weapons\impacts_riccs\bullet_flyby_long' gain bounds clamped to: [-3.00dB, 0.00dB]
+11.19.24 20:34:27.402  ### WARNING sound 'sound_remastered\materials\particles\shell_casings\concrete\50cal' last promotion rule 2 has a maximum play count of 5, resetting to 0
+11.19.24 20:34:27.464  ### WARNING shader pass 'shaders\shader_passes\texture_camera\scope' texture #0 (implementation #0) has source extern - ignoring parameter name "scope"
+11.19.24 20:34:27.569  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\pistol\magnum\bitmaps\magnum_bump
+11.19.24 20:34:28.123  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\support_high\rocket_launcher\bitmaps\rocket_launcher_lod_bump
+11.19.24 20:34:28.168  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\support_high\rocket_launcher\bitmaps\rocket_launcher_bump
+11.19.24 20:34:28.198  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\support_high\rocket_launcher\bitmaps\rocket_launcher_ends_bump
+11.19.24 20:34:28.489  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\pistol\needler\bitmaps\needler_bump
+11.19.24 20:34:28.673  fixing bitmap for DX11 (forced=default, format=a8y8) effects\decals\bullet_holes\bitmaps\impact_scratch
+11.19.24 20:34:28.680  ### WARNING loading from unsupported 2D storage format: a8y8 from effects\decals\bullet_holes\bitmaps\impact_scratch
+11.19.24 20:34:28.730  fixing bitmap for DX11 (forced=default, format=a8y8) incompetent\bitmaps\clouds_256
+11.19.24 20:34:28.804  ### WARNING loading from unsupported 2D storage format: a8y8 from incompetent\bitmaps\clouds_256
+11.19.24 20:34:29.256  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\beam_rifle\bitmaps\beam_rifle_bump
+11.19.24 20:34:29.382  fixing bitmap for DX11 (forced=default, format=a8y8) effects\bitmaps\flares\ring
+11.19.24 20:34:29.386  ### WARNING loading from unsupported 2D storage format: a8y8 from effects\bitmaps\flares\ring
+11.19.24 20:34:29.777  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\melee\energy_blade\bitmaps\energy_blade_bump
+11.19.24 20:34:29.814  sound 'sound\weapons\energy_sword\sword_impact_character' maximum gain is too large: 2.00dB, should be <= 0.0dB
+11.19.24 20:34:29.815  sound 'sound\weapons\energy_sword\sword_impact_character' gain bounds clamped to: [-2.00dB, 0.00dB]
+11.19.24 20:34:30.005  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\multiplayer\ball\bitmaps\gameball_bump
+11.19.24 20:34:30.119  ### WARNING object 'scenarios\objects\covenant\military\scarab\scarab' has a bounding sphere radius much less than its model (12.500000 vs 16.304300)
+11.19.24 20:34:30.196  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\covenant\military\cov_watchtower\bitmaps\cov_watchtower_bump
+11.19.24 20:34:30.231  ### WARNING physics model 'scenarios\objects\covenant\military\cov_watchtower\cov_watchtower_base\cov_watchtower_base' couldn't resolve material 'lower_lift_player' (''), using default material
+11.19.24 20:34:30.232  ### WARNING physics model 'scenarios\objects\covenant\military\cov_watchtower\cov_watchtower_base\cov_watchtower_base' couldn't resolve material 'lower_lift' (''), using default material
+11.19.24 20:34:30.286  ### WARNING physics model 'scenarios\objects\covenant\military\cov_watchtower\cov_watchtower_pod\cov_watchtower_pod' couldn't resolve material 'upper_lift' (''), using default material
+11.19.24 20:34:30.312  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\hunter_door_bump
+11.19.24 20:34:30.455  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\ec_blastdoors_bump
+11.19.24 20:34:31.331  ### WARNING loading from unsupported 2D storage format: y8 from effects\decals\blast_scorches\bitmaps\sand_blast
+11.19.24 20:34:31.581  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\civilian\panel_truck\bitmaps\panel_truck_bump
+11.19.24 20:34:31.632  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\civilian\bus\bitmaps\bus_bump
+11.19.24 20:34:31.686  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\gear\human\military\bitmaps\human_military_equipment_bump
+11.19.24 20:34:31.959  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\gear\covenant\military\bitmaps\cov_battery_bump
+11.19.24 20:34:31.981  ### WARNING collision model 'objects\gear\covenant\military\battery\battery' has 1 nonconvex surfaces
+11.19.24 20:34:32.126  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\gear\covenant\military\bitmaps\cov_storage_bump
+11.19.24 20:34:32.139  ### WARNING loading from unsupported 2D storage format: y8 from objects\gear\covenant\military\bitmaps\cov_storage_cc
+11.19.24 20:34:32.175  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\forerunner\industrial\metals\flat_generic_bump
+11.19.24 20:34:32.393  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\gear\covenant\military\bitmaps\cov_ramp_bump
+11.19.24 20:34:32.679  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\military\metals\steel_bump
+11.19.24 20:34:32.699  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\multi\cyclotron\park_bench\bitmaps\park_bench_wood_bump
+11.19.24 20:34:32.837  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\civilian\uberchassis\bitmaps\uberchassis_body_bump
+11.19.24 20:34:32.870  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\civilian\uberchassis\bitmaps\uberchassis_body_wheels_bump
+11.19.24 20:34:32.900  ### ERROR geometry 'objects\vehicles\civilian\uberchassis\uberchassis' shader 'objects\vehicles\civilian\uberchassis\shaders\uberchassis_glass_dead' is opaque but was imported as transparent
+11.19.24 20:34:32.901  ### ERROR geometry 'objects\vehicles\civilian\uberchassis\uberchassis' shader 'objects\vehicles\civilian\uberchassis\shaders\uberchassis_glass_dead' is opaque but was imported as transparent
+11.19.24 20:34:32.903  ### ERROR geometry 'objects\vehicles\civilian\uberchassis\uberchassis' shader 'objects\vehicles\civilian\uberchassis\shaders\uberchassis_glass_dead' is opaque but was imported as transparent
+11.19.24 20:34:32.936  ### WARNING model 'objects\vehicles\civilian\uberchassis\uberchassis_tire\uberchassis_tire' material 'uberchassis_wheels_dead' ('') couldn't find a global material named 'uberchassis_wheels_dead'
+11.19.24 20:34:32.937  ### WARNING model 'objects\vehicles\civilian\uberchassis\uberchassis_tire\uberchassis_tire' collision model region 'tire' has no corresponding model region (will not be collideable)
+11.19.24 20:34:32.937  ### WARNING model 'objects\vehicles\civilian\uberchassis\uberchassis' variant 'destroyed' cannot find region 'wheel_fr'
+11.19.24 20:34:32.938  ### WARNING model 'objects\vehicles\civilian\uberchassis\uberchassis' variant 'destroyed' cannot find region 'wheel_fl'
+11.19.24 20:34:32.939  ### WARNING model 'objects\vehicles\civilian\uberchassis\uberchassis' variant 'destroyed' cannot find region 'wheel_bl'
+11.19.24 20:34:32.939  ### WARNING model 'objects\vehicles\civilian\uberchassis\uberchassis' variant 'destroyed' cannot find region 'wheel_br'
+11.19.24 20:34:32.955  ### WARNING object 'objects\vehicles\civilian\uberchassis\uberchassis' has a bounding sphere radius much less than its model (0.750000 vs 0.971937)
+11.19.24 20:34:33.042  ### WARNING model 'objects\weapons\rifle\brute_plasma_rifle\brute_plasma_rifle' collision model region 'default' has no corresponding model region (will not be collideable)
+11.19.24 20:34:33.202  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\support_low\brute_shot\bitmaps\brute_shot_bump
+11.19.24 20:34:33.306  ### WARNING effect 'effects\impact\explosion_small\brute_shot\detonation' part 'effects\impact\explosion_small\brute_shot\detonation' was not found
+11.19.24 20:34:33.521  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\solo\earthcity\bitmaps\trash_can_bump
+11.19.24 20:34:33.576  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\spacestation\ss_panel_crate_multi_bump
+11.19.24 20:34:33.643  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\spacestation\ss_panel_crate_multi_single_bump
+11.19.24 20:34:33.714  ### WARNING physics model 'scenarios\objects\human\urban\air\air' couldn't resolve material 'airshader' (''), using default material
+11.19.24 20:34:33.724  ### WARNING object 'scenarios\objects\human\urban\air\ai_cap' has a bounding sphere radius much less than its model (0.100000 vs 0.521992)
+11.19.24 20:34:33.846  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'scenarios\objects\human\urban\dumpter\dumpster'
+11.19.24 20:34:33.889  ### WARNING loading from unsupported CUBE MAP storage format: y8 from scenarios\bitmaps\reflection_maps\reflection_ss_hallway_stainless
+11.19.24 20:34:33.945  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\civilian\mlx\bitmaps\mlx_chassis_bump
+11.19.24 20:34:33.972  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\civilian\mlx\bitmaps\mlx_tires_bump
+11.19.24 20:34:33.987  ### WARNING loading from unsupported 2D storage format: y8 from scenarios\bitmaps\simple\clouds_a
+11.19.24 20:34:34.176  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\solo\earthcity\medical_crate_med\bitmaps\medical_crate_med_bump
+11.19.24 20:34:34.403  ### WARNING physics model 'objects\characters\ambient_life\reach_moa\reach_moa' couldn't resolve material 'reach_moa' (''), using default material
+11.19.24 20:34:34.416  ### WARNING model 'objects\characters\ambient_life\reach_moa\reach_moa' material 'reach_moa_collision' ('') couldn't find a global material named 'reach_moa_collision'
+11.19.24 20:34:36.086  WARNING: shader 'effects\screen_effects\blur' could not resolve bitmap 'identity'
+11.19.24 20:34:36.087  ### WARNING 'scenario_scenery_palette_block' referenced by resource 'scenarios\solo\03a_oldmombasa\resources\03a_oldmombasa.scenario_scenery_resource' that is about to be stomped over isn't empty!
+11.19.24 20:34:36.087  ### WARNING 'scenario_scenery_block' referenced by resource 'scenarios\solo\03a_oldmombasa\resources\03a_oldmombasa.scenario_scenery_resource' that is about to be stomped over isn't empty!
+11.19.24 20:34:36.088  ### WARNING 'scenario_crate_palette_block' referenced by resource 'scenarios\solo\03a_oldmombasa\resources\03a_oldmombasa.scenario_scenery_resource' that is about to be stomped over isn't empty!
+11.19.24 20:34:36.089  ### WARNING 'scenario_crate_block' referenced by resource 'scenarios\solo\03a_oldmombasa\resources\03a_oldmombasa.scenario_scenery_resource' that is about to be stomped over isn't empty!
+11.19.24 20:34:36.089  ### WARNING 'scenario_biped_palette_block' referenced by resource 'scenarios\solo\03a_oldmombasa\resources\03a_oldmombasa.scenario_bipeds_resource' that is about to be stomped over isn't empty!
+11.19.24 20:34:36.090  ### WARNING 'scenario_biped_block' referenced by resource 'scenarios\solo\03a_oldmombasa\resources\03a_oldmombasa.scenario_bipeds_resource' that is about to be stomped over isn't empty!
+11.19.24 20:34:36.091  ### WARNING 'scenario_vehicle_palette_block' referenced by resource 'scenarios\solo\03a_oldmombasa\resources\03a_oldmombasa.scenario_vehicles_resource' that is about to be stomped over isn't empty!
+11.19.24 20:34:36.091  ### WARNING 'scenario_vehicle_block' referenced by resource 'scenarios\solo\03a_oldmombasa\resources\03a_oldmombasa.scenario_vehicles_resource' that is about to be stomped over isn't empty!
+11.19.24 20:34:36.092  ### WARNING 'scenario_equipment_palette_block' referenced by resource 'scenarios\solo\03a_oldmombasa\resources\03a_oldmombasa.scenario_equipment_resource' that is about to be stomped over isn't empty!
+11.19.24 20:34:36.092  ### WARNING 'scenario_equipment_block' referenced by resource 'scenarios\solo\03a_oldmombasa\resources\03a_oldmombasa.scenario_equipment_resource' that is about to be stomped over isn't empty!
+11.19.24 20:34:36.093  ### WARNING 'scenario_weapon_palette_block' referenced by resource 'scenarios\solo\03a_oldmombasa\resources\03a_oldmombasa.scenario_weapons_resource' that is about to be stomped over isn't empty!
+11.19.24 20:34:36.093  ### WARNING 'scenario_weapon_block' referenced by resource 'scenarios\solo\03a_oldmombasa\resources\03a_oldmombasa.scenario_weapons_resource' that is about to be stomped over isn't empty!
+11.19.24 20:34:36.094  ### WARNING 'scenario_sound_scenery_palette_block' referenced by resource 'scenarios\solo\03a_oldmombasa\resources\03a_oldmombasa.scenario_sound_scenery_resource' that is about to be stomped over isn't empty!
+11.19.24 20:34:36.094  ### WARNING 'scenario_sound_scenery_block' referenced by resource 'scenarios\solo\03a_oldmombasa\resources\03a_oldmombasa.scenario_sound_scenery_resource' that is about to be stomped over isn't empty!
+11.19.24 20:34:36.095  ### WARNING 'scenario_light_block' referenced by resource 'scenarios\solo\03a_oldmombasa\resources\03a_oldmombasa.scenario_lights_resource' that is about to be stomped over isn't empty!
+11.19.24 20:34:36.095  ### WARNING 'scenario_light_palette_block' referenced by resource 'scenarios\solo\03a_oldmombasa\resources\03a_oldmombasa.scenario_lights_resource' that is about to be stomped over isn't empty!
+11.19.24 20:34:36.095  ### WARNING 'device_group_block' referenced by resource 'scenarios\solo\03a_oldmombasa\resources\03a_oldmombasa.scenario_devices_resource' that is about to be stomped over isn't empty!
+11.19.24 20:34:36.096  ### WARNING 'scenario_machine_block' referenced by resource 'scenarios\solo\03a_oldmombasa\resources\03a_oldmombasa.scenario_devices_resource' that is about to be stomped over isn't empty!
+11.19.24 20:34:36.096  ### WARNING 'scenario_machine_palette_block' referenced by resource 'scenarios\solo\03a_oldmombasa\resources\03a_oldmombasa.scenario_devices_resource' that is about to be stomped over isn't empty!
+11.19.24 20:34:36.097  ### WARNING 'scenario_cutscene_camera_point_block' referenced by resource 'scenarios\solo\03a_oldmombasa\resources\03a_oldmombasa.scenario_cinematics_resource' that is about to be stomped over isn't empty!
+11.19.24 20:34:36.097  ### WARNING 'scenario_cutscene_flag_block' referenced by resource 'scenarios\solo\03a_oldmombasa\resources\03a_oldmombasa.scenario_cinematics_resource' that is about to be stomped over isn't empty!
+11.19.24 20:34:36.097  ### WARNING 'scenario_trigger_volume_block' referenced by resource 'scenarios\solo\03a_oldmombasa\resources\03a_oldmombasa.scenario_trigger_volumes_resource' that is about to be stomped over isn't empty!
+11.19.24 20:34:36.098  ### WARNING 'structure_bsp_background_sound_palette_block' referenced by resource 'scenarios\solo\03a_oldmombasa\resources\03a_oldmombasa.scenario_cluster_data_resource' that is about to be stomped over isn't empty!
+11.19.24 20:34:36.098  ### WARNING 'structure_bsp_sound_environment_palette_block' referenced by resource 'scenarios\solo\03a_oldmombasa\resources\03a_oldmombasa.scenario_cluster_data_resource' that is about to be stomped over isn't empty!
+11.19.24 20:34:36.098  ### WARNING 'scenario_atmospheric_fog_palette' referenced by resource 'scenarios\solo\03a_oldmombasa\resources\03a_oldmombasa.scenario_cluster_data_resource' that is about to be stomped over isn't empty!
+11.19.24 20:34:36.099  ### WARNING 'scenario_cluster_data_block' referenced by resource 'scenarios\solo\03a_oldmombasa\resources\03a_oldmombasa.scenario_cluster_data_resource' that is about to be stomped over isn't empty!
+11.19.24 20:34:36.099  ### WARNING 'editor_comment_block' referenced by resource 'scenarios\solo\03a_oldmombasa\resources\03a_oldmombasa.scenario_comments_resource' that is about to be stomped over isn't empty!
+11.19.24 20:34:36.100  ### WARNING 'scenario_structure_bsp_spherical_harmonic_lighting_block' referenced by resource 'scenarios\solo\03a_oldmombasa\resources\03a_oldmombasa.scenario_structure_lighting_resource' that is about to be stomped over isn't empty!
+11.19.24 20:34:36.100  ### WARNING 'scenario_decorator_set_palette_entry_block' referenced by resource 'scenarios\solo\03a_oldmombasa\resources\03a_oldmombasa.scenario_decorators_resource' that is about to be stomped over isn't empty!
+11.19.24 20:34:36.305  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\bugger\bitmaps\bugger_bump
+11.19.24 20:34:37.399  ### WARNING object 'objects\characters\bugger\bugger' has a bounding sphere radius much less than its model (0.380000 vs 0.670935)
+11.19.24 20:34:37.443  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\hunter\bitmaps\hunter_legs_and_arm_bump
+11.19.24 20:34:37.459  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\hunter\bitmaps\hunter_head_bump
+11.19.24 20:34:37.475  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\hunter\bitmaps\hunter_arm_huge_bump
+11.19.24 20:34:37.492  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\hunter\bitmaps\fuel_gun_bump
+11.19.24 20:34:37.556  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\hunter\bitmaps\hunter_torso_bump
+11.19.24 20:34:38.954  ### WARNING sound 'sound\materials\particles\flesh_particles' last promotion rule 1 has a maximum play count of 3, resetting to 0
+11.19.24 20:34:39.039  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\ambient_life\seagull\bitmaps\seagull_bump
+11.19.24 20:34:39.085  ### the creature 'objects\characters\ambient_life\seagull\seagull' has no 'head' marker
+11.19.24 20:34:39.086  ### WARNING object 'objects\characters\ambient_life\seagull\seagull' has a bounding sphere radius much less than its model (0.200000 vs 0.250794)
+11.19.24 20:34:39.568  fixing bitmap for DX11 (forced=default, format=a8y8) rasterizer\distance_attenuation
+11.19.24 20:34:39.587  ### WARNING loading from unsupported 3D storage format: a8y8 from rasterizer\distance_attenuation
+11.19.24 20:34:39.610  ### WARNING loading from unsupported 2D storage format: y8 from globals\loading_screen\loading_screen_sweep
+11.19.24 20:34:39.623  fixing bitmap for DX11 (forced=default, format=a8y8) rasterizer\glow
+11.19.24 20:34:39.641  ### WARNING loading from unsupported 2D storage format: a8y8 from rasterizer\glow
+11.19.24 20:34:39.870  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\hud_waypoints
+11.19.24 20:34:39.891  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.19.24 20:34:39.892  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.19.24 20:34:39.893  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.19.24 20:34:39.893  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.19.24 20:34:39.894  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.19.24 20:34:39.894  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.19.24 20:34:39.895  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.19.24 20:34:39.895  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.19.24 20:34:39.896  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.19.24 20:34:39.995  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\default_arrow
+11.19.24 20:34:39.996  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\default_arrow
+11.19.24 20:34:40.046  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\dead_friendly_arrow
+11.19.24 20:34:40.048  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\dead_friendly_arrow
+11.19.24 20:34:40.093  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\reset_flag
+11.19.24 20:34:40.096  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\reset_flag
+11.19.24 20:34:40.133  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\reset_bomb
+11.19.24 20:34:40.137  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\reset_bomb
+11.19.24 20:34:40.142  ### WARNING loading from unsupported 2D storage format: y8 from ui\hud\bitmaps\new_hud\emblem_dummy
+11.19.24 20:34:40.234  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\reset_ball
+11.19.24 20:34:40.237  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\reset_ball
+11.19.24 20:34:40.434  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\h_topright
+11.19.24 20:34:40.435  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\h_topright
+11.19.24 20:34:40.439  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\h_topcenter
+11.19.24 20:34:40.440  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\h_topcenter
+11.19.24 20:34:40.444  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\h_topleft
+11.19.24 20:34:40.445  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\h_topleft
+11.19.24 20:34:40.452  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\h_center
+11.19.24 20:34:40.453  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\h_center
+11.19.24 20:34:40.458  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\c_topright
+11.19.24 20:34:40.460  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\c_topright
+11.19.24 20:34:40.465  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\c_topcenter
+11.19.24 20:34:40.466  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\c_topcenter
+11.19.24 20:34:40.471  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\c_topleft
+11.19.24 20:34:40.472  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\c_topleft
+11.19.24 20:34:40.476  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\c_center
+11.19.24 20:34:40.476  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\c_center
+11.19.24 20:34:40.506  tags: missing tag (ffffffff)ui\hud\bitmaps\hud_msg_icons_sm.bitmap replaced by (8203207c)rasterizer\invalid.bitmap
+11.19.24 20:34:42.190  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\masterchief\fp\bitmaps\fp_arms_bump
+11.19.24 20:34:42.305  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\dervish\fp\bitmaps\dervish_fp_arms_bump
+11.19.24 20:34:42.348  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\dervish\bitmaps\dervish_bump
+11.19.24 20:34:42.422  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\dervish\bitmaps\dervish_helmet_bump
+11.19.24 20:34:42.463  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\dervish\bitmaps\dervish_nude_brand_bump
+11.19.24 20:34:42.490  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\dervish\bitmaps\dervish_nude_body_bump
+11.19.24 20:34:42.646  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\fp_arms\bitmaps\elite_fp_arms_bump
+11.19.24 20:34:42.681  ### ERROR geometry 'objects\characters\elite\fp_body\fp_body' shader 'objects\characters\elite\shaders\inset_lights' is opaque but was imported as transparent
+11.19.24 20:34:42.692  ### ERROR model 'objects\characters\elite\elite_mp' could not find variant 'spec_ops_scl' to strip
+11.19.24 20:34:42.692  ### ERROR model 'objects\characters\elite\elite_mp' could not find variant 'spec_ops_dog' to strip
+11.19.24 20:34:42.693  ### ERROR model 'objects\characters\elite\elite_mp' could not find variant 'zealot_scl' to strip
+11.19.24 20:34:42.693  ### ERROR model 'objects\characters\elite\elite_mp' could not find variant 'zealot_dog' to strip
+11.19.24 20:34:42.693  ### ERROR model 'objects\characters\elite\elite_mp' could not find variant 'stealth_scl' to strip
+11.19.24 20:34:42.694  ### ERROR model 'objects\characters\elite\elite_mp' could not find variant 'stealth_dog' to strip
+11.19.24 20:34:42.694  ### ERROR model 'objects\characters\elite\elite_mp' could not find variant 'stealth_major_scl' to strip
+11.19.24 20:34:42.695  ### ERROR model 'objects\characters\elite\elite_mp' could not find variant 'stealth_major_dog' to strip
+11.19.24 20:34:42.695  ### ERROR model 'objects\characters\elite\elite_mp' could not find variant 'honor_scl' to strip
+11.19.24 20:34:42.695  ### ERROR model 'objects\characters\elite\elite_mp' could not find variant 'honor_dog' to strip
+11.19.24 20:34:42.696  ### ERROR model 'objects\characters\elite\elite_mp' could not find variant 'soc' to strip
+11.19.24 20:34:42.696  ### ERROR model 'objects\characters\elite\elite_mp' could not find variant 'council_scl' to strip
+11.19.24 20:34:42.696  ### ERROR model 'objects\characters\elite\elite_mp' could not find variant 'council_dog' to strip
+11.19.24 20:34:42.697  ### WARNING model 'objects\characters\elite\elite_mp' variant 'default' cannot find region 'hg_lights'
+11.19.24 20:34:44.121  [03a_oldmombasa_cinematics line 404] this is not a valid ai squad or squad group: intro_hog_01/driver (ai_vehicle_get_from_starting_location intro_hog_01/hog) warthog_d)
+11.19.24 20:34:51.805  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\base_stucco_rubble_bump
+11.19.24 20:34:51.825  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\base_stucco_4_trim_bump
+11.19.24 20:34:51.850  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\base_tech_bump
+11.19.24 20:34:51.903  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\rebar_bump
+11.19.24 20:34:51.928  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\metals\grate_railing_a_bump
+11.19.24 20:34:51.940  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\base_ac1_bump
+11.19.24 20:34:51.957  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\base_ac2_bump
+11.19.24 20:34:51.973  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\detail_maps\concrete\stucco_rough_a_bump
+11.19.24 20:34:51.998  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\base_stucco_5_brick_bump
+11.19.24 20:34:52.016  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\light_long_bump
+11.19.24 20:34:52.043  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\base_concrete2_bump
+11.19.24 20:34:52.068  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\base_stucco_4_garage_bump
+11.19.24 20:34:52.093  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\detail_maps\nature\ground\dirt_pebble_bmp
+11.19.24 20:34:52.123  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\base_metal_gate_bump
+11.19.24 20:34:52.139  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\manhole_bump
+11.19.24 20:34:52.890  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\nature\trees\tree_ancient\bitmaps\tree_ancient_bark_bump
+11.19.24 20:34:52.935  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\light_small_bump
+11.19.24 20:34:53.061  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\pavers\oldcity_paver_a_bump
+11.19.24 20:34:53.078  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\base_stucco_5_window_detail_bump
+11.19.24 20:34:53.117  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\base_sidewalk_bump
+11.19.24 20:34:53.200  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\ground\beach_sanddry_bump
+11.19.24 20:34:53.232  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\pavers\paver_studded_bump
+11.19.24 20:34:53.244  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\handscanner_bump
+11.19.24 20:34:53.271  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\base_stucco_3_garage_bump
+11.19.24 20:34:53.292  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\human\urban\metals\grate_sewer_a_bump
+11.19.24 20:34:53.313  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\base_chainlink_bump
+11.19.24 20:34:53.320  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\base_clothes_bump
+11.19.24 20:34:53.337  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\multi\burial_mounds\small_cliff_bump
+11.19.24 20:34:53.951  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\solo\earthcity\hotelzanzibar_dump
+11.19.24 20:34:54.014  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\nature\trees\bush_vine\bitmaps\bush_vine_bmp
+11.19.24 20:34:54.113  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\objects\nature\trees\tree_ancient\bitmaps\tree_ancient_leaves_bump
+11.19.24 20:34:54.403  ### WARNING structure bsp 'scenarios\solo\03a_oldmombasa\earthcity_1' has 52 nonconvex surfaces
+11.19.24 20:34:55.345  'scenarios\objects\solo\earthcity\oldmombasa\hunter_door\hunter_door.device_machine' will occlude but does not have a valid occlusion range [0.00, 0.00]
+11.19.24 20:35:13.467  Miles reports a max delay of 3 (assuming ms)
+11.19.24 20:35:13.478  Can't allocate havok memory block (18960 bytes) through const size alloc. Block size must be less than (8192 bytes). HK_MEMORY_CLASS(18) will be allocated in the overflow pool
+11.19.24 20:35:13.478  Can't allocate havok memory block (16384 bytes) through const size alloc. Block size must be less than (8192 bytes). HK_MEMORY_CLASS(18) will be allocated in the overflow pool
+11.19.24 20:35:18.987  multiple vertex streams providing same attribute
+11.19.24 20:35:18.988  ATTR S:1 M:0 A:3 F:1 (TEXCOORD0) == [1] TEXCOORD0 S:0
+11.19.24 20:35:45.019  [unknown]: ai_place e1_cov_inf0_3
+11.19.24 20:37:43.844  [unknown]: ai_place squads_128
+11.19.24 20:37:46.956  [unknown]: ai_place squads_128
+11.19.24 20:37:56.120  [unknown]: ai_place squads_128
+11.19.24 20:39:35.145  [unknown]: ai_erase squads_128
+11.19.24 20:39:45.566  [unknown]: ai_place squads_128
+11.19.24 20:40:00.005  Miles reports a max delay of 8 (assuming ms)
+
+
+============================================================================================
+11.20.24 22:14:01.067  sapien  debug pc untracked version  Jun 20 2023 11:29:20
+============================================================================================
+
+
+11.20.24 22:14:01.067  multiplayer/mainmenu map - loading dervish and chief animations, mp models
+11.20.24 22:14:01.193  ### WARNING loading from unsupported 2D storage format: y8 from scenarios\skies\multi\halo\coagulation\bitmaps\coag_cloudtile
+11.20.24 22:14:01.247  ### WARNING loading from unsupported 2D storage format: y8 from scenarios\skies\multi\ascension\bitmaps\ascension_cloudbeams_tile
+11.20.24 22:14:03.228  fixing bitmap for DX11 (forced=default, format=a8y8) rasterizer\linear_corner_fade
+11.20.24 22:14:03.230  ### WARNING loading from unsupported 2D storage format: a8y8 from rasterizer\linear_corner_fade
+11.20.24 22:14:04.638  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\battle_rifle\bitmaps\battle_rifle_bump
+11.20.24 22:14:06.437  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\battle_rifle\bitmaps\ejection_port_bump
+11.20.24 22:14:06.483  WARNING: shader 'objects\weapons\rifle\battle_rifle\shaders\tens' could not resolve bitmap 'zero'
+11.20.24 22:14:06.489  WARNING: shader 'objects\weapons\rifle\battle_rifle\shaders\ones' could not resolve bitmap 'zero'
+11.20.24 22:14:06.611  sound 'sound_remastered\weapons\impacts_riccs\bullet_impact_energy' maximum gain is too large: 3.00dB, should be <= 0.0dB
+11.20.24 22:14:06.613  sound 'sound_remastered\weapons\impacts_riccs\bullet_impact_energy' gain bounds clamped to: [-3.00dB, 0.00dB]
+11.20.24 22:14:06.739  fixing bitmap for DX11 (forced=default, format=a8y8) effects\decals\bullet_holes\bitmaps\metal
+11.20.24 22:14:06.745  ### WARNING loading from unsupported 2D storage format: a8y8 from effects\decals\bullet_holes\bitmaps\metal
+11.20.24 22:14:06.865  fixing bitmap for DX11 (forced=default, format=a8y8) effects\bitmaps\sparks\sparks_animated
+11.20.24 22:14:06.868  ### WARNING loading from unsupported 2D storage format: a8y8 from effects\bitmaps\sparks\sparks_animated
+11.20.24 22:14:07.293  fixing bitmap for DX11 (forced=default, format=a8y8) effects\decals\bullet_holes\bitmaps\stone
+11.20.24 22:14:07.299  ### WARNING loading from unsupported 2D storage format: a8y8 from effects\decals\bullet_holes\bitmaps\stone
+11.20.24 22:14:07.897  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\powerups\battle_rifle_ammo\bitmaps\br_ammo_bump
+11.20.24 22:14:08.014  sound 'sound_remastered\weapons\impacts_riccs\bullet_flyby_medium' maximum gain is too large: 1.00dB, should be <= 0.0dB
+11.20.24 22:14:08.014  sound 'sound_remastered\weapons\impacts_riccs\bullet_flyby_medium' gain bounds clamped to: [-3.00dB, 0.00dB]
+11.20.24 22:14:08.136  ### WARNING sound 'sound_remastered\materials\particles\shell_casings\concrete\308' last promotion rule 1 has a maximum play count of 3, resetting to 0
+11.20.24 22:14:08.146  ### WARNING sound 'sound_remastered\materials\particles\shell_casings\dirt\308' promotion rules do not reference all pitch ranges
+11.20.24 22:14:08.189  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\battle_rifle\bitmaps\battle_rifle_knob_bump
+11.20.24 22:14:08.346  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\melee\energy_blade\bitmaps\energy_blade_bump
+11.20.24 22:14:08.383  sound 'sound\weapons\energy_sword\sword_impact_character' maximum gain is too large: 2.00dB, should be <= 0.0dB
+11.20.24 22:14:08.384  sound 'sound\weapons\energy_sword\sword_impact_character' gain bounds clamped to: [-2.00dB, 0.00dB]
+11.20.24 22:14:08.636  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\smg\bitmaps\smg_bump
+11.20.24 22:14:08.672  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\smg_silenced\bitmaps\smg_silencer_bump
+11.20.24 22:14:09.021  sound 'sound_remastered\weapons\impacts_riccs\bullet_flyby_short' maximum gain is too large: 1.00dB, should be <= 0.0dB
+11.20.24 22:14:09.022  sound 'sound_remastered\weapons\impacts_riccs\bullet_flyby_short' gain bounds clamped to: [-3.00dB, 0.00dB]
+11.20.24 22:14:09.395  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\support_high\flak_cannon\bitmaps\flak_cannon_bump
+11.20.24 22:14:09.875  ### ERROR geometry 'objects\weapons\support_high\flak_cannon\projectiles\flak_projectile' shader 'objects\weapons\support_high\flak_cannon\shaders\flak_bolt_luminous' is transparent but was imported as opaque
+11.20.24 22:14:09.951  fixing bitmap for DX11 (forced=default, format=a8y8) effects\bitmaps\lens_flares\soft_flare_large
+11.20.24 22:14:09.954  ### WARNING loading from unsupported 2D storage format: a8y8 from effects\bitmaps\lens_flares\soft_flare_large
+11.20.24 22:14:10.259  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\pistol\magnum\bitmaps\magnum_bump
+11.20.24 22:14:10.383  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\powerups\pistol_ammo\bitmaps\pistol_ammo_bump
+11.20.24 22:14:11.008  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\plasma_rifle\bitmaps\plasma_rifle_card_bump
+11.20.24 22:14:11.040  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\plasma_rifle\bitmaps\plasma_rifle_bump
+11.20.24 22:14:11.129  fixing bitmap for DX11 (forced=default, format=a8y8) shaders\default_bitmaps\bitmaps\clouds_256
+11.20.24 22:14:11.202  ### WARNING loading from unsupported 2D storage format: a8y8 from shaders\default_bitmaps\bitmaps\clouds_256
+11.20.24 22:14:11.366  ### WARNING loading from unsupported 2D storage format: y8 from effects\decals\bullet_holes\bitmaps\plasma_fizzle
+11.20.24 22:14:11.738  ### WARNING loading from unsupported 2D storage format: y8 from effects\decals\blast_scorches\bitmaps\default_scorch
+11.20.24 22:14:12.399  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\grenade\frag_grenade\bitmaps\frag_grenade_bump
+11.20.24 22:14:12.435  ### WARNING loading from unsupported 2D storage format: y8 from effects\decals\blast_scorches\bitmaps\default_blast
+11.20.24 22:14:12.493  fixing bitmap for DX11 (forced=default, format=a1r5g5b5) effects\bitmaps\energy\spark_c_flak
+11.20.24 22:14:12.497  ### WARNING loading from unsupported 2D storage format: a1r5g5b5 from effects\bitmaps\energy\spark_c_flak
+11.20.24 22:14:12.639  sound 'sound_remastered\weapons\frag_grenade\frag_bnc_dirt' maximum gain is too large: 1.00dB, should be <= 0.0dB
+11.20.24 22:14:12.639  sound 'sound_remastered\weapons\frag_grenade\frag_bnc_dirt' gain bounds clamped to: [-1.00dB, 0.00dB]
+11.20.24 22:14:12.909  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\grenade\plasma_grenade\bitmaps\plasma_grenade_bump
+11.20.24 22:14:13.011  ### WARNING loading from unsupported 2D storage format: y8 from effects\decals\blast_scorches\bitmaps\tough_scorch
+11.20.24 22:14:13.029  ### WARNING loading from unsupported 2D storage format: y8 from effects\decals\blast_scorches\bitmaps\sand_scorch
+11.20.24 22:14:13.172  ### WARNING loading from unsupported 2D storage format: y8 from effects\bitmaps\lens_flares\flares_generic2
+11.20.24 22:14:13.173  ### WARNING loading from unsupported 2D storage format: y8 from effects\bitmaps\lens_flares\flares_generic2
+11.20.24 22:14:13.173  ### WARNING loading from unsupported 2D storage format: y8 from effects\bitmaps\lens_flares\flares_generic2
+11.20.24 22:14:13.174  ### WARNING loading from unsupported 2D storage format: y8 from effects\bitmaps\lens_flares\flares_generic2
+11.20.24 22:14:13.223  fixing bitmap for DX11 (forced=default, format=a8y8) rasterizer\distance_attenuation
+11.20.24 22:14:13.241  ### WARNING loading from unsupported 3D storage format: a8y8 from rasterizer\distance_attenuation
+11.20.24 22:14:13.264  ### WARNING loading from unsupported 2D storage format: y8 from globals\loading_screen\loading_screen_sweep
+11.20.24 22:14:13.278  fixing bitmap for DX11 (forced=default, format=a8y8) rasterizer\glow
+11.20.24 22:14:13.295  ### WARNING loading from unsupported 2D storage format: a8y8 from rasterizer\glow
+11.20.24 22:14:13.578  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\hud_waypoints
+11.20.24 22:14:13.598  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.20.24 22:14:13.599  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.20.24 22:14:13.599  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.20.24 22:14:13.600  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.20.24 22:14:13.600  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.20.24 22:14:13.601  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.20.24 22:14:13.601  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.20.24 22:14:13.602  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.20.24 22:14:13.602  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.20.24 22:14:13.686  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\default_arrow
+11.20.24 22:14:13.687  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\default_arrow
+11.20.24 22:14:13.729  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\dead_friendly_arrow
+11.20.24 22:14:13.731  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\dead_friendly_arrow
+11.20.24 22:14:13.763  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\reset_flag
+11.20.24 22:14:13.767  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\reset_flag
+11.20.24 22:14:13.805  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\reset_bomb
+11.20.24 22:14:13.809  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\reset_bomb
+11.20.24 22:14:13.815  ### WARNING loading from unsupported 2D storage format: y8 from ui\hud\bitmaps\new_hud\emblem_dummy
+11.20.24 22:14:13.958  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\reset_ball
+11.20.24 22:14:13.961  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\reset_ball
+11.20.24 22:14:14.159  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\h_topright
+11.20.24 22:14:14.160  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\h_topright
+11.20.24 22:14:14.165  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\h_topcenter
+11.20.24 22:14:14.166  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\h_topcenter
+11.20.24 22:14:14.169  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\h_topleft
+11.20.24 22:14:14.171  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\h_topleft
+11.20.24 22:14:14.175  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\h_center
+11.20.24 22:14:14.175  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\h_center
+11.20.24 22:14:14.179  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\c_topright
+11.20.24 22:14:14.180  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\c_topright
+11.20.24 22:14:14.184  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\c_topcenter
+11.20.24 22:14:14.185  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\c_topcenter
+11.20.24 22:14:14.189  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\c_topleft
+11.20.24 22:14:14.189  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\c_topleft
+11.20.24 22:14:14.194  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\c_center
+11.20.24 22:14:14.195  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\c_center
+11.20.24 22:14:14.223  tags: missing tag (ffffffff)ui\hud\bitmaps\hud_msg_icons_sm.bitmap replaced by (e6c0054b)rasterizer\invalid.bitmap
+11.20.24 22:14:17.301  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\masterchief\bitmaps\masterchief_bump
+11.20.24 22:14:17.958  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'objects\weapons\rifle\smg\garbage\magazine\magazine'
+11.20.24 22:14:18.013  fixing bitmap for DX11 (forced=default, format=a8y8) rasterizer\plasma_shield_noise
+11.20.24 22:14:18.046  ### WARNING loading from unsupported 3D storage format: a8y8 from rasterizer\plasma_shield_noise
+11.20.24 22:14:19.339  ### WARNING loading from unsupported 2D storage format: y8 from objects\characters\masterchief\bitmaps\flashlight_gel
+11.20.24 22:14:19.381  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\meters\shield_meter
+11.20.24 22:14:19.406  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\meters\shield_meter
+11.20.24 22:14:19.407  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\meters\shield_meter
+11.20.24 22:14:19.408  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\meters\shield_meter
+11.20.24 22:14:19.409  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\meters\shield_meter
+11.20.24 22:14:19.409  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\meters\shield_meter
+11.20.24 22:14:19.410  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\meters\shield_meter
+11.20.24 22:14:19.411  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\meters\shield_meter
+11.20.24 22:14:19.411  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\meters\shield_meter
+11.20.24 22:14:21.131  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\masterchief\fp\bitmaps\fp_arms_bump
+11.20.24 22:14:21.248  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\dervish\fp\bitmaps\dervish_fp_arms_bump
+11.20.24 22:14:21.288  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\dervish\bitmaps\dervish_bump
+11.20.24 22:14:21.359  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\dervish\bitmaps\dervish_helmet_bump
+11.20.24 22:14:21.586  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\bitmaps\teeth_bump
+11.20.24 22:14:21.654  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\dervish\bitmaps\dervish_nude_brand_bump
+11.20.24 22:14:21.679  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\dervish\bitmaps\dervish_nude_body_bump
+11.20.24 22:14:23.747  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\fp_arms\bitmaps\elite_fp_arms_bump
+11.20.24 22:14:23.840  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\bitmaps\torso_bump
+11.20.24 22:14:23.871  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\bitmaps\legs_bump
+11.20.24 22:14:23.899  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\bitmaps\arms_bump
+11.20.24 22:14:23.919  ### ERROR geometry 'objects\characters\elite\fp_body\fp_body' shader 'objects\characters\elite\shaders\inset_lights' is opaque but was imported as transparent
+11.20.24 22:14:23.971  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\bitmaps\head_bump
+11.20.24 22:14:23.999  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\bitmaps\helmet_bump
+11.20.24 22:14:24.024  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\bitmaps\council_helmet_bump
+11.20.24 22:14:24.266  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\elite\elite_honor_guard\bitmaps\elite_honor_armor_bump
+11.20.24 22:14:24.323  ### WARNING model 'objects\characters\elite\elite_mp' variant 'default' cannot find region 'hg_lights'
+11.20.24 22:14:25.770  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\multiplayer\flag\bitmaps\flag_bump
+11.20.24 22:14:26.139  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\multiplayer\flag\bitmaps\new_flag_art_bump
+11.20.24 22:14:26.140  WARNING: shader 'objects\weapons\multiplayer\flag\shaders\flag' could not resolve bitmap 'base_map'
+11.20.24 22:14:26.296  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\multiplayer\ball\bitmaps\gameball_bump
+11.20.24 22:14:26.426  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\multiplayer\assault_bomb\bitmaps\assault_bomb_bump
+11.20.24 22:14:26.496  ### WARNING loading from unsupported 2D storage format: y8 from effects\bitmaps\lens_flares\assault_bomb_flare
+11.20.24 22:14:26.595  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\powerups\smg_ammo\bitmaps\smg_ammo_bump
+11.20.24 22:14:26.714  tags: missing tag (ffffffff)objects\weapons\rifle\smg\damage_effects\smg_empty.damage_effect replaced by (ec280ab3)globals\global_missing_damage_effect.damage_effect
+11.20.24 22:14:26.754  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\shotgun\bitmaps\shotgun_card_bump
+11.20.24 22:14:26.773  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\shotgun\bitmaps\shotgun_bump
+11.20.24 22:14:26.826  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\shotgun\bitmaps\shotgun_bolt_bump
+11.20.24 22:14:26.840  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\shotgun\bitmaps\shotgun_port_bump
+11.20.24 22:14:26.937  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\powerups\shotgun_ammo\bitmaps\sg_ammo_bump
+11.20.24 22:14:26.956  sound 'sound_remastered\weapons\impacts_riccs\bullet_flyby_long' maximum gain is too large: 1.00dB, should be <= 0.0dB
+11.20.24 22:14:26.956  sound 'sound_remastered\weapons\impacts_riccs\bullet_flyby_long' gain bounds clamped to: [-3.00dB, 0.00dB]
+11.20.24 22:14:27.103  ### WARNING sound 'sound_remastered\materials\particles\shell_casings\concrete\shotgun' last promotion rule 0 has a maximum play count of 4, resetting to 0
+11.20.24 22:14:27.167  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\shotgun\bitmaps\shotshell_bump
+11.20.24 22:14:27.296  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\sniper_rifle\bitmaps\sniper_rifle_bump
+11.20.24 22:14:27.648  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\powerups\sniper_rifle_ammo\bitmaps\sr_ammo_bump
+11.20.24 22:14:27.800  ### WARNING sound 'sound_remastered\materials\particles\shell_casings\concrete\50cal' last promotion rule 2 has a maximum play count of 5, resetting to 0
+11.20.24 22:14:27.852  ### WARNING shader pass 'shaders\shader_passes\texture_camera\scope' texture #0 (implementation #0) has source extern - ignoring parameter name "scope"
+11.20.24 22:14:27.934  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\support_high\rocket_launcher\bitmaps\rocket_launcher_lod_bump
+11.20.24 22:14:27.979  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\support_high\rocket_launcher\bitmaps\rocket_launcher_bump
+11.20.24 22:14:28.004  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\support_high\rocket_launcher\bitmaps\rocket_launcher_ends_bump
+11.20.24 22:14:28.197  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\powerups\rocket_launcher_ammo\bitmaps\rocket_launcher_ammo_bump
+11.20.24 22:14:28.269  ### WARNING loading from unsupported 2D storage format: y8 from effects\bitmaps\weapons_fire\plasma_sphere
+11.20.24 22:14:28.499  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\pistol\plasma_pistol\bitmaps\plasma_pistol_bump
+11.20.24 22:14:28.865  fixing bitmap for DX11 (forced=default, format=r5g6b5) effects\bitmaps\lens_flares\light_volume
+11.20.24 22:14:28.867  ### WARNING loading from unsupported 2D storage format: r5g6b5 from effects\bitmaps\lens_flares\light_volume
+11.20.24 22:14:29.654  sound 'sound_remastered\weapons\plasma_rifle\plas_fire_mech_swtnr' minimum gain is too small: -65.00dB, should be >= -64.0dB
+11.20.24 22:14:29.655  sound 'sound_remastered\weapons\plasma_rifle\plas_fire_mech_swtnr' gain bounds clamped to: [-64.00dB, -63.00dB]
+11.20.24 22:14:29.677  sound 'sound\weapons\plasma_rifle\plasma_rifle_fire' maximum gain is too large: 1.50dB, should be <= 0.0dB
+11.20.24 22:14:29.678  sound 'sound\weapons\plasma_rifle\plasma_rifle_fire' gain bounds clamped to: [-1.50dB, 0.00dB]
+11.20.24 22:14:29.738  fixing bitmap for DX11 (forced=default, format=a8y8) incompetent\bitmaps\clouds_256
+11.20.24 22:14:29.811  ### WARNING loading from unsupported 2D storage format: a8y8 from incompetent\bitmaps\clouds_256
+11.20.24 22:14:29.827  ### WARNING model 'objects\weapons\rifle\brute_plasma_rifle\brute_plasma_rifle' collision model region 'default' has no corresponding model region (will not be collideable)
+11.20.24 22:14:29.980  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\pistol\needler\bitmaps\needler_bump
+11.20.24 22:14:30.168  fixing bitmap for DX11 (forced=default, format=a8y8) effects\decals\bullet_holes\bitmaps\impact_scratch
+11.20.24 22:14:30.173  ### WARNING loading from unsupported 2D storage format: a8y8 from effects\decals\bullet_holes\bitmaps\impact_scratch
+11.20.24 22:14:30.595  fixing bitmap for DX11 (forced=default, format=a8y8) objects\weapons\rifle\covenant_carbine\bitmaps\covenant_carbine_display_illum
+11.20.24 22:14:30.596  ### WARNING loading from unsupported 2D storage format: a8y8 from objects\weapons\rifle\covenant_carbine\bitmaps\covenant_carbine_display_illum
+11.20.24 22:14:30.617  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\covenant_carbine\bitmaps\covenant_carbine_bump
+11.20.24 22:14:30.690  fixing bitmap for DX11 (forced=default, format=r5g6b5) objects\weapons\rifle\covenant_carbine\bitmaps\covenant_carbine_switch_illum
+11.20.24 22:14:30.693  ### WARNING loading from unsupported 2D storage format: r5g6b5 from objects\weapons\rifle\covenant_carbine\bitmaps\covenant_carbine_switch_illum
+11.20.24 22:14:31.100  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\support_low\brute_shot\bitmaps\brute_shot_bump
+11.20.24 22:14:31.198  ### WARNING effect 'effects\impact\explosion_small\brute_shot\detonation' part 'effects\impact\explosion_small\brute_shot\detonation' was not found
+11.20.24 22:14:31.422  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\beam_rifle\bitmaps\beam_rifle_bump
+11.20.24 22:14:31.534  fixing bitmap for DX11 (forced=default, format=a8y8) effects\bitmaps\flares\ring
+11.20.24 22:14:31.538  ### WARNING loading from unsupported 2D storage format: a8y8 from effects\bitmaps\flares\ring
+11.20.24 22:14:31.944  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\support_low\sentinel_gun\bitmaps\sentinel_gun_bump
+11.20.24 22:14:32.272  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\fixed\h_turret_mp\bitmaps\h_turret_mp_gun_bump
+11.20.24 22:14:32.400  ### WARNING sound 'sound_remastered\materials\particles\shell_casings\concrete\browning' last promotion rule 2 has a maximum play count of 3, resetting to 0
+11.20.24 22:14:32.494  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\warthog\bitmaps\tires_bump
+11.20.24 22:14:32.515  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\warthog\bitmaps\warthog_standard_bump
+11.20.24 22:14:32.595  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\warthog\bitmaps\chassis_bump
+11.20.24 22:14:32.627  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\warthog\bitmaps\hub_bump
+11.20.24 22:14:33.201  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\warthog\turrets\chaingun\bitmaps\chaingun_bump
+11.20.24 22:14:33.216  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\warthog\turrets\bitmaps\gun_mount_bump
+11.20.24 22:14:33.496  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\warthog\turrets\gauss\bitmaps\gauss_turret_bump
+11.20.24 22:14:33.517  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\warthog\turrets\gauss\bitmaps\gauss_turret_sensor_bump
+11.20.24 22:14:33.596  sound 'sound\vehicles\scorpion\scorpion_projectile_up' maximum gain is too large: 3.00dB, should be <= 0.0dB
+11.20.24 22:14:33.597  sound 'sound\vehicles\scorpion\scorpion_projectile_up' gain bounds clamped to: [-3.00dB, 0.00dB]
+11.20.24 22:14:33.689  damage info postprocess: model 'objects\vehicles\warthog\warthog' couldn't find a physics model constraint with name: hinge02
+11.20.24 22:14:33.953  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\ghost\bitmaps\ghost_bump
+11.20.24 22:14:34.013  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\ghost\bitmaps\torn_up_bump
+11.20.24 22:14:34.052  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\ghost\bitmaps\blown_open_bump
+11.20.24 22:14:34.206  ### WARNING object 'objects\vehicles\ghost\garbage\seat\seat' has a bounding sphere radius much less than its model (0.120000 vs 0.364857)
+11.20.24 22:14:34.436  ### WARNING object 'objects\vehicles\ghost\garbage\l_wing_shell\l_wing_shell' has a bounding sphere radius much less than its model (0.080000 vs 0.285048)
+11.20.24 22:14:34.463  ### WARNING object 'objects\vehicles\ghost\garbage\r_wing_shell\r_wing_shell' has a bounding sphere radius much less than its model (0.120000 vs 0.264751)
+11.20.24 22:14:34.934  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\scorpion\bitmaps\scorpion_hull_bump
+11.20.24 22:14:34.952  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\scorpion\bitmaps\scorpion_treads_bump
+11.20.24 22:14:35.017  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\scorpion\bitmaps\scorpion_guts_bump
+11.20.24 22:14:35.162  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\scorpion\turrets\cannon\bitmaps\turret_cannon_bump
+11.20.24 22:14:35.637  ### WARNING loading from unsupported 2D storage format: y8 from scenarios\objects\lights\bitmaps\generic\gel_circle_fade
+11.20.24 22:14:35.843  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\wraith\bitmaps\wraith_bump
+11.20.24 22:14:36.133  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\wraith\turrets\mortar\bitmaps\mortar_bump
+11.20.24 22:14:36.364  ### WARNING loading from unsupported 2D storage format: y8 from effects\bitmaps\lens_flares\flares_weapon_lens
+11.20.24 22:14:36.795  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\banshee\bitmaps\banshee_plate_bump
+11.20.24 22:14:36.873  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\banshee\bitmaps\banshee_torn_up_plate_bump
+11.20.24 22:14:37.512  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\spectre\bitmaps\spectre_bump
+11.20.24 22:14:37.905  ### WARNING loading from unsupported 2D storage format: y8 from effects\bitmaps\contrails\covenant_beam
+11.20.24 22:14:38.258  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\mongoose\bitmaps\mongoose_wheel_bump
+11.20.24 22:14:38.278  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\mongoose\bitmaps\mongoose_bump
+11.20.24 22:14:38.348  fixing bitmap for DX11 (forced=default, format=a8y8) effects\decals\bullet_holes\bitmaps\ice
+11.20.24 22:14:38.375  ### WARNING loading from unsupported 2D storage format: a8y8 from effects\decals\bullet_holes\bitmaps\ice
+11.20.24 22:14:38.431  ### WARNING loading from unsupported 2D storage format: y8 from effects\decals\vehicle_marks\bitmaps\snow_treadmarks
+11.20.24 22:14:38.489  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\h_turret_ap\bitmaps\h_turret_ap_bump
+11.20.24 22:14:38.618  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\c_turret_ap\bitmaps\c_turret_ap_bump
+11.20.24 22:14:38.906  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\creep\bitmaps\creep_hull_bump
+11.20.24 22:14:39.101  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\vehicles\gravity_throne\bitmaps\throne_bump
+11.20.24 22:14:39.393  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\powerups\active_camouflage\bitmaps\powerup_bump
+11.20.24 22:14:52.505  fixing bitmap for DX11 (forced=default, format=p8_bump) scenarios\bitmaps\detail_maps\nature\ground\dirt_pebble_bmp
+11.20.24 22:15:59.906  Miles reports a max delay of 3 (assuming ms)
+11.20.24 22:17:01.709  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\melee\gravity_hammer\bitmaps\gravity_hammer_bump
+11.20.24 22:17:01.741  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'kashiiera\objects\weapons\melee\gravity_hammer\gravity_hammer'
+11.20.24 22:17:01.742  ### WARNING model 'kashiiera\objects\weapons\melee\gravity_hammer\gravity_hammer' collision model node counts don't match (will not be collideable)
+11.20.24 22:17:01.742  ### WARNING model 'kashiiera\objects\weapons\melee\gravity_hammer\gravity_hammer' animation graph node counts don't match (will not animate)
+11.20.24 22:17:01.743  ### WARNING model 'kashiiera\objects\weapons\melee\gravity_hammer\gravity_hammer' physics model node counts don't match (will not be physical)
+11.20.24 22:19:39.870  tags: missing tag (ffffffff)objects\weapons\rifle\dmr\bitmaps\rubber.bitmap replaced by (e6c0054b)rasterizer\invalid.bitmap
+11.20.24 22:19:39.881  ### WARNING model 'objects\weapons\melee\gravity_hammer_h3\gravity_hammer_h3' animation graph node counts don't match (will not animate)
+11.20.24 22:19:44.089  tags: missing tag (ffffffff)objects\weapons\rifle\dmr\bitmaps\rubber.bitmap replaced by (e6c0054b)rasterizer\invalid.bitmap
+11.20.24 22:19:44.126  ### WARNING model 'objects\weapons\melee\gravity_hammer_h3\gravity_hammer_h3_variant_golf_club' animation graph node counts don't match (will not animate)
+11.20.24 22:19:47.134  ### WARNING model 'objects\weapons\melee\gravity_hammer_h3\gravity_hammer_h3_variant_rukt' animation graph node counts don't match (will not animate)
+11.20.24 22:20:04.550  Miles reports a max delay of 4 (assuming ms)
+
+
+============================================================================================
+11.20.24 22:20:35.724  guerilla  debug pc untracked version  Jun 20 2023 11:28:32
+============================================================================================
+
+
+11.20.24 22:20:35.724  telnet: transport_endpoint_bind() failed on telnet console endpoint
+11.20.24 22:22:04.881  Miles reports a max delay of 7 (assuming ms)
+11.20.24 22:33:09.354  Miles reports a max delay of 14 (assuming ms)
+
+
+============================================================================================
+11.20.24 23:11:31.036  sapien  debug pc untracked version  Jun 20 2023 11:29:20
+============================================================================================
+
+
+11.20.24 23:11:31.036  multiplayer/mainmenu map - loading dervish and chief animations, mp models
+11.20.24 23:11:31.048  ### WARNING loading from unsupported 2D storage format: y8 from scenarios\skies\multi\halo\coagulation\bitmaps\coag_cloudtile
+11.20.24 23:11:31.052  ### WARNING loading from unsupported 2D storage format: y8 from scenarios\skies\multi\ascension\bitmaps\ascension_cloudbeams_tile
+11.20.24 23:11:31.139  fixing bitmap for DX11 (forced=default, format=a8y8) rasterizer\linear_corner_fade
+11.20.24 23:11:31.142  ### WARNING loading from unsupported 2D storage format: a8y8 from rasterizer\linear_corner_fade
+11.20.24 23:11:31.199  tags: missing tag (ffffffff)objects\weapons\rifle\dmr\bitmaps\rubber.bitmap replaced by (e1d2005d)rasterizer\invalid.bitmap
+11.20.24 23:11:31.201  ### WARNING model 'objects\weapons\melee\gravity_hammer_h3\gravity_hammer_h3' animation graph node counts don't match (will not animate)
+11.20.24 23:11:31.237  tags: missing tag (ffffffff)objects\weapons\rifle\dmr\bitmaps\rubber.bitmap replaced by (e1d2005d)rasterizer\invalid.bitmap
+11.20.24 23:11:31.241  ### WARNING model 'objects\weapons\melee\gravity_hammer_h3\gravity_hammer_h3_variant_golf_club' animation graph node counts don't match (will not animate)
+11.20.24 23:11:31.244  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\melee\gravity_hammer\bitmaps\gravity_hammer_bump
+11.20.24 23:11:31.247  ### WARNING model 'objects\weapons\melee\gravity_hammer_h3\gravity_hammer_h3_variant_rukt' animation graph node counts don't match (will not animate)
+11.20.24 23:11:31.306  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\battle_rifle\bitmaps\battle_rifle_bump
+11.20.24 23:11:31.317  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\battle_rifle\bitmaps\ejection_port_bump
+11.20.24 23:11:31.320  WARNING: shader 'objects\weapons\rifle\battle_rifle\shaders\tens' could not resolve bitmap 'zero'
+11.20.24 23:11:31.322  WARNING: shader 'objects\weapons\rifle\battle_rifle\shaders\ones' could not resolve bitmap 'zero'
+11.20.24 23:11:31.326  sound 'sound_remastered\weapons\impacts_riccs\bullet_impact_energy' maximum gain is too large: 3.00dB, should be <= 0.0dB
+11.20.24 23:11:31.328  sound 'sound_remastered\weapons\impacts_riccs\bullet_impact_energy' gain bounds clamped to: [-3.00dB, 0.00dB]
+11.20.24 23:11:31.333  fixing bitmap for DX11 (forced=default, format=a8y8) effects\decals\bullet_holes\bitmaps\metal
+11.20.24 23:11:31.340  ### WARNING loading from unsupported 2D storage format: a8y8 from effects\decals\bullet_holes\bitmaps\metal
+11.20.24 23:11:31.343  fixing bitmap for DX11 (forced=default, format=a8y8) effects\bitmaps\sparks\sparks_animated
+11.20.24 23:11:31.346  ### WARNING loading from unsupported 2D storage format: a8y8 from effects\bitmaps\sparks\sparks_animated
+11.20.24 23:11:31.363  fixing bitmap for DX11 (forced=default, format=a8y8) effects\decals\bullet_holes\bitmaps\stone
+11.20.24 23:11:31.369  ### WARNING loading from unsupported 2D storage format: a8y8 from effects\decals\bullet_holes\bitmaps\stone
+11.20.24 23:11:31.408  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\powerups\battle_rifle_ammo\bitmaps\br_ammo_bump
+11.20.24 23:11:31.412  sound 'sound_remastered\weapons\impacts_riccs\bullet_flyby_medium' maximum gain is too large: 1.00dB, should be <= 0.0dB
+11.20.24 23:11:31.413  sound 'sound_remastered\weapons\impacts_riccs\bullet_flyby_medium' gain bounds clamped to: [-3.00dB, 0.00dB]
+11.20.24 23:11:31.418  ### WARNING sound 'sound_remastered\materials\particles\shell_casings\concrete\308' last promotion rule 1 has a maximum play count of 3, resetting to 0
+11.20.24 23:11:31.420  ### WARNING sound 'sound_remastered\materials\particles\shell_casings\dirt\308' promotion rules do not reference all pitch ranges
+11.20.24 23:11:31.426  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\battle_rifle\bitmaps\battle_rifle_knob_bump
+11.20.24 23:11:31.436  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\melee\energy_blade\bitmaps\energy_blade_bump
+11.20.24 23:11:31.440  sound 'sound\weapons\energy_sword\sword_impact_character' maximum gain is too large: 2.00dB, should be <= 0.0dB
+11.20.24 23:11:31.441  sound 'sound\weapons\energy_sword\sword_impact_character' gain bounds clamped to: [-2.00dB, 0.00dB]
+11.20.24 23:11:31.453  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\smg\bitmaps\smg_bump
+11.20.24 23:11:31.460  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\smg_silenced\bitmaps\smg_silencer_bump
+11.20.24 23:11:31.479  sound 'sound_remastered\weapons\impacts_riccs\bullet_flyby_short' maximum gain is too large: 1.00dB, should be <= 0.0dB
+11.20.24 23:11:31.480  sound 'sound_remastered\weapons\impacts_riccs\bullet_flyby_short' gain bounds clamped to: [-3.00dB, 0.00dB]
+11.20.24 23:11:31.498  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\support_high\flak_cannon\bitmaps\flak_cannon_bump
+11.20.24 23:11:31.522  ### ERROR geometry 'objects\weapons\support_high\flak_cannon\projectiles\flak_projectile' shader 'objects\weapons\support_high\flak_cannon\shaders\flak_bolt_luminous' is transparent but was imported as opaque
+11.20.24 23:11:31.527  fixing bitmap for DX11 (forced=default, format=a8y8) effects\bitmaps\lens_flares\soft_flare_large
+11.20.24 23:11:31.529  ### WARNING loading from unsupported 2D storage format: a8y8 from effects\bitmaps\lens_flares\soft_flare_large
+11.20.24 23:11:31.540  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\pistol\magnum\bitmaps\magnum_bump
+11.20.24 23:11:31.552  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\powerups\pistol_ammo\bitmaps\pistol_ammo_bump
+11.20.24 23:11:31.586  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\plasma_rifle\bitmaps\plasma_rifle_card_bump
+11.20.24 23:11:31.588  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\plasma_rifle\bitmaps\plasma_rifle_bump
+11.20.24 23:11:31.598  fixing bitmap for DX11 (forced=default, format=a8y8) shaders\default_bitmaps\bitmaps\clouds_256
+11.20.24 23:11:31.669  ### WARNING loading from unsupported 2D storage format: a8y8 from shaders\default_bitmaps\bitmaps\clouds_256
+11.20.24 23:11:31.678  ### WARNING loading from unsupported 2D storage format: y8 from effects\decals\bullet_holes\bitmaps\plasma_fizzle
+11.20.24 23:11:31.697  ### WARNING loading from unsupported 2D storage format: y8 from effects\decals\blast_scorches\bitmaps\default_scorch
+11.20.24 23:11:31.722  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\grenade\frag_grenade\bitmaps\frag_grenade_bump
+11.20.24 23:11:31.725  ### WARNING loading from unsupported 2D storage format: y8 from effects\decals\blast_scorches\bitmaps\default_blast
+11.20.24 23:11:31.728  fixing bitmap for DX11 (forced=default, format=a1r5g5b5) effects\bitmaps\energy\spark_c_flak
+11.20.24 23:11:31.733  ### WARNING loading from unsupported 2D storage format: a1r5g5b5 from effects\bitmaps\energy\spark_c_flak
+11.20.24 23:11:31.740  sound 'sound_remastered\weapons\frag_grenade\frag_bnc_dirt' maximum gain is too large: 1.00dB, should be <= 0.0dB
+11.20.24 23:11:31.740  sound 'sound_remastered\weapons\frag_grenade\frag_bnc_dirt' gain bounds clamped to: [-1.00dB, 0.00dB]
+11.20.24 23:11:31.750  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\grenade\plasma_grenade\bitmaps\plasma_grenade_bump
+11.20.24 23:11:31.757  ### WARNING loading from unsupported 2D storage format: y8 from effects\decals\blast_scorches\bitmaps\tough_scorch
+11.20.24 23:11:31.759  ### WARNING loading from unsupported 2D storage format: y8 from effects\decals\blast_scorches\bitmaps\sand_scorch
+11.20.24 23:11:31.767  ### WARNING loading from unsupported 2D storage format: y8 from effects\bitmaps\lens_flares\flares_generic2
+11.20.24 23:11:31.767  ### WARNING loading from unsupported 2D storage format: y8 from effects\bitmaps\lens_flares\flares_generic2
+11.20.24 23:11:31.768  ### WARNING loading from unsupported 2D storage format: y8 from effects\bitmaps\lens_flares\flares_generic2
+11.20.24 23:11:31.768  ### WARNING loading from unsupported 2D storage format: y8 from effects\bitmaps\lens_flares\flares_generic2
+11.20.24 23:11:31.771  fixing bitmap for DX11 (forced=default, format=a8y8) rasterizer\distance_attenuation
+11.20.24 23:11:31.790  ### WARNING loading from unsupported 3D storage format: a8y8 from rasterizer\distance_attenuation
+11.20.24 23:11:31.793  ### WARNING loading from unsupported 2D storage format: y8 from globals\loading_screen\loading_screen_sweep
+11.20.24 23:11:31.795  fixing bitmap for DX11 (forced=default, format=a8y8) rasterizer\glow
+11.20.24 23:11:31.812  ### WARNING loading from unsupported 2D storage format: a8y8 from rasterizer\glow
+11.20.24 23:11:31.826  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\hud_waypoints
+11.20.24 23:11:31.846  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.20.24 23:11:31.846  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.20.24 23:11:31.847  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.20.24 23:11:31.847  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.20.24 23:11:31.848  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.20.24 23:11:31.848  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.20.24 23:11:31.848  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.20.24 23:11:31.849  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.20.24 23:11:31.849  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.20.24 23:11:31.852  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\default_arrow
+11.20.24 23:11:31.853  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\default_arrow
+11.20.24 23:11:31.855  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\dead_friendly_arrow
+11.20.24 23:11:31.857  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\dead_friendly_arrow
+11.20.24 23:11:31.858  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\reset_flag
+11.20.24 23:11:31.861  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\reset_flag
+11.20.24 23:11:31.862  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\reset_bomb
+11.20.24 23:11:31.866  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\reset_bomb
+11.20.24 23:11:31.866  ### WARNING loading from unsupported 2D storage format: y8 from ui\hud\bitmaps\new_hud\emblem_dummy
+11.20.24 23:11:31.911  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\reset_ball
+11.20.24 23:11:31.914  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\reset_ball
+11.20.24 23:11:31.921  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\h_topright
+11.20.24 23:11:31.922  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\h_topright
+11.20.24 23:11:31.923  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\h_topcenter
+11.20.24 23:11:31.923  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\h_topcenter
+11.20.24 23:11:31.924  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\h_topleft
+11.20.24 23:11:31.925  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\h_topleft
+11.20.24 23:11:31.925  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\h_center
+11.20.24 23:11:31.926  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\h_center
+11.20.24 23:11:31.926  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\c_topright
+11.20.24 23:11:31.927  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\c_topright
+11.20.24 23:11:31.927  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\c_topcenter
+11.20.24 23:11:31.928  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\c_topcenter
+11.20.24 23:11:31.929  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\c_topleft
+11.20.24 23:11:31.929  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\c_topleft
+11.20.24 23:11:31.930  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\c_center
+11.20.24 23:11:31.930  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\c_center
+11.20.24 23:11:31.932  tags: missing tag (ffffffff)ui\hud\bitmaps\hud_msg_icons_sm.bitmap replaced by (e1d2005d)rasterizer\invalid.bitmap
+11.20.24 23:11:32.098  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\masterchief\bitmaps\masterchief_bump
+11.20.24 23:11:32.129  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'objects\weapons\rifle\smg\garbage\magazine\magazine'
+11.20.24 23:11:32.139  
+11.20.24 23:11:32.142  
+11.20.24 23:11:32.142  sapien  debug pc untracked version  Jun 20 2023 11:29:20
+11.20.24 23:11:32.143  ### ASSERTION FAILED:  at c:\mcc\release\h2\prjh2a2\original\source\animations\animation_definitions.cpp,#5048
+11.20.24 23:11:32.143    parent_graph != this
+11.20.24 23:11:32.144  TAG_LOAD: fatal error while loading 'objects\characters\masterchief\masterchief.model_animation_graph'
+
+
+============================================================================================
+11.20.24 23:15:56.716  sapien  debug pc untracked version  Jun 20 2023 11:29:20
+============================================================================================
+
+
+11.20.24 23:15:56.716  multiplayer/mainmenu map - loading dervish and chief animations, mp models
+11.20.24 23:15:56.729  ### WARNING loading from unsupported 2D storage format: y8 from scenarios\skies\multi\halo\coagulation\bitmaps\coag_cloudtile
+11.20.24 23:15:56.737  ### WARNING loading from unsupported 2D storage format: y8 from scenarios\skies\multi\ascension\bitmaps\ascension_cloudbeams_tile
+11.20.24 23:15:56.827  fixing bitmap for DX11 (forced=default, format=a8y8) rasterizer\linear_corner_fade
+11.20.24 23:15:56.830  ### WARNING loading from unsupported 2D storage format: a8y8 from rasterizer\linear_corner_fade
+11.20.24 23:15:56.903  tags: missing tag (ffffffff)objects\weapons\rifle\dmr\bitmaps\rubber.bitmap replaced by (e1d2005d)rasterizer\invalid.bitmap
+11.20.24 23:15:56.905  ### WARNING model 'objects\weapons\melee\gravity_hammer_h3\gravity_hammer_h3' animation graph node counts don't match (will not animate)
+11.20.24 23:15:56.948  tags: missing tag (ffffffff)objects\weapons\rifle\dmr\bitmaps\rubber.bitmap replaced by (e1d2005d)rasterizer\invalid.bitmap
+11.20.24 23:15:56.952  ### WARNING model 'objects\weapons\melee\gravity_hammer_h3\gravity_hammer_h3_variant_golf_club' animation graph node counts don't match (will not animate)
+11.20.24 23:15:56.955  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\melee\gravity_hammer\bitmaps\gravity_hammer_bump
+11.20.24 23:15:56.959  ### WARNING model 'objects\weapons\melee\gravity_hammer_h3\gravity_hammer_h3_variant_rukt' animation graph node counts don't match (will not animate)
+11.20.24 23:15:57.024  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\battle_rifle\bitmaps\battle_rifle_bump
+11.20.24 23:15:57.038  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\battle_rifle\bitmaps\ejection_port_bump
+11.20.24 23:15:57.041  WARNING: shader 'objects\weapons\rifle\battle_rifle\shaders\tens' could not resolve bitmap 'zero'
+11.20.24 23:15:57.043  WARNING: shader 'objects\weapons\rifle\battle_rifle\shaders\ones' could not resolve bitmap 'zero'
+11.20.24 23:15:57.047  sound 'sound_remastered\weapons\impacts_riccs\bullet_impact_energy' maximum gain is too large: 3.00dB, should be <= 0.0dB
+11.20.24 23:15:57.049  sound 'sound_remastered\weapons\impacts_riccs\bullet_impact_energy' gain bounds clamped to: [-3.00dB, 0.00dB]
+11.20.24 23:15:57.053  fixing bitmap for DX11 (forced=default, format=a8y8) effects\decals\bullet_holes\bitmaps\metal
+11.20.24 23:15:57.061  ### WARNING loading from unsupported 2D storage format: a8y8 from effects\decals\bullet_holes\bitmaps\metal
+11.20.24 23:15:57.064  fixing bitmap for DX11 (forced=default, format=a8y8) effects\bitmaps\sparks\sparks_animated
+11.20.24 23:15:57.067  ### WARNING loading from unsupported 2D storage format: a8y8 from effects\bitmaps\sparks\sparks_animated
+11.20.24 23:15:57.084  fixing bitmap for DX11 (forced=default, format=a8y8) effects\decals\bullet_holes\bitmaps\stone
+11.20.24 23:15:57.093  ### WARNING loading from unsupported 2D storage format: a8y8 from effects\decals\bullet_holes\bitmaps\stone
+11.20.24 23:15:57.142  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\powerups\battle_rifle_ammo\bitmaps\br_ammo_bump
+11.20.24 23:15:57.148  sound 'sound_remastered\weapons\impacts_riccs\bullet_flyby_medium' maximum gain is too large: 1.00dB, should be <= 0.0dB
+11.20.24 23:15:57.149  sound 'sound_remastered\weapons\impacts_riccs\bullet_flyby_medium' gain bounds clamped to: [-3.00dB, 0.00dB]
+11.20.24 23:15:57.157  ### WARNING sound 'sound_remastered\materials\particles\shell_casings\concrete\308' last promotion rule 1 has a maximum play count of 3, resetting to 0
+11.20.24 23:15:57.158  ### WARNING sound 'sound_remastered\materials\particles\shell_casings\dirt\308' promotion rules do not reference all pitch ranges
+11.20.24 23:15:57.165  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\battle_rifle\bitmaps\battle_rifle_knob_bump
+11.20.24 23:15:57.177  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\melee\energy_blade\bitmaps\energy_blade_bump
+11.20.24 23:15:57.181  sound 'sound\weapons\energy_sword\sword_impact_character' maximum gain is too large: 2.00dB, should be <= 0.0dB
+11.20.24 23:15:57.182  sound 'sound\weapons\energy_sword\sword_impact_character' gain bounds clamped to: [-2.00dB, 0.00dB]
+11.20.24 23:15:57.197  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\smg\bitmaps\smg_bump
+11.20.24 23:15:57.205  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\smg_silenced\bitmaps\smg_silencer_bump
+11.20.24 23:15:57.227  sound 'sound_remastered\weapons\impacts_riccs\bullet_flyby_short' maximum gain is too large: 1.00dB, should be <= 0.0dB
+11.20.24 23:15:57.228  sound 'sound_remastered\weapons\impacts_riccs\bullet_flyby_short' gain bounds clamped to: [-3.00dB, 0.00dB]
+11.20.24 23:15:57.246  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\support_high\flak_cannon\bitmaps\flak_cannon_bump
+11.20.24 23:15:57.271  ### ERROR geometry 'objects\weapons\support_high\flak_cannon\projectiles\flak_projectile' shader 'objects\weapons\support_high\flak_cannon\shaders\flak_bolt_luminous' is transparent but was imported as opaque
+11.20.24 23:15:57.275  fixing bitmap for DX11 (forced=default, format=a8y8) effects\bitmaps\lens_flares\soft_flare_large
+11.20.24 23:15:57.278  ### WARNING loading from unsupported 2D storage format: a8y8 from effects\bitmaps\lens_flares\soft_flare_large
+11.20.24 23:15:57.291  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\pistol\magnum\bitmaps\magnum_bump
+11.20.24 23:15:57.303  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\powerups\pistol_ammo\bitmaps\pistol_ammo_bump
+11.20.24 23:15:57.337  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\plasma_rifle\bitmaps\plasma_rifle_card_bump
+11.20.24 23:15:57.339  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\rifle\plasma_rifle\bitmaps\plasma_rifle_bump
+11.20.24 23:15:57.349  fixing bitmap for DX11 (forced=default, format=a8y8) shaders\default_bitmaps\bitmaps\clouds_256
+11.20.24 23:15:57.421  ### WARNING loading from unsupported 2D storage format: a8y8 from shaders\default_bitmaps\bitmaps\clouds_256
+11.20.24 23:15:57.433  ### WARNING loading from unsupported 2D storage format: y8 from effects\decals\bullet_holes\bitmaps\plasma_fizzle
+11.20.24 23:15:57.452  ### WARNING loading from unsupported 2D storage format: y8 from effects\decals\blast_scorches\bitmaps\default_scorch
+11.20.24 23:15:57.482  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\grenade\frag_grenade\bitmaps\frag_grenade_bump
+11.20.24 23:15:57.485  ### WARNING loading from unsupported 2D storage format: y8 from effects\decals\blast_scorches\bitmaps\default_blast
+11.20.24 23:15:57.489  fixing bitmap for DX11 (forced=default, format=a1r5g5b5) effects\bitmaps\energy\spark_c_flak
+11.20.24 23:15:57.494  ### WARNING loading from unsupported 2D storage format: a1r5g5b5 from effects\bitmaps\energy\spark_c_flak
+11.20.24 23:15:57.502  sound 'sound_remastered\weapons\frag_grenade\frag_bnc_dirt' maximum gain is too large: 1.00dB, should be <= 0.0dB
+11.20.24 23:15:57.502  sound 'sound_remastered\weapons\frag_grenade\frag_bnc_dirt' gain bounds clamped to: [-1.00dB, 0.00dB]
+11.20.24 23:15:57.512  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\weapons\grenade\plasma_grenade\bitmaps\plasma_grenade_bump
+11.20.24 23:15:57.519  ### WARNING loading from unsupported 2D storage format: y8 from effects\decals\blast_scorches\bitmaps\tough_scorch
+11.20.24 23:15:57.520  ### WARNING loading from unsupported 2D storage format: y8 from effects\decals\blast_scorches\bitmaps\sand_scorch
+11.20.24 23:15:57.528  ### WARNING loading from unsupported 2D storage format: y8 from effects\bitmaps\lens_flares\flares_generic2
+11.20.24 23:15:57.529  ### WARNING loading from unsupported 2D storage format: y8 from effects\bitmaps\lens_flares\flares_generic2
+11.20.24 23:15:57.530  ### WARNING loading from unsupported 2D storage format: y8 from effects\bitmaps\lens_flares\flares_generic2
+11.20.24 23:15:57.530  ### WARNING loading from unsupported 2D storage format: y8 from effects\bitmaps\lens_flares\flares_generic2
+11.20.24 23:15:57.534  fixing bitmap for DX11 (forced=default, format=a8y8) rasterizer\distance_attenuation
+11.20.24 23:15:57.553  ### WARNING loading from unsupported 3D storage format: a8y8 from rasterizer\distance_attenuation
+11.20.24 23:15:57.555  ### WARNING loading from unsupported 2D storage format: y8 from globals\loading_screen\loading_screen_sweep
+11.20.24 23:15:57.556  fixing bitmap for DX11 (forced=default, format=a8y8) rasterizer\glow
+11.20.24 23:15:57.573  ### WARNING loading from unsupported 2D storage format: a8y8 from rasterizer\glow
+11.20.24 23:15:57.585  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\hud_waypoints
+11.20.24 23:15:57.605  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.20.24 23:15:57.605  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.20.24 23:15:57.605  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.20.24 23:15:57.606  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.20.24 23:15:57.607  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.20.24 23:15:57.607  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.20.24 23:15:57.608  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.20.24 23:15:57.608  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.20.24 23:15:57.609  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\hud_waypoints
+11.20.24 23:15:57.612  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\default_arrow
+11.20.24 23:15:57.613  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\default_arrow
+11.20.24 23:15:57.615  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\dead_friendly_arrow
+11.20.24 23:15:57.618  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\dead_friendly_arrow
+11.20.24 23:15:57.620  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\reset_flag
+11.20.24 23:15:57.623  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\reset_flag
+11.20.24 23:15:57.625  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\reset_bomb
+11.20.24 23:15:57.628  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\reset_bomb
+11.20.24 23:15:57.629  ### WARNING loading from unsupported 2D storage format: y8 from ui\hud\bitmaps\new_hud\emblem_dummy
+11.20.24 23:15:57.693  fixing bitmap for DX11 (forced=default, format=a8y8) ui\hud\bitmaps\new_hud\reset_ball
+11.20.24 23:15:57.696  ### WARNING loading from unsupported 2D storage format: a8y8 from ui\hud\bitmaps\new_hud\reset_ball
+11.20.24 23:15:57.702  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\h_topright
+11.20.24 23:15:57.703  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\h_topright
+11.20.24 23:15:57.704  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\h_topcenter
+11.20.24 23:15:57.705  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\h_topcenter
+11.20.24 23:15:57.705  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\h_topleft
+11.20.24 23:15:57.705  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\h_topleft
+11.20.24 23:15:57.706  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\h_center
+11.20.24 23:15:57.707  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\h_center
+11.20.24 23:15:57.708  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\c_topright
+11.20.24 23:15:57.708  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\c_topright
+11.20.24 23:15:57.709  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\c_topcenter
+11.20.24 23:15:57.709  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\c_topcenter
+11.20.24 23:15:57.710  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\c_topleft
+11.20.24 23:15:57.710  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\c_topleft
+11.20.24 23:15:57.711  fixing bitmap for DX11 (forced=default, format=a4r4g4b4) ui\hud\bitmaps\new_hud\player_training\c_center
+11.20.24 23:15:57.712  ### WARNING loading from unsupported 2D storage format: a4r4g4b4 from ui\hud\bitmaps\new_hud\player_training\c_center
+11.20.24 23:15:57.714  tags: missing tag (ffffffff)ui\hud\bitmaps\hud_msg_icons_sm.bitmap replaced by (e1d2005d)rasterizer\invalid.bitmap
+11.20.24 23:15:57.915  fixing bitmap for DX11 (forced=default, format=p8_bump) objects\characters\masterchief\bitmaps\masterchief_bump
+11.20.24 23:15:57.967  ### WARNING model didn't have begin fade or max draw distances set and defaults cannot be built without 'model object data' block data: 'objects\weapons\rifle\smg\garbage\magazine\magazine'
+11.20.24 23:15:57.977  
+11.20.24 23:15:57.981  
+11.20.24 23:15:57.982  sapien  debug pc untracked version  Jun 20 2023 11:29:20
+11.20.24 23:15:57.982  ### ASSERTION FAILED:  at c:\mcc\release\h2\prjh2a2\original\source\animations\animation_definitions.cpp,#5048
+11.20.24 23:15:57.983    parent_graph != this
+11.20.24 23:15:57.983  TAG_LOAD: fatal error while loading 'objects\characters\masterchief\masterchief.model_animation_graph'

@@ -1,0 +1,6 @@
+"F:\SteamLibrary\steamapps\common\H2EK\tags\objects\characters\masterchief\masterchief.render_model"
+=> Has a marker for H3 Hammer explosion
+
+"F:\SteamLibrary\steamapps\common\H2EK\tags\objects\characters\masterchief\masterchief.model_animation_graph"
+=> Parent is Kashierra masterchief model_animation_graph
+    => Parent is digsite
