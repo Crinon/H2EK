@@ -1,6 +1,9 @@
+Masterchief render_model
 "F:\SteamLibrary\steamapps\common\H2EK\tags\objects\characters\masterchief\masterchief.render_model"
 => Has a marker for H3 Hammer explosion
 
-"F:\SteamLibrary\steamapps\common\H2EK\tags\objects\characters\masterchief\masterchief.model_animation_graph"
-=> Parent is Kashierra masterchief model_animation_graph
-    => Parent is digsite
+Masterchief model
+"F:\SteamLibrary\steamapps\common\H2EK\tags\objects\characters\masterchief\masterchief.model"
+=> Uses Kashierra model_animation_graph (for gravity hammer)
+    => Parent is digsite model_animation_graph (for mongoose driving)
+        => Parent is leggacy model_animation_graph
