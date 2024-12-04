@@ -1,0 +1,20 @@
+
+
+============================================================================================
+12.04.24 18:34:05.567  guerilla  debug pc untracked version  Jun 20 2023 11:28:32
+============================================================================================
+
+
+12.04.24 18:34:05.567  telnet: transport_endpoint_bind() failed on telnet console endpoint
+12.04.24 18:34:34.333  ### WARNING model 'digsite\objects\vehicles\mongoose\mongoose' unknown variant name 'heretic'
+12.04.24 18:34:34.334  ### WARNING model 'digsite\objects\vehicles\mongoose\mongoose' unknown variant name 'heretic'
+12.04.24 18:34:34.335  ### WARNING model 'digsite\objects\vehicles\mongoose\mongoose' unknown variant name 'heretic'
+12.04.24 18:34:34.363  ### WARNING model 'digsite\objects\vehicles\mongoose\mongoose' unknown variant name 'heretic'
+12.04.24 18:34:34.363  ### WARNING model 'digsite\objects\vehicles\mongoose\mongoose' unknown variant name 'heretic'
+12.04.24 18:34:34.364  ### WARNING model 'digsite\objects\vehicles\mongoose\mongoose' unknown variant name 'heretic'
+12.04.24 18:34:34.365  ### WARNING model 'digsite\objects\vehicles\mongoose\mongoose' unknown variant name 'heretic'
+12.04.24 18:35:11.796  damage tried to eject from seat c_turret_ap_d, no seat exists!
+12.04.24 18:43:35.538  ### ERROR geometry 'digsite\objects\weapons\rifle\covenant_carbine_beta\covenant_carbine_beta' shader 'objects\weapons\rifle\covenant_carbine\shaders\carbine_switch' is transparent but was imported as opaque
+12.04.24 18:43:35.549  ### ERROR geometry 'digsite\objects\weapons\rifle\covenant_carbine_beta\fp_covenant_carbine\fp_covenant_carbine' shader 'objects\weapons\rifle\covenant_carbine\shaders\carbine_switch' is transparent but was imported as opaque
+12.04.24 18:48:34.463  ### WARNING model 'digsite\objects\weapons\support_high\fuel_rod_gun\fuel_rod_gun' collision model region 'standard' has no corresponding model region (will not be collideable)
+12.04.24 18:48:34.525  ### WARNING object 'digsite\objects\weapons\support_high\fuel_rod_gun\fuel_rod_gun' has a bounding sphere radius much less than its model (0.200000 vs 0.329944)
