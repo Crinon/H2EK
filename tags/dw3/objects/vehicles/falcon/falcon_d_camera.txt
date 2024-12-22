@@ -1,0 +1,56 @@
+camera_track	camera\wraith_d_camera
+2
+    flags	long flags	0
+    control points	block	camera_track_control_point_block,13
+    element 0
+        position	real vector 3d	1.61472,6.105e-08,2.98823
+        orientation	real quaternion	0,-0.707107,-0,-0.707107
+    end element 0
+    element 1
+        position	real vector 3d	0.133973,1.86309e-07,3.03203
+        orientation	real quaternion	0,-0.5,-0,-0.866025
+    end element 1
+    element 2
+        position	real vector 3d	-0.967357,2.47881e-07,2.99069
+        orientation	real quaternion	0,-0.382683,-0,-0.92388
+    end element 2
+    element 3
+        position	real vector 3d	-2.12008,1.97356e-07,2.88185
+        orientation	real quaternion	9.36e-08,-0.258819,2e-10,-0.965926
+    end element 3
+    element 4
+        position	real vector 3d	-3.10873,1.26217e-07,2.68113
+        orientation	real quaternion	1.312e-07,-0.173648,-6.9e-09,-0.984808
+    end element 4
+    element 5
+        position	real vector 3d	-4.005,4.7519e-08,2.22944
+        orientation	real quaternion	1.358e-07,-0.0871557,-1.42e-08,-0.996195
+    end element 5
+    element 6
+        position	real vector 3d	-4.50964,3.9786e-08,1.51967
+        orientation	real quaternion	1.395e-07,-4.23e-08,-5e-10,-1
+    end element 6
+    element 7
+        position	real vector 3d	-4.51546,8.2007e-08,0.819799
+        orientation	real quaternion	1.398e-07,0.0871558,5.38e-08,-0.996195
+    end element 7
+    element 8
+        position	real vector 3d	-4.01666,1.77394e-07,0.225869
+        orientation	real quaternion	1.379e-07,0.173648,1.137e-07,-0.984808
+    end element 8
+    element 9
+        position	real vector 3d	-3.34284,3.19215e-07,-0.0840602
+        orientation	real quaternion	1.348e-07,0.258819,1.738e-07,-0.965926
+    end element 9
+    element 10
+        position	real vector 3d	-2.62432,4.07188e-07,-0.181471
+        orientation	real quaternion	1.279e-07,0.382683,2.617e-07,-0.92388
+    end element 10
+    element 11
+        position	real vector 3d	-2.05212,2.9319e-07,-0.168503
+        orientation	real quaternion	1.533e-07,0.5,2.588e-07,-0.866025
+    end element 11
+    element 12
+        position	real vector 3d	-1.29502,1.807e-08,-0.14111
+        orientation	real quaternion	2.034e-07,0.707107,2.191e-07,-0.707107
+    end element 12
