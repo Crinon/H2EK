@@ -1,5 +1,6 @@
 # HENLO
 bin/*
+prefs/*
 reports/*
 shader_cache/*
 *.rar
@@ -28094,7 +28095,6 @@ tags/ui/hud/flak_cannon.new_hud_definition
 tags/ui/hud/gauss_turret.new_hud_definition
 tags/ui/hud/ghost.new_hud_definition
 tags/ui/hud/gpmg.new_hud_definition
-tags/ui/hud/hud_messages.multilingual_unicode_string_list
 tags/ui/hud/h_turret.new_hud_definition
 tags/ui/hud/magnum.new_hud_definition
 tags/ui/hud/masterchief.new_hud_definition
