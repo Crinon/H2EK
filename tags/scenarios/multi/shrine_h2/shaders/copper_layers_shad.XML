@@ -1,0 +1,143 @@
+<?xml version="1.0" ?>
+<tag group="shad" id="scenarios\multi\shrine_h2\shaders\copper_layers" version="1">
+	<tag_reference name="template" type="stem">shaders\shader_templates\opaque\tex_bump_illum</tag_reference>
+	<field name="flags" type="word flags">0</field>
+	<block name="parameters">
+		<element index="0">
+			<field name="type" type="enum">2,color</field>
+			<tag_reference name="bitmap" type="bitm"></tag_reference>
+			<field name="const value" type="real">0.000000</field>
+			<field name="const color" type="rgb color">0.250980,0.247059,0.286275</field>
+			<field name="name" type="string">specular_glancing_color</field>
+		</element>
+		<element index="1">
+			<field name="type" type="enum">2,color</field>
+			<tag_reference name="bitmap" type="bitm"></tag_reference>
+			<field name="const value" type="real">0.000000</field>
+			<field name="const color" type="rgb color">0.509804,0.517647,0.576471</field>
+			<field name="name" type="string">specular_color</field>
+		</element>
+		<element index="2">
+			<field name="type" type="enum">0,bitmap</field>
+			<tag_reference name="bitmap" type="bitm">scenarios\multi\shrine_h2\bitmaps\sand_dif</tag_reference>
+			<field name="const value" type="real">0.000000</field>
+			<field name="const color" type="rgb color">0.000000,0.000000,0.000000</field>
+			<block name="animation properties">
+				<element index="0">
+					<field name="type" type="enum">1,bitmap_scale_x</field>
+					<field name="time period" type="real">0.000000</field>
+					<field name="type" type="enum">1,constant</field>
+					<field name="range" type="char integer">0</field>
+					<field name="lower bound" type="real">100.000000</field>
+					<field name="upper bound" type="real">1.000000</field>
+				</element>
+				<element index="1">
+					<field name="type" type="enum">2,bitmap_scale_y</field>
+					<field name="time period" type="real">0.000000</field>
+					<field name="type" type="enum">1,constant</field>
+					<field name="range" type="char integer">0</field>
+					<field name="lower bound" type="real">100.000000</field>
+					<field name="upper bound" type="real">1.000000</field>
+				</element>
+			</block>
+			<field name="name" type="string">detail_map_c</field>
+		</element>
+		<element index="3">
+			<field name="type" type="enum">0,bitmap</field>
+			<tag_reference name="bitmap" type="bitm">scenarios\multi\shrine_h2\bitmaps\sand_dif</tag_reference>
+			<field name="const value" type="real">0.000000</field>
+			<field name="const color" type="rgb color">0.000000,0.000000,0.000000</field>
+			<block name="animation properties">
+				<element index="0">
+					<field name="type" type="enum">1,bitmap_scale_x</field>
+					<field name="time period" type="real">0.000000</field>
+					<field name="type" type="enum">1,constant</field>
+					<field name="range" type="char integer">0</field>
+					<field name="lower bound" type="real">100.000000</field>
+					<field name="upper bound" type="real">1.000000</field>
+				</element>
+				<element index="1">
+					<field name="type" type="enum">2,bitmap_scale_y</field>
+					<field name="time period" type="real">0.000000</field>
+					<field name="type" type="enum">1,constant</field>
+					<field name="range" type="char integer">0</field>
+					<field name="lower bound" type="real">100.000000</field>
+					<field name="upper bound" type="real">1.000000</field>
+				</element>
+			</block>
+			<field name="name" type="string">detail_map_a</field>
+		</element>
+		<element index="4">
+			<field name="type" type="enum">0,bitmap</field>
+			<tag_reference name="bitmap" type="bitm">scenarios\multi\shrine_h2\bitmaps\sand_dif</tag_reference>
+			<field name="const value" type="real">0.000000</field>
+			<field name="const color" type="rgb color">0.000000,0.000000,0.000000</field>
+			<block name="animation properties">
+				<element index="0">
+					<field name="type" type="enum">1,bitmap_scale_x</field>
+					<field name="time period" type="real">0.000000</field>
+					<field name="type" type="enum">1,constant</field>
+					<field name="range" type="char integer">0</field>
+					<field name="lower bound" type="real">100.000000</field>
+					<field name="upper bound" type="real">1.000000</field>
+				</element>
+				<element index="1">
+					<field name="type" type="enum">2,bitmap_scale_y</field>
+					<field name="time period" type="real">0.000000</field>
+					<field name="type" type="enum">1,constant</field>
+					<field name="range" type="char integer">0</field>
+					<field name="lower bound" type="real">100.000000</field>
+					<field name="upper bound" type="real">1.000000</field>
+				</element>
+			</block>
+			<field name="name" type="string">detail_map_b</field>
+		</element>
+		<element index="5">
+			<field name="type" type="enum">0,bitmap</field>
+			<tag_reference name="bitmap" type="bitm">shaders\default_bitmaps\bitmaps\color_white</tag_reference>
+			<field name="const value" type="real">0.000000</field>
+			<field name="const color" type="rgb color">0.000000,0.000000,0.000000</field>
+			<field name="name" type="string">self_illum_map</field>
+		</element>
+		<element index="6">
+			<field name="type" type="enum">2,color</field>
+			<tag_reference name="bitmap" type="bitm"></tag_reference>
+			<field name="const value" type="real">0.000000</field>
+			<field name="const color" type="rgb color">1.000000,1.000000,1.000000</field>
+			<block name="animation properties">
+				<element index="0">
+					<field name="type" type="enum">12,color</field>
+					<field name="time period" type="real">0.000000</field>
+					<field name="type" type="enum">1,constant</field>
+					<field name="range" type="char integer">32</field>
+					<field name="lower bound" type="real">-300407352464255315926598550875973615616.000000</field>
+					<field name="upper bound" type="real">0.000000</field>
+				</element>
+			</block>
+			<field name="name" type="string">self_illum_color</field>
+		</element>
+		<element index="7">
+			<field name="type" type="enum">1,value</field>
+			<tag_reference name="bitmap" type="bitm"></tag_reference>
+			<field name="const value" type="real">0.000000</field>
+			<field name="const color" type="rgb color">0.000000,0.000000,0.000000</field>
+			<field name="name" type="string">emissive_power</field>
+		</element>
+		<element index="8">
+			<field name="type" type="enum">2,color</field>
+			<tag_reference name="bitmap" type="bitm"></tag_reference>
+			<field name="const value" type="real">0.000000</field>
+			<field name="const color" type="rgb color">0.000000,0.000000,0.000000</field>
+			<field name="name" type="string">emissive_color</field>
+		</element>
+	</block>
+	<tag_reference name="light response"/>
+	<field name="shader lod bias" type="enum">0,none</field>
+	<field name="specular type" type="enum">0,none</field>
+	<field name="lightmap type" type="enum">0,diffuse</field>
+	<field name="lightmap specular brightness" type="real">0.070000</field>
+	<field name="lightmap ambient bias" type="real">0.000000</field>
+	<field name="added depth bias offset" type="real">0.000000</field>
+	<field name="added depth bias slope" type="real">0.000000</field>
+	<field name="material name" type="string">tough_terrain_sand</field>
+</tag>
