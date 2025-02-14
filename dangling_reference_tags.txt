@@ -1,0 +1,3322 @@
+sound_effect_template sound\dsp_effects\sound_effect_templates\global_speaker_chorus: referenced by: 
+   sound_effect_collection sound\global_fx
+
+light_volume aife\weapons\spike_rifle\projectiles\projectile: referenced by: 
+   effect blackandfan\objects\characters\halo_wars\floodcombat_swarm\weapons\swarm_rifle\projectiles\projectile
+
+biped objects\characters\elite\elite_corpse: referenced by: 
+   scenario digsite\scenarios\solo\moonbase\moonbase
+
+biped d_flog_flag\objects\characters\hr_spartan\hr_spartan: referenced by: 
+   scenario blackandfan\objects\characters\floodcombat_bugger\tags\katstags\maps\boxtest\boxtest (auto-backup tue dec 31 18-12-12 2024)
+   scenario katstags\maps\boxtest\boxtest (auto-backup thu jan 30 17-20-59 2025)
+   scenario katstags\maps\boxtest\boxtest
+
+biped objects\characters\brute\brute_stealth: referenced by: 
+   character reclamation_project\tags\halo_3\characters\brute\ai\brute_stealth
+
+biped objects\characters\brute\chieftan\brute_chieftan: referenced by: 
+   character reclamation_project\tags\halo_3\characters\brute\ai\brute_chieftan
+
+biped objects\characters\elite\elite_honor_guard\elite_honor_guard: referenced by: 
+   scenario_bipeds_resource scenarios\solo\07a_highcharity\resources\07a_highcharity
+   scenario scenarios\solo\00a_introduction\00a_introduction
+   scenario scenarios\solo\07a_highcharity\07a_highcharity
+
+biped objects\characters\brute\brute_honor_guard\brute_honor_guard: referenced by: 
+   scenario_bipeds_resource scenarios\solo\07a_highcharity\resources\07a_highcharity
+   scenario scenarios\solo\07a_highcharity\07a_highcharity
+
+bitmap test\objects\x02_crane_shot\bitmaps\crowd_multiply: referenced by: 
+   shader objects\cinematics\covenant\crowds\shaders\crowd_front
+
+bitmap objects\vehicles\phantom\garbage\bitmaps\phantom_damaged_bump: referenced by: 
+   shader dw3\ruby\effects\objects\vehicles\phantom\garbage\shaders\phantom_damaged_brute
+
+bitmap hi\ar: referenced by: 
+   new_hud_definition zoephie\objects\weapons\infinite_weapons\objects\weapons\rifle\ma40\ma40
+
+bitmap extracts\bitmaps\stretcher\download: referenced by: 
+   shader dw3\ok\medic_marine\shaders\medical_equipment
+
+bitmap objects\characters\marine\bitmaps\marine_hats_bump: referenced by: 
+   shader dw3\ok\injured_shaking_marine\shaders\marine_hats
+   shader dw3\ok\marine_stretcher-test\shaders\marine_hats
+   shader dw3\ok\medic_marine\shaders\marine_hats
+
+bitmap reclamation_project\tags\halo_reach\vehicles\poa\bitmaps\unsc_poa_details_illum: referenced by: 
+   shader reclamation_project\tags\halo_reach\sceneries\pillarofautumnbig\shaders\pillar_of_autumn_details
+
+bitmap ui\hud\bitmaps\combined\hud_reticles: referenced by: 
+   weapon_hud_interface ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\hud\smg_crosshair
+
+bitmap killtrocity\shared\weapon_schematics\bitmaps\throne_crosshair: referenced by: 
+   new_hud_definition killtrocity\objects\weapons\gravity_wrench\gravity_wrench
+
+bitmap reclamation_project\tags\halo_3\characters\flood_infection\bitmaps\flood_fronds_diffuse: referenced by: 
+   shader reclamation_project\tags\halo_3\characters\floodcombat_human\shaders\flood_fronds
+
+bitmap objects\characters\marine\bitmaps\marine_helmet_hud: referenced by: 
+   shader dw3\ok\injured_shaking_marine\shaders\halo1_eyepiece
+   shader dw3\ok\marine_stretcher-test\shaders\halo1_eyepiece
+   shader dw3\ok\medic_marine\shaders\halo1_eyepiece
+
+bitmap effects\bitmaps\energy\plasma_cascade: referenced by: 
+   particle digsite\effects\objects\weapons\fixed\plasma_mortar\plasma_detonate_spill_no_death
+
+bitmap digsite\scenarios\objects\solo\moonbase\bitmaps\metal_strips_narrow_ext: referenced by: 
+   shader digsite\scenarios\objects\solo\moonbase\shaders\lockpick_light
+
+bitmap ui\hud\bitmaps\new_hud\scope_masks\elite_binoc_deco: referenced by: 
+   new_hud_definition dw3\paddy tea\tags\ui\hud\dervish_withfancyscope
+
+bitmap digsite\scenarios\objects\solo\moonbase\bitmaps\pitlights_glow: referenced by: 
+   shader digsite\scenarios\objects\solo\moonbase\shaders\panel_generic
+   shader digsite\scenarios\objects\solo\moonbase\shaders\web
+
+bitmap killtrocity\shared\weapon_schematics\bitmaps\gravity_crosshair: referenced by: 
+   new_hud_definition killtrocity\objects\weapons\gravity_wrench\gravity_wrench
+
+bitmap extracts\bitmaps\test\eye_test_1_x1024: referenced by: 
+   shader dw3\ok\injured_shaking_marine\shaders\eyes_brown
+   shader dw3\ok\marine_stretcher-test\shaders\eyes_brown
+   shader dw3\ok\medic_marine\shaders\eyes_brown
+
+bitmap extracts\bitmaps\test\eye_test_2_x1024: referenced by: 
+   shader dw3\ok\marine_stretcher-test\shaders\eyes_blue
+
+bitmap objects\characters\marine\bitmaps\marine_standard_cc: referenced by: 
+   shader dw3\ok\injured_shaking_marine\shaders\marine_standard
+   shader dw3\ok\marine_stretcher-test\shaders\marine_standard
+
+bitmap objects\characters\marine\bitmaps\helmet_standard_cc: referenced by: 
+   shader dw3\ok\injured_shaking_marine\shaders\helmet_standard
+   shader dw3\ok\marine_stretcher-test\shaders\helmet_standard
+
+bitmap objects\characters\gravemind\bitmaps\outermouth bump: referenced by: 
+   shader objects\characters\gravemind\shaders\gm_outermouth
+
+bitmap digsite\scenarios\objects\solo\moonbase\bitmaps\cubemap_banshee: referenced by: 
+   shader digsite\scenarios\objects\solo\moonbase\shaders\obj_light_lock
+   shader digsite\scenarios\objects\solo\moonbase\shaders\nest_side
+
+bitmap ui\hud\bitmaps\combined\hud_ammo_alphas: referenced by: 
+   weapon_hud_interface ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\hud\smg_master
+
+bitmap ui\hud\bitmaps\combined\hud_ammo_meters: referenced by: 
+   weapon_hud_interface ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\hud\smg_master
+
+bitmap halo_reach\objects\zoephie\weapons\rifle\needle_rifle\bitmaps\needle_rifle_normal: referenced by: 
+   shader zoephie\objects\weapons\halo_reach\weapons\rifle\needle_rifle\shaders\needle_rifle_glass
+
+bitmap halo_reach\objects\zoephie\weapons\rifle\needle_rifle\bitmaps\cov_hex_detail_grey: referenced by: 
+   shader zoephie\objects\weapons\halo_reach\weapons\rifle\needle_rifle\shaders\needle_rifle_glass
+
+bitmap objects\weapons\rifle\dmr\bitmaps\rubber: referenced by: 
+   shader objects\weapons\melee\gravity_hammer_h3\shaders\hammer_dull
+   shader objects\weapons\melee\gravity_hammer_h3\golf_club\shaders\golf_grip
+
+bitmap objects\vehicles\phantom\garbage\bitmaps\phantom_damaged_diffuse: referenced by: 
+   shader dw3\ruby\effects\objects\vehicles\phantom\garbage\shaders\phantom_damaged_brute
+
+bitmap scenarios\bitmaps\multi\street_sweeper\white_stripe01: referenced by: 
+   shader scenarios\shaders\multi\street_sweeper\white_stripe_01
+
+bitmap objects\characters\marine\bitmaps\marine_standard_grey: referenced by: 
+   shader dw3\ok\marine_stretcher-test\shaders\marine_standard
+
+bitmap ui\global_bitmaps\map_shots\map_mp_artery: referenced by: 
+   scenario scenarios\multi\artery\artery
+   scenario digsite\scenarios\multi\artery\artery
+
+bitmap halo_reach\objects\zoephie\weapons\rifle\needle_rifle\bitmaps\needle_rifle_diffuse: referenced by: 
+   shader zoephie\objects\weapons\halo_reach\weapons\rifle\needle_rifle\shaders\needle_rifle_glass
+
+bitmap scenarios\bitmaps\multi\street_sweeper\yellow_stripe01: referenced by: 
+   shader scenarios\shaders\multi\street_sweeper\yellow_stripe_01
+
+bitmap objects\characters\marine\bitmaps\packs_cc: referenced by: 
+   shader dw3\ok\injured_shaking_marine\shaders\marine_security
+   shader dw3\ok\injured_shaking_marine\shaders\marine_standard_metal
+   shader dw3\ok\marine_stretcher-test\shaders\packs
+
+bitmap scenarios\bitmaps\multi\halopc\timberland\timb_panel_circle_illum: referenced by: 
+   shader digsite\scenarios\shaders\multi\halopc\timberland\timb_panel_circle_rusted
+
+bitmap ui\hud\bitmaps\new_hud\crosshairs\h_turret: referenced by: 
+   new_hud_definition dw3\altsierra\ui\hud\gpmg
+
+bitmap levels\b30\bitmaps\glass: referenced by: 
+   shader digsite\scenarios\skies\solo\h2defense\shaders\sky_clear_desert
+   shader digsite\scenarios\skies\solo\h2defense\shaders\ground_hills_mid
+   shader digsite\scenarios\skies\solo\h2defense\shaders\plateau_large_mid
+   shader digsite\scenarios\skies\solo\h2defense\shaders\plateau_small_far
+   shader digsite\scenarios\skies\solo\h2defense\shaders\ring_hazy_clear_sky
+   shader digsite\scenarios\skies\solo\h2defense\shaders\far_horizon
+   shader digsite\scenarios\skies\solo\h2defense\shaders\plateau_structure_far
+   shader digsite\scenarios\skies\solo\h2defense\shaders\desert_plains
+
+bitmap scenarios\bitmaps\test\mzaktest\scruff_dif: referenced by: 
+   shader digsite\scenarios\shaders\test\mzaktest\scruff
+
+bitmap ui\hud\bitmaps\new_hud\scope_masks\binoculars_elite_new: referenced by: 
+   new_hud_definition dw3\paddy tea\tags\ui\hud\dervish_withfancyscope
+
+bitmap scenarios\objects\solo\spacestation\ss_prop\bitmaps\ss_matte_bump: referenced by: 
+   shader scenarios\objects\solo\spacestation\ss_prop\shaders\ss_prop_matte
+
+bitmap objects\characters\dead_marine_back_flat\bitmaps\head_wounded_bump: referenced by: 
+   shader dw3\ok\injured_shaking_marine\shaders\head_smith
+
+bitmap lacks\_shared\detail_maps\masterchief_detail: referenced by: 
+   shader spv3\characters\masterchief\shaders\cyborg_mp_fp_armor
+   shader spv3\characters\masterchief\shaders\cyborg_body_armor
+   shader spv3\characters\masterchief\shaders\mc_diffuse_armor_damaged
+
+bitmap objects\characters\marine\bitmaps\security\security_main: referenced by: 
+   shader dw3\ok\marine_stretcher-test\shaders\marine_security
+   shader dw3\ok\medic_marine\shaders\marine_security
+
+bitmap objects\characters\marine\bitmaps\packs_grey: referenced by: 
+   shader dw3\ok\injured_shaking_marine\shaders\marine_standard_metal
+   shader dw3\ok\marine_stretcher-test\shaders\packs
+
+bitmap ui\hud\bitmaps\new_hud\crosshairs\brute_shot: referenced by: 
+   new_hud_definition dw3\altsierra\ui\hud\brute_shot_ce
+
+bitmap lacks\_shared\bitmaps\armor: referenced by: 
+   shader spv3\characters\h2a_dervish\shaders\default_ch_elite_arbiter_hands_01
+   shader spv3\characters\h2a_dervish\shaders\default_ch_elite_arbiter_legs_01
+
+bitmap test\objects\x02_crane_shot\bitmaps\crowd_add: referenced by: 
+   shader objects\cinematics\covenant\crowds\shaders\crowd_front
+
+bitmap phanrev\objects\vehicles\beta_wasp\bitmaps\anodized_metal: referenced by: 
+   shader phanrev\objects\vehicles\albatroz\shaders\anodized_metal
+
+bitmap objects\characters\marine\bitmaps\marine_hats: referenced by: 
+   shader dw3\ok\injured_shaking_marine\shaders\marine_hats
+   shader dw3\ok\marine_stretcher-test\shaders\marine_hats
+   shader dw3\ok\medic_marine\shaders\marine_hats
+
+bitmap objects\characters\marine\bitmaps\helmet_grey: referenced by: 
+   shader dw3\ok\marine_stretcher-test\shaders\helmet_standard
+
+bitmap objects\characters\brute\bitmaps\caphelm_bump: referenced by: 
+   shader reclamation_project\tags\halo_3\characters\brute\shaders\brute_caphelm
+
+bitmap ui\global_bitmaps\map_shots\map_mp_forerunner: referenced by: 
+   scenario scenarios\multi\forerunner_sample\forerunner_sample
+   scenario digsite\scenarios\multi\forerunner_sample\forerunner_sample
+
+bitmap levels\a50\bitmaps\covenant_metal_generic_bump: referenced by: 
+   shader digsite\scenarios\skies\solo\h2defense\shaders\sky_clear_desert
+   shader digsite\scenarios\skies\solo\h2defense\shaders\ground_hills_mid
+   shader digsite\scenarios\skies\solo\h2defense\shaders\plateau_large_mid
+   shader digsite\scenarios\skies\solo\h2defense\shaders\plateau_small_far
+   shader digsite\scenarios\skies\solo\h2defense\shaders\ring_hazy_clear_sky
+   shader digsite\scenarios\skies\solo\h2defense\shaders\far_horizon
+   shader digsite\scenarios\skies\solo\h2defense\shaders\plateau_structure_far
+   shader digsite\scenarios\skies\solo\h2defense\shaders\desert_plains
+
+bitmap objects\widgets\light_volume\bitmaps\flares_pr_overcharge: referenced by: 
+   lens_flare digsite\effects\objects\weapons\fixed\plasma_mortar\plasma_mortar_charge
+
+bitmap digsite\objects\vehicles\c_turret_av\c_turret_av\bitmaps\energy_tendril_mask: referenced by: 
+   shader digsite\objects\vehicles\c_turret_av\shaders\beam_tendril
+
+bitmap objects\characters\marinebkup\bitmaps\packs_cc: referenced by: 
+   shader dw3\ok\marine_stretcher-test\shaders\marine_standard_metal
+   shader dw3\ok\medic_marine\shaders\marine_standard_metal
+
+bitmap objects\characters\brute\bitmaps\brute_caphelm: referenced by: 
+   shader reclamation_project\tags\halo_3\characters\brute\shaders\brute_caphelm
+
+bitmap lacks\objects\characters\dervish\bitmaps\dervish_nude_body: referenced by: 
+   shader spv3\characters\h2a_dervish\shaders\dervish_nude_body
+   shader spv3\characters\h2a_dervish\shaders\dervish_nude_eyes
+
+bitmap ui\hud\bitmaps\grenade_bkd_dw3: referenced by: 
+   new_hud_definition dw3\altsierra\ui\hud\dervish_mp_demo
+   new_hud_definition dw3\altsierra\ui\hud\masterchief_mp_demo
+
+bitmap aife\weapons\spike_rifle\projectiles\spike_shard\bitmaps\spike_shard: referenced by: 
+   shader blackandfan\objects\characters\halo_wars\floodcombat_swarm\weapons\swarm_rifle\projectiles\spike_shard\shaders\spike_shard
+
+bitmap ui\hud\bitmaps\hud_msg_icons_sm: referenced by: 
+   globals dw3\globals\globals
+   globals globals\alphamoon_globals
+   globals globals\globals
+
+bitmap objects\characters\marine\bitmaps\marine_helmet: referenced by: 
+   shader dw3\ok\marine_stretcher-test\shaders\halo1_helmet
+   shader dw3\ok\medic_marine\shaders\halo1_helmet
+
+bitmap reclamation_project\tags\halo_3\characters\flood_infection\bitmaps\flood_fronds_illum: referenced by: 
+   shader reclamation_project\tags\halo_3\characters\floodcombat_elite\shaders\flood_fronds
+
+bitmap ui\hud\bitmaps\new_hud\backgrounds\empty_single: referenced by: 
+   new_hud_definition mythicjaqui\objects\weapons\support_high\hydra
+
+bitmap objects\characters\dead_marine_back_flat\bitmaps\marine_standard_bump: referenced by: 
+   shader dw3\ok\injured_shaking_marine\shaders\marine_standard
+
+bitmap objects\characters\dead_marine_back_flat\bitmaps\marine_standard_grey: referenced by: 
+   shader dw3\ok\injured_shaking_marine\shaders\marine_standard
+
+bitmap objects\vehicles\c_dropship\bitmaps\c_dropship_color_change: referenced by: 
+   shader digsite\scenarios\objects\covenant\military\cov_gravity_field\shaders\c_grav_field_int
+
+bitmap digsite\scenarios\objects\solo\moonbase\bitmaps\static blue band vert: referenced by: 
+   shader digsite\scenarios\objects\solo\moonbase\shaders\detail_strips
+   shader digsite\scenarios\objects\solo\moonbase\shaders\holo_control
+
+bitmap killtrocity\shared\weapon_schematics\bitmaps\gravity_wrench: referenced by: 
+   new_hud_definition killtrocity\objects\weapons\gravity_wrench\gravity_wrench
+
+bitmap objects\characters\marinebkup\bitmaps\packs_grey: referenced by: 
+   shader dw3\ok\marine_stretcher-test\shaders\marine_standard_metal
+   shader dw3\ok\medic_marine\shaders\marine_standard_metal
+
+bitmap d_flog_flag\objects\weapons\h3_assault_rifle\bitmaps\bullets: referenced by: 
+   new_hud_definition d_flog_flag\objects\weapons\h3_assault_rifle\hud
+
+bitmap objects\characters\dead_marine_back_flat\bitmaps\helmet_grey: referenced by: 
+   shader dw3\ok\injured_shaking_marine\shaders\helmet_standard
+
+bitmap ui\hud\bitmaps\fuel_rod_meter_dw3: referenced by: 
+   new_hud_definition dw3\altsierra\ui\hud\flak_cannon_ce
+   new_hud_definition dw3\ui\hud\regular_huds\flak_cannon_beta
+
+bitmap digsite\scenarios\objects\solo\moonbase\bitmaps\holo readout: referenced by: 
+   shader digsite\scenarios\objects\solo\moonbase\shaders\detail_strips
+
+bitmap digsite\scenarios\objects\solo\moonbase\bitmaps\holo control: referenced by: 
+   shader digsite\scenarios\objects\solo\moonbase\shaders\detail_strips
+   shader digsite\scenarios\objects\solo\moonbase\shaders\holo_control
+
+bitmap objects\weapons\rifle\assault_rifle\bitmaps\diffuse gunmetal: referenced by: 
+   shader objects\weapons\rifle\assault_rifle\halo1\shaders\bolt
+
+bitmap hi\hud\bitmaps\inf_weapon_icons\ar: referenced by: 
+   new_hud_definition zoephie\objects\weapons\infinite_weapons\objects\weapons\rifle\ma40\ma40
+
+bitmap scenarios\bitmaps\multi\prisoner\metal_panels_generator_glow: referenced by: 
+   shader scenarios\shaders\multi\convict\metal_flat_generic
+   shader scenarios\shaders\multi\convict\metal_panels_generic
+   shader scenarios\shaders\multi\convict\metal_flat_generic_light
+   shader scenarios\shaders\multi\convict\metal_strips_decorative_wide
+
+bitmap scenarios\bitmaps\solo\alphamoon\moon_fiber_illum: referenced by: 
+   shader digsite\scenarios\shaders\solo\alphamoon\moon_wreckage_dusted
+
+bitmap scenarios\bitmaps\nature\trees\redcedarbough_snow: referenced by: 
+   shader digsite\scenarios\shaders\nature\trees\redcedarbough_snow
+
+bitmap objects\characters\dead_marine_back_flat\bitmaps\head_wounded: referenced by: 
+   shader dw3\ok\injured_shaking_marine\shaders\head_smith
+
+crate scenarios\objects\human\military\mac_round\mac_round: referenced by: 
+   scenario scenarios\solo\01a_tutorial\01a_tutorial
+
+crate halo_3\gear\covenant\military\cov_barrier\cov_barrier: referenced by: 
+   scenario blackandfan\objects\characters\floodcombat_bugger\tags\katstags\maps\boxtest\boxtest (auto-backup tue dec 31 18-12-12 2024)
+   scenario katstags\maps\boxtest\boxtest (auto-backup thu jan 30 17-20-59 2025)
+   scenario katstags\maps\boxtest\boxtest
+
+crate halo_3\gear\human\military\barricade_large\barricade_large: referenced by: 
+   scenario blackandfan\objects\characters\floodcombat_bugger\tags\katstags\maps\boxtest\boxtest (auto-backup tue dec 31 18-12-12 2024)
+   scenario katstags\maps\boxtest\boxtest (auto-backup thu jan 30 17-20-59 2025)
+   scenario katstags\maps\boxtest\boxtest
+
+crate halo_3\gear\human\military\barricade_small\barricade_small: referenced by: 
+   scenario blackandfan\objects\characters\floodcombat_bugger\tags\katstags\maps\boxtest\boxtest (auto-backup tue dec 31 18-12-12 2024)
+   scenario katstags\maps\boxtest\boxtest (auto-backup thu jan 30 17-20-59 2025)
+   scenario katstags\maps\boxtest\boxtest
+
+crate scenarios\objects\multi\deltatap\oblisk\oblisk: referenced by: 
+   scenario scenarios\multi\deltatap\deltatap
+   scenario_scenery_resource scenarios\multi\deltatap\resources\deltatap
+
+crate scenarios\objects\solo\alphamoon\conduit\conduitc\conduitc: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+crate scenarios\objects\solo\alphamoon\conduit\conduitd\conduitd: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+crate objects\vehicles\multiplayer\ghost_heretic\garbage\seat\seat: referenced by: 
+   effect luna\effects\objects\vehicles\ghost_heretic\hull_destroyed_damage
+
+crate halo_3\gear\covenant\military\cov_space_small\cov_space_small: referenced by: 
+   scenario blackandfan\objects\characters\floodcombat_bugger\tags\katstags\maps\boxtest\boxtest (auto-backup tue dec 31 18-12-12 2024)
+   scenario katstags\maps\boxtest\boxtest (auto-backup thu jan 30 17-20-59 2025)
+   scenario katstags\maps\boxtest\boxtest
+
+crate scenarios\objects\multi\solitude\sol_grav_lift\sol_grav_lift: referenced by: 
+   scenario digsite\scenarios\multi\solitude\solitude
+
+character blackandfan\objects\characters\floodcombat_brutenew\ai\floodcombat_brutenew_honor_guard: referenced by: 
+   scenario blackandfan\scenarios\solo\needle\needle
+
+character objects\characters\prophet\ai\prophet: referenced by: 
+   scenario_ai_resource scenarios\solo\07a_highcharity\ai_resources\07a_highcharity_master
+   scenario scenarios\solo\07a_highcharity\07a_highcharity
+
+character objects\characters\floodcombat_brute\ai\floodcombat_brute_major: referenced by: 
+   scenario blackandfan\scenarios\solo\01b_spacestation\01b_spacestation
+
+character objects\characters\floodcombat_grunt\floodcombat_grunt\floodcombat_grunt: referenced by: 
+   scenario blackandfan\scenarios\solo\01b_spacestation\01b_spacestation
+
+character blackandfan\objects\characters\floodcombat_brutenew\ai\floodcombat_brutenew_major: referenced by: 
+   scenario blackandfan\scenarios\solo\needle\needle
+
+character katstags\ai\generic: referenced by: 
+   vehicle katstags\vehicles\wraith\minigun\minigun
+
+character objects\characters\floodcombat_elite\ai\floodcombat_elite_general: referenced by: 
+   scenario blackandfan\scenarios\solo\01b_spacestation\01b_spacestation
+
+character objects\characters\floodcombat_elite\ai\floodcombat_elite_specops: referenced by: 
+   scenario blackandfan\scenarios\solo\01b_spacestation\01b_spacestation
+
+character objects\characters\floodcombat_brute\ai\floodcombat_brute_captain: referenced by: 
+   scenario blackandfan\scenarios\solo\01b_spacestation\01b_spacestation
+
+character blackandfan\objects\characters\floodcombat_brutenew\ai\floodcombat_brutenew: referenced by: 
+   biped blackandfan\objects\characters\floodcombat_brute\floodcombat_brute
+   scenario blackandfan\scenarios\solo\needle\needle
+
+character blackandfan\objects\characters\floodcombat_brutenew\ai\floodcombat_brutenew_captain: referenced by: 
+   scenario blackandfan\scenarios\solo\needle\needle
+
+character objects\characters\floodcombat_odst\ai\flood_combat_odst: referenced by: 
+   scenario blackandfan\scenarios\solo\01b_spacestation\01b_spacestation
+
+character objects\characters\floodcombat_brute\ai\floodcombat_brute: referenced by: 
+   scenario blackandfan\scenarios\solo\01b_spacestation\01b_spacestation
+
+character blackandfan\objects\characters\floodcarrier\ai\flood_carrier_shielded: referenced by: 
+   scenario blackandfan\scenarios\solo\01b_spacestation\01b_spacestation
+   scenario blackandfan\scenarios\solo\needle\needle
+
+character objects\characters\floodcombat_brute\ai\floodcombat_brute_honor_guard: referenced by: 
+   scenario blackandfan\scenarios\solo\01b_spacestation\01b_spacestation
+
+collision_model scenarios\objects\forerunner\residential\bench_10x2\bench_10x2: referenced by: 
+   model digsite\scenarios\objects\forerunner\residential\bench_10x2\bench_10x2
+
+collision_model objects\vehicles\phantom\garbage\tail\tail: referenced by: 
+   model dw3\ruby\effects\objects\vehicles\phantom\garbage\tail\tail_brute
+
+collision_model objects\vehicles\phantom\garbage\door\door: referenced by: 
+   model dw3\ruby\effects\objects\vehicles\phantom\garbage\door\door
+
+collision_model objects\vehicles\phantom\garbage\hull\hull: referenced by: 
+   model dw3\ruby\effects\objects\vehicles\phantom\garbage\hull\hull
+   model dw3\ruby\effects\objects\vehicles\phantom\garbage\hull\hull_brute
+
+collision_model objects\vehicles\phantom\garbage\cabin\cabin: referenced by: 
+   model dw3\ruby\effects\objects\vehicles\phantom\garbage\cabin\cabin_brute
+
+collision_model objects\vehicles\phantom\garbage\cargo\cargo: referenced by: 
+   model dw3\ruby\effects\objects\vehicles\phantom\garbage\cargo\cargo_brute
+
+collision_model scenarios\objects\solo\alphamoon\conduit\conduite\conduite: referenced by: 
+   model digsite\scenarios\objects\solo\alphamoon\conduit\conduite\conduite
+
+collision_model scenarios\objects\covenant\military\scarab\scarab_upper_gun\garbage\turret_garbage_bot\turret_garbage_bot: referenced by: 
+   model scenarios\objects\covenant\military\scarab\scarab_upper_gun\garbage\turret_garbage_bot\turret_garbage_bot
+
+contrail effects\objects\weapons\pistol\plasma_pistol\plasma_charged_bolt: referenced by: 
+   projectile dw3\test\weapons\charged_bolt\sentinel_aggressor_charged_bolt
+
+contrail effects\objects\vehicles\creep\plasma_vent_boost: referenced by: 
+   vehicle dw3\altsierra\objects\vehicles\creep\creep
+   vehicle dw3\altsierra\objects\vehicles\creep\creep_cargo
+   vehicle dw3\altsierra\objects\vehicles\creep\creep_mp
+
+decal scenarios\decals\environment\embers: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+decal levels\b30\decals-environment\decal fore symb blue b: referenced by: 
+   scenario digsite\scenarios\solo\bloodgulch_test\bloodgulch_test
+
+decal effects\decals\bullet_holes\flame_thrower_char: referenced by: 
+   effect digsite\effects\objects\weapons\support_low\flamethrower\flame_char
+
+decal effects\decals\blast_scorches\creep_plasma_burn: referenced by: 
+   effect dw3\altsierra\objects\vehicles\creep\plasma_turret\weapons\effects\c_turret_ap
+   effect dw3\altsierra\objects\vehicles\creep\plasma_turret\weapons\effects\creep_turret_impact
+   effect dw3\altsierra\objects\weapons\support_low\brute_shot\projectiles\plasma\e3_brute_shot_impact
+
+decal levels\b30\decals-environment\decal fore symb red: referenced by: 
+   scenario digsite\scenarios\solo\bloodgulch_test\bloodgulch_test
+
+decal levels\b30\decals-environment\decal fore symb blue: referenced by: 
+   scenario digsite\scenarios\solo\bloodgulch_test\bloodgulch_test
+
+decal levels\b30\decals-environment\decal fore symb red b: referenced by: 
+   scenario digsite\scenarios\solo\bloodgulch_test\bloodgulch_test
+
+effect effects\objects\weapons\support_high\rocket_launcher\rpg_fire: referenced by: 
+   weapon dw3\objects\vehicles\warthog\turrets\chaingun\weapon\rpg
+
+effect effects\objects\characters\sentinel\weapons\grenade\sentinel_grenade_detonation: referenced by: 
+   projectile dw3\test\weapons\grenade\sentinel_aggressor_grenade
+
+effect z_old_fx\vehicles\creep\creep_damage: referenced by: 
+   model objects\vehicles\creep\creep
+
+effect effects\objects\weapons\fixed\plasma_mortar\plasma_spill_death: referenced by: 
+   particle digsite\effects\objects\weapons\fixed\plasma_mortar\plasma_detonate_spill_no_death
+
+effect objects\weapons\fixed\plasma_mortar\effects\plasma_spill_death: referenced by: 
+   particle digsite\objects\weapons\fixed\plasma_mortar\effects\plasma_detonate_spill
+
+effect blackandfan\objects\characters\floodcombat_bugger\garbage\body_destroyed: referenced by: 
+   model blackandfan\objects\characters\floodcombat_bugger\floodcombat_bugger
+   model blackandfan\objects\characters\halo_wars\floodcombat_swarm\floodcombat_swarm
+
+effect effects\objects\vehicles\phantom\engine_damaged_loop: referenced by: 
+   model dw3\ruby\objects\vehicles\phantom\phantom
+   model dw3\ruby\objects\vehicles\phantom\phantom_no_debris
+   model dw3\ruby\objects\vehicles\phantom\phantom_no_destroy
+
+effect weapons\flamethrower\effects\defoliant: referenced by: 
+   weapon digsite\objects\weapons\support_low\flamethrower\flamethrower
+
+effect effects\scenarios\objects\solo\earthcity\stone_panels\destroyed: referenced by: 
+   model scenarios\objects\solo\earthcity\stone_panels\dstroy_stone_flat\dstroy_stone_flat
+   model scenarios\objects\solo\earthcity\stone_panels\dstroy_stone_flatb\dstroy_stone_flatb
+   model scenarios\objects\solo\earthcity\stone_panels\dstroy_stone_top\dstroy_stone_top
+
+effect effects\objects\vehicles\creep\antigravity_particles1: referenced by: 
+   vehicle dw3\altsierra\objects\vehicles\creep\creep
+   vehicle dw3\altsierra\objects\vehicles\creep\creep_mp
+
+effect d_flog_flag_ports\reach\objects\vehicles\covenant\tuning_fork\fx\cannon destroyed: referenced by: 
+   model d_flog_flag_ports\reach\objects\vehicles\covenant\tuning_fork\turret\turret
+
+effect effects\objects\vehicles\wraith\perm_driver_destroyed: referenced by: 
+   model phanrev\objects\vehicles\brute_wraith\brute_wraith
+   model dw3\objects\vehicles\wraith_alpha\wraith_alpha
+   model katstags\vehicles\wraith\wraith
+   model objects\vehicles\wraith\wraith
+
+effect effects\objects\vehicles\wraith\perm_turret_destroyed: referenced by: 
+   model phanrev\objects\vehicles\brute_revenant\turrets\plasma_mortar\brute_mortar
+   model phanrev\objects\vehicles\brute_wraith\brute_mortar\brute_mortar
+   model luna\objects\vehicles\wraith_aa\turrets\mortar\mortar
+   model dw3\objects\vehicles\wraith_alpha\turrets\mortar\mortar
+   model objects\vehicles\wraith\turrets\mortar\mortar
+
+effect effects\objects\weapons\pistol\plasma_pistol\detonate: referenced by: 
+   projectile dw3\test\weapons\charged_bolt\sentinel_aggressor_charged_bolt
+
+effect effects\objects\characters\sentinel\weapons\grenade\sentinel_grenade_fire: referenced by: 
+   weapon dw3\test\weapons\grenade\sentinel_aggressor_grenade
+
+effect effects\objects\weapons\melee\gravity_hammer\hammer_on: referenced by: 
+   weapon objects\weapons\melee\gravity_hammer_h3\gravity_hammer_h3_variant_golf_club
+   weapon objects\weapons\melee\gravity_hammer_h3\gravity_hammer_h3
+   weapon objects\weapons\melee\gravity_hammer_h3\gravity_hammer_h3_variant_rukt
+   weapon objects\weapons\melee\gravity_hammer_h3\empty_gravity_hammer_h3
+
+effect effects\objects\vehicles\wraith\perm_hull_minor_damage: referenced by: 
+   model phanrev\objects\vehicles\brute_wraith\brute_wraith
+   model dw3\objects\vehicles\wraith_alpha\wraith_alpha
+   model katstags\vehicles\wraith\wraith
+   model objects\vehicles\wraith\wraith
+
+effect effects\objects\vehicles\wraith\impact_ice: referenced by: 
+   projectile dw3\scenarios\objects\covenant\military\cov_guntower\weapon\cov_guntower_mortar
+   projectile digsite\objects\vehicles\cov_guntower\weapon\c_guntower
+   projectile digsite\objects\vehicles\cov_guntower\weapon\cov_guntower_mortar
+
+effect effects\objects\vehicles\wraith\impact_jackal_and_elite: referenced by: 
+   projectile dw3\scenarios\objects\covenant\military\cov_guntower\weapon\cov_guntower_mortar
+   projectile digsite\objects\vehicles\cov_guntower\weapon\cov_guntower_mortar
+
+effect effects\objects\vehicles\wraith\impact_hunter_and_flood: referenced by: 
+   projectile dw3\scenarios\objects\covenant\military\cov_guntower\weapon\cov_guntower_mortar
+   projectile digsite\objects\vehicles\cov_guntower\weapon\cov_guntower_mortar
+
+effect effects\objects\vehicles\wraith\perm_front_minor_damage: referenced by: 
+   model phanrev\objects\vehicles\brute_wraith\brute_wraith
+   model dw3\objects\vehicles\wraith_alpha\wraith_alpha
+   model katstags\vehicles\wraith\wraith
+   model objects\vehicles\wraith\wraith
+
+effect effects\objects\vehicles\wraith\impact_dirt: referenced by: 
+   projectile dw3\scenarios\objects\covenant\military\cov_guntower\weapon\cov_guntower_mortar
+   projectile digsite\objects\vehicles\cov_guntower\weapon\cov_guntower_mortar
+
+effect effects\objects\vehicles\wraith\impact_sand: referenced by: 
+   projectile dw3\scenarios\objects\covenant\military\cov_guntower\weapon\cov_guntower_mortar
+   projectile digsite\objects\vehicles\cov_guntower\weapon\cov_guntower_mortar
+
+effect effects\objects\vehicles\wraith\impact_wood: referenced by: 
+   projectile dw3\scenarios\objects\covenant\military\cov_guntower\weapon\cov_guntower_mortar
+   projectile digsite\objects\vehicles\cov_guntower\weapon\c_guntower
+   projectile digsite\objects\vehicles\cov_guntower\weapon\cov_guntower_mortar
+
+effect effects\objects\vehicles\wraith\impact_snow: referenced by: 
+   projectile dw3\scenarios\objects\covenant\military\cov_guntower\weapon\cov_guntower_mortar
+   projectile digsite\objects\vehicles\cov_guntower\weapon\c_guntower
+   projectile digsite\objects\vehicles\cov_guntower\weapon\cov_guntower_mortar
+
+effect effects\objects\vehicles\wraith\perm_turret_backhatch_major_damage: referenced by: 
+   model phanrev\objects\vehicles\brute_revenant\turrets\plasma_mortar\brute_mortar
+   model phanrev\objects\vehicles\brute_wraith\brute_mortar\brute_mortar
+   model luna\objects\vehicles\wraith_aa\turrets\mortar\mortar
+   model dw3\objects\vehicles\wraith_alpha\turrets\mortar\mortar
+   model objects\vehicles\wraith\turrets\mortar\mortar
+
+effect effects\objects\vehicles\wraith\perm_turret_backhatch_minor_damage: referenced by: 
+   model phanrev\objects\vehicles\brute_revenant\turrets\plasma_mortar\brute_mortar
+   model phanrev\objects\vehicles\brute_wraith\brute_mortar\brute_mortar
+   model luna\objects\vehicles\wraith_aa\turrets\mortar\mortar
+   model dw3\objects\vehicles\wraith_alpha\turrets\mortar\mortar
+   model objects\vehicles\wraith\turrets\mortar\mortar
+
+effect effects\objects\vehicles\wraith\perm_driver_major_damage: referenced by: 
+   model phanrev\objects\vehicles\brute_wraith\brute_wraith
+   model dw3\objects\vehicles\wraith_alpha\wraith_alpha
+   model katstags\vehicles\wraith\wraith
+   model objects\vehicles\wraith\wraith
+
+effect effects\objects\vehicles\spectre\perm_front_major_damage: referenced by: 
+   model dw3\objects\vehicles\spectre_beta\spectre
+   model objects\vehicles\spectre\spectre
+
+effect effects\objects\vehicles\wraith\perm_rudder_minor_damage: referenced by: 
+   model phanrev\objects\vehicles\brute_wraith\brute_wraith
+   model dw3\objects\vehicles\wraith_alpha\wraith_alpha
+   model katstags\vehicles\wraith\wraith
+   model objects\vehicles\wraith\wraith
+
+effect effects\objects\vehicles\wraith\perm_front_medium_damage: referenced by: 
+   model phanrev\objects\vehicles\brute_wraith\brute_wraith
+   model dw3\objects\vehicles\wraith_alpha\wraith_alpha
+   model katstags\vehicles\wraith\wraith
+   model objects\vehicles\wraith\wraith
+
+effect effects\objects\vehicles\wraith\perm_driver_minor_damage: referenced by: 
+   model phanrev\objects\vehicles\brute_wraith\brute_wraith
+   model dw3\objects\vehicles\wraith_alpha\wraith_alpha
+   model katstags\vehicles\wraith\wraith
+   model objects\vehicles\wraith\wraith
+
+effect effects\objects\vehicles\spectre\perm_front_minor_damage: referenced by: 
+   model dw3\objects\vehicles\spectre_beta\spectre
+   model objects\vehicles\spectre\spectre
+
+effect effects\objects\characters\sentinel\weapons\grenade\sentinel_grenade_active: referenced by: 
+   projectile dw3\test\weapons\grenade\sentinel_aggressor_grenade
+
+effect effects\objects\vehicles\wraith\perm_turret_major_damage: referenced by: 
+   model phanrev\objects\vehicles\brute_revenant\turrets\plasma_mortar\brute_mortar
+   model phanrev\objects\vehicles\brute_wraith\brute_mortar\brute_mortar
+   model luna\objects\vehicles\wraith_aa\turrets\mortar\mortar
+   model dw3\objects\vehicles\wraith_alpha\turrets\mortar\mortar
+   model objects\vehicles\wraith\turrets\mortar\mortar
+
+effect effects\objects\vehicles\wraith\perm_turret_minor_damage: referenced by: 
+   model phanrev\objects\vehicles\brute_revenant\turrets\plasma_mortar\brute_mortar
+   model phanrev\objects\vehicles\brute_wraith\brute_mortar\brute_mortar
+   model luna\objects\vehicles\wraith_aa\turrets\mortar\mortar
+   model dw3\objects\vehicles\wraith_alpha\turrets\mortar\mortar
+   model objects\vehicles\wraith\turrets\mortar\mortar
+
+effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\battle_rifle\effects\reload: referenced by: 
+   weapon ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\smg
+
+effect effects\objects\vehicles\wraith\impact_metal: referenced by: 
+   projectile dw3\scenarios\objects\covenant\military\cov_guntower\weapon\cov_guntower_mortar
+   projectile digsite\objects\vehicles\cov_guntower\weapon\c_guntower
+   projectile digsite\objects\vehicles\cov_guntower\weapon\cov_guntower_mortar
+
+effect effects\objects\vehicles\wraith\impact_human: referenced by: 
+   projectile dw3\scenarios\objects\covenant\military\cov_guntower\weapon\cov_guntower_mortar
+   projectile digsite\objects\vehicles\cov_guntower\weapon\cov_guntower_mortar
+
+effect effects\objects\vehicles\wraith\impact_grunt: referenced by: 
+   projectile dw3\scenarios\objects\covenant\military\cov_guntower\weapon\cov_guntower_mortar
+   projectile objects\vehicles\cov_guntower\weapon\cov_guntower_mortar2
+   projectile digsite\objects\vehicles\cov_guntower\weapon\cov_guntower_mortar
+
+effect effects\objects\vehicles\wraith\impact_stone: referenced by: 
+   projectile dw3\scenarios\objects\covenant\military\cov_guntower\weapon\cov_guntower_mortar
+   projectile objects\vehicles\cov_guntower\weapon\cov_guntower_mortar2
+   projectile digsite\objects\vehicles\cov_guntower\weapon\c_guntower
+   projectile digsite\objects\vehicles\cov_guntower\weapon\cov_guntower_mortar
+
+effect aife\weapons\spike_rifle\projectiles\default: referenced by: 
+   material_effects zoephie\objects\weapons\infinite_weapons\objects\weapons\support_high\skewer\skewer
+   material_effects blackandfan\objects\characters\halo_wars\floodcombat_swarm\weapons\swarm_rifle\swarm_rifle
+
+effect effects\objects\vehicles\wraith\perm_driver_medium_damage: referenced by: 
+   model phanrev\objects\vehicles\brute_wraith\brute_wraith
+   model dw3\objects\vehicles\wraith_alpha\wraith_alpha
+   model katstags\vehicles\wraith\wraith
+   model objects\vehicles\wraith\wraith
+
+effect effects\objects\vehicles\spectre\perm_front_medium_damage: referenced by: 
+   model dw3\objects\vehicles\spectre_beta\spectre
+   model objects\vehicles\spectre\spectre
+
+effect effects\objects\vehicles\wraith\perm_turret_backhatch_medium_damage: referenced by: 
+   model phanrev\objects\vehicles\brute_revenant\turrets\plasma_mortar\brute_mortar
+   model phanrev\objects\vehicles\brute_wraith\brute_mortar\brute_mortar
+   model luna\objects\vehicles\wraith_aa\turrets\mortar\mortar
+   model dw3\objects\vehicles\wraith_alpha\turrets\mortar\mortar
+   model objects\vehicles\wraith\turrets\mortar\mortar
+
+effect effects\objects\vehicles\spectre\perm_turret_major_damage: referenced by: 
+   model phanrev\objects\vehicles\prowler\brute_turret\brute_turret
+   model objects\vehicles\spectre\turrets\plasma\plasma_turret
+
+effect effects\weapons\pistol\ready: referenced by: 
+   weapon ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\smg
+
+effect effects\weapons\pistol\empty: referenced by: 
+   weapon ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\smg
+
+effect effects\objects\vehicles\ghost\seat_destroyed: referenced by: 
+   model objects\vehicles\ghost\ghost
+   model objects\vehicles\ghost_brute\ghost_brute
+   model objects\vehicles\ghost_flak\ghost_flak
+   model digsite\objects\vehicles\ghost\ghost
+
+effect effects\objects\vehicles\wraith\perm_turret_medium_damage: referenced by: 
+   model phanrev\objects\vehicles\brute_revenant\turrets\plasma_mortar\brute_mortar
+   model phanrev\objects\vehicles\brute_wraith\brute_mortar\brute_mortar
+   model luna\objects\vehicles\wraith_aa\turrets\mortar\mortar
+   model dw3\objects\vehicles\wraith_alpha\turrets\mortar\mortar
+   model objects\vehicles\wraith\turrets\mortar\mortar
+
+effect effects\objects\vehicles\spectre\perm_turret_minor_damage: referenced by: 
+   model phanrev\objects\vehicles\prowler\brute_turret\brute_turret
+   model objects\vehicles\spectre\turrets\plasma\plasma_turret
+
+effect effects\objects\vehicles\phantom\engine_damaged_loop_right: referenced by: 
+   model dw3\ruby\objects\vehicles\phantom\phantom
+   model dw3\ruby\objects\vehicles\phantom\phantom_no_debris
+   model dw3\ruby\objects\vehicles\phantom\phantom_no_destroy
+
+effect effects\objects\vehicles\spectre\perm_turret_medium_damage: referenced by: 
+   model phanrev\objects\vehicles\prowler\brute_turret\brute_turret
+   model objects\vehicles\spectre\turrets\plasma\plasma_turret
+
+effect effects\objects\vehicles\wraith\impact_engineer: referenced by: 
+   projectile dw3\scenarios\objects\covenant\military\cov_guntower\weapon\cov_guntower_mortar
+   projectile digsite\objects\vehicles\cov_guntower\weapon\cov_guntower_mortar
+
+effect effects\objects\vehicles\phantom\phantom_debris: referenced by: 
+   crate dw3\ruby\effects\objects\vehicles\phantom\garbage\cabin\cabin_brute
+   crate dw3\ruby\effects\objects\vehicles\phantom\garbage\cargo\cargo_brute
+   crate dw3\ruby\effects\objects\vehicles\phantom\garbage\hull\hull
+   crate dw3\ruby\effects\objects\vehicles\phantom\garbage\hull\hull_brute
+
+effect effects\objects\vehicles\pelican\perm_hull_major: referenced by: 
+   model objects\vehicles\pelican2\pelican2
+
+effect weapons\flamethrower\effects\flame thrower pilot: referenced by: 
+   weapon digsite\objects\weapons\support_low\flamethrower\flamethrower
+
+effect effects\objects\characters\brute\fp_hammer_impact: referenced by: 
+   model_animation_graph objects\weapons\melee\gravity_hammer_h3\fp\empty_gravity_hammer_h3_elite
+
+effect effects\objects\vehicles\wraith\turrets\mortar\guntower_fire: referenced by: 
+   weapon dw3\scenarios\objects\covenant\military\cov_guntower\weapon\cov_guntower_mortar
+   weapon dw3\scenarios\objects\covenant\military\cov_guntower\weapon\cov_guntower_mortar_gj
+
+equipment objects\weapons\rifle\assault_rifle\ar_ammo: referenced by: 
+   weapon zoephie\objects\weapons\infinite_weapons\objects\weapons\rifle\ma40\ma40
+
+equipment mythicjaqui\ammo_packs\unsc\ammo_pack_heavy\ammo_pack_heavy: referenced by: 
+   weapon mythicjaqui\objects\weapons\support_high\hydra
+
+planar_fog scenarios\skies\multi\marathon\gemini\gem_fog0: referenced by: 
+   scenario scenarios\multi\marathon\gemini\gemini
+
+material_effects effects\materials\objects\characters\flood: referenced by: 
+   biped dw3\objects\characters\flood_juggernaut_dw3\flood_juggernaut
+   biped objects\characters\flood_juggernaut\flood_juggernaut
+
+material_effects effects\materials\objects\havok\wooden_palette: referenced by: 
+   crate scenarios\objects\human\residential\palette\palette
+
+patchy_fog scenarios\skies\solo\alphamoon\fog\am_control_room: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon
+   scenario_cluster_data_resource digsite\scenarios\solo\alphamoon\resources\alphamoon
+
+model objects\vehicles\phantom\garbage\cabin\cabin_brute: referenced by: 
+   crate dw3\ruby\effects\objects\vehicles\phantom\garbage\cabin\cabin_brute
+
+model objects\vehicles\phantom\garbage\cargo\cargo_brute: referenced by: 
+   crate dw3\ruby\effects\objects\vehicles\phantom\garbage\cargo\cargo_brute
+
+model scenarios\objects\forerunner\residential\bench_10x2\bench_10x2: referenced by: 
+   crate digsite\scenarios\objects\forerunner\residential\bench_10x2\bench_10x2
+
+model objects\vehicles\phantom\garbage\door\door: referenced by: 
+   crate dw3\ruby\effects\objects\vehicles\phantom\garbage\door\door
+
+model objects\vehicles\phantom\garbage\hull\hull: referenced by: 
+   crate dw3\ruby\effects\objects\vehicles\phantom\garbage\hull\hull
+
+model phanrev\objects\vehicles\hornet_t\hornet_t: referenced by: 
+   vehicle phanrev\objects\vehicles\hornet\hornet_test
+
+model scenarios\objects\special\airlock_blower\airlock_blower: referenced by: 
+   device_machine scenarios\objects\special\airlock_blower\airlock_blower
+
+model scenarios\objects\multi\lockout\elevator_lockout\elevator_lockout: referenced by: 
+   device_machine scenarios\objects\multi\lockout\elevator_lockout\elevator_lockout
+
+model scenarios\objects\solo\alphamoon\conduit\conduite\conduite: referenced by: 
+   crate digsite\scenarios\objects\solo\alphamoon\conduit\conduite\conduite
+
+model objects\vehicles\phantom\garbage\tail\tail_brute: referenced by: 
+   crate dw3\ruby\effects\objects\vehicles\phantom\garbage\tail\tail_brute
+
+model objects\vehicles\phantom\garbage\hull\hull_brute: referenced by: 
+   crate dw3\ruby\effects\objects\vehicles\phantom\garbage\hull\hull_brute
+
+scenario_hs_source_file scenarios\multi\zanzibar\scripts\e3_cinematics: referenced by: 
+   scenario scenarios\multi\zanzibar\zanzibar
+
+hud_number ui\hud\counter: referenced by: 
+   globals dw3\globals\globals
+   globals globals\alphamoon_globals
+   globals globals\globals
+
+item_collection item collections\single weapons\shotgun: referenced by: 
+   scenario digsite\scenarios\solo\bloodgulch_test\bloodgulch_test
+
+item_collection item collections\single weapons\plasma rifle: referenced by: 
+   scenario digsite\scenarios\solo\bloodgulch_test\bloodgulch_test
+
+item_collection item collections\single weapons\sniper rifle: referenced by: 
+   scenario digsite\scenarios\solo\bloodgulch_test\bloodgulch_test
+
+item_collection item collections\single weapons\frag grenades: referenced by: 
+   scenario digsite\scenarios\solo\bloodgulch_test\bloodgulch_test
+
+item_collection item collections\single weapons\plasma pistol: referenced by: 
+   scenario digsite\scenarios\solo\bloodgulch_test\bloodgulch_test
+
+item_collection item collections\powerups\powerup health pack: referenced by: 
+   scenario digsite\scenarios\solo\bloodgulch_test\bloodgulch_test
+
+item_collection item collections\powerups\shield-invisibility: referenced by: 
+   scenario digsite\scenarios\solo\bloodgulch_test\bloodgulch_test
+
+item_collection item collections\powerups\powerup super shield: referenced by: 
+   scenario digsite\scenarios\solo\bloodgulch_test\bloodgulch_test
+
+item_collection item collections\single weapons\plasma grenades: referenced by: 
+   scenario digsite\scenarios\solo\bloodgulch_test\bloodgulch_test
+
+item_collection item collections\single weapons\rocket launcher: referenced by: 
+   scenario digsite\scenarios\solo\bloodgulch_test\bloodgulch_test
+
+model_animation_graph !extracted\fp_brute_shot_anims\fp_brute_shot_anims: referenced by: 
+   model_animation_graph dw3\objects\weapons\support_low\scorpion_cannon\fp_scorpion_cannon\fp_brute_shot
+   model_animation_graph dw3\objects\weapons\support_low\scorpion_cannon\fp_scorpion_cannon\fp_scorpion_cannon
+
+model_animation_graph objects\vehicles\phantom\phantom_xx: referenced by: 
+   model_animation_graph dw3\ruby\effects\objects\vehicles\phantom\damage_effects\phantom_x
+
+model_animation_graph objects\weapons\support_low\sentinel_charged_shot\sentinel_charged_shot: referenced by: 
+   model_animation_graph dw3\objects\weapons\support_low\sentinel_gun\dervish\fp_sentinel_beam
+
+model_animation_graph objects\characters\masterchief\fp\weapons\support_low\fp_disintegrator\fp_disintegrator: referenced by: 
+   weapon dw3\test\weapons\grenade\sentinel_aggressor_grenade
+   weapon dw3\test\weapons\needler\sentinel_aggressor_needler
+
+model_animation_graph !extracted\fp_brute_shot_anims_dervish\fp_brute_shot_anims_dervish: referenced by: 
+   model_animation_graph dw3\objects\weapons\support_low\scorpion_cannon\fp_scorpion_cannon\fp_brute_shot_dervish
+   model_animation_graph dw3\objects\weapons\support_low\scorpion_cannon\fp_scorpion_cannon\fp_scorpion_cannon_dervish
+
+model_animation_graph objects\characters\masterchief\fp\weapons\support_low\fp_flamethrower\fp_flamethrower: referenced by: 
+   model_animation_graph digsite\objects\characters\dervish\fp\weapons\support_low\fp_flamethrower\fp_flamethrower
+
+model_animation_graph zoephie\objects\weapons\rifle\halo3_smg\halo3_smg: referenced by: 
+   weapon zoephie\objects\weapons\rifle\h2a_smg\h2a_smg
+   weapon zoephie\objects\weapons\rifle\h2a_mp_silenced_smg\h2a_mp_silenced_smg
+
+model_animation_graph objects\vehicles\phantom\phantom_x: referenced by: 
+   model_animation_graph dw3\ruby\effects\objects\vehicles\phantom\damage_effects\phantom
+
+damage_effect objects\weapons\rifle\smg\damage_effects\smg_empty: referenced by: 
+   weapon dw3\objects\weapons\rifle\smg_alpha\smg_alpha
+   weapon dw3\objects\weapons\rifle\smg_beta\smg_beta
+   weapon zoephie\objects\weapons\rifle\halo_reach_spike_rifle\spike_rifle
+   weapon zoephie\objects\weapons\rifle\h2a_smg\h2a_smg
+   weapon zoephie\objects\weapons\rifle\h2a_mp_silenced_smg\h2a_mp_silenced_smg
+   weapon objects\weapons\rifle\smg\smg
+   weapon digsite\objects\weapons\rifle\smg_combo\smg_combo
+
+damage_effect objects\weapons\support_low\brute_shot\damage_effects\trigger: referenced by: 
+   weapon spv3\weapons\brute_shot\brute_shot
+
+damage_effect objects\vehicles\h_turret_ap\damage_effects\saw_bullet: referenced by: 
+   projectile zoephie\objects\weapons\fixed\halo 5 forerunner turret\weapon\saw
+
+damage_effect objects\weapons\damage_effects\needler_melee: referenced by: 
+   weapon spv3\weapons\piercer\piercer
+
+damage_effect objects\weapons\pistol\needler\damage_effects\super_detonation_owner: referenced by: 
+   effect spv3\weapons\shredder\effects\super_detonation
+
+damage_effect blackandfan\weapons\pistol\green_magnum\damage_effects\magnum_trigger: referenced by: 
+   weapon blackandfan\weapons\pistol\machine_pistol\machine_pistol
+
+damage_effect objects\characters\sentinel_aggressor\weapons\needler\damage_effects\sentinel_needler_firing: referenced by: 
+   weapon dw3\test\weapons\needler\sentinel_aggressor_needler
+
+lens_flare dragonsoul\objects\weapons\support_high\spartan_laser\fx\spartan_laser: referenced by: 
+   weapon dragonsoul\objects\weapons\support_high\spartan_laser\test\spartan_laser (backup)
+
+lens_flare effects\lens_flares\blade_activate_e3: referenced by: 
+   effect dw3\altsierra\effects\objects\vehicles\insertion_pod\door_open
+
+lens_flare effects\objects\weapons\pistol\plasma_pistol\overcharge - copy: referenced by: 
+   light zoephie\objects\weapons\halo_4\pistol\boltshot\miscellaneous\overcharge - copy
+
+lens_flare effects\lens_flares\blade_activate_e3_1: referenced by: 
+   effect dw3\altsierra\effects\objects\vehicles\insertion_pod\door_open
+
+lens_flare effects\objects\weapons\fixed\plasma_mortar\plasma_mortar_charge: referenced by: 
+   effect digsite\effects\objects\weapons\fixed\plasma_mortar\plasma_mortar_charge
+   light digsite\effects\objects\weapons\fixed\plasma_mortar\plasma_mortar_charge
+
+lens_flare effects\lens_flares\fire_looping_enormous: referenced by: 
+   scenery effects\scenery\fires\fire_basic_smoky_enormous
+
+lens_flare effects\objects\weapons\pistol\plasma_pistol\overcharge_fp - copy: referenced by: 
+   light zoephie\objects\weapons\halo_4\pistol\boltshot\miscellaneous\overcharge_fp - copy
+
+lens_flare effects\objects\characters\sentinel\grenade: referenced by: 
+   weapon dw3\test\weapons\grenade\sentinel_aggressor_grenade
+
+lens_flare effects\objects\characters\sentinel\charged_bolt: referenced by: 
+   weapon dw3\test\weapons\charged_bolt\sentinel_aggressor_charged_bolt
+
+lens_flare effects\objects\vehicles\creep\plasma_vent_boost: referenced by: 
+   vehicle dw3\altsierra\objects\vehicles\creep\creep
+   vehicle dw3\altsierra\objects\vehicles\creep\creep_cargo
+   vehicle dw3\altsierra\objects\vehicles\creep\creep_mp
+
+lens_flare effects\lens_flares\sparking_light: referenced by: 
+   light effects\scenery\sparks\sparking_light
+
+device_light_fixture levels\a50\devices\light_ground\light_ground: referenced by: 
+   scenario digsite\scenarios\solo\moonbase\moonbase
+
+light scenarios\objects\lights\solo\deltatemple\temple_pool_caustic: referenced by: 
+   scenario_lights_resource scenarios\solo\05b_deltatowers\resources\05b_deltatowers
+   scenario scenarios\solo\05b_deltatowers\05b_deltatowers
+
+light scenarios\objects\lights\covenant\floodlight_tunnel: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon
+   scenario_lights_resource digsite\scenarios\solo\alphamoon\resources\alphamoon
+
+light effects\impact\explosion_small\brute_shot\detonation: referenced by: 
+   effect effects\impact\explosion_small\brute_shot\detonation
+
+light objects\vehicles\warthog\turrets\gauss\weapon\effects\gauss_flash: referenced by: 
+   weapon dw3\objects\vehicles\warthog\turrets\gauss\weapon\rocket_turret
+
+light effects\objects\vehicles\spectre\destruction: referenced by: 
+   effect luna\effects\objects\vehicles\ghost_heretic\hull_destroyed_damage
+
+light scenarios\objects\lights\solo\alphamoon\alphamoon_sunlight: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon
+   scenario_lights_resource digsite\scenarios\solo\alphamoon\resources\alphamoon
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+light effects\generic_lights\medium_c_explosion_green: referenced by: 
+   effect dw3\altsierra\objects\vehicles\creep\plasma_turret\weapons\effects\creep_turret_impact
+   effect dw3\altsierra\objects\weapons\support_low\brute_shot\projectiles\plasma\e3_brute_shot_impact
+
+sound_looping sound\sfx\weapons\flamethrower\fire_ft: referenced by: 
+   weapon digsite\objects\weapons\support_low\flamethrower\flamethrower
+
+sound_looping sound\sfx\weapons\flamethrower\light_ft: referenced by: 
+   weapon digsite\objects\weapons\support_low\flamethrower\flamethrower
+
+sound_looping sound\vehicles\ghost\ghost_engine_lod\ghost_engine_lod: referenced by: 
+   vehicle luna\objects\vehicles\ghost_heretic\ghost_heretic
+
+sound_looping sound_remastered\visual_effects\pelican_dust\pelican_dust: referenced by: 
+   effect phanrev\objects\vehicles\kestrel\effects\kestrel_landing_dust
+   effect dw3\objects\vehicles\falcon_uncut\effects\falcon_landing_dust
+   effect objects\vehicles\falcon_rjs\fx\falcon_landing_dust
+   effect effects\objects\vehicles\pelican\pelican_landing_dust
+
+sound_looping dragonsoul\sound\weapons\spartan_laser\charging: referenced by: 
+   weapon dragonsoul\objects\weapons\support_high\spartan_laser\test\spartan_laser (backup)
+
+scenario_structure_lightmap scenarios\solo\alphamoon\alphamoon_alphamoon_1_lightmap: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenario_structure_lightmap scenarios\solo\alphamoon\alphamoon_alphamoon_2_lightmap: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenario_structure_lightmap scenarios\solo\alphamoon\alphamoon_alphamoon_3_lightmap: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+device_machine scenarios\objects\multi\lockout\power_lift\power_lift: referenced by: 
+   scenario scenarios\multi\ascension\ascension
+   scenario_devices_resource scenarios\multi\ascension\resources\ascension
+
+device_machine digsite\scenarios\objects\solo\moonbase\falling_plasma_drive\falling_plasma_drive: referenced by: 
+   scenario digsite\scenarios\solo\moonbase\moonbase
+
+device_machine levels\a10\devices\doors\door blast half\door blast half: referenced by: 
+   scenario digsite\scenarios\solo\moonbase\moonbase
+
+device_machine scenarios\objects\solo\spacestation\ss_switch\ss_switch: referenced by: 
+   scenario blackandfan\scenarios\solo\01b_spacestation\01b_spacestation
+   scenario_devices_resource blackandfan\scenarios\solo\01b_spacestation\resources\01b_spacestation
+   scenario_devices_resource blackandfan\scenarios\solo\01b_spacestation\resources\01b_spacestationmay_27_2023_01_07_14_pm$
+   scenario_devices_resource blackandfan\scenarios\solo\01b_spacestation\resources\01b_spacestationoct_16_2022_01_21_00_pm$
+   scenario_devices_resource scenarios\solo\01b_spacestation\resources\01b_spacestation
+   scenario scenarios\solo\01a_tutorial\01a_tutorial
+   scenario scenarios\solo\01b_spacestation\01b_spacestation
+
+device_machine levels\a10\devices\doors\door small burnt half\door small burnt half: referenced by: 
+   scenario digsite\scenarios\solo\moonbase\moonbase
+
+device_machine levels\a10\devices\doors\door cryo chamber\door cryo chamber: referenced by: 
+   scenario digsite\scenarios\solo\moonbase\moonbase
+
+device_machine scenarios\objects\solo\spacestation\doors\ss_door_int_hab_large\ss_door_int_hab_large_manual: referenced by: 
+   scenario scenarios\solo\01a_tutorial\01a_tutorial
+
+device_machine scenarios\objects\solo\highcharity\high_dervish_lift\high_dervish_lift: referenced by: 
+   scenario scenarios\solo\00a_introduction\00a_introduction
+
+render_model objects\vehicles\phantom\garbage\cabin\cabin_brute: referenced by: 
+   model dw3\ruby\effects\objects\vehicles\phantom\garbage\cabin\cabin_brute
+
+render_model objects\vehicles\phantom\garbage\cargo\cargo_brute: referenced by: 
+   model dw3\ruby\effects\objects\vehicles\phantom\garbage\cargo\cargo_brute
+
+render_model scenarios\objects\solo\highcharity\conduit_ring_a\conduit_ring_a\conduit_ring_a: referenced by: 
+   scenario_structure_bsp scenarios\solo\07b_forerunnership\high_10
+
+render_model scenarios\objects\forerunner\residential\bench_10x2\bench_10x2: referenced by: 
+   model digsite\scenarios\objects\forerunner\residential\bench_10x2\bench_10x2
+
+render_model objects\weapons\rifle\assault_rifle\halo1_mcc\fp\fp: referenced by: 
+   weapon objects\weapons\rifle\assault_rifle\halo1_mcc\assault_rifle
+
+render_model objects\weapons\pistol\needler\projectiles\needler_shard\spike: referenced by: 
+   model zoephie\objects\weapons\halo_reach\weapons\rifle\needle_rifle\projectiles\needler_shard\spike_rifle_spike
+
+render_model objects\vehicles\phantom\garbage\door\door: referenced by: 
+   model dw3\ruby\effects\objects\vehicles\phantom\garbage\door\door
+
+render_model objects\vehicles\phantom\garbage\hull\hull: referenced by: 
+   model dw3\ruby\effects\objects\vehicles\phantom\garbage\hull\hull
+
+render_model scenarios\objects\solo\alphamoon\conduit\conduite\conduite: referenced by: 
+   model digsite\scenarios\objects\solo\alphamoon\conduit\conduite\conduite
+
+render_model objects\vehicles\phantom\garbage\tail\tail_brute: referenced by: 
+   model dw3\ruby\effects\objects\vehicles\phantom\garbage\tail\tail_brute
+
+render_model objects\vehicles\phantom\garbage\hull\hull_brute: referenced by: 
+   model dw3\ruby\effects\objects\vehicles\phantom\garbage\hull\hull_brute
+
+render_model aife\weapons\spike_rifle\projectiles\spike_shard\spike_shard: referenced by: 
+   model blackandfan\objects\characters\halo_wars\floodcombat_swarm\weapons\swarm_rifle\projectiles\spike_shard\spike_shard
+
+new_hud_definition ui\hud\sentinel_charge: referenced by: 
+   weapon dw3\test\weapons\charged_bolt\sentinel_aggressor_charged_bolt
+
+new_hud_definition ui\hud\sentinel_needler: referenced by: 
+   weapon dw3\test\weapons\needler\sentinel_aggressor_needler
+
+new_hud_definition ui\hud\sentinel_grenade: referenced by: 
+   weapon dw3\test\weapons\grenade\sentinel_aggressor_grenade
+
+new_hud_definition h1\weapons\pistol\ui\pistol: referenced by: 
+   weapon zoephie\objects\weapons\halo_reach\weapons\pistol\magnum_m6g\halo_reach_magnum
+
+physics_model scenarios\objects\forerunner\residential\bench_10x2\bench_10x2: referenced by: 
+   model digsite\scenarios\objects\forerunner\residential\bench_10x2\bench_10x2
+
+physics_model objects\vehicles\phantom\garbage\tail\tail: referenced by: 
+   model dw3\ruby\effects\objects\vehicles\phantom\garbage\tail\tail_brute
+
+physics_model objects\vehicles\phantom\garbage\door\door: referenced by: 
+   model dw3\ruby\effects\objects\vehicles\phantom\garbage\door\door
+
+physics_model objects\vehicles\phantom\garbage\hull\hull: referenced by: 
+   model dw3\ruby\effects\objects\vehicles\phantom\garbage\hull\hull
+   model dw3\ruby\effects\objects\vehicles\phantom\garbage\hull\hull_brute
+
+physics_model objects\vehicles\phantom\garbage\cabin\cabin: referenced by: 
+   model dw3\ruby\effects\objects\vehicles\phantom\garbage\cabin\cabin_brute
+
+physics_model objects\vehicles\phantom\garbage\cargo\cargo: referenced by: 
+   model dw3\ruby\effects\objects\vehicles\phantom\garbage\cargo\cargo_brute
+
+physics_model scenarios\objects\solo\alphamoon\conduit\conduite\conduite: referenced by: 
+   model digsite\scenarios\objects\solo\alphamoon\conduit\conduite\conduite
+
+physics_model objects\characters\monitor\monitor: referenced by: 
+   model objects\characters\monitor\monitor
+
+particle_physics effects\point_physics\hot_smoke_puff: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\fire_bullet
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_dirt
+
+particle_physics effects\particle_physics\cement_burst: referenced by: 
+   effect dw3\altsierra\effects\objects\vehicles\phantom\plasma_turret\trans_turret_destroyed
+   effect dw3\altsierra\objects\vehicles\creep\plasma_turret\weapons\effects\creep_turret_impact
+   effect dw3\altsierra\objects\vehicles\phantom\plasma_turret\weapons\effects\phantom_turret_impact
+   effect objects\vehicles\phantom\plasma_turret\weapons\effects\phantom_turret_impact
+   effect dw3\altsierra\objects\weapons\support_low\brute_shot\projectiles\plasma\e3_brute_shot_impact
+   effect dw3\effects\objects\vehicles\falcon\trans_main_destroyed
+   effect dw3\effects\objects\vehicles\uberchassis\trans_main_damaged
+   effect dw3\effects\objects\vehicles\uberchassis\trans_main_destroyed
+   effect dw3\effects\objects\weapons\fixed\plasma_cannon\plasma_cannon_destroyed
+   effect phanrev\objects\vehicles\brute_ghost\bg_seat_major_damage
+   effect phanrev\objects\vehicles\hornet\effects\damage\trans_cockpit_med_damage
+   effect phanrev\objects\vehicles\kestrel\effects\damage\trans_main_destroyed
+   effect effects\objects\weapons\fixed\plasma_cannon\plasma_cannon_destroyed
+   effect effects\objects\gear\human\military\fusion_coil_destroyed
+   effect effects\objects\vehicles\phantom\plasma_turret\trans_turret_destroyed
+   effect effects\scenarios\objects\multi\lockout\power_module\power_module_destroyed
+   effect effects\scenarios\objects\solo\earthcity\bridge_light\bridge_light_destroyed
+   effect effects\scenarios\objects\solo\earthcity\junction_box_lg\destroyed
+   effect effects\scenarios\objects\solo\earthcity\toll_booth\toll_booth_bot_destroyed
+   effect effects\scenarios\objects\solo\earthcity\toll_booth\toll_booth_top_destroyed
+   effect effects\impact\plasma_fast\c_turret_ap\c_turret_ap
+   effect digsite\objects\vehicles\c_dropship\turrets\cd_gun\garbage\cd_turret_destroyed
+   effect effects\objects\vehicles\c_turret_ap\c_turret_ap_destroyed
+   effect effects\objects\vehicles\ghost\seat_med_damage
+   effect effects\objects\vehicles\ghost\seat_major_damage
+   effect effects\objects\vehicles\warthog\trans_main_destroyed
+   effect effects\objects\vehicles\uberchassis\trans_main_destroyed
+   effect effects\objects\vehicles\warthog\chaingun\trans_main_destroyed
+
+particle_physics effects\point_physics\cold_smoke_puff: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_armored_skin
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_cyborg_armor
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_cyborg_shield
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_dirt
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_elite_armored_skin
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_grunt
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_jackal_shield
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_metal_thick_reflect
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_metal_thick_ricc
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_rubber_pen
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_stone
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_temp_generic
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg_dual\effects\impact_metal_thick_ricc
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg_dual\effects\impact_rubber_pen
+
+particle_physics effects\point_physics\vacuum_particle: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_armored_skin
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_cyborg_shield
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_elite_armored_skin
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_grunt
+
+particle_physics effects\point_physics\cold_smoke_cloud: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\fire_bullet
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_armored_skin
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_cyborg_armor
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_elite_armored_skin
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_glass
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_grunt
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_metal_thick_reflect
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_metal_thick_ricc
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_stone
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg_dual\effects\impact_glass
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg_dual\effects\impact_metal_thick_ricc
+
+particle_physics effects\point_physics\warm_smoke_cloud: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\fire_bullet
+
+particle_physics effects\point_physics\rubber: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_rubber_pen
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg_dual\effects\impact_rubber_pen
+
+particle_physics effects\point_physics\stones: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\fire_bullet
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_armored_skin
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_cyborg_armor
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_elite_armored_skin
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_grunt
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_metal_thick_reflect
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_metal_thick_ricc
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_stone
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg_dual\effects\impact_metal_thick_ricc
+
+particle_physics ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg_dual\others\stones: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg_dual\effects\fire_dual_bullet
+
+point_physics effects\point_physics\cold_smoke_puff: referenced by: 
+   contrail digsite\effects\objects\weapons\fixed\plasma_mortar\plasma_mortar
+
+point_physics z_old_fx\point_physics\vacuum_particle: referenced by: 
+   contrail digsite\objects\vehicles\c_turret_av\weapon\c_turret_av
+
+projectile objects\weapons\support_high\flak_cannon\projectiles\flak_bolt: referenced by: 
+   weapon objects\weapons\support_high\flak_cannon\flak_cannon
+   weapon digsite\objects\weapons\support_high\flak_cannon_combo\flak_cannon
+
+projectile objects\vehicles\h_turret_ap\weapon\saw: referenced by: 
+   weapon zoephie\objects\weapons\rifle\halo4_saw\saw
+
+projectile objects\vehicles\cov_guntower\weapon\cov_guntower_mortar: referenced by: 
+   weapon dw3\scenarios\objects\covenant\military\cov_guntower\weapon\cov_guntower_mortar
+
+projectile dw3\objects\weapons\rifle\smg_beta\projectiles\smg_bullet: referenced by: 
+   weapon dw3\objects\weapons\rifle\smg_silenced_beta\smg_silenced_beta
+
+particle effects\particles\solid\metal_chips: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_armored_skin
+
+particle effects\particles\solid\blood_generic_impact_burst: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_grunt
+
+particle effects\generic\sparks\burning_flame: referenced by: 
+   effect digsite\effects\objects\weapons\support_low\flamethrower\flame_char
+   effect digsite\effects\objects\weapons\support_low\flamethrower\flame_thrower_jet
+
+particle effects\particles\flash\sparks_trail: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_armored_skin
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_cyborg_armor
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_metal_thick_reflect
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_metal_thick_ricc
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_stone
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg_dual\effects\impact_metal_thick_ricc
+
+particle effects\particles\solid\gravel_small: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_stone
+
+particle effects\particles\solid\blood_elite_impact_mist_med: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_elite_armored_skin
+
+particle effects\particles\flash\sparks_impact: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_cyborg_armor
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_metal_thick_reflect
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_metal_thick_ricc
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_stone
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg_dual\effects\impact_metal_thick_ricc
+
+particle effects\particles\solid\rubber_impact: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_rubber_pen
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg_dual\effects\impact_rubber_pen
+
+particle effects\particles\flash\flash_h_pistol: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\fire_bullet
+
+particle effects\particles\solid\casing_h_pistol: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\fire_bullet
+
+particle effects\particles\solid\blood_generic_impact_mist_med: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_grunt
+
+particle effects\particles\solid\blood_elite_impact_mist_small: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_elite_armored_skin
+
+particle effects\particles\air\dirt_animated_kick: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_dirt
+
+particle effects\particles\air\dirt_animated_dust: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_dirt
+
+particle effects\particles\energy\flash_c_generic: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_cyborg_shield
+
+particle effects\generic\energy\hyperspace_ripple: referenced by: 
+   effect effects\cinematics\03\slipspace_collapse
+   effect effects\cinematics\03\slipspace_open
+   effect effects\cinematics\03\slipspace_widening
+   effect effects\cinematics\08\halo_disarm_center_glow
+
+particle effects\particles\energy\shield_c_generic: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_jackal_shield
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_temp_generic
+
+particle objects\weapons\fixed\plasma_mortar\effects\plasma_detonate_spill: referenced by: 
+   effect digsite\objects\weapons\fixed\plasma_mortar\effects\detonation
+
+particle effects\particles\solid\blood_generic_impact_mist_small: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_grunt
+
+particle effects\particles\solid\blood_h_impact_mist: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_armored_skin
+
+particle effects\particles\solid\blood_h_impact_burst: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_armored_skin
+
+particle effects\particles\flash\flash_h_shield_impact: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_armored_skin
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_cyborg_armor
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_elite_armored_skin
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_grunt
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_jackal_shield
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_metal_thick_reflect
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_metal_thick_ricc
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_stone
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_temp_generic
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg_dual\effects\impact_metal_thick_ricc
+
+particle effects\particles\flash\flash_h_pistol_center: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\fire_bullet
+
+particle effects\particles\flash\flash_h_pistol_muzzle: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\fire_bullet
+
+particle effects\particles\energy\shield_jackal_sparks: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_cyborg_shield
+
+particle effects\generic\smoke\smoke_fiery_tint_rotate: referenced by: 
+   effect effects\scenarios\objects\solo\earthcity\toll_booth\toll_booth_bot_destroyed
+   effect effects\scenarios\objects\solo\earthcity\toll_booth\toll_booth_top_destroyed
+
+particle effects\particles\solid\blood_engineer_trails: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_armored_skin
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_elite_armored_skin
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_grunt
+
+particle effects\particles\air\bubbles: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\fire_bullet
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_dirt
+
+particle effects\particles\air\smoke_h_generic_animated: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_rubber_pen
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg_dual\effects\impact_rubber_pen
+
+particle effects\objects\weapons\fixed\plasma_mortar\plasma_mortar_burstsmoke: referenced by: 
+   effect digsite\effects\objects\weapons\fixed\plasma_mortar\test
+
+particle effects\particles\solid\blood_h_impact_mist_med: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_armored_skin
+
+particle effects\particles\solid\blood_elite_impact_mist: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_elite_armored_skin
+
+particle effects\particles\air\smoke_h_fp: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\fire_bullet
+
+particle effects\particles\solid\blood_elite_impact_burst: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_elite_armored_skin
+
+particle effects\particles\air\smoke_impact: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_armored_skin
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_cyborg_armor
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_elite_armored_skin
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_glass
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_grunt
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_metal_thick_reflect
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_metal_thick_ricc
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_stone
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg_dual\effects\impact_glass
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg_dual\effects\impact_metal_thick_ricc
+
+particle effects\particles\solid\snow_burst: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_elite_armored_skin
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_grunt
+
+particle effects\particles\solid\blood_generic_impact_mist: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_grunt
+
+particle effects\particles\solid\blood_h_impact_mist_small: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_armored_skin
+
+scenario_structure_bsp scenarios\solo\alphamoon\alphamoon_1: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenario_structure_bsp scenarios\solo\alphamoon\alphamoon_2: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenario_structure_bsp scenarios\solo\alphamoon\alphamoon_3: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenario_structure_bsp scenarios\solo\alphamoon\alphamoon_4: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\solo\alphamoon\scaffolding\moon_awninga\moon_awninga: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\solo\alphamoon\scaffolding\moon_awningb\moon_awningb: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\solo\highcharity\high_sanctum_door\high_sanctum_door: referenced by: 
+   scenario_structure_bsp scenarios\solo\07b_forerunnership\high_8
+   scenario_structure_bsp scenarios\solo\07b_forerunnership\high_7
+
+scenery scenarios\objects\solo\alphamoon\dividers\divider_chain\divider_chain_link\divider_chain_link: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery levels\h2defense\rock_tower_small\rock_tower_small: referenced by: 
+   scenario digsite\scenarios\solo\h2defense\h2defense
+
+scenery scenarios\objects\solo\alphamoon\debris_c\debris_c: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\solo\alphamoon\boulders\boulder_f\boulder_f: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\solo\alphamoon\boulders\boulder_g\boulder_g: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\multi\marathon\foundation\foun_fan\foun_fan: referenced by: 
+   scenario scenarios\multi\marathon\foundation\foundation
+
+scenery scenery\plants\plant fern\plant fern: referenced by: 
+   scenario digsite\scenarios\solo\bloodgulch_test\bloodgulch_test
+
+scenery scenarios\objects\solo\deltacontrolroom\door_large\door_large: referenced by: 
+   scenario_structure_bsp scenarios\solo\08a_deltacliffs\deltacontrolroom_bsp0
+   scenario_structure_bsp scenarios\solo\08a_deltacliffs\deltacontrolroom_bsp1
+   scenario_structure_bsp scenarios\solo\08b_deltacontrol\deltacontrolroom_bsp0
+   scenario_structure_bsp scenarios\solo\08b_deltacontrol\deltacontrolroom_bsp2
+   scenario_structure_bsp scenarios\solo\08b_deltacontrol\deltacontrolroom_bsp3
+   scenario_structure_bsp scenarios\solo\08b_deltacontrol\deltacontrolroom_bsp4
+
+scenery scenarios\objects\solo\spacestation\ss_inhibitor\ss_inhibitor: referenced by: 
+   scenario_structure_bsp scenarios\solo\01a_tutorial\01_bsp_0
+
+scenery scenarios\objects\solo\sentinelhq\door_sentinel\door_sentinel: referenced by: 
+   scenario_structure_bsp scenarios\solo\06a_sentinelwalls\sentinelhq_1
+
+scenery scenarios\objects\solo\deltacontrolroom\door_small\door_small: referenced by: 
+   scenario_structure_bsp scenarios\solo\08a_deltacliffs\deltacontrolroom_bsp0
+   scenario_structure_bsp scenarios\solo\08a_deltacliffs\deltacontrolroom_bsp1
+   scenario_structure_bsp scenarios\solo\08b_deltacontrol\deltacontrolroom_bsp0
+   scenario_structure_bsp scenarios\solo\08b_deltacontrol\deltacontrolroom_bsp2
+
+scenery scenarios\objects\multi\zanzibar\flywheel\flywheel: referenced by: 
+   scenario_structure_bsp scenarios\multi\zanzibar\zanzibar
+
+scenery scenery\trees\tree_leafy_stump_crouch\tree_leafy_stump_crouch: referenced by: 
+   scenario digsite\scenarios\solo\bloodgulch_test\bloodgulch_test
+   scenario digsite\scenarios\solo\h2defense\h2defense
+
+scenery objects\weapons\pistol\plasma_pistol\plasma_pistol: referenced by: 
+   scenario_scenery_resource scenarios\solo\04a_gasgiant\resources\04a_gasgiant
+   scenario_scenery_resource scenarios\solo\04b_floodlab\resources\04b_floodlab
+   scenario_scenery_resource scenarios\solo\07a_highcharity\resources\07a_highcharity
+   scenario scenarios\solo\04b_floodlab\04b_floodlab
+   scenario scenarios\solo\04a_gasgiant\04a_gasgiant
+   scenario scenarios\solo\07a_highcharity\07a_highcharity
+
+scenery scenery\small beacon\small red beacon: referenced by: 
+   scenario digsite\scenarios\solo\bloodgulch_test\bloodgulch_test
+
+scenery scenery\teleporter_shield\teleporter: referenced by: 
+   scenario digsite\scenarios\solo\bloodgulch_test\bloodgulch_test
+
+scenery scenarios\objects\solo\highcharity\conduit_ring_a\conduit_ring_a\conduit_ring_a: referenced by: 
+   scenario_structure_bsp scenarios\solo\07b_forerunnership\high_10
+
+scenery scenarios\objects\solo\sentinelhq\detail_keylock_thinrod\detail_keylock_thinrod: referenced by: 
+   scenario_structure_bsp scenarios\solo\06a_sentinelwalls\sentinelhq_1
+
+scenery digsite\scenarios\objects\solo\moonbase\cov_metal_small\cov_metal_small: referenced by: 
+   scenario digsite\scenarios\solo\moonbase\moonbase
+
+scenery scenarios\objects\solo\spacestation\ss_hangar_door_switch\ss_hangar_door_switch: referenced by: 
+   scenario_structure_bsp blackandfan\scenarios\solo\01b_spacestation\01_bsp_3
+   scenario_structure_bsp scenarios\solo\01b_spacestation\01_bsp_3
+
+scenery digsite\scenarios\objects\nature\trees\tree_ancient\tree_bush\tree_bush: referenced by: 
+   scenario digsite\scenarios\solo\h2defense\h2defense
+
+scenery scenarios\objects\solo\alphamoon\dividers\divider_curled\divider_curled: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery objects\characters\elite\elite_corpse: referenced by: 
+   scenario digsite\scenarios\solo\moonbase\moonbase
+
+scenery scenarios\objects\solo\alphamoon\dividers\divider_sml_panels\divider_sml_panel_a\divider_sml_panel_a: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\solo\alphamoon\dividers\divider_sml_panels\divider_sml_panel_c\divider_sml_panel_c: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery digsite\scenarios\objects\solo\moonbase\baton\baton: referenced by: 
+   scenario digsite\scenarios\solo\moonbase\moonbase
+
+scenery scenarios\objects\solo\alphamoon\large\large_spike\large_spike: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenery\rocks\boulder_large_grey\boulder_large_grey: referenced by: 
+   scenario digsite\scenarios\solo\bloodgulch_test\bloodgulch_test
+
+scenery scenery\small beacon\small blue beacon: referenced by: 
+   scenario digsite\scenarios\solo\bloodgulch_test\bloodgulch_test
+
+scenery scenarios\objects\solo\alphamoon\large\large_strip\large_strip: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenery\rocks\boulder_doublewide\boulder_doublewide: referenced by: 
+   scenario digsite\scenarios\solo\bloodgulch_test\bloodgulch_test
+
+scenery scenarios\objects\forerunner\industrial\doors\door_tron_lg\door_tron_lg: referenced by: 
+   scenario_structure_bsp scenarios\solo\04a_gasgiant\alphagasgiant
+   scenario_structure_bsp scenarios\solo\04a_gasgiant\production_arm
+   scenario_structure_bsp scenarios\solo\04b_floodlab\research_arm
+   scenario_structure_bsp scenarios\solo\04b_floodlab\alphagasgiant2
+
+scenery scenarios\objects\forerunner\industrial\doors\door_tron_sm\door_tron_sm: referenced by: 
+   scenario_structure_bsp scenarios\solo\04a_gasgiant\alphagasgiant
+   scenario_structure_bsp scenarios\solo\04a_gasgiant\production_arm
+   scenario_structure_bsp scenarios\solo\04b_floodlab\research_arm
+   scenario_structure_bsp scenarios\solo\04b_floodlab\alphagasgiant2
+   scenario_structure_bsp scenarios\solo\04b_floodlab\production_arm2
+
+scenery scenarios\objects\solo\deltacontrolroom\control_walkway\control_walkway: referenced by: 
+   scenario_structure_bsp scenarios\solo\08b_deltacontrol\deltacontrolroom_bsp3
+
+scenery scenarios\objects\multi\cyclotron\elevator_cyclotron\elevator_cyclotron: referenced by: 
+   scenario_structure_bsp scenarios\multi\cyclotron\cyclotron
+
+scenery objects\vehicles\c_dropship\c_dropship: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon
+   scenario_scenery_resource digsite\scenarios\solo\alphamoon\resources\alphamoon
+
+scenery scenarios\objects\solo\spacestation\doors\ss_door_int_mech_small\ss_door_int_mech_small: referenced by: 
+   scenario_structure_bsp blackandfan\scenarios\solo\01b_spacestation\01_bsp_2
+   scenario_structure_bsp blackandfan\scenarios\solo\01b_spacestation\01_bsp_3
+   scenario_structure_bsp scenarios\solo\01a_tutorial\01_bsp_0
+   scenario_structure_bsp scenarios\solo\01b_spacestation\01_bsp_2
+   scenario_structure_bsp scenarios\solo\01b_spacestation\01_bsp_3
+
+scenery scenery\shrubs\shrub_large\shrub_large: referenced by: 
+   scenario digsite\scenarios\solo\bloodgulch_test\bloodgulch_test
+
+scenery scenarios\objects\solo\highcharity\pedestal\pedestal: referenced by: 
+   scenario_structure_bsp scenarios\solo\07a_highcharity\high_0
+
+scenery scenarios\objects\nature\trees\tree_cliff\tree_cliff: referenced by: 
+   scenario_scenery_resource scenarios\multi\zanzibar\resources\zanzibar
+   scenario scenarios\multi\zanzibar\zanzibar
+
+scenery scenarios\objects\solo\alphamoon\blockade\blockade_a\blockade_a: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\solo\alphamoon\blockade\blockade_b\blockade_b: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\solo\alphamoon\blockade\blockade_c\blockade_c: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\solo\alphamoon\blockade\blockade_d\blockade_d: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\solo\deltatemple\gondola\gondola_launch\gondola_launch: referenced by: 
+   scenario_structure_bsp scenarios\solo\05a_deltaapproach\bsp_01
+   scenario_structure_bsp scenarios\solo\05b_deltatowers\bsp_03
+
+scenery scenarios\objects\solo\alphamoon\halo\halo_fin_lrg\halo_fin_lrg: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\solo\alphamoon\halo\halo_fin_sml\halo_fin_sml: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\covenant\military\cov_gravity_field\main\main: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\solo\spacestation\ss_gun_loader\ss_gun_loader: referenced by: 
+   scenario_structure_bsp blackandfan\scenarios\solo\01b_spacestation\01_bsp_3
+   scenario_structure_bsp scenarios\solo\01b_spacestation\01_bsp_3
+
+scenery scenery\teleporter_base\teleporter_base: referenced by: 
+   scenario digsite\scenarios\solo\bloodgulch_test\bloodgulch_test
+
+scenery scenarios\objects\solo\alphamoon\dividers\divider_chain\divider_chain_cable\divider_chain_cable: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\test\d_cube_i\d_cube_i: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\solo\alphamoon\dividers\divider_chain\divider_chain_prong\divider_chain_prong: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery objects\vehicles\uberchassis\uberchassis: referenced by: 
+   scenario digsite\scenarios\multi\03_headlong\03_headlong
+
+scenery scenarios\objects\solo\sentinelhq\detail_keylocker_03\detail_keylocker_03: referenced by: 
+   scenario_structure_bsp scenarios\solo\06a_sentinelwalls\sentinelhq_1
+
+scenery scenarios\objects\solo\sentinelhq\detail_keylocker_04\detail_keylocker_04: referenced by: 
+   scenario_structure_bsp scenarios\solo\06a_sentinelwalls\sentinelhq_1
+
+scenery scenarios\objects\solo\sentinelhq\detail_keylocker_05\detail_keylocker_05: referenced by: 
+   scenario_structure_bsp scenarios\solo\06a_sentinelwalls\sentinelhq_1
+
+scenery scenarios\objects\solo\alphamoon\large\large_bridge\large_bridge: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\solo\alphamoon\dividers\divider_curled_wide\divider_curled_wide: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\solo\sentinelhq\detail_keylock_thickrod\detail_keylock_thickrod: referenced by: 
+   scenario_structure_bsp scenarios\solo\06a_sentinelwalls\sentinelhq_1
+
+scenery objects\characters\masterchief\helmet_hero\helmet_hero: referenced by: 
+   model dw3\objects\characters\grunt_dw3\grunt_hero
+
+scenery objects\gear\covenant\military\crate_space\crate_space: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon
+   scenario_scenery_resource digsite\scenarios\solo\alphamoon\resources\alphamoon
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+   scenario digsite\scenarios\solo\h2defense\h2defense
+   scenario digsite\scenarios\solo\moonbase\moonbase
+
+scenery scenarios\objects\solo\spacestation\ss_elevator_gunchamber\ss_elevator_gunchamber: referenced by: 
+   scenario_structure_bsp blackandfan\scenarios\solo\01b_spacestation\01_bsp_3
+   scenario_structure_bsp scenarios\solo\01b_spacestation\01_bsp_3
+
+scenery scenarios\objects\solo\spacestation\ss_armory_shield_charger_door\ss_armory_shield_charger_door: referenced by: 
+   scenario_structure_bsp scenarios\solo\01a_tutorial\01_bsp_0
+
+scenery scenarios\objects\solo\spacestation\ss_elevator_armory\ss_elevator_armory: referenced by: 
+   scenario_structure_bsp scenarios\solo\01a_tutorial\01_bsp_0
+
+scenery scenarios\objects\solo\highcharity\high_door\high_door: referenced by: 
+   scenario_structure_bsp scenarios\multi\marathon\gemini\gemini
+   scenario_structure_bsp scenarios\solo\07a_highcharity\high_0
+   scenario_structure_bsp scenarios\solo\07a_highcharity\high_4_cinematic
+   scenario_structure_bsp scenarios\solo\07b_forerunnership\high_8
+   scenario_structure_bsp scenarios\solo\07a_highcharity\high_1
+   scenario_structure_bsp scenarios\solo\07a_highcharity\high_2
+   scenario_structure_bsp scenarios\solo\07a_highcharity\high_3
+   scenario_structure_bsp scenarios\solo\07a_highcharity\high_4
+   scenario_structure_bsp scenarios\solo\07a_highcharity\high_5
+   scenario_structure_bsp scenarios\solo\07a_highcharity\high_3b
+   scenario_structure_bsp scenarios\solo\07b_forerunnership\high_6
+   scenario_structure_bsp scenarios\solo\07b_forerunnership\high_7
+
+scenery scenarios\objects\test\earthark_petals\earthark_petals: referenced by: 
+   scenario digsite\scenarios\test\earthark\earthark
+
+scenery scenarios\objects\solo\spacestation\ss_exterior_gun\ss_exterior_gun_hinge\ss_exterior_gun_hinge: referenced by: 
+   scenario_structure_bsp blackandfan\scenarios\solo\01b_spacestation\01_bsp_2
+   scenario_structure_bsp blackandfan\scenarios\solo\01b_spacestation\01_bsp_3
+   scenario_structure_bsp scenarios\solo\01a_tutorial\01_bsp_0
+   scenario_structure_bsp scenarios\solo\01a_tutorial\01_bsp_1
+   scenario_structure_bsp scenarios\solo\01b_spacestation\01_bsp_2
+   scenario_structure_bsp scenarios\solo\01b_spacestation\01_bsp_3
+
+scenery scenarios\objects\solo\alphamoon\large\large_finalbattle\large_finalbattle: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenery\emitters\stone debris\stone debris: referenced by: 
+   scenario digsite\scenarios\solo\moonbase\moonbase
+
+scenery scenery\rocks\a50_rock_large\a50_rock_large: referenced by: 
+   scenario digsite\scenarios\solo\bloodgulch_test\bloodgulch_test
+
+scenery scenarios\objects\solo\alphamoon\dividers\divider_duo\divider_duo: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\solo\alphamoon\boot\boot: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\solo\alphamoon\cover\cover_half_height\cover_half_height: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\multi\lockout\elevator_lockout\elevator_lockout: referenced by: 
+   scenario digsite\scenarios\multi\03_lockout\03_lockout
+
+scenery scenarios\objects\solo\sentinelhq\door_piston_top\door_piston_top: referenced by: 
+   scenario_structure_bsp scenarios\solo\06a_sentinelwalls\sentinelhq_1
+   scenario_structure_bsp scenarios\solo\06a_sentinelwalls\sentinelhq_1b
+
+scenery scenery\rocks\boulder_crouch\boulder_crouch: referenced by: 
+   scenario digsite\scenarios\solo\bloodgulch_test\bloodgulch_test
+
+scenery scenery\rocks\rock_sharpwide\rock_sharpwide: referenced by: 
+   scenario digsite\scenarios\solo\h2defense\h2defense
+
+scenery scenarios\objects\solo\alphamoon\large\large_4turret\large_4turret: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\solo\alphagasgiant\cable_room_top\cable_room_top: referenced by: 
+   scenario_structure_bsp scenarios\solo\04b_floodlab\cableroom2
+
+scenery scenarios\objects\solo\highcharity\high_jail_kiosk\high_jail_kiosk: referenced by: 
+   scenario_scenery_resource scenarios\solo\07a_highcharity\resources\07a_highcharity
+   scenario scenarios\solo\07a_highcharity\07a_highcharity
+
+scenery scenarios\objects\solo\highcharity\high_small_door\high_small_door: referenced by: 
+   scenario_structure_bsp scenarios\solo\07a_highcharity\high_0
+   scenario_structure_bsp scenarios\solo\07a_highcharity\high_3
+   scenario_structure_bsp scenarios\solo\07a_highcharity\high_3b
+
+scenery scenarios\objects\solo\alphamoon\debris_biga\debris_biga: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\solo\alphamoon\debris_bigb\debris_bigb: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\solo\alphamoon\debris_bigc\debris_bigc: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\solo\alphamoon\debris_bigd\debris_bigd: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\solo\highcharity\maus_platform_a\maus_platform_a: referenced by: 
+   scenario_structure_bsp scenarios\solo\07b_forerunnership\high_6
+
+scenery scenarios\objects\test\d_debris_a\d_debris_a: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\test\d_cylinder\d_cylinder: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\solo\alphamoon\joint\joint: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\templates\scenery\space_crate_upright\space_crate_upright: referenced by: 
+   scenario_scenery_resource scenarios\solo\06a_sentinelwalls\resources\06a_sentinelwalls
+   scenario scenarios\solo\06a_sentinelwalls\06a_sentinelwalls
+
+scenery digsite\scenarios\objects\nature\trees\tree_leafy\tree_leafy_giant\tree_leafy_giant: referenced by: 
+   scenario digsite\scenarios\solo\h2defense\h2defense
+
+scenery scenarios\objects\solo\alphamoon\destructible\destructible_b\destructible_b: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\solo\alphamoon\destructible\destructible_c\destructible_c: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\solo\alphamoon\destructible\destructible_d\destructible_d: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery digsite\scenarios\objects\nature\trees\tree_leafy\tree_leafy_small\tree_leafy_small: referenced by: 
+   scenario digsite\scenarios\solo\h2defense\h2defense
+
+scenery scenarios\objects\solo\spacestation\ss_elevator_vehicle\ss_elevator_vehicle: referenced by: 
+   scenario_structure_bsp blackandfan\scenarios\solo\01b_spacestation\01_bsp_3
+   scenario_structure_bsp scenarios\solo\01b_spacestation\01_bsp_3
+
+scenery levels\b40\scenery\b40_doorblinker\doorblinker: referenced by: 
+   scenario digsite\scenarios\solo\bloodgulch_test\bloodgulch_test
+
+scenery scenarios\objects\human\residential\cafe_chair\cafe_chair: referenced by: 
+   scenario_scenery_resource scenarios\solo\03b_newmombasa\resources\03b_newmombasa
+   scenario_structure_bsp scenarios\solo\03b_newmombasa\earthcity_4
+   scenario scenarios\solo\03b_newmombasa\03b_newmombasa
+   scenario digsite\scenarios\multi\03_headlong\03_headlong
+
+scenery scenarios\objects\human\residential\cafe_table\cafe_table: referenced by: 
+   scenario_scenery_resource scenarios\solo\03b_newmombasa\resources\03b_newmombasa
+   scenario_structure_bsp scenarios\solo\03b_newmombasa\earthcity_4
+   scenario scenarios\solo\03b_newmombasa\03b_newmombasa
+   scenario digsite\scenarios\multi\03_headlong\03_headlong
+
+scenery scenarios\objects\covenant\military\cov_watchtower\cov_watchtower_base\cov_watchtower_base: referenced by: 
+   scenario digsite\scenarios\solo\h2defense\h2defense
+
+scenery scenarios\objects\solo\alphamoon\halo\halo_disc\halo_disc: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery objects\test\hud_vid\hud_vid: referenced by: 
+   scenario scenarios\multi\dune\dune
+   scenario_scenery_resource scenarios\multi\dune\resources\dune
+
+scenery scenarios\objects\solo\alphamoon\halo\halo_long\halo_long: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenery\rocks\rock_sharpwedge\rock_sharpwedge: referenced by: 
+   scenario digsite\scenarios\solo\h2defense\h2defense
+
+scenery scenery\trees\tree_desert_whitebark\tree_desert_whitebark: referenced by: 
+   scenario digsite\scenarios\solo\bloodgulch_test\bloodgulch_test
+
+scenery scenarios\objects\solo\sentinelhq\door_piston\door_piston: referenced by: 
+   scenario_structure_bsp scenarios\solo\06a_sentinelwalls\sentinelhq_1
+   scenario_structure_bsp scenarios\solo\06a_sentinelwalls\sentinelhq_1b
+
+scenery scenarios\objects\solo\spacestation\doors\ss_door_tram\ss_door_tram: referenced by: 
+   scenario_structure_bsp scenarios\solo\01a_tutorial\01_bsp_0
+
+scenery scenery\rocks\boulder\boulder: referenced by: 
+   scenario digsite\scenarios\solo\bloodgulch_test\bloodgulch_test
+
+scenery levels\h2defense\rock_tower_med\rock_tower_med: referenced by: 
+   scenario digsite\scenarios\solo\h2defense\h2defense
+
+scenery scenarios\objects\solo\alphamoon\large\large_finalbattle_topa\large_finalbattle_topa: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\solo\alphamoon\large\large_finalbattle_topb\large_finalbattle_topb: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\solo\highcharity\maus_platform_bridge\maus_platform_bridge: referenced by: 
+   scenario_structure_bsp scenarios\solo\07b_forerunnership\high_6
+
+scenery digsite\scenarios\objects\nature\trees\tree_ancient\tree_ancient_medium\tree_ancient_medium: referenced by: 
+   scenario digsite\scenarios\solo\h2defense\h2defense
+
+scenery digsite\objects\vehicles\c_dropship\c_dropship: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\solo\alphagasgiant\cable_room\cable_room: referenced by: 
+   scenario_structure_bsp scenarios\solo\04b_floodlab\cableroom2
+
+scenery scenarios\objects\test\null_object\null_object: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery levels\a50\scenery\a50_nutblocker\a50_nutblocker: referenced by: 
+   scenario digsite\scenarios\solo\h2defense\h2defense
+   scenario digsite\scenarios\solo\moonbase\moonbase
+
+scenery scenarios\objects\solo\alphamoon\drivethru\drivethru_tunnel\drivethru_tunnel: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\solo\spacestation\doors\ss_door_hangar_cinematic\ss_door_hangar_cinematic: referenced by: 
+   scenario_structure_bsp blackandfan\scenarios\solo\01b_spacestation\01_bsp_3
+   scenario_structure_bsp scenarios\solo\01b_spacestation\01_bsp_3
+
+scenery scenarios\objects\solo\alphamoon\conduit\conduita\conduita: referenced by: 
+   scenario digsite\scenarios\multi\03_burial_mounds\03_burial_mounds
+   scenario digsite\scenarios\solo\alphamoon\alphamoon
+   scenario_scenery_resource digsite\scenarios\solo\alphamoon\resources\alphamoon
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\solo\alphamoon\conduit\conduitb\conduitb: referenced by: 
+   scenario digsite\scenarios\multi\03_burial_mounds\03_burial_mounds
+   scenario digsite\scenarios\solo\alphamoon\alphamoon
+   scenario_scenery_resource digsite\scenarios\solo\alphamoon\resources\alphamoon
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\solo\alphamoon\conduit\conduitc\conduitc: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon
+   scenario_scenery_resource digsite\scenarios\solo\alphamoon\resources\alphamoon
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\solo\alphamoon\conduit\conduitd\conduitd: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon
+   scenario_scenery_resource digsite\scenarios\solo\alphamoon\resources\alphamoon
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenery\plants\plant_broadleaf_short\plant_broadleaf_short: referenced by: 
+   scenario digsite\scenarios\solo\bloodgulch_test\bloodgulch_test
+
+scenery scenarios\objects\solo\alphamoon\large\large_overhang\large_overhang: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+scenery scenarios\objects\solo\earthcity\nm_door_blast_big\nm_door_blast_big: referenced by: 
+   scenario_structure_bsp scenarios\solo\03b_newmombasa\earthcity_4
+
+scenery scenery\floor_arrow\floor_arrow: referenced by: 
+   scenario digsite\scenarios\solo\bloodgulch_test\bloodgulch_test
+
+scenery scenery\trees\tree_desert_dead\tree_desert_dead: referenced by: 
+   scenario digsite\scenarios\solo\bloodgulch_test\bloodgulch_test
+
+scenery scenery\trees\tree_leafy_stump\tree_leafy_stump: referenced by: 
+   scenario digsite\scenarios\solo\h2defense\h2defense
+
+scenery scenarios\objects\multi\containment\base_shield\base_shield: referenced by: 
+   scenario_structure_bsp digsite\scenarios\multi\evergreen\evergreen
+
+scenery levels\h2defense\rock_tower_tall\rock_tower_tall: referenced by: 
+   scenario digsite\scenarios\solo\h2defense\h2defense
+
+scenery scenery\trees\tree_leafy_fallentrunk\tree_leafy_fallentrunk: referenced by: 
+   scenario digsite\scenarios\solo\bloodgulch_test\bloodgulch_test
+
+scenery scenarios\objects\multi\midship\midship_phantom_volume\midship_phantom_volume: referenced by: 
+   scenario_structure_bsp scenarios\multi\midship\midship
+
+scenery scenarios\objects\solo\spacestation\ss_gun_rack\ss_gun_rack: referenced by: 
+   scenario_structure_bsp scenarios\solo\01a_tutorial\01_bsp_0
+
+scenery scenarios\objects\solo\spacestation\ss_tram_car\ss_tram_car: referenced by: 
+   scenario_structure_bsp scenarios\solo\01a_tutorial\01_bsp_0
+
+scenery digsite\scenarios\objects\nature\trees\tree_leafy\tree_leafy_medium\tree_leafy_medium: referenced by: 
+   scenario digsite\scenarios\solo\h2defense\h2defense
+
+scenery digsite\scenarios\objects\solo\moonbase\cov_metal_wide\cov_metal_wide: referenced by: 
+   scenario digsite\scenarios\solo\moonbase\moonbase
+
+scenery digsite\scenarios\objects\solo\moonbase\cov_metal_tall\cov_metal_tall: referenced by: 
+   scenario digsite\scenarios\solo\moonbase\moonbase
+
+scenery scenarios\objects\multi\halo\highplains\inviscollision\inviscollision: referenced by: 
+   scenario scenarios\multi\halo\highplains\highplains
+
+scenery scenarios\objects\solo\spacestation\doors\ss_door_int_hab_large\ss_door_int_hab_large: referenced by: 
+   scenario_structure_bsp blackandfan\scenarios\solo\01b_spacestation\01_bsp_2
+   scenario_structure_bsp scenarios\solo\01a_tutorial\01_bsp_0
+   scenario_structure_bsp scenarios\solo\01a_tutorial\01_bsp_1
+   scenario_structure_bsp scenarios\solo\01b_spacestation\01_bsp_2
+
+scenery scenarios\objects\solo\spacestation\ss_armory_shield_charger\ss_armory_shield_charger: referenced by: 
+   scenario_structure_bsp scenarios\solo\01a_tutorial\01_bsp_0
+
+scenery scenarios\objects\solo\earthcity\nm_door_blast\nm_door_blast: referenced by: 
+   scenario_structure_bsp scenarios\solo\03b_newmombasa\earthcity_4
+
+scenery scenarios\objects\solo\earthcity\nm_door_glass\nm_door_glass: referenced by: 
+   scenario_structure_bsp scenarios\solo\03b_newmombasa\earthcity_4
+
+scenery scenarios\objects\multi\waterworks\main_crusher\main_crusher: referenced by: 
+   scenario_structure_bsp scenarios\multi\waterworks\waterworks
+
+scenery scenarios\objects\multi\ascension\antenna\antenna: referenced by: 
+   scenario_structure_bsp scenarios\multi\ascension\ascension
+   scenario digsite\scenarios\multi\03_ascension\03_ascension
+
+scenery scenarios\objects\solo\alphagasgiant\cable_room_whole\cable_room_whole: referenced by: 
+   scenario_structure_bsp scenarios\solo\04b_floodlab\cableroom
+
+shader objects\weapons\rifle\assault_rifle\halo1_mcc\shaders\ar_data: referenced by: 
+   render_model objects\weapons\rifle\assault_rifle\halo1_mcc\assault_rifle
+
+shader objects\weapons\rifle\assault_rifle\halo1_mcc\shaders\compass: referenced by: 
+   render_model objects\weapons\rifle\assault_rifle\halo1_mcc\assault_rifle
+
+shader objects\weapons\rifle\assault_rifle\halo1_mcc\shaders\display: referenced by: 
+   render_model objects\weapons\rifle\assault_rifle\halo1_mcc\assault_rifle
+
+shader objects\vehicles\phantom\garbage\shaders\phantom_damaged_brute: referenced by: 
+   render_model dw3\ruby\effects\objects\vehicles\phantom\garbage\cabin\cabin_brute
+   render_model dw3\ruby\effects\objects\vehicles\phantom\garbage\cargo\cargo_brute
+   render_model dw3\ruby\effects\objects\vehicles\phantom\garbage\hull\hull_brute
+
+shader objects\vehicles\phantom\garbage\shaders\ghost_torn: referenced by: 
+   render_model dw3\ruby\effects\objects\vehicles\phantom\garbage\hull\hull
+
+shader objects\weapons\pistol\needler\shaders\needler_luminous - copy: referenced by: 
+   render_model zoephie\objects\weapons\halo_reach\weapons\rifle\needle_rifle\projectiles\needler_shard\spike
+
+shader scenarios\shaders\test\mzaktest\scruff: referenced by: 
+   render_model digsite\scenarios\objects\test\exca_tunnel\exca_tunnel
+
+shader scenarios\shaders\nature\ground\dirt_rough: referenced by: 
+   scenario_structure_bsp digsite\scenarios\multi\missile_beach\missile_beach_bridge_testv8
+
+shader objects\weapons\rifle\assault_rifle\halo1\shaders\icons: referenced by: 
+   render_model objects\weapons\rifle\assault_rifle\halo1\fp\fp
+
+shader objects\vehicles\phantom\shaders\phantom_exterior_brute: referenced by: 
+   render_model dw3\ruby\effects\objects\vehicles\phantom\garbage\cabin\cabin_brute
+   render_model dw3\ruby\effects\objects\vehicles\phantom\garbage\cargo\cargo_brute
+   render_model dw3\ruby\effects\objects\vehicles\phantom\garbage\hull\hull_brute
+
+shader objects\vehicles\phantom\garbage\shaders\phantom_damaged: referenced by: 
+   render_model dw3\ruby\effects\objects\vehicles\phantom\garbage\hull\hull
+   render_model dw3\ruby\effects\objects\vehicles\phantom\garbage\tail\tail_brute
+
+shader objects\weapons\rifle\assault_rifle\halo1_mcc\shaders\gun: referenced by: 
+   render_model objects\weapons\rifle\assault_rifle\halo1_mcc\assault_rifle
+
+shader objects\weapons\rifle\assault_rifle\halo1\shaders\ar_data: referenced by: 
+   render_model objects\weapons\rifle\assault_rifle\halo1\assault_rifle
+   render_model objects\weapons\rifle\assault_rifle\halo1\fp\fp
+
+shader objects\vehicles\phantom\garbage\shaders\ghost_torn_brute: referenced by: 
+   render_model dw3\ruby\effects\objects\vehicles\phantom\garbage\cabin\cabin_brute
+   render_model dw3\ruby\effects\objects\vehicles\phantom\garbage\cargo\cargo_brute
+   render_model dw3\ruby\effects\objects\vehicles\phantom\garbage\hull\hull_brute
+
+shader objects\weapons\rifle\assault_rifle\halo1_mcc\shaders\bolt: referenced by: 
+   render_model objects\weapons\rifle\assault_rifle\halo1_mcc\assault_rifle
+
+shader objects\weapons\rifle\assault_rifle\halo1_mcc\shaders\grip: referenced by: 
+   render_model objects\weapons\rifle\assault_rifle\halo1_mcc\assault_rifle
+
+shader objects\weapons\rifle\assault_rifle\halo1_mcc\shaders\ones: referenced by: 
+   render_model objects\weapons\rifle\assault_rifle\halo1_mcc\assault_rifle
+
+shader objects\weapons\rifle\assault_rifle\halo1_mcc\shaders\tens: referenced by: 
+   render_model objects\weapons\rifle\assault_rifle\halo1_mcc\assault_rifle
+
+shader aife\weapons\spike_rifle\projectiles\spike_shard\shaders\spike_shard: referenced by: 
+   render_model blackandfan\objects\characters\halo_wars\floodcombat_swarm\weapons\swarm_rifle\projectiles\spike_shard\spike_shard
+
+shader objects\weapons\rifle\assault_rifle\halo1_mcc\shaders\icons: referenced by: 
+   render_model objects\weapons\rifle\assault_rifle\halo1_mcc\assault_rifle
+
+shader effects\generic\shaders\beam_add: referenced by: 
+   effect effects\scenarios\objects\solo\sentinelhq\sentinel_factory\factory_electric_arcs
+
+shader objects\weapons\rifle\assault_rifle\halo1_mcc\shaders\ar_lod: referenced by: 
+   render_model objects\weapons\rifle\assault_rifle\halo1_mcc\assault_rifle
+
+shader objects\weapons\zoephie\halo_4\rifle\storm_lmg\shaders\storm_lmg_display_depleted_diff: referenced by: 
+   render_model zoephie\objects\weapons\halo_4\rifle\storm_lmg\fp\storm_lmg_fp
+   render_model zoephie\objects\weapons\halo_4\rifle\storm_lmg\storm_lmg
+
+user_interface_list_skin_definition ui\player_skins\pcr_team: referenced by: 
+   user_interface_list_skin_definition ui\list_skins\pcr_lists\team_stats
+
+sky scenarios\skies\solo\highcharity\high_charity_conduit_ride: referenced by: 
+   scenario scenarios\solo\07b_forerunnership\07b_forerunnership
+
+sound sound\weapons\assault_rifle_h3\idle_posing_1\idle_pose_var_1a: referenced by: 
+   model_animation_graph d_flog_flag\objects\weapons\h3_assault_rifle\fp\fp
+
+sound sound\weapons\assault_rifle_h3\idle_posing_2\idle_pose_var_2a: referenced by: 
+   model_animation_graph d_flog_flag\objects\weapons\h3_assault_rifle\fp\fp
+
+sound sound\dialog\combat\grunt_dopey\02_danger\rmd_trrt: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\02_danger\dwn_trrt: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\02_danger\dwn_trrt: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_dopey\08_judge\kllmytrgt: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\11_group\joinme_re: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\16_taunt\tnt_nopts: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\vehicles\damage_effects\cov_damage_large_lod: referenced by: 
+   effect luna\effects\objects\vehicles\ghost_heretic\hull_destroyed_damage
+
+sound aife\weapons\spike_rifle\sounds\spike_impacts_dirt: referenced by: 
+   material_effects zoephie\objects\weapons\infinite_weapons\objects\weapons\support_high\skewer\skewer
+   material_effects blackandfan\objects\characters\halo_wars\floodcombat_swarm\weapons\swarm_rifle\swarm_rifle
+
+sound aife\weapons\spike_rifle\sounds\spike_impacts_soft: referenced by: 
+   material_effects zoephie\objects\weapons\infinite_weapons\objects\weapons\support_high\skewer\skewer
+   material_effects blackandfan\objects\characters\halo_wars\floodcombat_swarm\weapons\swarm_rifle\swarm_rifle
+
+sound sound\cinematics\alphamoon\outro\radioplay_ambient: referenced by: 
+   sound_looping digsite\sound\cinematics\alphamoon\outro_music
+
+sound sound\weapons\assault_rifle_h3\melee: referenced by: 
+   model_animation_graph d_flog_flag\objects\weapons\h3_assault_rifle\fp\fp
+
+sound sound\weapons\assault_rifle_h3\ready: referenced by: 
+   model_animation_graph d_flog_flag\objects\weapons\h3_assault_rifle\fp\fp
+
+sound sound\dialog\combat\marine_sassy\02_danger\dwn_trrt: referenced by: 
+   dialogue sound\dialog\combat\marine_sassy
+
+sound sound\dialog\combat\grunt_dopey\05_postcombat\askme_chkallybdy: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\01_alert\seefoe_agg: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\02_danger\rmd_stlth: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\02_danger\dwn_stlth: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\02_danger\warn_trrt: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\01_alert\seefoe_tim: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\04_search\keepwatch: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\17_threaten\thrtn_mjrfoe_chief: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\05_postcombat\askme_chkallybdy: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_crazy\01_alert\seefoe_agg: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_crazy\02_danger\rmd_stlth: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_crazy\02_danger\dwn_stlth: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_crazy\02_danger\warn_trrt: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_crazy\01_alert\seefoe_tim: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_dopey\19_gloat\glt_mjrfoe: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\15_curse\crs_mjrfoe: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\15_curse\crs_mjrfoe: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_dopey\16_taunt\tnt_mjrfoe: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\06_outburst\feartoo: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\06_outburst\feartoo: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound aife\weapons\spike_rifle\sounds\spike_rifle_drops\spike_rifle_drop_dirt: referenced by: 
+   material_effects zoephie\objects\weapons\infinite_weapons\objects\weapons\support_high\skewer\skewer
+   material_effects blackandfan\objects\characters\halo_wars\floodcombat_swarm\weapons\swarm_rifle\swarm_rifle
+
+sound aife\weapons\spike_rifle\sounds\spike_rifle_drops\spike_rifle_drop_soft: referenced by: 
+   material_effects zoephie\objects\weapons\infinite_weapons\objects\weapons\support_high\skewer\skewer
+   material_effects blackandfan\objects\characters\halo_wars\floodcombat_swarm\weapons\swarm_rifle\swarm_rifle
+
+sound sound\weapons\assault_rifle_h3\firing: referenced by: 
+   effect d_flog_flag\objects\weapons\h3_assault_rifle\fire_bullet
+   effect d_flog_flag\objects\weapons\h3_assault_rifle\fire_bullet_var2
+
+sound sound\weapons\assault_rifle_h3\reload: referenced by: 
+   model_animation_graph d_flog_flag\objects\weapons\h3_assault_rifle\fp\fp
+
+sound sound\dialog\combat\grunt_dopey\01_alert\morefoe_agg: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\01_alert\morefoe_tim: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\marine_cross\16_taunt\tnt_mjrfoe: referenced by: 
+   dialogue sound\dialog\combat\marine_cross
+
+sound sound\dialog\combat\grunt_crazy\01_alert\morefoe_agg: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_crazy\01_alert\morefoe_tim: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_dopey\08_judge\prs_plr_kll: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\08_judge\prs_plr_kll: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_dopey\05_postcombat\regret: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\05_postcombat\regret: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_dopey\16_taunt\tnt_sprssed: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\05_postcombat\ordrme_chkallybdy: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\05_postcombat\ordrme_chkallybdy: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\weapons\battle_rifle\bullet_ricc: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_dirt
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_metal_thick_ricc
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg_dual\effects\impact_metal_thick_ricc
+
+sound sound\ambience\sunken_chamber\details\underwater_sub: referenced by: 
+   sound_looping digsite\sound\ambience\sunken_chamber\deltatemple_sub_run
+
+sound sound\dialog\multiplayer_de\games\medic\medic_new_de: referenced by: 
+   multiplayer_globals dw3\multiplayer\multiplayer_globals
+
+sound sound\dialog\multiplayer\games\medic\medic_killed_en: referenced by: 
+   multiplayer_globals dw3\multiplayer\multiplayer_globals
+
+sound sound\dialog\multiplayer_fr\games\medic\medic_new_fr: referenced by: 
+   multiplayer_globals dw3\multiplayer\multiplayer_globals
+
+sound sound\dialog\multiplayer_it\games\medic\medic_new_it: referenced by: 
+   multiplayer_globals dw3\multiplayer\multiplayer_globals
+
+sound sound\dialog\multiplayer_sp\games\medic\medic_new_sp: referenced by: 
+   multiplayer_globals dw3\multiplayer\multiplayer_globals
+
+sound objects\weapons\rifle\assault_rifle (br model)\sounds: referenced by: 
+   effect zoephie\objects\weapons\rifle\halo4_saw\saw\saw_gun_fire
+
+sound sound\dialog\combat\elite_dogmatic\13_player\look_plr: referenced by: 
+   dialogue sound\dialog\combat\elite_dogmatic
+
+sound sound\dialog\combat\marine_sassy\01_alert\morefoe_tim: referenced by: 
+   dialogue sound\dialog\combat\marine_sassy
+
+sound sound\dialog\combat\grunt_dopey\02_danger\rmd_vcl_hog: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\02_danger\dwn_vcl_hog: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\02_danger\rmd_vcl_hog: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_dopey\07_exclaim\chr_kllfoe: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\02_danger\dwn_vcl_hog: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_crazy\07_exclaim\chr_kllfoe: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_dopey\13_player\grt_plr_agg: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\13_player\grt_plr_tim: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\05_postcombat\endcmbt: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\17_threaten\thrtn_fld: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\17_threaten\thrtn_elt: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\17_threaten\thrtn_brt: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\11_group\cvrme_invsgt: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\13_player\grt_plr_agg: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_crazy\13_player\grt_plr_tim: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_dopey\05_postcombat\pstcmbt: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\05_postcombat\pstcmbt: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound reclamation_project\tags\halo_3\sound\characters\flood\combat_human\melee_swishes: referenced by: 
+   model_animation_graph reclamation_project\tags\halo_3\characters\floodcombat_elite\floodcombat_elite
+   model_animation_graph reclamation_project\tags\halo_3\characters\floodcombat_human\floodcombat_human
+
+sound sound\dialog\combat\grunt_dopey\06_outburst\whn_hrtbm: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\brute_bloodthirsty\13_player\look: referenced by: 
+   dialogue dw3\sounds\dialog\combat\brute_bloodthirsty
+
+sound sound\dialog\multiplayer_cht\games\medic\medic_new_ch: referenced by: 
+   multiplayer_globals dw3\multiplayer\multiplayer_globals
+
+sound sound\dialog\multiplayer_jpn\games\medic\medic_new_jp: referenced by: 
+   multiplayer_globals dw3\multiplayer\multiplayer_globals
+
+sound sound\dialog\multiplayer_kor\games\medic\medic_new_ko: referenced by: 
+   multiplayer_globals dw3\multiplayer\multiplayer_globals
+
+sound sound\dialog\multiplayer\games\names\vip: referenced by: 
+   multiplayer_globals dw3\multiplayer\multiplayer_globals
+
+sound sound\dialog\alphamoon\level\l05_1000_he2: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0110_he1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0110_he2: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_1010_he2: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0130_he1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0130_he2: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0140_he2: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_1020_er1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0320_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_1020_er2: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0500_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_1030_er1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0330_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_1030_er2: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_1060_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0340_el2: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0520_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0610_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0700_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0260_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0350_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_1070_el2: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0440_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0530_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0620_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0710_el2: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_1080_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0360_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0270_el2: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0450_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0540_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0720_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0600_gr2: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0370_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0900_el2: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0460_el2: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0550_el2: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0820_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0730_el2: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0910_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0380_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0290_el2: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0560_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0800_gr1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0830_el2: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_1100_hld: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0480_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0561_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0920_el2: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0390_el2: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0570_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0660_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0840_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0930_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0810_gr2: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0490_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0670_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0580_el2: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0760_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0850_el2: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_1120_hld: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0940_el2: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0770_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0860_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_1040_hld: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_1130_hld: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0780_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0870_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_1140_hld: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0970_he1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0220_hlt: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0790_el2: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0880_el2: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_1150_hld: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0980_he2: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0590_gr1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0230_hlt: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0890_el1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_1160_hld: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0990_he1: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0420_hlt: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_1170_hld: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_1180_hld: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0740_hlt: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0750_hlt: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0680_hlt: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\alphamoon\level\l05_0690_hlt: referenced by: 
+   ai_mission_dialogue digsite\sound\dialog\alphamoon\alphamoon
+
+sound sound\dialog\combat\grunt_dopey\02_danger\rmd_vcl_ghst: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\02_danger\rmd_vcl_plcn: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\02_danger\dwn_vcl_ghst: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\02_danger\warn_vcl_hog: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\02_danger\rmd_vcl_ghst: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_crazy\02_danger\rmd_vcl_plcn: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_dopey\02_danger\dwn_wpn_swrd: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\02_danger\dwn_vcl_ghst: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_crazy\02_danger\warn_vcl_hog: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_dopey\01_alert\foundfoe_srch: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\04_search\prstfail_agg: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\14_vehicle\grt_plr_vcl: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\02_danger\dwn_wpn_swrd: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_dopey\04_search\prstfail_tim: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\04_search\prstfail_tim: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_dopey\13_player\grt_plr_cmbt: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\13_player\grt_plr_cmbt: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_crazy\03_strike\strk_vcl_gnr: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_dopey\06_outburst\whn_hrtblt: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound reclamation_project\tags\halo_3\sound\characters\flood\combat_human\combat_human_longmove: referenced by: 
+   model_animation_graph reclamation_project\tags\halo_3\characters\floodcombat_human\floodcombat_human
+
+sound sound\dialog\combat\grunt_dopey\06_outburst\whn_hrtbrn: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\06_outburst\whn_hrtblt: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_crazy\06_outburst\whn_hrtbrn: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound objects\weapons\zoephie\infinite_weapons\sound\weapon_fire\shockrifleshot: referenced by: 
+   effect killtrocity\objects\weapons\gravity_wrench\gravity_fire
+
+sound zoephie\objects\weapons\pistol\boltshot\sounds\fire_v1: referenced by: 
+   effect zoephie\objects\weapons\halo_reach\weapons\support_high\plasma_launcher\effects\boltshot
+   effect zoephie\objects\weapons\infinite_weapons\objects\weapons\rifle\pluse_carbine\plasma_pistol\boltshot
+
+sound sound\dialog\combat\marine_sassy\02_danger\dwn_vcl_bnsh: referenced by: 
+   dialogue sound\dialog\combat\marine_sassy
+
+sound sound\dialog\combat\marine_sassy\01_alert\foundfoe_prst: referenced by: 
+   dialogue sound\dialog\combat\marine_sassy
+
+sound sound\dialog\combat\grunt_dopey\02_danger\warn_vcl_ghst: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\02_danger\warn_vcl_plcn: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound objects\weapons\magnum_ce\sounds\magnum [halo 1] shot 1: referenced by: 
+   effect zoephie\objects\weapons\pistol\effects\fire_bullet
+
+sound sound\dialog\combat\grunt_dopey\02_danger\warn_wpn_swrd: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\02_danger\warn_vcl_ghst: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_crazy\02_danger\warn_wpn_snpr: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_dopey\13_player\look_cmbt_agg: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\08_judge\prs_plr_gdgrnd: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\08_judge\prs_plr_kll_bm: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\13_player\look_cmbt_tim: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\05_postcombat\chkfoebdy: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\09_order\newordr_charge: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\08_judge\prs_plr_gdgrnd: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_crazy\08_judge\prs_plr_kll_bm: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_crazy\09_order\newordr_charge: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_dopey\03_strike\strk_vcl_trrt: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\multiplayer\games\vip\vip_new: referenced by: 
+   multiplayer_globals dw3\multiplayer\multiplayer_globals
+
+sound sound\dialog\multiplayer_de\games\medic\medic_killed_de: referenced by: 
+   multiplayer_globals dw3\multiplayer\multiplayer_globals
+
+sound sound\dialog\multiplayer_fr\games\medic\medic_killed_fr: referenced by: 
+   multiplayer_globals dw3\multiplayer\multiplayer_globals
+
+sound sound\dialog\multiplayer_it\games\medic\medic_killed_it: referenced by: 
+   multiplayer_globals dw3\multiplayer\multiplayer_globals
+
+sound sound\dialog\multiplayer_sp\games\medic\medic_killed_sp: referenced by: 
+   multiplayer_globals dw3\multiplayer\multiplayer_globals
+
+sound reclamation_project\tags\halo_3\sound\characters\flood\combat_human\combat_human_shortmove: referenced by: 
+   model_animation_graph reclamation_project\tags\halo_3\characters\floodcombat_human\floodcombat_human
+
+sound sound\dialog\combat\grunt_dopey\07_exclaim\chr_kllfoe_bm: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\07_exclaim\chr_deaddrvsh: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_dopey\07_exclaim\lmnt_deadally: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\08_judge\scld_plr_wldvcl: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\07_exclaim\lmnt_deadally: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_dopey\14_vehicle\entervcl_trrt: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\04_search\prstfail_nospc: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\04_search\prstfail_nopts: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\08_judge\prs_plr_kll_blt: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\08_judge\prs_plr_kll_brn: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\08_judge\prs_plr_kll_mjr: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\08_judge\prs_plr_sniping: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\04_search\prstfail_nospc: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_crazy\04_search\prstfail_nopts: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_crazy\08_judge\prs_plr_kll_blt: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_crazy\08_judge\prs_plr_kll_brn: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_crazy\08_judge\prs_plr_kll_mjr: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_dopey\11_group\hlpme_uncovered: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\05_postcombat\tchallybdy: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\08_judge\prs_plr_sniping: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_dopey\05_postcombat\pstcmbt_ez: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\11_group\hlpme_uncovered: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_crazy\05_postcombat\tchallybdy: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_crazy\05_postcombat\pstcmbt_ez: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound aife\weapons\spike_rifle\sounds\spike_rifle_drops\spike_rifle_drop: referenced by: 
+   material_effects zoephie\objects\weapons\infinite_weapons\objects\weapons\support_high\skewer\skewer
+   material_effects blackandfan\objects\characters\halo_wars\floodcombat_swarm\weapons\swarm_rifle\swarm_rifle
+
+sound sound\dialog\multiplayer_cht\games\medic\medic_killed_ch: referenced by: 
+   multiplayer_globals dw3\multiplayer\multiplayer_globals
+
+sound sound\dialog\multiplayer_jpn\games\medic\medic_killed_jp: referenced by: 
+   multiplayer_globals dw3\multiplayer\multiplayer_globals
+
+sound sound\dialog\multiplayer_kor\games\medic\medic_killed_ko: referenced by: 
+   multiplayer_globals dw3\multiplayer\multiplayer_globals
+
+sound sound\dialog\combat\grunt_dopey\08_judge\prs: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\08_judge\prs: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound halo_reach\objects\zoephie\weapons\support_high\plasma_launcher\sounds\fire: referenced by: 
+   effect zoephie\objects\weapons\halo_reach\weapons\support_high\plasma_launcher\effects\flak_bolt_fire
+
+sound sound\dialog\combat\grunt_dopey\02_danger\warn_incmn_grnd: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\07_exclaim\chr_kllfoe_brn: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\04_search\srchpresrch_agg: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\15_curse\crs_mjrfoe_drvsh: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\05_postcombat\chckallybdy: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\13_player\look_pstcmbt_ez: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound zoephie\objects\weapons\pistol\boltshot\sounds\overcharge shot\sfxbank_5880: referenced by: 
+   effect zoephie\objects\weapons\halo_reach\weapons\support_high\plasma_launcher\effects\charged_bolt_fire - copy
+   effect zoephie\objects\weapons\infinite_weapons\objects\weapons\rifle\pluse_carbine\plasma_pistol\charged_bolt_fire - copy
+
+sound sound\dialog\combat\grunt_crazy\05_postcombat\chckallybdy: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_dopey\05_postcombat\pstcmbt_agg: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\05_postcombat\pstcmbt_hrd: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\05_postcombat\pstcmbt_tim: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\05_postcombat\pstcmbt_agg: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_crazy\03_strike\strk_grnd_atvcl: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_crazy\05_postcombat\pstcmbt_hrd: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_crazy\03_strike\strk_grnd_uncvr: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_crazy\05_postcombat\pstcmbt_tim: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\music\am\77_thunder\in: referenced by: 
+   sound_looping digsite\sound\music\am\77_thunder\am_thunder
+
+sound sound\dialog\combat\grunt_dopey\02_danger\dwn: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\02_danger\rmd: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\02_danger\dwn: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound reclamation_project\tags\halo_3\sound\characters\flood\combat_elite\longmove: referenced by: 
+   model_animation_graph reclamation_project\tags\halo_3\characters\floodcombat_elite\floodcombat_elite
+
+sound sound\vehicles\pelican2\fire: referenced by: 
+   effect objects\vehicles\pelican2\fx\rocket_fire
+
+sound aife\weapons\spike_rifle\sounds\spike_impacts: referenced by: 
+   material_effects zoephie\objects\weapons\infinite_weapons\objects\weapons\support_high\skewer\skewer
+   material_effects blackandfan\objects\characters\halo_wars\floodcombat_swarm\weapons\swarm_rifle\swarm_rifle
+
+sound sound\characters\sentinel\needler_flyby_sentinel_enforcer: referenced by: 
+   projectile dw3\test\weapons\needler\sentinel_aggressor_needler_needle
+
+sound sound\dialog\multiplayer\games\names\medic_en: referenced by: 
+   multiplayer_globals dw3\multiplayer\multiplayer_globals
+
+sound sound\music\am\77_thunder\out: referenced by: 
+   sound_looping digsite\sound\music\am\77_thunder\am_thunder
+
+sound sound\dialog\combat\grunt_dopey\08_judge\scld_plr_hrtme_bm: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\08_judge\scld_plr_vclcrazy: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\14_vehicle\grt_intovcl_his: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\07_exclaim\chr: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\11_group\joinme_presrchend: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\07_exclaim\chr: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_dopey\11_group\hlpme: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\11_group\hlpme: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\materials\hard\metal_thick\bullet_impact: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_metal_thick_reflect
+
+sound sound\dialog\multiplayer\games\names\infection: referenced by: 
+   multiplayer_globals dw3\multiplayer\multiplayer_globals
+
+sound reclamation_project\tags\halo_3\sound\characters\flood\combat_elite\shortmove: referenced by: 
+   model_animation_graph reclamation_project\tags\halo_3\characters\floodcombat_elite\floodcombat_elite
+
+sound sound\music\am\77_thunder\loops: referenced by: 
+   sound_looping digsite\sound\music\am\77_thunder\am_thunder
+
+sound sound\dialog\combat\grunt_dopey\01_alert\coming: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\07_exclaim\lmnt: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\01_alert\coming: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_dopey\15_curse\crs_re: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\07_exclaim\lmnt: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_crazy\15_curse\crs_re: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_dopey\16_taunt\tnt_re: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\01_alert\foundfoe_mjr_chief: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\08_judge\scld_plr_hrtme_brn: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\01_alert\foundfoe_mjr_drvsh: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\14_vehicle\ok_plr_trdst_gnr: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\14_vehicle\ok_plr_trdst_dvr: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\01_alert\foundfoe_mjr_drvsh: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_dopey\08_judge\prs_plr_kll_vclbmp: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\08_judge\prs_plr_kll_wmelee: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\08_judge\prs_plr_kll_vclbmp: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_crazy\08_judge\prs_plr_kll_wmelee: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_dopey\03_strike\strk_mjrfoe_chief: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\03_strike\strk_mjrfoe_drvsh: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\03_strike\strk_mjrfoe_chief: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_crazy\03_strike\strk_mjrfoe_drvsh: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound zoephie\objects\weapons\rifle\halo_reach_plasma_repeater\plasma_repeater_fire: referenced by: 
+   effect zoephie\objects\weapons\halo_reach\weapons\rifle\plasma_repeater\plasma_rifle\plasma_repeater_lower_fire
+   effect zoephie\objects\weapons\halo_reach\weapons\rifle\plasma_repeater\plasma_rifle\plasma_repeater_upper_fire
+
+sound sound\dialog\multiplayer\games\names\headhunter: referenced by: 
+   multiplayer_globals dw3\multiplayer\multiplayer_globals
+
+sound sound\ambience\sunken_chamber\details\distant_whalecall_sub: referenced by: 
+   sound_looping digsite\sound\ambience\sunken_chamber\deltatemple_sub_run
+
+sound sound\characters\jackal\bodyfall: referenced by: 
+   model_animation_graph dw3\altsierra\objects\characters\jackal\jackal
+   model_animation_graph objects\characters\jackal\jackal
+   model_animation_graph reclamation_project\tags\halo_3\characters\jackal\jackal
+
+sound sound\dialog\multiplayer\games\infection\infection_infected: referenced by: 
+   multiplayer_globals dw3\multiplayer\multiplayer_globals
+
+sound sound\dialog\combat\grunt_dopey\19_gloat\glt_hrt: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\08_judge\prs_plr: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\15_curse\crs_hum: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\08_judge\prs_plr: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_dopey\16_taunt\tnt_fld: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\16_taunt\tnt_elt: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\16_taunt\tnt_brt: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\16_taunt\tnt_hum: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\16_taunt\tnt_hrt: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\07_exclaim\chr_kllfoe_mjrfoe: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\multiplayer_de\games\names\medic_de: referenced by: 
+   multiplayer_globals dw3\multiplayer\multiplayer_globals
+
+sound sound\dialog\combat\grunt_crazy\07_exclaim\chr_kllfoe_mjrfoe: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_dopey\14_vehicle\grt_intovcl_imdvr: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\04_search\prstfail_nopts_tim: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\multiplayer_fr\games\names\medic_fr: referenced by: 
+   multiplayer_globals dw3\multiplayer\multiplayer_globals
+
+sound sound\dialog\multiplayer_it\games\names\medic_it: referenced by: 
+   multiplayer_globals dw3\multiplayer\multiplayer_globals
+
+sound sound\dialog\combat\grunt_crazy\04_search\prstfail_nopts_tim: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\multiplayer_sp\games\names\medic_sp: referenced by: 
+   multiplayer_globals dw3\multiplayer\multiplayer_globals
+
+sound sound\materials\hard\terrain_stone\bullet_impact: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_glass
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_stone
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg_dual\effects\impact_glass
+
+sound sound\materials\soft\organic_flesh\bullet_impact: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_armored_skin
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_elite_armored_skin
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_grunt
+
+sound sound\cinematics\alphamoon\outro\radioplay_music: referenced by: 
+   sound_looping digsite\sound\cinematics\alphamoon\outro_music
+
+sound sound\dialog\combat\grunt_dopey\01_alert\foundfoe: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\19_gloat\glt_rtrt: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\11_group\hlpme_re: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\12_respond\ok_plr: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_dopey\11_group\cvrme_re: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\11_group\hlpme_re: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\dialog\combat\grunt_dopey\06_outburst\cncrn: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\06_outburst\cncrn: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+sound sound\ambience\sunken_chamber\front_speakers\loop: referenced by: 
+   sound_looping digsite\sound\ambience\sunken_chamber\deltatemple_sub_run
+
+sound sound\materials\energy\shield\hits: referenced by: 
+   effect ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\effects\impact_jackal_shield
+
+sound sound\dialog\multiplayer\games\medic\medic_new_en: referenced by: 
+   multiplayer_globals dw3\multiplayer\multiplayer_globals
+
+sound sound\dialog\multiplayer_cht\games\names\medic_ch: referenced by: 
+   multiplayer_globals dw3\multiplayer\multiplayer_globals
+
+sound sound\dialog\multiplayer_jpn\games\names\medic_jp: referenced by: 
+   multiplayer_globals dw3\multiplayer\multiplayer_globals
+
+sound sound\dialog\multiplayer_kor\games\names\medic_ko: referenced by: 
+   multiplayer_globals dw3\multiplayer\multiplayer_globals
+
+sound sound\dialog\combat\grunt_dopey\07_exclaim\chr_kllfoe_closeup: referenced by: 
+   dialogue sound\dialog\combat\grunt_dopey
+
+sound sound\dialog\combat\grunt_crazy\07_exclaim\chr_kllfoe_closeup: referenced by: 
+   dialogue sound\dialog\combat\grunt_crazy
+
+shader_pass shaders\shader_passes\transparent\default_transparent_one_sided_changecolor_screenspace_xform2: referenced by: 
+   shader_template shaders\shader_templates\transparent\one_add_changecolor_screenspace_xform2
+
+shader_pass shaders\shader_passes\transparent\default_transparent_one_sided_screenspace_xform2: referenced by: 
+   shader_template shaders\shader_templates\transparent\one_add_illum_screenspace_xform2
+
+shader_pass test\quiet_room\cortana\cortana_holographic_active_camo: referenced by: 
+   shader_template shaders\shader_templates\transparent\cortana_holographic_active_camo
+
+sound_scenery sound\ambience\sound_scenery\stereo_wind_light\stereo_wind_light: referenced by: 
+   scenario scenarios\multi\zanzibar\zanzibar
+
+sound_scenery sound\ambience\sound_scenery\green_hum\green_hum_ascen_mp: referenced by: 
+   scenario scenarios\multi\ascension\ascension
+   scenario_sound_scenery_resource scenarios\multi\ascension\resources\ascension
+
+sound_scenery sound\sfx\ui\teleporter_loop: referenced by: 
+   scenario digsite\scenarios\solo\bloodgulch_test\bloodgulch_test
+
+sound_scenery sound\ambience\sound_scenery\machinery\ascension_platform\ascension_platform: referenced by: 
+   scenario digsite\scenarios\multi\03_ascension\03_ascension
+
+shader_template cann\shaders\opaque_normalenv2detail: referenced by: 
+   shader objects\vehicles\scarab_drivable\shaders\scarab_hull_ext - copy
+
+shader_template shaders\shader_templates\opaque\tex_bump_three_detail_blend_scale: referenced by: 
+   shader scenarios\multi\shrine_h2\shaders\cust_copper_plate
+   shader scenarios\multi\shrine_h2\shaders\cust_laminate_gradient
+   shader scenarios\multi\shrine_h2\shaders\cust_stone_pyramid1
+   shader scenarios\multi\shrine_h2\shaders\cust_stone_rubble
+   shader scenarios\multi\shrine_h2\shaders\cust_stone_spine1
+   shader scenarios\multi\shrine_h2\shaders\cust_stone_spine2
+   shader scenarios\multi\shrine_h2\shaders\laminate_tiling_clean
+   shader scenarios\multi\shrine_h2\shaders\laminate_tiling_crusty
+   shader scenarios\multi\shrine_h2\shaders\stone_broken_tiling
+
+style ai\bunkering_grounded: referenced by: 
+   scenario blackandfan\scenarios\solo\01b_spacestation\01b_spacestation
+   scenario scenarios\solo\01b_spacestation\01b_spacestation
+
+style objects\characters\brute\ai\brute_chieftan: referenced by: 
+   character reclamation_project\tags\halo_3\characters\brute\ai\brute_chieftan
+
+camera_track camera\pelican_turret_d_camera: referenced by: 
+   vehicle objects\vehicles\pelican2\pelican_rear_gun\pelican_rear_gun
+
+dialogue test\dialog_ai_test\final_placeholder: referenced by: 
+   model objects\characters\marine\crewman\crewman
+
+multilingual_unicode_string_list scenarios\descriptions\artery: referenced by: 
+   scenario scenarios\multi\artery\artery
+   scenario digsite\scenarios\multi\artery\artery
+
+multilingual_unicode_string_list scenarios\descriptions\grotto: referenced by: 
+   scenario scenarios\multi\grotto\grotto
+   scenario digsite\scenarios\multi\grotto\grotto
+
+multilingual_unicode_string_list ui\screens\misc\error_messages: referenced by: 
+   user_interface_screen_widget_definition ui\screens\misc\confirmation_dialog
+   user_interface_screen_widget_definition ui\screens\misc\error_dialog_ok_cancel
+   user_interface_screen_widget_definition ui\screens\misc\error_dialog_ok
+
+multilingual_unicode_string_list scenarios\descriptions\convict: referenced by: 
+   scenario scenarios\multi\convict\convict
+
+vehicle_collection multiplayer\single_vehicles\needler_turret: referenced by: 
+   scenario digsite\scenarios\multi\halopc\timberland\timberland
+
+vehicle dw3\digsite\objects\vehicles\uberchassis\uberchassis: referenced by: 
+   character dw3\ai\generic
+
+vehicle objects\vehicles\c_dropship\c_dropship: referenced by: 
+   scenario scenarios\multi\shrine_h2\shrine_h2
+   scenario scenarios\multi\shrine_h2\shrine_h2 (auto-backup sun nov 17 21-34-48 2024)
+
+vehicle luna\objects\vehicles\wraith_aa\styles\wraith_anti_air\wraith_anti_air: referenced by: 
+   scenario katstags\maps\boxtestunique\boxtest (auto-backup sat feb  8 00-05-32 2025)
+   scenario katstags\maps\boxtestunique\boxtest (auto-backup sat feb  8 09-38-47 2025)
+   scenario katstags\maps\boxtestunique\boxtest (auto-backup sun feb  9 22-23-02 2025)
+
+vertex_shader rasterizer\vertex_shaders_xbox\effect_billboarded: referenced by: 
+   globals dw3\globals\globals
+   globals globals\alphamoon_globals
+   globals globals\globals
+
+vertex_shader rasterizer\vertex_shaders_xbox\stencil_shadow_stitch_no_proj: referenced by: 
+   globals dw3\globals\globals
+   globals globals\alphamoon_globals
+   globals globals\globals
+
+vertex_shader rasterizer\vertex_shaders_xbox\stencil_debug_view: referenced by: 
+   globals dw3\globals\globals
+   globals globals\alphamoon_globals
+   globals globals\globals
+
+vertex_shader rasterizer\vertex_shaders_xbox\bloom: referenced by: 
+   globals dw3\globals\globals
+   globals globals\alphamoon_globals
+   globals globals\globals
+
+vertex_shader rasterizer\vertex_shaders_dx9\lightmap_dynamic_tex_change_color_no_spec: referenced by: 
+   shader_pass shaders\shader_passes\lightmap\lightmap_tex_change_color_no_spec
+
+vertex_shader rasterizer\vertex_shaders_dx9\particle_diffuse_quad: referenced by: 
+   shader_pass shaders\shader_passes\light_response\particle_light_diffuse
+
+vertex_shader rasterizer\vertex_shaders_dx9\tangent_space_vectors: referenced by: 
+   shader_pass shaders\shader_passes\lightmap\lightmap_tangentspace_debug
+
+vertex_shader rasterizer\vertex_shaders_dx9\lightmap_dynamic_tex_env_no_spec: referenced by: 
+   shader_pass shaders\shader_passes\lightmap\lightmap_tex_env_no_spec
+
+vertex_shader rasterizer\vertex_shaders_xbox\effect_perpendicular: referenced by: 
+   globals dw3\globals\globals
+   globals globals\alphamoon_globals
+   globals globals\globals
+
+vertex_shader rasterizer\vertex_shaders_dx9\transparent_active_camo: referenced by: 
+   shader_pass shaders\shader_passes\transparent\active_camo_with_base_map
+
+vertex_shader rasterizer\vertex_shaders_xbox\effect_parallel_pushed: referenced by: 
+   globals dw3\globals\globals
+   globals globals\alphamoon_globals
+   globals globals\globals
+
+vertex_shader rasterizer\vertex_shaders_dx9\stencil_env_bumped_tangentspace_transparent: referenced by: 
+   shader_pass shaders\shader_passes\transparent\default_environment_map_transparent
+
+vertex_shader rasterizer\vertex_shaders_dx9\stencil_texture_secondary_detail_full_xform: referenced by: 
+   shader_pass shaders\shader_passes\texture_mapping\default_texture_two_detail_tint_zwrite
+   shader_pass shaders\shader_passes\texture_mapping\default_texture_two_detail_zwrite
+
+vertex_shader rasterizer\vertex_shaders_xbox\stencil_shadow_cap_proj: referenced by: 
+   globals dw3\globals\globals
+   globals globals\alphamoon_globals
+   globals globals\globals
+
+vertex_shader rasterizer\vertex_shaders_dx9\lightaccum_frustum_tex_detail_blend: referenced by: 
+   shader_pass shaders\shader_passes\light_response\default_light_combined_tangentspace_alphatest
+
+vertex_shader rasterizer\vertex_shaders_dx9\lightmap_dynamic_tex_change_color_env_no_spec: referenced by: 
+   shader_pass shaders\shader_passes\lightmap\lightmap_tex_change_color_env_no_spec
+
+vertex_shader rasterizer\vertex_shaders_xbox\lens_flare_horrible_legacy: referenced by: 
+   globals dw3\globals\globals
+   globals globals\alphamoon_globals
+   globals globals\globals
+
+vertex_shader rasterizer\vertex_shaders_xbox\stencil_shadow_stitch_proj: referenced by: 
+   globals dw3\globals\globals
+   globals globals\alphamoon_globals
+   globals globals\globals
+
+vertex_shader rasterizer\vertex_shaders_dx9\decorator_sprite: referenced by: 
+   shader_pass shaders\shader_passes\lightmap\decorator_sprite
+
+vertex_shader rasterizer\vertex_shaders_xbox\effect_parallel: referenced by: 
+   globals dw3\globals\globals
+   globals globals\alphamoon_globals
+   globals globals\globals
+
+vertex_shader rasterizer\vertex_shaders_dx9\lightmap_dynamic_tex_no_spec: referenced by: 
+   shader_pass shaders\shader_passes\lightmap\lightmap_tex_no_spec
+
+vertex_shader rasterizer\vertex_shaders_dx9\lightmap_perpixel: referenced by: 
+   shader_pass shaders\shader_passes\lightmap\lightmap_foliage
+
+vertex_shader rasterizer\vertex_shaders_dx9\debug_tangentspace: referenced by: 
+   shader_pass shaders\shader_passes\lightmap\lightmap_tangentspace_debug
+
+weapon blackandfan\weapons\melee\elite_shield\elite_blade: referenced by: 
+   scenario blackandfan\scenarios\solo\needle\needle
+
+weapon blackandfan\weapons\melee\elite_shield\elite_shield: referenced by: 
+   scenario blackandfan\scenarios\solo\needle\needle
+
+weapon blackandfan\weapons\support_high\ce_flak_cannon\ce_flak_cannon: referenced by: 
+   character blackandfan\ai\generic
+   scenario blackandfan\scenarios\solo\01b_spacestation\01b_spacestation
+   scenario_weapons_resource blackandfan\scenarios\solo\01b_spacestation\resources\01b_spacestation
+   scenario_weapons_resource blackandfan\scenarios\solo\01b_spacestation\resources\01b_spacestationmay_27_2023_01_07_14_pm$
+   scenario blackandfan\scenarios\solo\needle\needle
+
+weapon objects\characters\sentinel_enforcer\weapons\charge_bolt\sentinel_enforcer_charged_bolt: referenced by: 
+   character ai\generic
+   character digsite\ai\generic
+
+weapon blackandfan\weapons\pistol\green_magnum\green_magnum: referenced by: 
+   character blackandfan\ai\generic
+   scenario blackandfan\scenarios\solo\01b_spacestation\01b_spacestation
+   scenario_weapons_resource blackandfan\scenarios\solo\01b_spacestation\resources\01b_spacestation
+   scenario_weapons_resource blackandfan\scenarios\solo\01b_spacestation\resources\01b_spacestationmay_27_2023_01_07_14_pm$
+   scenario blackandfan\scenarios\solo\needle\needle
+
+weapon ludantes\fuel_rod_gun: referenced by: 
+   scenario blackandfan\objects\characters\floodcombat_bugger\tags\katstags\maps\boxtest\boxtest (auto-backup tue dec 31 18-12-12 2024)
+   scenario katstags\maps\boxtest\boxtest (auto-backup thu jan 30 17-20-59 2025)
+   scenario katstags\maps\boxtest\boxtest
+
+weapon blackandfan\weapons\rifle\keeper_plasma_rifle\keeper_plasma_rifle: referenced by: 
+   character blackandfan\ai\generic
+   scenario blackandfan\scenarios\solo\01b_spacestation\01b_spacestation
+   scenario_weapons_resource blackandfan\scenarios\solo\01b_spacestation\resources\01b_spacestation
+   scenario_weapons_resource blackandfan\scenarios\solo\01b_spacestation\resources\01b_spacestationmay_27_2023_01_07_14_pm$
+   scenario blackandfan\scenarios\solo\needle\needle
+
+weapon objects\weapons\support_high\fuel_rod_gun\fuel_rod_gun: referenced by: 
+   scenario digsite\scenarios\solo\alphamoon\alphamoon_unedited
+
+weapon blackandfan\weapons\rifle\zealot_carbine\zealot_carbine: referenced by: 
+   scenario blackandfan\scenarios\solo\01b_spacestation\01b_spacestation
+   scenario_weapons_resource blackandfan\scenarios\solo\01b_spacestation\resources\01b_spacestation
+   scenario_weapons_resource blackandfan\scenarios\solo\01b_spacestation\resources\01b_spacestationmay_27_2023_01_07_14_pm$
+   scenario blackandfan\scenarios\solo\needle\needle
+
+weapon test\field_gear\plasma_cannon\plasma_cannon: referenced by: 
+   scenario_weapons_resource scenarios\solo\03a_oldmombasa\resources\03a_oldmombasa
+   scenario_ai_resource scenarios\solo\03a_oldmombasa\ai_resources\03a_oldmombasa_master
+   scenario_ai_resource scenarios\solo\03a_oldmombasa\ai_resources\03a_oldmombasa_cinematic
+   scenario_weapons_resource scenarios\solo\03b_newmombasa\resources\03b_newmombasa
+   scenario_ai_resource scenarios\solo\03b_newmombasa\ai_resources\03b_newmombasa_master
+   scenario_ai_resource scenarios\solo\03b_newmombasa\ai_resources\03b_newmombasa_cinematic
+   scenario scenarios\solo\03a_oldmombasa\03a_oldmombasa
+   scenario scenarios\solo\03b_newmombasa\03b_newmombasa
+
+weapon objects\weapons\support_low\disintegrator\disintegrator: referenced by: 
+   character dw3\ai\generic
+   character ai\generic
+   character digsite\ai\generic
+
+weapon blackandfan\weapons\melee\hg_hammer\hg_hammer: referenced by: 
+   scenario blackandfan\scenarios\solo\01b_spacestation\01b_spacestation
+   scenario_weapons_resource blackandfan\scenarios\solo\01b_spacestation\resources\01b_spacestation
+   scenario_weapons_resource blackandfan\scenarios\solo\01b_spacestation\resources\01b_spacestationmay_27_2023_01_07_14_pm$
+   scenario blackandfan\scenarios\solo\needle\needle
+
+weapon zoephie\objects\weapons\infinite_weapons\objects\weapons\pistol\disruptor\disruptor: referenced by: 
+   scenario blackandfan\objects\characters\floodcombat_bugger\tags\katstags\maps\boxtest\boxtest (auto-backup tue dec 31 18-12-12 2024)
+   scenario katstags\maps\boxtest\boxtest (auto-backup thu jan 30 17-20-59 2025)
+   scenario katstags\maps\boxtest\boxtest
+
+weapon phanrev\objects\weapons\hr\rifle\m73lmg\m73lmg: referenced by: 
+   item_collection phanrev\multiplayer\single_weapons\m73lmg
+
+weapon blackandfan\weapons\rifle\brute_rifle\brute_rifle_noplayer: referenced by: 
+   scenario blackandfan\scenarios\solo\01b_spacestation\01b_spacestation
+   scenario_weapons_resource blackandfan\scenarios\solo\01b_spacestation\resources\01b_spacestation
+   scenario_weapons_resource blackandfan\scenarios\solo\01b_spacestation\resources\01b_spacestationmay_27_2023_01_07_14_pm$
+
+weapon objects\weapons\fixed\plasma_cannon\plasma_cannon_handheld: referenced by: 
+   character reclamation_project\tags\halo_3\characters\brute\ai\brute_heavy
+
+weapon blackandfan\weapons\rifle\ce_shotgun\ce_shotgun: referenced by: 
+   scenario blackandfan\scenarios\solo\needle\needle
+
+weapon blackandfan\weapons\melee\red_energy_blade\red_energy_blade: referenced by: 
+   scenario blackandfan\scenarios\solo\needle\needle
+
+weapon objects\vehicles\phantom\plasma_turret\weapons\phantom_turret_scarab: referenced by: 
+   character dw3\ai\generic
+
+weapon blackandfan\weapons\rifle\brute_rifle\brute_rifle: referenced by: 
+   scenario blackandfan\scenarios\solo\01b_spacestation\01b_spacestation
+   scenario_weapons_resource blackandfan\scenarios\solo\01b_spacestation\resources\01b_spacestation
+   scenario_weapons_resource blackandfan\scenarios\solo\01b_spacestation\resources\01b_spacestationmay_27_2023_01_07_14_pm$
+   scenario blackandfan\scenarios\solo\needle\needle
+
+weapon prerelease\objects\weapons\support_low\brute_shot\brute_shot: referenced by: 
+   scenario blackandfan\objects\characters\floodcombat_bugger\tags\katstags\maps\boxtest\boxtest (auto-backup tue dec 31 18-12-12 2024)
+   scenario katstags\maps\boxtest\boxtest (auto-backup thu jan 30 17-20-59 2025)
+   scenario katstags\maps\boxtest\boxtest
+
+wind scenarios\multi\lockout\tag1: referenced by: 
+   scenario_structure_bsp scenarios\multi\lockout\lockout
+
+weapon_hud_interface ui\hud\master_rounds: referenced by: 
+   weapon_hud_interface ludantes\digsite\objects\weapons\rifle\smg_dual_with_depencies\smg\hud\smg_master
+

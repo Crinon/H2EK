@@ -2257,7 +2257,6 @@ tags/globals/global_lighting_dark.chocolate_mountain
 tags/globals/global_lighting_default.chocolate_mountain
 tags/globals/global_lighting_multiplayer.chocolate_mountain
 tags/globals/global_missing_damage_effect.damage_effect
-tags/globals/global_scripts.scenario_hs_source_file
 tags/globals/loading_screen/loading_screen.bitmap
 tags/globals/loading_screen/loading_screen_logos.bitmap
 tags/globals/loading_screen/loading_screen_spinners.bitmap
@@ -3615,6 +3614,7 @@ tags/objects/characters/masterchief/helmet/helmet.render_model
 tags/objects/characters/masterchief/helmet/helmet.scenery
 tags/objects/characters/masterchief/masterchief.biped
 tags/objects/characters/masterchief/masterchief.collision_model
+tags/objects/characters/masterchief/masterchief.model_animation_graph
 tags/objects/characters/masterchief/masterchief.physics_model
 tags/objects/characters/masterchief/masterchief_mp.biped
 tags/objects/characters/masterchief/masterchief_mp.model
