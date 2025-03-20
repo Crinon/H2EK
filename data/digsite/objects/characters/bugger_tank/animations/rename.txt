@@ -1,3 +1,0 @@
-combat unarmed aim-move-down=combat unarmed aim-still-up
-combat unarmed aim-move-up=combat unarmed aim-still-up
-combat unarmed aim-still-down=combat unarmed aim-still-up
