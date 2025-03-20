@@ -1,5 +1,6 @@
 # HENLO
 bin/*
+data/*
 prefs/*
 reports/*
 shader_cache/*
